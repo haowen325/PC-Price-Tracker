@@ -5,6 +5,7 @@ import time
 import base64
 import requests
 import gspread
+import difflib
 try:
     import pandas as pd
     import matplotlib.pyplot as plt
@@ -309,9 +310,24 @@ class CoolpcScraper:
                 # 在所有選項中尋找
                 # 為了避免誤判 (例如 "64G" 匹配到 "16G"), 使用簡單的字串包含檢查
                 # 改進：優先匹配包含最多關鍵字的選項 -> 這裡簡單處理
-                for opt in options:
-                    if model_keyword.lower() in opt.lower():
-                        # 特別處理 RAM: "64G" vs "16G" (目前依賴 unique model key "LancerBlade")
+                # Fuzzy match finding
+                # Get all options that likely contain the model keyword
+                # Simple filter first
+                candidates = [opt for opt in options if model_keyword.lower() in opt.lower()]
+                
+                if not candidates:
+                    # Try splitting keyword by space and requiring all parts?
+                    parts = model_keyword.lower().split()
+                    candidates = [opt for opt in options if all(p in opt.lower() for p in parts)]
+
+                if candidates:
+                    # Pick the best one? For now, pick the one with lowest price? Or longest match?
+                    # Usually specific model -> unique match.
+                    # If multiple, e.g. "32G" matches "32G" and "32G*2", we want the one that closely matches.
+                    # But for now, let's just pick the first valid priced one or use difflib to find best match ratio
+                    best_match = difflib.get_close_matches(model_keyword, candidates, n=1, cutoff=0.1)
+                    if best_match:
+                        opt = best_match[0]
                         try:
                             if '$' in opt:
                                 parts = opt.split('$')
@@ -319,9 +335,8 @@ class CoolpcScraper:
                                 match = re.search(r'(\d+)', price_part)
                                 if match:
                                     found_price = int(match.group(1))
-                                    break 
                         except:
-                            continue
+                            pass
                 
                     if found_price > 0:
                         # Find the option text that matched (for logging)
@@ -472,7 +487,10 @@ def main():
     
     # 1. Scrape
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
+        browser = p.chromium.launch(
+            headless=True,
+            args=["--disable-blink-features=AutomationControlled", "--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"]
+        )
         coolpc_scraper = CoolpcScraper(browser)
         coolpc_prices = coolpc_scraper.scrape()
         
