@@ -44,7 +44,7 @@ WORKSHEET_NAME = "Price_History"
 TARGETS = [
     {"name": "CPU", "model": "Core Ultra 7 265KF"},
     {"name": "MB", "model": "TUF GAMING Z890-PRO WIFI"},
-    {"name": "RAM", "model": "LancerBlade 32G"}, # Added 32G to avoid 64G match
+    {"name": "RAM", "model": "Lancer 32G"}, # Changed to space separated keywords
     {"name": "SSD", "model": "T700 2TB"}, 
     {"name": "Cooler", "model": "TUF GAMING LC III 360 ARGB"},
     {"name": "VGA", "model": "TUF-RTX5070Ti-O16G"},
@@ -307,45 +307,34 @@ class CoolpcScraper:
                 model_keyword = target["model"]
                 found_price = 0
                 
-                # 在所有選項中尋找
-                # 為了避免誤判 (例如 "64G" 匹配到 "16G"), 使用簡單的字串包含檢查
-                # 改進：優先匹配包含最多關鍵字的選項 -> 這裡簡單處理
-                # Fuzzy match finding
-                # Get all options that likely contain the model keyword
-                # Simple filter first
-                candidates = [opt for opt in options if model_keyword.lower() in opt.lower()]
-                
-                if not candidates:
-                    # Try splitting keyword by space and requiring all parts?
-                    parts = model_keyword.lower().split()
-                    candidates = [opt for opt in options if all(p in opt.lower() for p in parts)]
+                # Multi-keyword matching logic
+                # Split model_keyword by space and require ALL parts to be present
+                keywords = model_keyword.lower().split()
+                candidates = [opt for opt in options if all(k in opt.lower() for k in keywords)]
 
                 if candidates:
-                    # Pick the best one? For now, pick the one with lowest price? Or longest match?
-                    # Usually specific model -> unique match.
-                    # If multiple, e.g. "32G" matches "32G" and "32G*2", we want the one that closely matches.
-                    # But for now, let's just pick the first valid priced one or use difflib to find best match ratio
-                    best_match = difflib.get_close_matches(model_keyword, candidates, n=1, cutoff=0.1)
-                    if best_match:
-                        opt = best_match[0]
-                        try:
-                            if '$' in opt:
-                                parts = opt.split('$')
-                                price_part = parts[-1].strip()
-                                match = re.search(r'(\d+)', price_part)
-                                if match:
-                                    found_price = int(match.group(1))
-                        except:
-                            pass
+                    # If multiple match, pick the one with lowest price? Or first?
+                    # Usually specific keywords imply unique match or similar items.
+                    # Pick the first one for now, or sort by length (shortest match might be most precise?)
+                    # Let's pick the one with the shortest text to avoid matching "Bundle with X"
+                    best_match = min(candidates, key=len)
+                    
+                    try:
+                        if '$' in best_match:
+                            parts = best_match.split('$')
+                            price_part = parts[-1].strip()
+                            match = re.search(r'(\d+)', price_part)
+                            if match:
+                                found_price = int(match.group(1))
+                                matched_opt = best_match
+                                prices[target["name"]] = (found_price, matched_opt)
+                                print(f"[Coolpc] Found {target['name']}: ${found_price} ({matched_opt})")
+                    except:
+                        pass
                 
-                    if found_price > 0:
-                        # Find the option text that matched (for logging)
-                        matched_opt = next((opt for opt in options if model_keyword.lower() in opt.lower()), "Unknown")
-                        prices[target["name"]] = (found_price, matched_opt)
-                        print(f"[Coolpc] Found {target['name']}: ${found_price} ({matched_opt})")
-                    else:
-                        print(f"[Coolpc] Not found: {target['name']}")
-                        prices[target["name"]] = (0, "") 
+                if found_price == 0:
+                    print(f"[Coolpc] Not found: {target['name']}")
+                    prices[target["name"]] = (0, "") 
 
         except Exception as e:
             print(f"Error scraping Coolpc: {e}")
@@ -527,12 +516,13 @@ def main():
         print(f"Coolpc Total: ${coolpc_total:,}")
         print(f"Sinya Total: ${sinya_total:,}")
         print("-" * 30)
+        print("-" * 30)
         print("Coolpc Details:")
         for k, v in coolpc_prices.items():
-            print(f"  {k}: ${v:,}")
+            print(f"  {k}: ${v[0]:,} ({v[1]})")
         print("Sinya Details:")
         for k, v in sinya_prices.items():
-            print(f"  {k}: ${v:,}")
+            print(f"  {k}: ${v[0]:,} ({v[1]})")
         print("-" * 30)
         
         print("Data saved to Google Sheets.")
