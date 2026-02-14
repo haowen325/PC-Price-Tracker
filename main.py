@@ -87,7 +87,7 @@ class LineBotNotifier:
         self.user_id = user_id
         self.api_url = "https://api.line.me/v2/bot/message/push"
 
-    def send_report(self, date_str, coolpc_total, sinya_total, image_url=None, sheet_url=None):
+    def send_report(self, date_str, coolpc_total, sinya_total, coolpc_prices, sinya_prices, image_url=None, sheet_url=None):
         if not self.access_token or not self.user_id:
             print("LINE Messaging API credentials not set.")
             return
@@ -97,8 +97,70 @@ class LineBotNotifier:
             "Authorization": f"Bearer {self.access_token}"
         }
 
-        title_text = f"[{date_str}] 價格追蹤報告"
+        title_text = f"[{date_str}] 價格報告"
         
+        # Build Detail Rows
+        detail_contents = []
+        # Header Row
+        detail_contents.append({
+            "type": "box",
+            "layout": "baseline",
+            "spacing": "sm",
+            "contents": [
+                {"type": "text", "text": "零件", "weight": "bold", "color": "#333333", "size": "xs", "flex": 2},
+                {"type": "text", "text": "原價屋", "weight": "bold", "color": "#333333", "size": "xs", "flex": 3, "align": "end"},
+                {"type": "text", "text": "欣亞", "weight": "bold", "color": "#333333", "size": "xs", "flex": 3, "align": "end"}
+            ]
+        })
+        detail_contents.append({"type": "separator", "margin": "sm"})
+
+        # Data Rows
+        # Assuming TARGETS order is consistent or we use dict keys
+        for key in coolpc_prices.keys():
+            c_price = coolpc_prices.get(key, 0)
+            s_price = sinya_prices.get(key, 0)
+            
+            c_color = "#666666" if c_price > 0 else "#ff0000"
+            s_color = "#666666" if s_price > 0 else "#ff0000"
+            
+            detail_contents.append({
+                "type": "box",
+                "layout": "baseline",
+                "spacing": "sm",
+                "margin": "sm",
+                "contents": [
+                    {"type": "text", "text": key, "color": "#aaaaaa", "size": "xs", "flex": 2},
+                    {"type": "text", "text": f"${c_price:,}", "color": c_color, "size": "xs", "flex": 3, "align": "end"},
+                    {"type": "text", "text": f"${s_price:,}", "color": s_color, "size": "xs", "flex": 3, "align": "end"}
+                ]
+            })
+
+        # Summary Box
+        summary_box = {
+             "type": "box",
+             "layout": "vertical",
+             "margin": "lg",
+             "spacing": "sm",
+             "contents": [
+                {
+                    "type": "box",
+                    "layout": "baseline",
+                    "contents": [
+                        {"type": "text", "text": "總計 (原價屋)", "weight": "bold", "flex": 3},
+                        {"type": "text", "text": f"${coolpc_total:,}", "weight": "bold", "color": "#1DB446", "align": "end", "flex": 4}
+                    ]
+                },
+                {
+                     "type": "box",
+                     "layout": "baseline",
+                     "contents": [
+                        {"type": "text", "text": "總計 (欣亞)", "weight": "bold", "flex": 3},
+                        {"type": "text", "text": f"${sinya_total:,}", "weight": "bold", "color": "#e07b28", "align": "end", "flex": 4}
+                    ]
+                }
+             ]
+        }
+
         # Build Flex Message Content (JSON)
         contents = {
             "type": "bubble",
@@ -108,31 +170,13 @@ class LineBotNotifier:
                 "layout": "vertical",
                 "contents": [
                     {"type": "text", "text": title_text, "weight": "bold", "size": "xl"},
+                    summary_box,
+                    {"type": "separator", "margin": "md"},
                     {
                         "type": "box",
                         "layout": "vertical",
-                        "margin": "lg",
-                        "spacing": "sm",
-                        "contents": [
-                            {
-                                "type": "box",
-                                "layout": "baseline",
-                                "spacing": "sm",
-                                "contents": [
-                                    {"type": "text", "text": "原價屋:", "color": "#aaaaaa", "size": "sm", "flex": 2},
-                                    {"type": "text", "text": f"${coolpc_total:,}", "weight": "bold", "color": "#666666", "size": "sm", "flex": 4}
-                                ]
-                            },
-                            {
-                                "type": "box",
-                                "layout": "baseline",
-                                "spacing": "sm",
-                                "contents": [
-                                    {"type": "text", "text": "欣亞:", "color": "#aaaaaa", "size": "sm", "flex": 2},
-                                    {"type": "text", "text": f"${sinya_total:,}", "weight": "bold", "color": "#666666", "size": "sm", "flex": 4}
-                                ]
-                            }
-                        ]
+                        "margin": "md",
+                        "contents": detail_contents
                     }
                 ]
             }
@@ -146,28 +190,30 @@ class LineBotNotifier:
                 "size": "full",
                 "aspectRatio": "20:13",
                 "aspectMode": "cover",
-                "action": {"type": "uri", "uri": image_url, "label": "View Chart"}
+                "action": {"type": "uri", "uri": image_url, "label": "放大圖表"}
             }
 
         # Add Footer Button
+        footer_btns = []
         if sheet_url:
+             footer_btns.append({
+                "type": "button",
+                "style": "primary",
+                "height": "sm",
+                "action": {"type": "uri", "label": "查看詳細歷史 (Google Sheet)", "uri": sheet_url}
+            })
+             
+        if footer_btns:
             contents["footer"] = {
                 "type": "box",
                 "layout": "vertical",
                 "spacing": "sm",
-                "contents": [
-                    {
-                        "type": "button",
-                        "style": "primary",
-                        "height": "sm",
-                        "action": {"type": "uri", "label": "查看詳細清單", "uri": sheet_url}
-                    }
-                ]
+                "contents": footer_btns
             }
 
         message_payload = {
             "type": "flex",
-            "altText": f"今日價格: 原價屋 ${coolpc_total} / 欣亞 ${sinya_total}",
+            "altText": f"今日價格報告: 原價屋 ${coolpc_total} / 欣亞 ${sinya_total}",
             "contents": contents
         }
 
@@ -183,10 +229,7 @@ class LineBotNotifier:
             else:
                 print(f"Error sending LINE message: {response.status_code} - {response.text}")
                 # Fallback to Text Message
-                text_msg = f"{title_text}\n原價屋: ${coolpc_total:,}\n欣亞: ${sinya_total:,}"
-                if sheet_url:
-                    text_msg += f"\n詳細清單: {sheet_url}"
-                
+                text_msg = f"{title_text}\n原價屋: ${coolpc_total:,}\n欣亞: ${sinya_total:,}\n請查看 Sheet 了解詳情。"
                 fallback_data = {
                     "to": self.user_id,
                     "messages": [{"type": "text", "text": text_msg}]
@@ -302,7 +345,11 @@ class SinyaScraper:
     def scrape(self):
         print("Scraping Sinya...")
         prices = {}
-        page = self.browser.new_page()
+        # Use a new context with user agent to avoid bot detection
+        context = self.browser.new_context(
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        )
+        page = context.new_page()
         
         try:
             for target in TARGETS:
@@ -311,21 +358,18 @@ class SinyaScraper:
                 
                 try:
                     page.goto(search_link)
-                    # wait for products to load
                     try:
                         page.wait_for_selector(".prod_price, .price", timeout=5000)
                     except:
-                        pass # might be no results
+                        pass
                     
-                    # Sometimes Sinya has a 'prod_name' but no price immediately visible? 
-                    # Try generic wait
+                    # Generic wait for hydration
                     page.wait_for_timeout(2000)
 
                     price_locator = page.locator(".prod_price, .price").first
                     
                     if price_locator.count() > 0:
                         price_text = price_locator.text_content().strip()
-                        # Extract digits
                         match = re.search(r'(\d+)', price_text.replace(',', ''))
                         if match:
                             price_val = int(match.group(1))
@@ -333,16 +377,24 @@ class SinyaScraper:
                             print(f"[Sinya] Found {target['name']}: ${price_val}")
                         else:
                             prices[target["name"]] = 0
-                            print(f"[Sinya] Price parse error: {price_text}")
+                            print(f"[Sinya] Parse error: {price_text}")
                     else:
                         print(f"[Sinya] Not found: {target['name']}")
+                        # Debug: Take screenshot if not found
+                        if IMGBB_API_KEY:
+                            params = {"key": IMGBB_API_KEY, "image": base64.b64encode(page.screenshot()).decode('utf-8')}
+                            try:
+                                r = requests.post("https://api.imgbb.com/1/upload", data=params)
+                                print(f"[Sinya] Debug Screenshot: {r.json().get('data', {}).get('url')}")
+                            except:
+                                pass
                         prices[target["name"]] = 0
                         
                 except Exception as e:
                     print(f"[Sinya] Error scraping {keyword}: {e}")
                     prices[target["name"]] = 0
         finally:
-            page.close()
+            context.close()
             
         return prices
 
@@ -466,7 +518,7 @@ def main():
         
         # LINE Notification
         notifier = LineBotNotifier(LINE_CHANNEL_ACCESS_TOKEN, LINE_USER_ID)
-        notifier.send_report(date_str, coolpc_total, sinya_total, image_url, GOOGLE_SHEET_URL)
+        notifier.send_report(date_str, coolpc_total, sinya_total, coolpc_prices, sinya_prices, image_url, GOOGLE_SHEET_URL)
         
     except Exception as e:
         print(f"Error in post-processing: {e}")
