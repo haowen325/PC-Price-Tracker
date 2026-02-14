@@ -43,7 +43,7 @@ WORKSHEET_NAME = "Price_History"
 TARGETS = [
     {"name": "CPU", "model": "Core Ultra 7 265KF"},
     {"name": "MB", "model": "TUF GAMING Z890-PRO WIFI"},
-    {"name": "RAM", "model": "LancerBlade"}, 
+    {"name": "RAM", "model": "LancerBlade 32G"}, # Added 32G to avoid 64G match
     {"name": "SSD", "model": "T700 2TB"}, 
     {"name": "Cooler", "model": "TUF GAMING LC III 360 ARGB"},
     {"name": "VGA", "model": "TUF-RTX5070Ti-O16G"},
@@ -323,12 +323,14 @@ class CoolpcScraper:
                         except:
                             continue
                 
-                if found_price > 0:
-                    prices[target["name"]] = found_price
-                    print(f"[Coolpc] Found {target['name']}: ${found_price}")
-                else:
-                    print(f"[Coolpc] Not found: {target['name']}")
-                    prices[target["name"]] = 0 
+                    if found_price > 0:
+                        # Find the option text that matched (for logging)
+                        matched_opt = next((opt for opt in options if model_keyword.lower() in opt.lower()), "Unknown")
+                        prices[target["name"]] = (found_price, matched_opt)
+                        print(f"[Coolpc] Found {target['name']}: ${found_price} ({matched_opt})")
+                    else:
+                        print(f"[Coolpc] Not found: {target['name']}")
+                        prices[target["name"]] = (0, "") 
 
         except Exception as e:
             print(f"Error scraping Coolpc: {e}")
@@ -345,9 +347,13 @@ class SinyaScraper:
     def scrape(self):
         print("Scraping Sinya...")
         prices = {}
-        # Use a new context with user agent to avoid bot detection
+        # Use a new context with proper locale
         context = self.browser.new_context(
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+            locale="zh-TW",
+            timezone_id="Asia/Taipei",
+            geolocation={"latitude": 25.0330, "longitude": 121.5654},
+            permissions=["geolocation"]
         )
         page = context.new_page()
         
@@ -359,40 +365,41 @@ class SinyaScraper:
                 try:
                     page.goto(search_link)
                     try:
-                        page.wait_for_selector(".prod_price, .price", timeout=5000)
+                        page.wait_for_selector(".prod_price, .price", timeout=8000)
                     except:
                         pass
                     
-                    # Generic wait for hydration
-                    page.wait_for_timeout(2000)
+                    page.wait_for_timeout(3000)
 
                     price_locator = page.locator(".prod_price, .price").first
+                    name_locator = page.locator(".prod_name").first
                     
                     if price_locator.count() > 0:
                         price_text = price_locator.text_content().strip()
                         match = re.search(r'(\d+)', price_text.replace(',', ''))
                         if match:
                             price_val = int(match.group(1))
-                            prices[target["name"]] = price_val
-                            print(f"[Sinya] Found {target['name']}: ${price_val}")
+                            matched_name = name_locator.text_content().strip() if name_locator.count() > 0 else "Unknown"
+                            prices[target["name"]] = (price_val, matched_name)
+                            print(f"[Sinya] Found {target['name']}: ${price_val} ({matched_name})")
                         else:
-                            prices[target["name"]] = 0
+                            prices[target["name"]] = (0, "")
                             print(f"[Sinya] Parse error: {price_text}")
                     else:
                         print(f"[Sinya] Not found: {target['name']}")
                         # Debug: Take screenshot if not found
                         if IMGBB_API_KEY:
-                            params = {"key": IMGBB_API_KEY, "image": base64.b64encode(page.screenshot()).decode('utf-8')}
                             try:
+                                params = {"key": IMGBB_API_KEY, "image": base64.b64encode(page.screenshot()).decode('utf-8')}
                                 r = requests.post("https://api.imgbb.com/1/upload", data=params)
                                 print(f"[Sinya] Debug Screenshot: {r.json().get('data', {}).get('url')}")
                             except:
                                 pass
-                        prices[target["name"]] = 0
+                        prices[target["name"]] = (0, "")
                         
                 except Exception as e:
                     print(f"[Sinya] Error scraping {keyword}: {e}")
-                    prices[target["name"]] = 0
+                    prices[target["name"]] = (0, "")
         finally:
             context.close()
             
@@ -478,13 +485,21 @@ def main():
         sheet = SheetManager(GSPREAD_JSON, SHEET_NAME)
         
         coolpc_total = 0
-        for comp_name, price in coolpc_prices.items():
+        coolpc_prices_simple = {}
+        for comp_name, data in coolpc_prices.items():
+            price, matched_name = data
+            coolpc_prices_simple[comp_name] = price
             model = next((t['model'] for t in TARGETS if t['name'] == comp_name), "")
+            # Append detailed identifier if available? Or just standard model?
+            # Keeping standard model in sheet for consistency, but maybe add matched_name as comment?
             sheet.append_data(date_str, "Coolpc", comp_name, model, price)
             coolpc_total += price
             
         sinya_total = 0
-        for comp_name, price in sinya_prices.items():
+        sinya_prices_simple = {}
+        for comp_name, data in sinya_prices.items():
+            price, matched_name = data
+            sinya_prices_simple[comp_name] = price
             model = next((t['model'] for t in TARGETS if t['name'] == comp_name), "")
             sheet.append_data(date_str, "Sinya", comp_name, model, price)
             sinya_total += price
@@ -518,7 +533,7 @@ def main():
         
         # LINE Notification
         notifier = LineBotNotifier(LINE_CHANNEL_ACCESS_TOKEN, LINE_USER_ID)
-        notifier.send_report(date_str, coolpc_total, sinya_total, coolpc_prices, sinya_prices, image_url, GOOGLE_SHEET_URL)
+        notifier.send_report(date_str, coolpc_total, sinya_total, coolpc_prices_simple, sinya_prices_simple, image_url, GOOGLE_SHEET_URL)
         
     except Exception as e:
         print(f"Error in post-processing: {e}")
