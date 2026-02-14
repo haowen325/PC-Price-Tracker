@@ -98,123 +98,99 @@ class LineBotNotifier:
             "Authorization": f"Bearer {self.access_token}"
         }
 
-        title_text = f"[{date_str}] 價格報告"
+        # Determine title and color based on diff
+        if price_diff == 0:
+            status_text = "價格持平"
+            color = "#1DB446" # Green
+            diff_text = "(無變動)"
+        elif price_diff > 0:
+            status_text = "價格上漲"
+            color = "#FF334B" # Red
+            diff_text = f"(▲ ${price_diff:,})"
+        else:
+            status_text = "價格下跌"
+            color = "#33A1FF" # Blue
+            diff_text = f"(▼ ${abs(price_diff):,})"
+
+        title = f"{status_text} {diff_text}"
         
-        # Build Detail Rows
-        detail_contents = []
-        # Header Row
-        detail_contents.append({
-            "type": "box",
-            "layout": "baseline",
-            "spacing": "sm",
-            "contents": [
-                {"type": "text", "text": "零件", "weight": "bold", "color": "#333333", "size": "xs", "flex": 2},
-                {"type": "text", "text": "原價屋", "weight": "bold", "color": "#333333", "size": "xs", "flex": 3, "align": "end"},
-                {"type": "text", "text": "欣亞", "weight": "bold", "color": "#333333", "size": "xs", "flex": 3, "align": "end"}
-            ]
-        })
-        detail_contents.append({"type": "separator", "margin": "sm"})
-
-        # Data Rows
-        # Assuming TARGETS order is consistent or we use dict keys
-        for key in coolpc_prices.keys():
-            c_price = coolpc_prices.get(key, 0)
-            s_price = sinya_prices.get(key, 0)
-            
-            c_color = "#666666" if c_price > 0 else "#ff0000"
-            s_color = "#666666" if s_price > 0 else "#ff0000"
-            
-            detail_contents.append({
-                "type": "box",
-                "layout": "baseline",
-                "spacing": "sm",
-                "margin": "sm",
-                "contents": [
-                    {"type": "text", "text": key, "color": "#aaaaaa", "size": "xs", "flex": 2},
-                    {"type": "text", "text": f"${c_price:,}", "color": c_color, "size": "xs", "flex": 3, "align": "end"},
-                    {"type": "text", "text": f"${s_price:,}", "color": s_color, "size": "xs", "flex": 3, "align": "end"}
-                ]
-            })
-
-        # Summary Box
-        summary_box = {
-             "type": "box",
-             "layout": "vertical",
-             "margin": "lg",
-             "spacing": "sm",
-             "contents": [
-                {
-                    "type": "box",
-                    "layout": "baseline",
-                    "contents": [
-                        {"type": "text", "text": "總計 (原價屋)", "weight": "bold", "flex": 3},
-                        {"type": "text", "text": f"${coolpc_total:,}", "weight": "bold", "color": "#1DB446", "align": "end", "flex": 4}
-                    ]
-                },
-                {
-                     "type": "box",
-                     "layout": "baseline",
-                     "contents": [
-                        {"type": "text", "text": "總計 (欣亞)", "weight": "bold", "flex": 3},
-                        {"type": "text", "text": f"${sinya_total:,}", "weight": "bold", "color": "#e07b28", "align": "end", "flex": 4}
-                    ]
-                }
-             ]
-        }
-
-        # Build Flex Message Content (JSON)
         contents = {
             "type": "bubble",
-            "direction": "ltr",
             "body": {
                 "type": "box",
                 "layout": "vertical",
                 "contents": [
-                    {"type": "text", "text": title_text, "weight": "bold", "size": "xl"},
-                    summary_box,
-                    {"type": "separator", "margin": "md"},
                     {
-                        "type": "box",
-                        "layout": "vertical",
-                        "margin": "md",
-                        "contents": detail_contents
+                        "type": "text",
+                        "text": title,
+                        "weight": "bold",
+                        "size": "xl",
+                        "color": color
+                    },
+                    {
+                        "type": "text",
+                        "text": f"Date: {date_str}",
+                        "size": "xs",
+                        "color": "#aaaaaa"
+                    },
+                    {
+                        "type": "separator",
+                        "margin": "md"
+                    },
+                    {
+                        "type": "text",
+                        "text": f"原價屋: ${coolpc_total:,}",
+                        "weight": "bold",
+                        "size": "xl",
+                        "margin": "md"
+                    },
+                    {
+                        "type": "separator",
+                        "margin": "md"
                     }
                 ]
             }
         }
-
-        # Add Hero Image
+        
+        # Add Image if exists
         if image_url:
-            contents["hero"] = {
+            hero = {
                 "type": "image",
                 "url": image_url,
                 "size": "full",
                 "aspectRatio": "20:13",
                 "aspectMode": "cover",
-                "action": {"type": "uri", "uri": image_url, "label": "放大圖表"}
+                "action": {
+                    "type": "uri",
+                    "uri": image_url
+                }
             }
+            contents["hero"] = hero
 
-        # Add Footer Button
-        footer_btns = []
+        # Add Details Button
         if sheet_url:
-             footer_btns.append({
-                "type": "button",
-                "style": "primary",
-                "height": "sm",
-                "action": {"type": "uri", "label": "查看詳細歷史 (Google Sheet)", "uri": sheet_url}
-            })
-             
-        if footer_btns:
-            contents["footer"] = {
+             contents["footer"] = {
                 "type": "box",
                 "layout": "vertical",
                 "spacing": "sm",
-                "contents": footer_btns
+                "contents": [
+                    {
+                        "type": "button",
+                        "style": "link",
+                        "height": "sm",
+                        "action": {
+                            "type": "uri",
+                            "label": "查看詳細清單 (Google Sheet)",
+                            "uri": sheet_url
+                        }
+                    }
+                ],
+                "flex": 0
             }
 
         message_payload = {
             "type": "flex",
-            "altText": f"今日價格報告: 原價屋 ${coolpc_total} / 欣亞 ${sinya_total}",
+            "altText": f"今日顯卡價格: ${coolpc_total:,} {diff_text}",
             "contents": contents
         }
 
@@ -230,7 +206,7 @@ class LineBotNotifier:
             else:
                 print(f"Error sending LINE message: {response.status_code} - {response.text}")
                 # Fallback to Text Message
-                text_msg = f"{title_text}\n原價屋: ${coolpc_total:,}\n欣亞: ${sinya_total:,}\n請查看 Sheet 了解詳情。"
+                text_msg = f"{title}\n原價屋: ${coolpc_total:,}\n請查看 Sheet 了解詳情。"
                 fallback_data = {
                     "to": self.user_id,
                     "messages": [{"type": "text", "text": text_msg}]
@@ -242,7 +218,7 @@ class LineBotNotifier:
             print(f"Error sending LINE message: {e}")
 
 class SheetManager:
-    def __init__(self, json_key_content, sheet_name):
+    def __init__(self, json_key_content, sheet_url):
         self.scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
         
         if os.path.exists(json_key_content):
@@ -263,29 +239,49 @@ class SheetManager:
         self.client = gspread.authorize(self.creds)
         
         try:
-            sheet_url = os.environ.get("GOOGLE_SHEET_URL")
-            if sheet_url:
-                self.sheet = self.client.open_by_url(sheet_url)
-                print(f"Opened spreadsheet by URL: {sheet_url}")
-            else:
-                self.sheet = self.client.open(sheet_name)
-                print(f"Opened spreadsheet by name: {sheet_name}")
+            self.sheet = self.client.open_by_url(sheet_url)
+            print(f"Opened spreadsheet by URL: {sheet_url}")
 
             try:
                 self.worksheet = self.sheet.worksheet(WORKSHEET_NAME)
             except gspread.WorksheetNotFound:
                 print(f"Worksheet '{WORKSHEET_NAME}' not found, creating it...")
                 self.worksheet = self.sheet.add_worksheet(title=WORKSHEET_NAME, rows=1000, cols=10)
-                self.worksheet.append_row(["Date", "Vendor", "Component", "Model", "Price"])
+                # Updated header for new data structure
+                self.worksheet.append_row(["Date", "Vendor", "Total Price", "Details"])
         except gspread.SpreadsheetNotFound:
-            print(f"Spreadsheet '{sheet_name}' not found. Please create it and share with the service account.")
+            print(f"Spreadsheet '{sheet_url}' not found. Please create it and share with the service account.")
             raise
 
-    def append_data(self, date_str, vendor, component, model, price):
-        self.worksheet.append_row([date_str, vendor, component, model, price])
+    def save_to_sheet(self, data_rows):
+        """Appends multiple rows of data to the worksheet."""
+        self.worksheet.append_rows(data_rows)
+        print(f"Appended {len(data_rows)} rows to Google Sheet.")
 
-    def get_all_data(self):
-        return self.worksheet.get_all_records()
+    def get_last_price(self, vendor):
+        """Retrieves the last recorded total price for a given vendor."""
+        try:
+            # Get all records and convert to DataFrame for easier filtering
+            all_records = self.worksheet.get_all_records()
+            if not all_records:
+                return 0
+
+            df = pd.DataFrame(all_records)
+            
+            # Ensure 'Date' is datetime and 'Total Price' is numeric
+            df['Date'] = pd.to_datetime(df['Date'], errors='coerce')
+            df['Total Price'] = pd.to_numeric(df['Total Price'], errors='coerce').fillna(0)
+            
+            # Filter by vendor and sort by date to get the latest
+            vendor_df = df[df['Vendor'] == vendor].sort_values(by='Date', ascending=False)
+            
+            if not vendor_df.empty:
+                return vendor_df.iloc[0]['Total Price']
+            else:
+                return 0
+        except Exception as e:
+            print(f"Error getting last price for {vendor}: {e}")
+            return 0
 
 class CoolpcScraper:
     def __init__(self, browser):
@@ -357,119 +353,47 @@ class CoolpcScraper:
             pass
         return 0
 
-class SinyaScraper:
-    def __init__(self, browser):
-        self.search_base_url = "https://www.sinya.com.tw/prod/search"
-        self.browser = browser
-
-    def scrape(self):
-        print("Scraping Sinya...")
-        prices = {}
-        # Use a new context with proper locale
-        context = self.browser.new_context(
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
-            locale="zh-TW",
-            timezone_id="Asia/Taipei",
-            geolocation={"latitude": 25.0330, "longitude": 121.5654},
-            permissions=["geolocation"]
-        )
-        page = context.new_page()
-        
-        # Block unnecessary resources to speed up and reduce timeout chance
-        page.route("**/*", lambda route: route.abort() if route.request.resource_type in ["image", "media", "font", "stylesheet"] else route.continue_())
-
-        try:
-            for target in TARGETS:
-                keyword = target["model"]
-                search_link = f"{self.search_base_url}?q={requests.utils.quote(keyword)}"
-                
-                try:
-                    # Use domcontentloaded for faster "ready" state
-                    page.goto(search_link, timeout=30000, wait_until="domcontentloaded")
-                    try:
-                        page.wait_for_selector(".prod_price, .price", timeout=8000)
-                    except:
-                        pass
-                    
-                    page.wait_for_timeout(2000)
-
-                    price_locator = page.locator(".prod_price, .price").first
-                    name_locator = page.locator(".prod_name").first
-                    
-                    if price_locator.count() > 0:
-                        price_text = price_locator.text_content().strip()
-                        match = re.search(r'(\d+)', price_text.replace(',', ''))
-                        if match:
-                            price_val = int(match.group(1))
-                            matched_name = name_locator.text_content().strip() if name_locator.count() > 0 else "Unknown"
-                            prices[target["name"]] = (price_val, matched_name)
-                            print(f"[Sinya] Found {target['name']}: ${price_val} ({matched_name})")
-                        else:
-                            prices[target["name"]] = (0, "")
-                            print(f"[Sinya] Parse error: {price_text}")
-                    else:
-                        print(f"[Sinya] Not found: {target['name']}")
-                        # Debug: Take screenshot if not found
-                        if IMGBB_API_KEY:
-                            try:
-                                params = {"key": IMGBB_API_KEY, "image": base64.b64encode(page.screenshot()).decode('utf-8')}
-                                r = requests.post("https://api.imgbb.com/1/upload", data=params)
-                                print(f"[Sinya] Debug Screenshot: {r.json().get('data', {}).get('url')}")
-                            except:
-                                pass
-                        prices[target["name"]] = (0, "")
-                        
-                except Exception as e:
-                    print(f"[Sinya] Error scraping {keyword}: {e}")
-                    prices[target["name"]] = (0, "")
-        finally:
-            context.close()
-            
-        return prices
-
-def plot_trend(data_records, output_file="trend.png"):
+def plot_trend(worksheet, output_file="trend.png"):
     if not PLOTTING_AVAILABLE:
         print("Skipping plot: libraries not available.")
-        return
-
-    if not data_records:
-        return
-    
-    df = pd.DataFrame(data_records)
-    if 'Date' not in df.columns or 'Price' not in df.columns or 'Vendor' not in df.columns:
-        return
+        return None
 
     try:
-        df['Price'] = pd.to_numeric(df['Price'], errors='coerce').fillna(0)
+        data_records = worksheet.get_all_records()
+        if not data_records:
+            print("No data to plot.")
+            return None
+        
+        df = pd.DataFrame(data_records)
+        
+        # Ensure required columns exist
+        if 'Date' not in df.columns or 'Total Price' not in df.columns or 'Vendor' not in df.columns:
+            print("Missing required columns for plotting (Date, Total Price, Vendor).")
+            return None
+
+        df['Total Price'] = pd.to_numeric(df['Total Price'], errors='coerce').fillna(0)
         df['Date'] = pd.to_datetime(df['Date'])
         
-        # [FIX] Deduplicate: Keep only the latest record for each (Date, Vendor, Component)
-        # This prevents "double counting" if the scraper runs multiple times a day
-        df = df.drop_duplicates(subset=['Date', 'Vendor', 'Component'], keep='last')
+        # Filter for Coolpc data only for this plot
+        coolpc_df = df[df['Vendor'] == 'Coolpc'].sort_values(by='Date')
         
-        daily_vendor_sum = df.groupby(['Date', 'Vendor'])['Price'].sum().reset_index()
-        
-        if daily_vendor_sum.empty:
-            return
+        if coolpc_df.empty:
+            print("No Coolpc data to plot.")
+            return None
 
         plt.figure(figsize=(10, 6))
         
-        # Pivot for plotting
-        pivot_df = daily_vendor_sum.pivot(index='Date', columns='Vendor', values='Price')
-        
-        # Import mdates locally to ensure it's available
-        import matplotlib.dates as mdates
-        
-        for vendor in pivot_df.columns:
-            plt.plot(pivot_df.index, pivot_df[vendor], marker='o', label=vendor)
+        plt.plot(coolpc_df['Date'], coolpc_df['Total Price'], marker='o', label='Coolpc Total Price')
             
-        plt.title("PC Price Trend")
+        plt.title("Coolpc PC Total Price Trend")
         plt.xlabel("Date")
         plt.ylabel("Total Price (TWD)")
         plt.grid(True)
         plt.legend()
         
-        # [FIX] Format X-Axis to show days explicitly
+        # Import mdates locally to ensure it's available
+        import matplotlib.dates as mdates
+        
         ax = plt.gca()
         ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))
         ax.xaxis.set_major_locator(mdates.DayLocator(interval=1)) # Tick every day
@@ -478,8 +402,10 @@ def plot_trend(data_records, output_file="trend.png"):
         plt.tight_layout()
         plt.savefig(output_file)
         print(f"Plot saved to {output_file}")
+        return output_file
     except Exception as e:
         print(f"Error plotting trend: {e}")
+        return None
 
 def main():
     if not GSPREAD_JSON:
@@ -489,8 +415,11 @@ def main():
     print(f"Starting job at {datetime.now()}")
     date_str = datetime.now().strftime("%Y-%m-%d")
     
-    coolpc_prices = {}
-    sinya_prices = {}
+    sheet_manager = SheetManager(os.environ["GSPREAD_JSON"], os.environ["GOOGLE_SHEET_URL"])
+
+    # Get previous price BEFORE scraping new one (to compare)
+    last_coolpc_price = sheet_manager.get_last_price("Coolpc")
+    print(f"Last Coolpc Price: ${last_coolpc_price:,}")
     
     # 1. Scrape
     with sync_playwright() as p:
@@ -501,72 +430,60 @@ def main():
         coolpc_scraper = CoolpcScraper(browser)
         coolpc_prices = coolpc_scraper.scrape()
         
-        sinya_scraper = SinyaScraper(browser)
-        sinya_prices = sinya_scraper.scrape()
+        # [REMOVED] Sinya scraping
+        # sinya_scraper = SinyaScraper(browser)
+        # sinya_prices = sinya_scraper.scrape()
         browser.close()
 
-    # 2. Save
+    # 2. Process
+    coolpc_total = sum(item[0] for item in coolpc_prices.values())
+    
+    # 3. Save
+    today = datetime.now().strftime("%Y-%m-%d")
+    
+    # Format details for sheet
+    coolpc_detail_str = "\n".join([f"{k}: ${v[0]} ({v[1]})" for k, v in coolpc_prices.items()])
+    
+    sheet_manager.save_to_sheet([
+        [today, "Coolpc", coolpc_total, coolpc_detail_str],
+    ])
+    
+    # 4. Plot
+    image_url = None
     try:
-        sheet = SheetManager(GSPREAD_JSON, SHEET_NAME)
+        plot_file = plot_trend(sheet_manager.worksheet)
+        if plot_file:
+            print(f"Plot saved to {plot_file}")
+            uploader = ImgBBUploader(os.environ["IMGBB_API_KEY"])
+            image_url = uploader.upload(plot_file)
+            print(f"Image uploaded: {image_url}")
+    except Exception as e:
+        print(f"Error in plotting/uploading: {e}")
+
+    # 5. Notify
+    try:
+        notifier = LineBotNotifier(os.environ["LINE_CHANNEL_ACCESS_TOKEN"], os.environ["LINE_USER_ID"])
         
-        coolpc_total = 0
-        coolpc_prices_simple = {}
-        for comp_name, data in coolpc_prices.items():
-            price, matched_name = data
-            coolpc_prices_simple[comp_name] = price
-            model = next((t['model'] for t in TARGETS if t['name'] == comp_name), "")
-            # Append detailed identifier if available? Or just standard model?
-            # Keeping standard model in sheet for consistency, but maybe add matched_name as comment?
-            sheet.append_data(date_str, "Coolpc", comp_name, model, price)
-            coolpc_total += price
-            
-        sinya_total = 0
-        sinya_prices_simple = {}
-        for comp_name, data in sinya_prices.items():
-            price, matched_name = data
-            sinya_prices_simple[comp_name] = price
-            model = next((t['model'] for t in TARGETS if t['name'] == comp_name), "")
-            sheet.append_data(date_str, "Sinya", comp_name, model, price)
-            sinya_total += price
-            
+        # Calculate diff
+        diff = coolpc_total - last_coolpc_price
+        
+        # Send report with diff
+        notifier.send_report(today, coolpc_total, image_url, os.environ["GOOGLE_SHEET_URL"], price_diff=diff)
+        print("LINE Flex Message sent successfully.")
+        
         print("-" * 30)
-        print(f"Date: {date_str}")
+        print(f"Date: {today}")
         print(f"Coolpc Total: ${coolpc_total:,}")
-        print(f"Sinya Total: ${sinya_total:,}")
-        print("-" * 30)
+        print(f"Diff: ${diff:,}")
         print("-" * 30)
         print("Coolpc Details:")
         for k, v in coolpc_prices.items():
             print(f"  {k}: ${v[0]:,} ({v[1]})")
-        print("Sinya Details:")
-        for k, v in sinya_prices.items():
-            print(f"  {k}: ${v[0]:,} ({v[1]})")
         print("-" * 30)
         
         print("Data saved to Google Sheets.")
-        
-        # 3. Plot & Notify
-        history = sheet.get_all_data()
-        plot_file = "price_trend.png"
-        plot_trend(history, plot_file)
-        
-        # Image Upload (ImgBB)
-        image_url = None
-        if IMGBB_API_KEY and os.path.exists(plot_file):
-            uploader = ImgBBUploader(IMGBB_API_KEY)
-            image_url = uploader.upload(plot_file)
-            print(f"Image uploaded: {image_url}")
-        
-        # LINE Notification
-        notifier = LineBotNotifier(LINE_CHANNEL_ACCESS_TOKEN, LINE_USER_ID)
-        notifier.send_report(date_str, coolpc_total, sinya_total, coolpc_prices_simple, sinya_prices_simple, image_url, GOOGLE_SHEET_URL)
-        
     except Exception as e:
-        print(f"Error in post-processing: {e}")
-        # Send error notification
-        if LINE_CHANNEL_ACCESS_TOKEN and LINE_USER_ID:
-             # Very basic error handler
-             pass
+        print(f"Error sending LINE notification: {e}")
 
 if __name__ == "__main__":
     main()
