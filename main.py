@@ -54,7 +54,7 @@ TARGETS = [
 ]
 
 class ImgBBUploader:
-    def __init__(self(self, api_key):
+    def __init__(self, api_key):
         self.api_key = api_key
         self.api_url = "https://api.imgbb.com/1/upload"
 
