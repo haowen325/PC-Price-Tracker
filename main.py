@@ -313,6 +313,10 @@ class CoolpcScraper:
                 candidates = [opt for opt in options if all(k in opt.lower() for k in keywords)]
 
                 if candidates:
+                    print(f"DEBUG: Candidates for {target['name']} ({model_keyword}):")
+                    for c in candidates:
+                         print(f"  - {c}")
+                    
                     # If multiple match, logic depends on component type
                     if target["name"] == "Case":
                          # For cases, prefer higher price to avoid accessories (fans, kits)
