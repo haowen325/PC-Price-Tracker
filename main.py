@@ -311,12 +311,21 @@ class SinyaScraper:
                 
                 try:
                     page.goto(search_link)
-                    page.wait_for_timeout(1000)
+                    # wait for products to load
+                    try:
+                        page.wait_for_selector(".prod_price, .price", timeout=5000)
+                    except:
+                        pass # might be no results
                     
+                    # Sometimes Sinya has a 'prod_name' but no price immediately visible? 
+                    # Try generic wait
+                    page.wait_for_timeout(2000)
+
                     price_locator = page.locator(".prod_price, .price").first
                     
                     if price_locator.count() > 0:
                         price_text = price_locator.text_content().strip()
+                        # Extract digits
                         match = re.search(r'(\d+)', price_text.replace(',', ''))
                         if match:
                             price_val = int(match.group(1))
@@ -324,6 +333,7 @@ class SinyaScraper:
                             print(f"[Sinya] Found {target['name']}: ${price_val}")
                         else:
                             prices[target["name"]] = 0
+                            print(f"[Sinya] Price parse error: {price_text}")
                     else:
                         print(f"[Sinya] Not found: {target['name']}")
                         prices[target["name"]] = 0
@@ -352,13 +362,22 @@ def plot_trend(data_records, output_file="trend.png"):
         df['Price'] = pd.to_numeric(df['Price'], errors='coerce').fillna(0)
         df['Date'] = pd.to_datetime(df['Date'])
         
+        # [FIX] Deduplicate: Keep only the latest record for each (Date, Vendor, Component)
+        # This prevents "double counting" if the scraper runs multiple times a day
+        df = df.drop_duplicates(subset=['Date', 'Vendor', 'Component'], keep='last')
+        
         daily_vendor_sum = df.groupby(['Date', 'Vendor'])['Price'].sum().reset_index()
         
         if daily_vendor_sum.empty:
             return
 
         plt.figure(figsize=(10, 6))
+        
+        # Pivot for plotting
         pivot_df = daily_vendor_sum.pivot(index='Date', columns='Vendor', values='Price')
+        
+        # Import mdates locally to ensure it's available
+        import matplotlib.dates as mdates
         
         for vendor in pivot_df.columns:
             plt.plot(pivot_df.index, pivot_df[vendor], marker='o', label=vendor)
@@ -368,6 +387,13 @@ def plot_trend(data_records, output_file="trend.png"):
         plt.ylabel("Total Price (TWD)")
         plt.grid(True)
         plt.legend()
+        
+        # [FIX] Format X-Axis to show days explicitly
+        ax = plt.gca()
+        ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))
+        ax.xaxis.set_major_locator(mdates.DayLocator(interval=1)) # Tick every day
+        plt.gcf().autofmt_xdate() # Rotate labels
+        
         plt.tight_layout()
         plt.savefig(output_file)
         print(f"Plot saved to {output_file}")
