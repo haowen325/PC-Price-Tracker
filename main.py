@@ -44,17 +44,17 @@ WORKSHEET_NAME = "Price_History"
 TARGETS = [
     {"name": "CPU", "model": "Core Ultra 7 265KF"},
     {"name": "MB", "model": "TUF GAMING Z890-PRO WIFI"},
-    {"name": "RAM", "model": "Lancer 32G"}, # Changed to space separated keywords
+    {"name": "RAM", "model": "LancerBlade 64G"}, # Updated to 64G based on user image
     {"name": "SSD", "model": "T700 2TB"}, 
     {"name": "Cooler", "model": "TUF GAMING LC III 360 ARGB"},
     {"name": "VGA", "model": "TUF-RTX5070Ti-O16G"},
     {"name": "Case", "model": "GT502 Horizon"},
     {"name": "PSU", "model": "TITAN GOLD 1000W"},
-    {"name": "OS", "model": "Windows 11 Pro"}
+    {"name": "OS", "model": "Windows 11 Pro 隨機"}, # Updated to OEM version
 ]
 
 class ImgBBUploader:
-    def __init__(self, api_key):
+    def __init__(self(self, api_key):
         self.api_key = api_key
         self.api_url = "https://api.imgbb.com/1/upload"
 
