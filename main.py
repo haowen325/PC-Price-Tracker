@@ -24,32 +24,9 @@ from dotenv import load_dotenv
 # Load environment variables from .env file
 load_dotenv()
 
-try:
-    from linebot.v3 import WebhookHandler
-    from linebot.v3.messaging import (
-        Configuration,
-        ApiClient,
-        MessagingApi,
-        PushMessageRequest,
-        TextMessage,
-        ImageMessage,
-        TemplateMessage,
-        ButtonsTemplate,
-        URIAction,
-        FlexMessage,
-        BubbleContainer,
-        ImageComponent,
-        BoxComponent,
-        TextComponent,
-        ButtonComponent
-    )
-    LINE_BOT_AVAILABLE = True
-except ImportError:
-    print("Warning: line-bot-sdk not available or incompatible. Notifications will be skipped.")
-    LINE_BOT_AVAILABLE = False
-except Exception as e:
-    print(f"Warning: Error importing line-bot-sdk ({e}). Notifications will be skipped.")
-    LINE_BOT_AVAILABLE = False
+# LINE Bot SDK removed to avoid compatibility issues.
+# Using raw requests instead.
+LINE_BOT_AVAILABLE = True
 
 # --- Configuration ---
 GSPREAD_JSON = os.environ.get("GSPREAD_JSON")
@@ -108,109 +85,117 @@ class LineBotNotifier:
     def __init__(self, access_token, user_id):
         self.access_token = access_token
         self.user_id = user_id
-        if LINE_BOT_AVAILABLE and access_token:
-            self.configuration = Configuration(access_token=access_token)
-            self.api_client = ApiClient(self.configuration)
-            self.messaging_api = MessagingApi(self.api_client)
-        else:
-            self.messaging_api = None
+        self.api_url = "https://api.line.me/v2/bot/message/push"
 
     def send_report(self, date_str, coolpc_total, sinya_total, image_url=None, sheet_url=None):
-        if not self.messaging_api or not self.user_id:
-            print("LINE Messaging API not configured or SDK unavailable.")
+        if not self.access_token or not self.user_id:
+            print("LINE Messaging API credentials not set.")
             return
 
-        # 建構 Flex Message
-        # 標題
+        headers = {
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {self.access_token}"
+        }
+
         title_text = f"[{date_str}] 價格追蹤報告"
         
-        # 內容區塊
-        body_contents = [
-            TextComponent(text=title_text, weight="bold", size="xl"),
-            BoxComponent(
-                layout="vertical",
-                margin="lg",
-                spacing="sm",
-                contents=[
-                    BoxComponent(
-                        layout="baseline",
-                        spacing="sm",
-                        contents=[
-                            TextComponent(text="原價屋:", color="#aaaaaa", size="sm", flex=2),
-                            TextComponent(text=f"${coolpc_total:,}", weight="bold", color="#666666", size="sm", flex=4)
+        # Build Flex Message Content (JSON)
+        contents = {
+            "type": "bubble",
+            "direction": "ltr",
+            "body": {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                    {"type": "text", "text": title_text, "weight": "bold", "size": "xl"},
+                    {
+                        "type": "box",
+                        "layout": "vertical",
+                        "margin": "lg",
+                        "spacing": "sm",
+                        "contents": [
+                            {
+                                "type": "box",
+                                "layout": "baseline",
+                                "spacing": "sm",
+                                "contents": [
+                                    {"type": "text", "text": "原價屋:", "color": "#aaaaaa", "size": "sm", "flex": 2},
+                                    {"type": "text", "text": f"${coolpc_total:,}", "weight": "bold", "color": "#666666", "size": "sm", "flex": 4}
+                                ]
+                            },
+                            {
+                                "type": "box",
+                                "layout": "baseline",
+                                "spacing": "sm",
+                                "contents": [
+                                    {"type": "text", "text": "欣亞:", "color": "#aaaaaa", "size": "sm", "flex": 2},
+                                    {"type": "text", "text": f"${sinya_total:,}", "weight": "bold", "color": "#666666", "size": "sm", "flex": 4}
+                                ]
+                            }
                         ]
-                    ),
-                    BoxComponent(
-                        layout="baseline",
-                        spacing="sm",
-                        contents=[
-                            TextComponent(text="欣亞:", color="#aaaaaa", size="sm", flex=2),
-                            TextComponent(text=f"${sinya_total:,}", weight="bold", color="#666666", size="sm", flex=4)
-                        ]
-                    )
+                    }
                 ]
-            )
-        ]
+            }
+        }
 
-        # 圖片 (如果有)
-        hero_component = None
+        # Add Hero Image
         if image_url:
-            hero_component = ImageComponent(
-                url=image_url,
-                size="full",
-                aspect_ratio="20:13",
-                aspect_mode="cover",
-                action=URIAction(uri=image_url, label="View Chart")
-            )
+            contents["hero"] = {
+                "type": "image",
+                "url": image_url,
+                "size": "full",
+                "aspectRatio": "20:13",
+                "aspectMode": "cover",
+                "action": {"type": "uri", "uri": image_url, "label": "View Chart"}
+            }
 
-        # 按鈕
-        footer_contents = []
+        # Add Footer Button
         if sheet_url:
-            footer_contents.append(
-                ButtonComponent(
-                    style="primary",
-                    height="sm",
-                    action=URIAction(label="查看詳細清單", uri=sheet_url)
-                )
-            )
+            contents["footer"] = {
+                "type": "box",
+                "layout": "vertical",
+                "spacing": "sm",
+                "contents": [
+                    {
+                        "type": "button",
+                        "style": "primary",
+                        "height": "sm",
+                        "action": {"type": "uri", "label": "查看詳細清單", "uri": sheet_url}
+                    }
+                ]
+            }
 
-        bubble = BubbleContainer(
-            direction="ltr",
-            hero=hero_component,
-            body=BoxComponent(
-                layout="vertical",
-                contents=body_contents
-            ),
-            footer=BoxComponent(
-                layout="vertical",
-                spacing="sm",
-                contents=footer_contents
-            ) if footer_contents else None
-        )
+        message_payload = {
+            "type": "flex",
+            "altText": f"今日價格: 原價屋 ${coolpc_total} / 欣亞 ${sinya_total}",
+            "contents": contents
+        }
 
-        message = FlexMessage(alt_text=f"今日價格: 原價屋 ${coolpc_total} / 欣亞 ${sinya_total}", contents=bubble)
+        data = {
+            "to": self.user_id,
+            "messages": [message_payload]
+        }
 
         try:
-            self.messaging_api.push_message(
-                PushMessageRequest(
-                    to=self.user_id,
-                    messages=[message]
-                )
-            )
-            print("LINE Flex Message sent successfully.")
-        except Exception as e:
-            print(f"Error sending LINE message: {e}")
-            # Fallback: Send text only if flex fails (e.g. invalid image URL)
-            try:
+            response = requests.post(self.api_url, headers=headers, json=data)
+            if response.status_code == 200:
+                print("LINE Flex Message sent successfully.")
+            else:
+                print(f"Error sending LINE message: {response.status_code} - {response.text}")
+                # Fallback to Text Message
                 text_msg = f"{title_text}\n原價屋: ${coolpc_total:,}\n欣亞: ${sinya_total:,}"
                 if sheet_url:
                     text_msg += f"\n詳細清單: {sheet_url}"
-                self.messaging_api.push_message(
-                    PushMessageRequest(to=self.user_id, messages=[TextMessage(text=text_msg)])
-                )
+                
+                fallback_data = {
+                    "to": self.user_id,
+                    "messages": [{"type": "text", "text": text_msg}]
+                }
+                requests.post(self.api_url, headers=headers, json=fallback_data)
                 print("Fallback text message sent.")
-            except Exception as e2:
-                print(f"Fallback failed: {e2}")
+
+        except Exception as e:
+            print(f"Error sending LINE message: {e}")
 
 class SheetManager:
     def __init__(self, json_key_content, sheet_name):
