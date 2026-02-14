@@ -313,26 +313,24 @@ class CoolpcScraper:
                 candidates = [opt for opt in options if all(k in opt.lower() for k in keywords)]
 
                 if candidates:
-                    # If multiple match, pick the one with lowest price? Or first?
-                    # Usually specific keywords imply unique match or similar items.
-                    # Pick the first one for now, or sort by length (shortest match might be most precise?)
-                    # Let's pick the one with the shortest text to avoid matching "Bundle with X"
-                    best_match = min(candidates, key=len)
+                    # If multiple match, logic depends on component type
+                    if target["name"] == "Case":
+                         # For cases, prefer higher price to avoid accessories (fans, kits)
+                         best_match = max(candidates, key=lambda x: self._extract_price(x))
+                    else:
+                         # Default: pick shortest match (most precise)
+                         best_match = min(candidates, key=len)
                     
                     try:
-                        if '$' in best_match:
-                            parts = best_match.split('$')
-                            price_part = parts[-1].strip()
-                            match = re.search(r'(\d+)', price_part)
-                            if match:
-                                found_price = int(match.group(1))
-                                matched_opt = best_match
-                                prices[target["name"]] = (found_price, matched_opt)
-                                print(f"[Coolpc] Found {target['name']}: ${found_price} ({matched_opt})")
+                        price = self._extract_price(best_match)
+                        if price > 0:
+                            matched_opt = best_match
+                            prices[target["name"]] = (price, matched_opt)
+                            print(f"[Coolpc] Found {target['name']}: ${price} ({matched_opt})")
                     except:
                         pass
                 
-                if found_price == 0:
+                if prices.get(target["name"], (0, ""))[0] == 0:
                     print(f"[Coolpc] Not found: {target['name']}")
                     prices[target["name"]] = (0, "") 
 
@@ -342,6 +340,18 @@ class CoolpcScraper:
             page.close()
         
         return prices
+
+    def _extract_price(self, text):
+        try:
+            if '$' in text:
+                parts = text.split('$')
+                price_part = parts[-1].strip()
+                match = re.search(r'(\d+)', price_part)
+                if match:
+                    return int(match.group(1))
+        except:
+            pass
+        return 0
 
 class SinyaScraper:
     def __init__(self, browser):
@@ -361,19 +371,23 @@ class SinyaScraper:
         )
         page = context.new_page()
         
+        # Block unnecessary resources to speed up and reduce timeout chance
+        page.route("**/*", lambda route: route.abort() if route.request.resource_type in ["image", "media", "font", "stylesheet"] else route.continue_())
+
         try:
             for target in TARGETS:
                 keyword = target["model"]
                 search_link = f"{self.search_base_url}?q={requests.utils.quote(keyword)}"
                 
                 try:
-                    page.goto(search_link)
+                    # Use domcontentloaded for faster "ready" state
+                    page.goto(search_link, timeout=30000, wait_until="domcontentloaded")
                     try:
                         page.wait_for_selector(".prod_price, .price", timeout=8000)
                     except:
                         pass
                     
-                    page.wait_for_timeout(3000)
+                    page.wait_for_timeout(2000)
 
                     price_locator = page.locator(".prod_price, .price").first
                     name_locator = page.locator(".prod_name").first
