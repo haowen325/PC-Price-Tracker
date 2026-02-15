@@ -51,23 +51,43 @@ def fetch_market_data():
     # CMCU.L? Or just use HG=F (Comex) as proxy. 
     # Stainless: 'Ni=F' (Nickel). 
     
-    tickers = ["HG=F", "TWD=X", "Ni=F"] 
+    tickers = ["CPER", "TWD=X", "JJN"] 
     data = yf.download(tickers, period="1d")
     
     try:
         # Get latest Close
-        # Extract scalar values safely
-        hg = float(data["Close"]["HG=F"].iloc[-1])
-        twd = float(data["Close"]["TWD=X"].iloc[-1])
-        ni = float(data["Close"]["Ni=F"].iloc[-1])
+        # Extract scalar values safely 
+        # Note: yfinance returns MultiIndex if multiple tickers.
+        # columns: (Price, Ticker)
+        
+        # Check if data is empty
+        if data.empty:
+            print("No data fetched.")
+            return None
+
+        # Accessing single row DataFrame with MultiIndex columns
+        # We need to handle cases where some tickers might be missing
+        
+        try:
+            hg = float(data["Close"]["CPER"].iloc[-1])
+        except: hg = 0
+        
+        try:
+            twd = float(data["Close"]["TWD=X"].iloc[-1])
+        except: twd = 32.5 # Fallback
+        
+        try:
+            ni = float(data["Close"]["JJN"].iloc[-1])
+        except: ni = 0
         
         # Calc
-        copper_twd_kg = (hg / 0.453592) * twd
-        nickel_twd_kg = (ni / 0.453592) * twd # Rough proxy for index
+        # CPER is ETF price. Just multiply by TWD for a "Index in TWD" value.
+        copper_twd = hg * twd
+        nickel_twd = ni * twd
         
         return {
-            "copper": round(copper_twd_kg, 2),
-            "nickel": round(nickel_twd_kg, 2), # Stainless proxy
+            "copper": round(copper_twd, 2),
+            "nickel": round(nickel_twd, 2), 
             "twd": twd
         }
     except Exception as e:
@@ -124,22 +144,15 @@ def plot_trends(data, filename="metal_trend.png"):
     
     # Plot Copper (Left Axis)
     ax1 = plt.gca()
-    ax1.plot(df["Date"], df["Copper_TWD_Kg"], color="#b87333", label="Copper (TWD/kg)", linewidth=2)
-    ax1.set_ylabel("Copper Price (TWD/kg)", color="#b87333", fontweight="bold")
+    ax1.plot(df["Date"], df["Copper_TWD_Kg"], color="#b87333", label="Copper ETF (TWD)", linewidth=2)
+    ax1.set_ylabel("Copper ETF Value (TWD)", color="#b87333", fontweight="bold")
     ax1.tick_params(axis='y', labelcolor="#b87333")
     
     # Plot Steel/Rebar (Right Axis)
     ax2 = ax1.twinx()
     ax2.plot(df["Date"], df["Steel_Rebar_TWD_Ton"], color="#708090", label="Steel Rebar (TWD/Ton)", linewidth=2, linestyle="--")
-    # Plot Nickel/Stainless Index (Right Axis scale?)
-    # Nickel is expensive (~$7 USD/lb -> ~500 TWD/kg). Rebar is ~17 TWD/kg. 
-    # Scale diff is huge.
-    # Let's normalize or just plot Steel on Right.
-    # Maybe add Nickel to Left axis?
-    # Copper ~ $4.5/lb -> 300 TWD/kg. Nickel ~ $7/lb -> 500 TWD/kg. 
-    # Left axis is okay for both Copper and Nickel (Hundreds). Steel is Thousands (Ton).
     
-    ax1.plot(df["Date"], df["Stainless_Index"], color="#C0C0C0", label="Nickel (Stainless Proxy)", linewidth=2, linestyle="-.")
+    ax1.plot(df["Date"], df["Stainless_Index"], color="#C0C0C0", label="Nickel ETF (Stainless Proxy)", linewidth=2, linestyle="-.")
     
     ax1.set_xlabel("Date")
     ax1.grid(True, linestyle=":", alpha=0.6)
@@ -149,7 +162,7 @@ def plot_trends(data, filename="metal_trend.png"):
     lines2, labels2 = ax2.get_legend_handles_labels()
     ax1.legend(lines + lines2, labels + labels2, loc="upper left")
     
-    plt.title("Metal Price Trends (Copper / Nickel / Steel)")
+    plt.title("Metal Price Trends (Copper ETF / Nickel ETF / Steel)")
     plt.tight_layout()
     plt.savefig(filename)
     plt.close()
@@ -207,8 +220,8 @@ def send_line_notify(market_data, image_url):
                     "type": "box",
                     "layout": "horizontal",
                     "contents": [
-                        {"type": "text", "text": "銅價 (Copper)", "size": "sm", "color": "#888888", "flex": 1},
-                        {"type": "text", "text": f"${market_data['copper']}/kg", "size": "md", "color": "#b87333", "weight": "bold", "align": "end"}
+                        {"type": "text", "text": "銅價 (Copper ETF)", "size": "sm", "color": "#888888", "flex": 1},
+                        {"type": "text", "text": f"${market_data['copper']}", "size": "md", "color": "#b87333", "weight": "bold", "align": "end"}
                     ]
                 },
                 {
@@ -216,8 +229,8 @@ def send_line_notify(market_data, image_url):
                     "layout": "horizontal",
                     "margin": "md",
                     "contents": [
-                        {"type": "text", "text": "鎳價 (Stainless)", "size": "sm", "color": "#888888", "flex": 1},
-                        {"type": "text", "text": f"${market_data['nickel']}/kg", "size": "md", "color": "#111111", "weight": "bold", "align": "end"}
+                        {"type": "text", "text": "鎳價 (Nickel ETF)", "size": "sm", "color": "#888888", "flex": 1},
+                        {"type": "text", "text": f"${market_data['nickel']}", "size": "md", "color": "#111111", "weight": "bold", "align": "end"}
                     ]
                 },
                  {

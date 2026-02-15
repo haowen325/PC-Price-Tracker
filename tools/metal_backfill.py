@@ -53,7 +53,7 @@ def backfill():
     end_date = datetime.now()
     start_date = end_date - timedelta(days=90)
     
-    tickets = ["HG=F", "TWD=X"] # Copper Futures, USD/TWD
+    tickets = ["CPER", "TWD=X", "JJN"] # Copper ETF, USD/TWD, Nickel ETN
     # Yahoo Finance might not have LME Nickel easily accessible as 'Ni=F' sometimes lags or is delayed.
     # Let's try 'CMCU.L' (Copper) or just Futures. 'HG=F' is COMEX Copper (High Grade). Good proxy.
     
@@ -79,32 +79,27 @@ def backfill():
         # Get market data
         try:
             # yfinance returns MultiIndex columns if multiple tickers
-            hg_price = df.loc[d_str]["HG=F"] if d_str in df.index else None
-            twd_rate = df.loc[d_str]["TWD=X"] if d_str in df.index else None # USD to TWD
+            hg_price = df.loc[d_str]["CPER"] if d_str in df.index else None
+            twd_rate = df.loc[d_str]["TWD=X"] if d_str in df.index else None
+            ni_price = df.loc[d_str]["JJN"] if d_str in df.index else None
             
             # Forward fill if missing (market closed)
-            if pd.isna(hg_price):
-                 # Simple forward fill logic in loop is hard, rely on pandas ffill later?
-                 # Let's just skip weekends for now or use last known.
-                 pass
+            if pd.isna(hg_price): hg_price = None
+            if pd.isna(twd_rate): twd_rate = None
+            if pd.isna(ni_price): ni_price = None
+            
         except:
              hg_price = None
              twd_rate = None
+             ni_price = None
 
-        if hg_price is not None and not pd.isna(hg_price) and twd_rate is not None and not pd.isna(twd_rate):
-             # Convert LME/Comex Copper (lbs) to TWD/Kg approx
-             price_usd_lb = float(hg_price)
-             price_usd_kg = price_usd_lb / 0.453592
-             price_twd_kg = price_usd_kg * float(twd_rate)
-             
-             # Nickel Backfill (Approximate)
-             # If Ni=F fails, user can manually adjust. For now, assume a placeholder or valid if fetched.
-             # We didn't fetch Nickel in the script above yet. Let's adding it or just plotting Copper/Steel first.
-             # User asked for Stainless.
+        if hg_price is not None and twd_rate is not None:
+             copper_twd = float(hg_price) * float(twd_rate)
+             nickel_twd = float(ni_price) * float(twd_rate) if ni_price else 0
              
              records.append([
                  d_str,
-                 round(price_twd_kg, 2),
+                 round(copper_twd, 2),
                  current_rebar,
                  0 # Stainless placeholder
              ])
