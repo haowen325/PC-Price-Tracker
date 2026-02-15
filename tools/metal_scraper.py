@@ -35,6 +35,9 @@ def get_google_sheet():
         return None
 
     try:
+        if not json_str.strip():
+             print("GSPREAD_JSON is empty.")
+             return None
         creds_dict = json.loads(json_str)
         gc = gspread.service_account_from_dict(creds_dict)
         sheet = gc.open_by_url(sheet_url)
@@ -216,11 +219,11 @@ def send_line_notify(market_data, image_url):
         },
         "hero": {
             "type": "image",
-            "url": image_url,
+            "url": image_url if image_url else "https://img.icons8.com/color/48/average-2.png", # Fallback icon
             "size": "full",
             "aspectRatio": "20:13",
             "aspectMode": "cover",
-            "action": {"type": "uri", "uri": image_url}
+            "action": {"type": "uri", "uri": image_url if image_url else "https://finance.yahoo.com/quote/CPER"}
         },
         "body": {
             "type": "box",

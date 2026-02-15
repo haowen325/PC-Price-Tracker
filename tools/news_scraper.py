@@ -56,14 +56,17 @@ def fetch_news(query, limit=3):
         if published_parsed:
             date_str = datetime(*published_parsed[:6]).strftime("%m/%d %H:%M")
             
+        link = entry.link
+        if len(link) > 1000:
+            print(f"Link too long ({len(link)}), using base URL.")
+            link = "https://news.google.com"
+
         news_items.append({
             "title": entry.title,
-            "link": entry.link,
+            "link": link,
             "date": date_str,
             "source": entry.source.title if hasattr(entry, "source") else ""
         })
-    return news_items
-
     return news_items
 
 def deduplicate_news(items, threshold=0.8):
