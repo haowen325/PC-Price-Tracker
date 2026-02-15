@@ -88,7 +88,7 @@ class LineBotNotifier:
         self.user_id = user_id
         self.api_url = "https://api.line.me/v2/bot/message/push"
 
-    def send_report(self, date_str, coolpc_total, sinya_total, coolpc_prices, sinya_prices, image_url=None, sheet_url=None):
+    def send_report(self, date_str, total_price, image_url=None, sheet_url=None, price_diff=0):
         if not self.access_token or not self.user_id:
             print("LINE Messaging API credentials not set.")
             return
@@ -139,7 +139,7 @@ class LineBotNotifier:
                     },
                     {
                         "type": "text",
-                        "text": f"原價屋: ${coolpc_total:,}",
+                        "text": f"原價屋: ${total_price:,}",
                         "weight": "bold",
                         "size": "xl",
                         "margin": "md"
@@ -190,7 +190,7 @@ class LineBotNotifier:
 
         message_payload = {
             "type": "flex",
-            "altText": f"今日顯卡價格: ${coolpc_total:,} {diff_text}",
+            "altText": f"今日顯卡價格: ${total_price:,} {diff_text}",
             "contents": contents
         }
 
@@ -206,7 +206,7 @@ class LineBotNotifier:
             else:
                 print(f"Error sending LINE message: {response.status_code} - {response.text}")
                 # Fallback to Text Message
-                text_msg = f"{title}\n原價屋: ${coolpc_total:,}\n請查看 Sheet 了解詳情。"
+                text_msg = f"{title}\n原價屋: ${total_price:,}\n請查看 Sheet 了解詳情。"
                 fallback_data = {
                     "to": self.user_id,
                     "messages": [{"type": "text", "text": text_msg}]

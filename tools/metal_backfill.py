@@ -53,9 +53,7 @@ def backfill():
     end_date = datetime.now()
     start_date = end_date - timedelta(days=90)
     
-    tickets = ["CPER", "TWD=X", "JJN"] # Copper ETF, USD/TWD, Nickel ETN
-    # Yahoo Finance might not have LME Nickel easily accessible as 'Ni=F' sometimes lags or is delayed.
-    # Let's try 'CMCU.L' (Copper) or just Futures. 'HG=F' is COMEX Copper (High Grade). Good proxy.
+    tickets = ["CPER", "TWD=X"] # Copper ETF, USD/TWD
     
     df = yf.download(tickets, start=start_date, end=end_date)["Close"]
     
@@ -81,21 +79,17 @@ def backfill():
             # yfinance returns MultiIndex columns if multiple tickers
             hg_price = df.loc[d_str]["CPER"] if d_str in df.index else None
             twd_rate = df.loc[d_str]["TWD=X"] if d_str in df.index else None
-            ni_price = df.loc[d_str]["JJN"] if d_str in df.index else None
             
             # Forward fill if missing (market closed)
             if pd.isna(hg_price): hg_price = None
             if pd.isna(twd_rate): twd_rate = None
-            if pd.isna(ni_price): ni_price = None
             
         except:
              hg_price = None
              twd_rate = None
-             ni_price = None
 
         if hg_price is not None and twd_rate is not None:
              copper_twd = float(hg_price) * float(twd_rate)
-             nickel_twd = float(ni_price) * float(twd_rate) if ni_price else 0
              
              records.append([
                  d_str,

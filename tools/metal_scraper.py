@@ -51,43 +51,35 @@ def fetch_market_data():
     # CMCU.L? Or just use HG=F (Comex) as proxy. 
     # Stainless: 'Ni=F' (Nickel). 
     
-    tickers = ["CPER", "TWD=X", "JJN"] 
-    data = yf.download(tickers, period="1d")
+    tickers = ["CPER", "TWD=X"] 
+    # Fetch 5 days to ensure we get a valid close price even on weekends
+    data = yf.download(tickers, period="5d")
     
     try:
-        # Get latest Close
-        # Extract scalar values safely 
-        # Note: yfinance returns MultiIndex if multiple tickers.
-        # columns: (Price, Ticker)
-        
-        # Check if data is empty
         if data.empty:
             print("No data fetched.")
             return None
 
-        # Accessing single row DataFrame with MultiIndex columns
-        # We need to handle cases where some tickers might be missing
+        # Helper to get last valid float
+        def get_last_valid(series):
+            # dropna and get last
+            valid = series.dropna()
+            if valid.empty: return 0.0
+            val = float(valid.iloc[-1])
+            import math
+            if math.isnan(val) or math.isinf(val): return 0.0
+            return val
+            
+        hg = get_last_valid(data["Close"]["CPER"])
+        twd = get_last_valid(data["Close"]["TWD=X"])
         
-        try:
-            hg = float(data["Close"]["CPER"].iloc[-1])
-        except: hg = 0
+        if twd == 0: twd = 32.5 # Fallback
         
-        try:
-            twd = float(data["Close"]["TWD=X"].iloc[-1])
-        except: twd = 32.5 # Fallback
-        
-        try:
-            ni = float(data["Close"]["JJN"].iloc[-1])
-        except: ni = 0
-        
-        # Calc
-        # CPER is ETF price. Just multiply by TWD for a "Index in TWD" value.
         copper_twd = hg * twd
-        nickel_twd = ni * twd
         
         return {
             "copper": round(copper_twd, 2),
-            "nickel": round(nickel_twd, 2), 
+            "nickel": 0, 
             "twd": twd
         }
     except Exception as e:
