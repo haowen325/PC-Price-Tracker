@@ -51,7 +51,14 @@ def fetch_market_data():
     # CMCU.L? Or just use HG=F (Comex) as proxy. 
     # Stainless: 'Ni=F' (Nickel). 
     
-    tickers = ["CPER", "TWD=X"] 
+    # Tickers:
+    # CPER: Copper ETF
+    # TWD=X: USD/TWD
+    # 2002.TW: China Steel (中鋼)
+    # 2015.TW: Feng Hsin (豐興) - Rebar/Scrap proxy
+    # 2027.TW: Da Cheng Steel (大成鋼) - Stainless proxy
+    
+    tickers = ["CPER", "TWD=X", "2002.TW", "2015.TW", "2027.TW"] 
     # Fetch 5 days to ensure we get a valid close price even on weekends
     data = yf.download(tickers, period="5d")
     
@@ -72,14 +79,25 @@ def fetch_market_data():
             
         hg = get_last_valid(data["Close"]["CPER"])
         twd = get_last_valid(data["Close"]["TWD=X"])
+        china_steel = get_last_valid(data["Close"]["2002.TW"])
+        feng_hsin = get_last_valid(data["Close"]["2015.TW"])
+        da_cheng = get_last_valid(data["Close"]["2027.TW"])
         
         if twd == 0: twd = 32.5 # Fallback
         
         copper_twd = hg * twd
         
+        # Manual Reference Prices (updated 2026-02-16 from news)
+        # Feng Hsin: Rebar 16,900, Scrap 8,600
+        
         return {
             "copper": round(copper_twd, 2),
-            "nickel": 0, 
+            "nickel": 0, # Still no reliable source, using Da Cheng as proxy in UI
+            "china_steel": china_steel,
+            "feng_hsin": feng_hsin,
+            "da_cheng": da_cheng, # Stainless Proxy
+            "rebar_ref": 16900,
+            "scrap_ref": 8600,
             "twd": twd
         }
     except Exception as e:
@@ -221,8 +239,8 @@ def send_line_notify(market_data, image_url):
                     "layout": "horizontal",
                     "margin": "md",
                     "contents": [
-                        {"type": "text", "text": "鎳價 (Nickel ETF)", "size": "sm", "color": "#888888", "flex": 1},
-                        {"type": "text", "text": f"${market_data['nickel']}", "size": "md", "color": "#111111", "weight": "bold", "align": "end"}
+                        {"type": "text", "text": "中鋼 (2002.TW)", "size": "sm", "color": "#888888", "flex": 1},
+                        {"type": "text", "text": f"${market_data['china_steel']}", "size": "md", "color": "#434b57", "weight": "bold", "align": "end"}
                     ]
                 },
                  {
@@ -230,8 +248,30 @@ def send_line_notify(market_data, image_url):
                     "layout": "horizontal",
                     "margin": "md",
                     "contents": [
-                        {"type": "text", "text": "鋼筋 (Rebar)", "size": "sm", "color": "#888888", "flex": 1},
-                        {"type": "text", "text": f"${market_data.get('rebar', 16900)}/T", "size": "md", "color": "#434b57", "weight": "bold", "align": "end"}
+                        {"type": "text", "text": "豐興 (2015.TW)", "size": "sm", "color": "#888888", "flex": 1},
+                        {"type": "text", "text": f"${market_data['feng_hsin']}", "size": "md", "color": "#434b57", "weight": "bold", "align": "end"}
+                    ]
+                },
+                 {
+                    "type": "box",
+                    "layout": "horizontal",
+                    "margin": "md",
+                    "contents": [
+                        {"type": "text", "text": "大成鋼 (2027.TW)", "size": "sm", "color": "#888888", "flex": 1},
+                        {"type": "text", "text": f"${market_data['da_cheng']}", "size": "md", "color": "#C0C0C0", "weight": "bold", "align": "end"}
+                    ]
+                },
+                {
+                    "type": "separator",
+                    "margin": "md"
+                },
+                 {
+                    "type": "box",
+                    "layout": "horizontal",
+                    "margin": "md",
+                    "contents": [
+                        {"type": "text", "text": "參考: 鋼筋/廢鐵 (盤價)", "size": "xxs", "color": "#aaaaaa", "flex": 1},
+                         {"type": "text", "text": f"${market_data['rebar_ref']} / ${market_data['scrap_ref']}", "size": "xs", "color": "#aaaaaa", "align": "end"}
                     ]
                 }
             ]

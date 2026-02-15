@@ -83,6 +83,9 @@ class LineBotNotifier:
             query = cat_data["query"]
             items = all_news.get(category, [])
             
+            # Deduplicate news items for the current category
+            items = deduplicate_news(items)
+            
             if not items:
                 continue
                 
