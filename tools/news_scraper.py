@@ -1,5 +1,6 @@
 
 import feedparser
+import difflib
 import os
 import json
 import requests
@@ -62,6 +63,27 @@ def fetch_news(query, limit=3):
             "source": entry.source.title if hasattr(entry, "source") else ""
         })
     return news_items
+
+    return news_items
+
+def deduplicate_news(items, threshold=0.8):
+    unique_items = []
+    seen_titles = []
+    
+    for item in items:
+        is_duplicate = False
+        for seen in seen_titles:
+            # Check similarity
+            ratio = difflib.SequenceMatcher(None, item['title'], seen).ratio()
+            if ratio > threshold:
+                is_duplicate = True
+                break
+        
+        if not is_duplicate:
+            unique_items.append(item)
+            seen_titles.append(item['title'])
+            
+    return unique_items
 
 class LineBotNotifier:
     def __init__(self, access_token, user_id):
