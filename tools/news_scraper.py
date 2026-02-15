@@ -13,23 +13,38 @@ CATEGORIES = [
     {
         "name": "AI 科技",
         "query": "AI OR 人工智慧",
-        "limit": 3
+    },
+    {
+        "name": "AI 工具",
+        "query": "AI工具 OR ChatGPT OR Gemini OR Claude",
     },
     {
         "name": "機械板金",
         "query": "機械板金 OR 鈑金 OR 工具機 OR 雷射切割",
-        "limit": 3
+    },
+    {
+        "name": "半導體",
+        "query": "半導體 OR TSMC OR 台積電",
+    },
+    {
+        "name": "電動車",
+        "query": "電動車 OR EV OR Tesla",
+    },
+    {
+        "name": "體育賽事",
+        "query": "體育 OR 運動 OR NBA OR MLB",
     },
     {
         "name": "台灣焦點",
         "query": "台灣",
-        "limit": 3
     }
 ]
 
 def fetch_news(query, limit=3):
     """Fetches news from Google News RSS."""
-    encoded_query = quote(query)
+    # Use quote_plus to ensure spaces are handled correctly for URLs
+    from urllib.parse import quote_plus
+    encoded_query = quote_plus(query)
     url = RSS_BASE_URL.format(query=encoded_query)
     feed = feedparser.parse(url)
     
@@ -61,7 +76,13 @@ class LineBotNotifier:
 
         bubbles = []
         
-        for category, items in all_news.items():
+        from urllib.parse import quote_plus
+
+        for cat_data in CATEGORIES:
+            category = cat_data["name"]
+            query = cat_data["query"]
+            items = all_news.get(category, [])
+            
             if not items:
                 continue
                 
@@ -111,13 +132,25 @@ class LineBotNotifier:
             # Remove last separator
             if content_contents:
                 content_contents.pop()
+            
+            # Category Color Coding
+            header_color = "#00B900" # Default Green
+            if "AI" in category: header_color = "#00B900"
+            elif "板金" in category or "機械" in category: header_color = "#1E90FF" # Blue
+            elif "半導體" in category: header_color = "#8A2BE2" # Purple
+            elif "電動車" in category: header_color = "#FF4500" # OrangeRed
+            elif "體育" in category: header_color = "#FFD700" # Gold
+            elif "台灣" in category: header_color = "#FF8C00" # DarkOrange
+
+            # Search URL for "View More"
+            search_url = f"https://news.google.com/search?q={quote_plus(query)}&hl=zh-TW&gl=TW&ceid=TW:zh-Hant"
 
             bubble = {
                 "type": "bubble",
                 "header": {
                     "type": "box",
                     "layout": "vertical",
-                    "backgroundColor": "#00B900" if category == "AI 科技" else ("#1E90FF" if category == "機械板金" else "#FF8C00"),
+                    "backgroundColor": header_color,
                     "contents": [
                         {
                             "type": "text",
@@ -132,6 +165,24 @@ class LineBotNotifier:
                     "type": "box",
                     "layout": "vertical",
                     "contents": content_contents
+                },
+                "footer": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "spacing": "sm",
+                    "contents": [
+                        {
+                            "type": "button",
+                            "style": "link",
+                            "height": "sm",
+                            "action": {
+                                "type": "uri",
+                                "label": "查看更多相關新聞 >",
+                                "uri": search_url
+                            }
+                        }
+                    ],
+                    "flex": 0
                 }
             }
             bubbles.append(bubble)
@@ -173,7 +224,8 @@ def main():
     
     for cat in CATEGORIES:
         print(f"Searching for {cat['name']}...")
-        items = fetch_news(cat['query'], cat['limit'])
+        # Default limit 3
+        items = fetch_news(cat['query'], 3)
         all_news[cat['name']] = items
         print(f"Found {len(items)} items.")
 
