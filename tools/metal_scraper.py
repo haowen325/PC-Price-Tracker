@@ -34,11 +34,19 @@ def get_google_sheet():
         print("Missing secrets")
         return None
 
+
     try:
         if not json_str.strip():
              print("GSPREAD_JSON is empty.")
              return None
-        creds_dict = json.loads(json_str)
+        
+        # Check if it's a file path
+        if os.path.exists(json_str):
+            with open(json_str, "r", encoding="utf-8") as f:
+                creds_dict = json.load(f)
+        else:
+            creds_dict = json.loads(json_str)
+            
         gc = gspread.service_account_from_dict(creds_dict)
         sheet = gc.open_by_url(sheet_url)
         return sheet
@@ -159,8 +167,19 @@ def update_sheet_and_get_history(market_data):
 def plot_trends(data, filename="metal_trend.png"):
     if not data: return None
     
+    
     df = pd.DataFrame(data)
     df["Date"] = pd.to_datetime(df["Date"])
+    
+    # Force convert to numeric, coercing errors to NaN
+    cols_to_numeric = ["Copper_TWD_Kg", "Steel_Rebar_TWD_Ton", "Stainless_Index", "China_Steel_Price", "Feng_Hsin_Price"]
+    for col in cols_to_numeric:
+        if col in df.columns:
+            df[col] = pd.to_numeric(df[col], errors='coerce')
+    
+    # Drop rows where critical data is NaN if needed, or just fillna?
+    # Matplotlib handles NaN gracefully (breaks line), which is what we want.
+
     
     # Enable Chinese Font (Windows)
     import platform
