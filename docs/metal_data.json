@@ -1,522 +1,4442 @@
 [
   {
+    "Date": "2024-01-01",
+    "Copper_TWD_Kg": 0.0,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 0.0,
+    "China_Steel_Price": 0.0,
+    "Feng_Hsin_Price": 0.0
+  },
+  {
+    "Date": "2024-01-02",
+    "Copper_TWD_Kg": 734.51,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 37.143455505371094,
+    "China_Steel_Price": 26.15302848815918,
+    "Feng_Hsin_Price": 63.12373733520508
+  },
+  {
+    "Date": "2024-01-03",
+    "Copper_TWD_Kg": 739.86,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.76874542236328,
+    "China_Steel_Price": 25.86244010925293,
+    "Feng_Hsin_Price": 62.12752151489258
+  },
+  {
+    "Date": "2024-01-04",
+    "Copper_TWD_Kg": 741.9,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.62822341918945,
+    "China_Steel_Price": 25.86244010925293,
+    "Feng_Hsin_Price": 62.489784240722656
+  },
+  {
+    "Date": "2024-01-05",
+    "Copper_TWD_Kg": 734.43,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.5345458984375,
+    "China_Steel_Price": 25.86244010925293,
+    "Feng_Hsin_Price": 62.03696060180664
+  },
+  {
+    "Date": "2024-01-08",
+    "Copper_TWD_Kg": 735.11,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.487709045410156,
+    "China_Steel_Price": 25.668712615966797,
+    "Feng_Hsin_Price": 61.765262603759766
+  },
+  {
+    "Date": "2024-01-09",
+    "Copper_TWD_Kg": 717.03,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.87879943847656,
+    "China_Steel_Price": 25.184396743774414,
+    "Feng_Hsin_Price": 61.131309509277344
+  },
+  {
+    "Date": "2024-01-10",
+    "Copper_TWD_Kg": 731.49,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.129371643066406,
+    "China_Steel_Price": 25.03910255432129,
+    "Feng_Hsin_Price": 60.587921142578125
+  },
+  {
+    "Date": "2024-01-11",
+    "Copper_TWD_Kg": 731.89,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.03569793701172,
+    "China_Steel_Price": 24.990671157836914,
+    "Feng_Hsin_Price": 60.67848587036133
+  },
+  {
+    "Date": "2024-01-12",
+    "Copper_TWD_Kg": 718.29,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.129371643066406,
+    "China_Steel_Price": 24.990671157836914,
+    "Feng_Hsin_Price": 60.95018005371094
+  },
+  {
+    "Date": "2024-01-15",
+    "Copper_TWD_Kg": 0.0,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.03569793701172,
+    "China_Steel_Price": 24.990671157836914,
+    "Feng_Hsin_Price": 60.67848587036133
+  },
+  {
+    "Date": "2024-01-16",
+    "Copper_TWD_Kg": 729.96,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.70781707763672,
+    "China_Steel_Price": 24.409494400024414,
+    "Feng_Hsin_Price": 60.044532775878906
+  },
+  {
+    "Date": "2024-01-17",
+    "Copper_TWD_Kg": 731.71,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.192588806152344,
+    "China_Steel_Price": 24.02203941345215,
+    "Feng_Hsin_Price": 60.49735641479492
+  },
+  {
+    "Date": "2024-01-18",
+    "Copper_TWD_Kg": 738.41,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.2862663269043,
+    "China_Steel_Price": 24.02203941345215,
+    "Feng_Hsin_Price": 60.13509750366211
+  },
+  {
+    "Date": "2024-01-19",
+    "Copper_TWD_Kg": 745.62,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.2862663269043,
+    "China_Steel_Price": 23.876745223999023,
+    "Feng_Hsin_Price": 60.13509750366211
+  },
+  {
+    "Date": "2024-01-22",
+    "Copper_TWD_Kg": 731.56,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.379947662353516,
+    "China_Steel_Price": 23.973609924316406,
+    "Feng_Hsin_Price": 61.04074478149414
+  },
+  {
+    "Date": "2024-01-23",
+    "Copper_TWD_Kg": 743.42,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.660980224609375,
+    "China_Steel_Price": 24.02203941345215,
+    "Feng_Hsin_Price": 61.493568420410156
+  },
+  {
+    "Date": "2024-01-24",
+    "Copper_TWD_Kg": 756.62,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.895179748535156,
+    "China_Steel_Price": 24.36106300354004,
+    "Feng_Hsin_Price": 60.67848587036133
+  },
+  {
+    "Date": "2024-01-25",
+    "Copper_TWD_Kg": 752.89,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.84833526611328,
+    "China_Steel_Price": 24.31262969970703,
+    "Feng_Hsin_Price": 61.765262603759766
+  },
+  {
+    "Date": "2024-01-26",
+    "Copper_TWD_Kg": 752.19,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.9420166015625,
+    "China_Steel_Price": 24.45792579650879,
+    "Feng_Hsin_Price": 62.03696060180664
+  },
+  {
+    "Date": "2024-01-29",
+    "Copper_TWD_Kg": 754.93,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.03569793701172,
+    "China_Steel_Price": 24.65165138244629,
+    "Feng_Hsin_Price": 61.9463996887207
+  },
+  {
+    "Date": "2024-01-30",
+    "Copper_TWD_Kg": 759.98,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.61414337158203,
+    "China_Steel_Price": 24.264198303222656,
+    "Feng_Hsin_Price": 61.58413314819336
+  },
+  {
+    "Date": "2024-01-31",
+    "Copper_TWD_Kg": 753.74,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.75465774536133,
+    "China_Steel_Price": 24.36106300354004,
+    "Feng_Hsin_Price": 61.493568420410156
+  },
+  {
+    "Date": "2024-02-01",
+    "Copper_TWD_Kg": 748.32,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.660980224609375,
+    "China_Steel_Price": 24.45792579650879,
+    "Feng_Hsin_Price": 62.03696060180664
+  },
+  {
+    "Date": "2024-02-02",
+    "Copper_TWD_Kg": 743.06,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.47362518310547,
+    "China_Steel_Price": 24.36106300354004,
+    "Feng_Hsin_Price": 61.8558349609375
+  },
+  {
+    "Date": "2024-02-05",
+    "Copper_TWD_Kg": 736.16,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.05207061767578,
+    "China_Steel_Price": 24.070472717285156,
+    "Feng_Hsin_Price": 61.31243896484375
+  },
+  {
+    "Date": "2024-02-06",
+    "Copper_TWD_Kg": 739.0,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 0.0,
+    "China_Steel_Price": 0.0,
+    "Feng_Hsin_Price": 0.0
+  },
+  {
+    "Date": "2024-02-07",
+    "Copper_TWD_Kg": 726.69,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 0.0,
+    "China_Steel_Price": 0.0,
+    "Feng_Hsin_Price": 0.0
+  },
+  {
+    "Date": "2024-02-08",
+    "Copper_TWD_Kg": 724.57,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 0.0,
+    "China_Steel_Price": 0.0,
+    "Feng_Hsin_Price": 0.0
+  },
+  {
+    "Date": "2024-02-09",
+    "Copper_TWD_Kg": 718.41,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 0.0,
+    "China_Steel_Price": 0.0,
+    "Feng_Hsin_Price": 0.0
+  },
+  {
+    "Date": "2024-02-12",
+    "Copper_TWD_Kg": 726.79,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 0.0,
+    "China_Steel_Price": 0.0,
+    "Feng_Hsin_Price": 0.0
+  },
+  {
+    "Date": "2024-02-13",
+    "Copper_TWD_Kg": 721.82,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 0.0,
+    "China_Steel_Price": 0.0,
+    "Feng_Hsin_Price": 0.0
+  },
+  {
+    "Date": "2024-02-14",
+    "Copper_TWD_Kg": 724.72,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 0.0,
+    "China_Steel_Price": 0.0,
+    "Feng_Hsin_Price": 0.0
+  },
+  {
+    "Date": "2024-02-15",
+    "Copper_TWD_Kg": 732.85,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.911556243896484,
+    "China_Steel_Price": 23.82831573486328,
+    "Feng_Hsin_Price": 62.58034896850586
+  },
+  {
+    "Date": "2024-02-16",
+    "Copper_TWD_Kg": 745.3,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.00523376464844,
+    "China_Steel_Price": 24.1189022064209,
+    "Feng_Hsin_Price": 62.85204315185547
+  },
+  {
+    "Date": "2024-02-19",
+    "Copper_TWD_Kg": 0.0,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.42678451538086,
+    "China_Steel_Price": 24.603219985961914,
+    "Feng_Hsin_Price": 63.39543151855469
+  },
+  {
+    "Date": "2024-02-20",
+    "Copper_TWD_Kg": 754.91,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.09891128540039,
+    "China_Steel_Price": 24.50635528564453,
+    "Feng_Hsin_Price": 62.67091369628906
+  },
+  {
+    "Date": "2024-02-21",
+    "Copper_TWD_Kg": 757.46,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.00523376464844,
+    "China_Steel_Price": 24.45792579650879,
+    "Feng_Hsin_Price": 62.67091369628906
+  },
+  {
+    "Date": "2024-02-22",
+    "Copper_TWD_Kg": 763.97,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.145748138427734,
+    "China_Steel_Price": 24.36106300354004,
+    "Feng_Hsin_Price": 62.489784240722656
+  },
+  {
+    "Date": "2024-02-23",
+    "Copper_TWD_Kg": 758.99,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.911556243896484,
+    "China_Steel_Price": 24.21576690673828,
+    "Feng_Hsin_Price": 62.30865478515625
+  },
+  {
+    "Date": "2024-02-26",
+    "Copper_TWD_Kg": 752.76,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.86471939086914,
+    "China_Steel_Price": 24.1189022064209,
+    "Feng_Hsin_Price": 62.489784240722656
+  },
+  {
+    "Date": "2024-02-27",
+    "Copper_TWD_Kg": 756.54,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.53683853149414,
+    "China_Steel_Price": 23.876745223999023,
+    "Feng_Hsin_Price": 62.30865478515625
+  },
+  {
+    "Date": "2024-02-28",
+    "Copper_TWD_Kg": 753.72,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 0.0,
+    "China_Steel_Price": 0.0,
+    "Feng_Hsin_Price": 0.0
+  },
+  {
+    "Date": "2024-02-29",
+    "Copper_TWD_Kg": 756.07,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.63051986694336,
+    "China_Steel_Price": 23.82831573486328,
+    "Feng_Hsin_Price": 61.765262603759766
+  },
+  {
+    "Date": "2024-03-01",
+    "Copper_TWD_Kg": 759.07,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.77103805541992,
+    "China_Steel_Price": 23.683021545410156,
+    "Feng_Hsin_Price": 62.489784240722656
+  },
+  {
+    "Date": "2024-03-04",
+    "Copper_TWD_Kg": 758.05,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.58367919921875,
+    "China_Steel_Price": 23.44086456298828,
+    "Feng_Hsin_Price": 62.85204315185547
+  },
+  {
+    "Date": "2024-03-05",
+    "Copper_TWD_Kg": 754.02,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.72420120239258,
+    "China_Steel_Price": 23.29556655883789,
+    "Feng_Hsin_Price": 63.12373733520508
+  },
+  {
+    "Date": "2024-03-06",
+    "Copper_TWD_Kg": 759.18,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.77103805541992,
+    "China_Steel_Price": 23.29556655883789,
+    "Feng_Hsin_Price": 63.39543151855469
+  },
+  {
+    "Date": "2024-03-07",
+    "Copper_TWD_Kg": 769.29,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.58367919921875,
+    "China_Steel_Price": 23.198705673217773,
+    "Feng_Hsin_Price": 63.8482551574707
+  },
+  {
+    "Date": "2024-03-08",
+    "Copper_TWD_Kg": 762.29,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.20896911621094,
+    "China_Steel_Price": 23.3439998626709,
+    "Feng_Hsin_Price": 64.84447479248047
+  },
+  {
+    "Date": "2024-03-11",
+    "Copper_TWD_Kg": 770.28,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.349483489990234,
+    "China_Steel_Price": 23.29556655883789,
+    "Feng_Hsin_Price": 64.84447479248047
+  },
+  {
+    "Date": "2024-03-12",
+    "Copper_TWD_Kg": 768.69,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.911556243896484,
+    "China_Steel_Price": 23.39242935180664,
+    "Feng_Hsin_Price": 65.20672607421875
+  },
+  {
+    "Date": "2024-03-13",
+    "Copper_TWD_Kg": 793.13,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.44316482543945,
+    "China_Steel_Price": 23.198705673217773,
+    "Feng_Hsin_Price": 65.11616516113281
+  },
+  {
+    "Date": "2024-03-14",
+    "Copper_TWD_Kg": 791.76,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.00523376464844,
+    "China_Steel_Price": 23.29556655883789,
+    "Feng_Hsin_Price": 65.29729461669922
+  },
+  {
+    "Date": "2024-03-15",
+    "Copper_TWD_Kg": 810.53,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.00523376464844,
+    "China_Steel_Price": 23.101842880249023,
+    "Feng_Hsin_Price": 65.20672607421875
+  },
+  {
+    "Date": "2024-03-18",
+    "Copper_TWD_Kg": 814.11,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.63051986694336,
+    "China_Steel_Price": 22.956546783447266,
+    "Feng_Hsin_Price": 64.5727767944336
+  },
+  {
+    "Date": "2024-03-19",
+    "Copper_TWD_Kg": 801.15,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.00523376464844,
+    "China_Steel_Price": 22.90811538696289,
+    "Feng_Hsin_Price": 63.75769805908203
+  },
+  {
+    "Date": "2024-03-20",
+    "Copper_TWD_Kg": 810.08,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.09891128540039,
+    "China_Steel_Price": 22.762821197509766,
+    "Feng_Hsin_Price": 63.8482551574707
+  },
+  {
+    "Date": "2024-03-21",
+    "Copper_TWD_Kg": 806.76,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.80149841308594,
+    "China_Steel_Price": 23.101842880249023,
+    "Feng_Hsin_Price": 63.66713333129883
+  },
+  {
+    "Date": "2024-03-22",
+    "Copper_TWD_Kg": 796.44,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.75465774536133,
+    "China_Steel_Price": 23.198705673217773,
+    "Feng_Hsin_Price": 63.8482551574707
+  },
+  {
+    "Date": "2024-03-25",
+    "Copper_TWD_Kg": 802.53,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.379947662353516,
+    "China_Steel_Price": 23.101842880249023,
+    "Feng_Hsin_Price": 64.11995697021484
+  },
+  {
+    "Date": "2024-03-26",
+    "Copper_TWD_Kg": 793.98,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.145748138427734,
+    "China_Steel_Price": 23.24713706970215,
+    "Feng_Hsin_Price": 64.11995697021484
+  },
+  {
+    "Date": "2024-03-27",
+    "Copper_TWD_Kg": 798.73,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.33311080932617,
+    "China_Steel_Price": 23.150272369384766,
+    "Feng_Hsin_Price": 64.02938079833984
+  },
+  {
+    "Date": "2024-03-28",
+    "Copper_TWD_Kg": 803.32,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.75465774536133,
+    "China_Steel_Price": 23.053409576416016,
+    "Feng_Hsin_Price": 64.21051788330078
+  },
+  {
+    "Date": "2024-03-29",
+    "Copper_TWD_Kg": 0.0,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.23942565917969,
+    "China_Steel_Price": 23.198705673217773,
+    "Feng_Hsin_Price": 64.30108642578125
+  },
+  {
+    "Date": "2024-04-01",
+    "Copper_TWD_Kg": 810.8,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.09891128540039,
+    "China_Steel_Price": 23.24713706970215,
+    "Feng_Hsin_Price": 64.9350357055664
+  },
+  {
+    "Date": "2024-04-02",
+    "Copper_TWD_Kg": 817.34,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.817874908447266,
+    "China_Steel_Price": 23.5377254486084,
+    "Feng_Hsin_Price": 64.84447479248047
+  },
+  {
+    "Date": "2024-04-03",
+    "Copper_TWD_Kg": 844.23,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.817874908447266,
+    "China_Steel_Price": 23.876745223999023,
+    "Feng_Hsin_Price": 66.38407897949219
+  },
+  {
+    "Date": "2024-04-04",
+    "Copper_TWD_Kg": 839.5,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 0.0,
+    "China_Steel_Price": 0.0,
+    "Feng_Hsin_Price": 0.0
+  },
+  {
+    "Date": "2024-04-05",
+    "Copper_TWD_Kg": 850.55,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 0.0,
+    "China_Steel_Price": 0.0,
+    "Feng_Hsin_Price": 0.0
+  },
+  {
+    "Date": "2024-04-08",
+    "Copper_TWD_Kg": 863.15,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.2862663269043,
+    "China_Steel_Price": 24.21576690673828,
+    "Feng_Hsin_Price": 66.38407897949219
+  },
+  {
+    "Date": "2024-04-09",
+    "Copper_TWD_Kg": 862.12,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.129371643066406,
+    "China_Steel_Price": 25.23282814025879,
+    "Feng_Hsin_Price": 66.11238098144531
+  },
+  {
+    "Date": "2024-04-10",
+    "Copper_TWD_Kg": 854.78,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.660980224609375,
+    "China_Steel_Price": 24.796945571899414,
+    "Feng_Hsin_Price": 65.9312515258789
+  },
+  {
+    "Date": "2024-04-11",
+    "Copper_TWD_Kg": 858.32,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.33311080932617,
+    "China_Steel_Price": 24.50635528564453,
+    "Feng_Hsin_Price": 66.12152862548828
+  },
+  {
+    "Date": "2024-04-12",
+    "Copper_TWD_Kg": 860.72,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.192588806152344,
+    "China_Steel_Price": 24.070472717285156,
+    "Feng_Hsin_Price": 65.1701431274414
+  },
+  {
+    "Date": "2024-04-15",
+    "Copper_TWD_Kg": 882.15,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.379947662353516,
+    "China_Steel_Price": 23.779882431030273,
+    "Feng_Hsin_Price": 65.45555877685547
+  },
+  {
+    "Date": "2024-04-16",
+    "Copper_TWD_Kg": 871.58,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.379947662353516,
+    "China_Steel_Price": 23.489294052124023,
+    "Feng_Hsin_Price": 64.5041732788086
+  },
+  {
+    "Date": "2024-04-17",
+    "Copper_TWD_Kg": 883.62,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.61414337158203,
+    "China_Steel_Price": 23.683021545410156,
+    "Feng_Hsin_Price": 64.5041732788086
+  },
+  {
+    "Date": "2024-04-18",
+    "Copper_TWD_Kg": 898.35,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.410404205322266,
+    "China_Steel_Price": 24.02203941345215,
+    "Feng_Hsin_Price": 65.45555877685547
+  },
+  {
+    "Date": "2024-04-19",
+    "Copper_TWD_Kg": 910.89,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.31673049926758,
+    "China_Steel_Price": 23.683021545410156,
+    "Feng_Hsin_Price": 64.59930419921875
+  },
+  {
+    "Date": "2024-04-22",
+    "Copper_TWD_Kg": 913.69,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.22304916381836,
+    "China_Steel_Price": 23.92517852783203,
+    "Feng_Hsin_Price": 65.26527404785156
+  },
+  {
+    "Date": "2024-04-23",
+    "Copper_TWD_Kg": 901.57,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.410404205322266,
+    "China_Steel_Price": 24.070472717285156,
+    "Feng_Hsin_Price": 65.26527404785156
+  },
+  {
+    "Date": "2024-04-24",
+    "Copper_TWD_Kg": 907.82,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.75465774536133,
+    "China_Steel_Price": 23.973609924316406,
+    "Feng_Hsin_Price": 65.26527404785156
+  },
+  {
+    "Date": "2024-04-25",
+    "Copper_TWD_Kg": 925.64,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.33311080932617,
+    "China_Steel_Price": 23.779882431030273,
+    "Feng_Hsin_Price": 65.64583587646484
+  },
+  {
+    "Date": "2024-04-26",
+    "Copper_TWD_Kg": 928.76,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.33311080932617,
+    "China_Steel_Price": 23.779882431030273,
+    "Feng_Hsin_Price": 66.0263900756836
+  },
+  {
+    "Date": "2024-04-29",
+    "Copper_TWD_Kg": 947.14,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.895179748535156,
+    "China_Steel_Price": 24.21576690673828,
+    "Feng_Hsin_Price": 66.7874984741211
+  },
+  {
+    "Date": "2024-04-30",
+    "Copper_TWD_Kg": 918.21,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.47362518310547,
+    "China_Steel_Price": 24.070472717285156,
+    "Feng_Hsin_Price": 66.977783203125
+  },
+  {
+    "Date": "2024-05-01",
+    "Copper_TWD_Kg": 925.58,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 0.0,
+    "China_Steel_Price": 0.0,
+    "Feng_Hsin_Price": 0.0
+  },
+  {
+    "Date": "2024-05-02",
+    "Copper_TWD_Kg": 909.33,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.22304916381836,
+    "China_Steel_Price": 24.16733741760254,
+    "Feng_Hsin_Price": 67.26319122314453
+  },
+  {
+    "Date": "2024-05-03",
+    "Copper_TWD_Kg": 917.66,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.9420166015625,
+    "China_Steel_Price": 24.16733741760254,
+    "Feng_Hsin_Price": 67.35833740234375
+  },
+  {
+    "Date": "2024-05-06",
+    "Copper_TWD_Kg": 926.35,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.80149841308594,
+    "China_Steel_Price": 24.31262969970703,
+    "Feng_Hsin_Price": 67.35833740234375
+  },
+  {
+    "Date": "2024-05-07",
+    "Copper_TWD_Kg": 923.04,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.84833526611328,
+    "China_Steel_Price": 24.1189022064209,
+    "Feng_Hsin_Price": 67.26319122314453
+  },
+  {
+    "Date": "2024-05-08",
+    "Copper_TWD_Kg": 917.19,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.80149841308594,
+    "China_Steel_Price": 23.973609924316406,
+    "Feng_Hsin_Price": 67.26319122314453
+  },
+  {
+    "Date": "2024-05-09",
+    "Copper_TWD_Kg": 923.75,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.33311080932617,
+    "China_Steel_Price": 23.82831573486328,
+    "Feng_Hsin_Price": 66.59722137451172
+  },
+  {
+    "Date": "2024-05-10",
+    "Copper_TWD_Kg": 931.68,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.80149841308594,
+    "China_Steel_Price": 24.02203941345215,
+    "Feng_Hsin_Price": 66.6923599243164
+  },
+  {
+    "Date": "2024-05-13",
+    "Copper_TWD_Kg": 957.16,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.660980224609375,
+    "China_Steel_Price": 24.070472717285156,
+    "Feng_Hsin_Price": 66.7874984741211
+  },
+  {
+    "Date": "2024-05-14",
+    "Copper_TWD_Kg": 960.79,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.61414337158203,
+    "China_Steel_Price": 24.21576690673828,
+    "Feng_Hsin_Price": 66.88264465332031
+  },
+  {
+    "Date": "2024-05-15",
+    "Copper_TWD_Kg": 972.97,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.70781707763672,
+    "China_Steel_Price": 23.973609924316406,
+    "Feng_Hsin_Price": 67.16805267333984
+  },
+  {
+    "Date": "2024-05-16",
+    "Copper_TWD_Kg": 961.26,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.08253479003906,
+    "China_Steel_Price": 24.36106300354004,
+    "Feng_Hsin_Price": 67.73888397216797
+  },
+  {
+    "Date": "2024-05-17",
+    "Copper_TWD_Kg": 1001.94,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.550926208496094,
+    "China_Steel_Price": 24.264198303222656,
+    "Feng_Hsin_Price": 67.73888397216797
+  },
+  {
+    "Date": "2024-05-20",
+    "Copper_TWD_Kg": 1007.7,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 37.51816940307617,
+    "China_Steel_Price": 24.45792579650879,
+    "Feng_Hsin_Price": 68.21458435058594
+  },
+  {
+    "Date": "2024-05-21",
+    "Copper_TWD_Kg": 1010.62,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 37.51816940307617,
+    "China_Steel_Price": 24.1189022064209,
+    "Feng_Hsin_Price": 67.73888397216797
+  },
+  {
+    "Date": "2024-05-22",
+    "Copper_TWD_Kg": 952.86,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.815582275390625,
+    "China_Steel_Price": 23.82831573486328,
+    "Feng_Hsin_Price": 68.11944580078125
+  },
+  {
+    "Date": "2024-05-23",
+    "Copper_TWD_Kg": 942.87,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.86241912841797,
+    "China_Steel_Price": 23.39242935180664,
+    "Feng_Hsin_Price": 67.54861450195312
+  },
+  {
+    "Date": "2024-05-24",
+    "Copper_TWD_Kg": 941.81,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.83195877075195,
+    "China_Steel_Price": 23.24713706970215,
+    "Feng_Hsin_Price": 67.07291412353516
+  },
+  {
+    "Date": "2024-05-27",
+    "Copper_TWD_Kg": 0.0,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.019317626953125,
+    "China_Steel_Price": 23.150272369384766,
+    "Feng_Hsin_Price": 67.16805267333984
+  },
+  {
+    "Date": "2024-05-28",
+    "Copper_TWD_Kg": 958.89,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.738285064697266,
+    "China_Steel_Price": 23.44086456298828,
+    "Feng_Hsin_Price": 68.5
+  },
+  {
+    "Date": "2024-05-29",
+    "Copper_TWD_Kg": 944.3,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.87879943847656,
+    "China_Steel_Price": 23.198705673217773,
+    "Feng_Hsin_Price": 68.11944580078125
+  },
+  {
+    "Date": "2024-05-30",
+    "Copper_TWD_Kg": 925.66,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.550926208496094,
+    "China_Steel_Price": 23.101842880249023,
+    "Feng_Hsin_Price": 67.64374542236328
+  },
+  {
+    "Date": "2024-05-31",
+    "Copper_TWD_Kg": 919.57,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.925636291503906,
+    "China_Steel_Price": 23.004980087280273,
+    "Feng_Hsin_Price": 69.73680877685547
+  },
+  {
+    "Date": "2024-06-03",
+    "Copper_TWD_Kg": 931.75,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.738285064697266,
+    "China_Steel_Price": 23.053409576416016,
+    "Feng_Hsin_Price": 68.02430725097656
+  },
+  {
+    "Date": "2024-06-04",
+    "Copper_TWD_Kg": 902.86,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.410404205322266,
+    "China_Steel_Price": 22.859683990478516,
+    "Feng_Hsin_Price": 68.11944580078125
+  },
+  {
+    "Date": "2024-06-05",
+    "Copper_TWD_Kg": 920.4,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.129371643066406,
+    "China_Steel_Price": 22.81125259399414,
+    "Feng_Hsin_Price": 68.5
+  },
+  {
+    "Date": "2024-06-06",
+    "Copper_TWD_Kg": 926.28,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.5977668762207,
+    "China_Steel_Price": 22.762821197509766,
+    "Feng_Hsin_Price": 68.11944580078125
+  },
+  {
+    "Date": "2024-06-07",
+    "Copper_TWD_Kg": 883.49,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.2066764831543,
+    "China_Steel_Price": 22.956546783447266,
+    "Feng_Hsin_Price": 68.97569274902344
+  },
+  {
+    "Date": "2024-06-10",
+    "Copper_TWD_Kg": 906.69,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 0.0,
+    "China_Steel_Price": 0.0,
+    "Feng_Hsin_Price": 0.0
+  },
+  {
+    "Date": "2024-06-11",
+    "Copper_TWD_Kg": 898.24,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.36356735229492,
+    "China_Steel_Price": 22.61752700805664,
+    "Feng_Hsin_Price": 68.59513854980469
+  },
+  {
+    "Date": "2024-06-12",
+    "Copper_TWD_Kg": 900.96,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.26988983154297,
+    "China_Steel_Price": 22.569095611572266,
+    "Feng_Hsin_Price": 68.97569274902344
+  },
+  {
+    "Date": "2024-06-13",
+    "Copper_TWD_Kg": 889.07,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.80149841308594,
+    "China_Steel_Price": 22.569095611572266,
+    "Feng_Hsin_Price": 68.97569274902344
+  },
+  {
+    "Date": "2024-06-14",
+    "Copper_TWD_Kg": 894.36,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.47362518310547,
+    "China_Steel_Price": 22.52066421508789,
+    "Feng_Hsin_Price": 69.35625457763672
+  },
+  {
+    "Date": "2024-06-17",
+    "Copper_TWD_Kg": 888.3,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.660980224609375,
+    "China_Steel_Price": 22.71438980102539,
+    "Feng_Hsin_Price": 68.97569274902344
+  },
+  {
+    "Date": "2024-06-18",
+    "Copper_TWD_Kg": 894.09,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.56730270385742,
+    "China_Steel_Price": 22.665956497192383,
+    "Feng_Hsin_Price": 69.54652404785156
+  },
+  {
+    "Date": "2024-06-19",
+    "Copper_TWD_Kg": 0.0,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.23942565917969,
+    "China_Steel_Price": 22.762821197509766,
+    "Feng_Hsin_Price": 70.49791717529297
+  },
+  {
+    "Date": "2024-06-20",
+    "Copper_TWD_Kg": 909.25,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.56730270385742,
+    "China_Steel_Price": 22.956546783447266,
+    "Feng_Hsin_Price": 71.44930267333984
+  },
+  {
+    "Date": "2024-06-21",
+    "Copper_TWD_Kg": 887.44,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.47362518310547,
+    "China_Steel_Price": 22.859683990478516,
+    "Feng_Hsin_Price": 73.0666732788086
+  },
+  {
+    "Date": "2024-06-24",
+    "Copper_TWD_Kg": 889.01,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.2862663269043,
+    "China_Steel_Price": 22.665956497192383,
+    "Feng_Hsin_Price": 73.7326431274414
+  },
+  {
+    "Date": "2024-06-25",
+    "Copper_TWD_Kg": 877.53,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.00523376464844,
+    "China_Steel_Price": 22.569095611572266,
+    "Feng_Hsin_Price": 75.3499984741211
+  },
+  {
+    "Date": "2024-06-26",
+    "Copper_TWD_Kg": 882.63,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.77103805541992,
+    "China_Steel_Price": 22.326936721801758,
+    "Feng_Hsin_Price": 72.59097290039062
+  },
+  {
+    "Date": "2024-06-27",
+    "Copper_TWD_Kg": 877.12,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.6773567199707,
+    "China_Steel_Price": 22.326936721801758,
+    "Feng_Hsin_Price": 73.0666732788086
+  },
+  {
+    "Date": "2024-06-28",
+    "Copper_TWD_Kg": 884.92,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.63051986694336,
+    "China_Steel_Price": 22.375370025634766,
+    "Feng_Hsin_Price": 73.35208129882812
+  },
+  {
+    "Date": "2024-07-01",
+    "Copper_TWD_Kg": 892.56,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.145748138427734,
+    "China_Steel_Price": 22.326936721801758,
+    "Feng_Hsin_Price": 73.35208129882812
+  },
+  {
+    "Date": "2024-07-02",
+    "Copper_TWD_Kg": 895.0,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.09891128540039,
+    "China_Steel_Price": 22.278505325317383,
+    "Feng_Hsin_Price": 73.63750457763672
+  },
+  {
+    "Date": "2024-07-03",
+    "Copper_TWD_Kg": 915.3,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.379947662353516,
+    "China_Steel_Price": 22.375370025634766,
+    "Feng_Hsin_Price": 73.16180419921875
+  },
+  {
+    "Date": "2024-07-04",
+    "Copper_TWD_Kg": 0.0,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.47362518310547,
+    "China_Steel_Price": 22.762821197509766,
+    "Feng_Hsin_Price": 74.4937515258789
+  },
+  {
+    "Date": "2024-07-05",
+    "Copper_TWD_Kg": 935.54,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.70781707763672,
+    "China_Steel_Price": 22.81125259399414,
+    "Feng_Hsin_Price": 73.92291259765625
+  },
+  {
+    "Date": "2024-07-08",
+    "Copper_TWD_Kg": 924.17,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.660980224609375,
+    "China_Steel_Price": 22.762821197509766,
+    "Feng_Hsin_Price": 74.68402862548828
+  },
+  {
+    "Date": "2024-07-09",
+    "Copper_TWD_Kg": 920.23,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.33311080932617,
+    "China_Steel_Price": 22.472232818603516,
+    "Feng_Hsin_Price": 74.96944427490234
+  },
+  {
+    "Date": "2024-07-10",
+    "Copper_TWD_Kg": 922.56,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.23942565917969,
+    "China_Steel_Price": 22.326936721801758,
+    "Feng_Hsin_Price": 74.30347442626953
+  },
+  {
+    "Date": "2024-07-11",
+    "Copper_TWD_Kg": 911.46,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.192588806152344,
+    "China_Steel_Price": 22.326936721801758,
+    "Feng_Hsin_Price": 75.15972137451172
+  },
+  {
+    "Date": "2024-07-12",
+    "Copper_TWD_Kg": 917.52,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.61414337158203,
+    "China_Steel_Price": 22.375370025634766,
+    "Feng_Hsin_Price": 75.63541412353516
+  },
+  {
+    "Date": "2024-07-15",
+    "Copper_TWD_Kg": 911.99,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.26988983154297,
+    "China_Steel_Price": 22.665956497192383,
+    "Feng_Hsin_Price": 76.11111450195312
+  },
+  {
+    "Date": "2024-07-16",
+    "Copper_TWD_Kg": 903.93,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.36356735229492,
+    "China_Steel_Price": 22.375370025634766,
+    "Feng_Hsin_Price": 73.92291259765625
+  },
+  {
+    "Date": "2024-07-17",
+    "Copper_TWD_Kg": 893.21,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.87879943847656,
+    "China_Steel_Price": 22.61752700805664,
+    "Feng_Hsin_Price": 75.63541412353516
+  },
+  {
+    "Date": "2024-07-18",
+    "Copper_TWD_Kg": 861.98,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.72190475463867,
+    "China_Steel_Price": 22.762821197509766,
+    "Feng_Hsin_Price": 76.30138397216797
+  },
+  {
+    "Date": "2024-07-19",
+    "Copper_TWD_Kg": 861.67,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.5345458984375,
+    "China_Steel_Price": 22.61752700805664,
+    "Feng_Hsin_Price": 74.96944427490234
+  },
+  {
+    "Date": "2024-07-22",
+    "Copper_TWD_Kg": 860.17,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.487709045410156,
+    "China_Steel_Price": 22.375370025634766,
+    "Feng_Hsin_Price": 75.540283203125
+  },
+  {
+    "Date": "2024-07-23",
+    "Copper_TWD_Kg": 852.04,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 37.00293731689453,
+    "China_Steel_Price": 22.423799514770508,
+    "Feng_Hsin_Price": 75.63541412353516
+  },
+  {
+    "Date": "2024-07-24",
+    "Copper_TWD_Kg": 835.81,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 0.0,
+    "China_Steel_Price": 0.0,
+    "Feng_Hsin_Price": 0.0
+  },
+  {
+    "Date": "2024-07-25",
+    "Copper_TWD_Kg": 841.42,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 0.0,
+    "China_Steel_Price": 0.0,
+    "Feng_Hsin_Price": 0.0
+  },
+  {
+    "Date": "2024-07-26",
+    "Copper_TWD_Kg": 839.9,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 37.096614837646484,
+    "China_Steel_Price": 22.52215003967285,
+    "Feng_Hsin_Price": 74.87430572509766
+  },
+  {
+    "Date": "2024-07-29",
+    "Copper_TWD_Kg": 840.28,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.67506790161133,
+    "China_Steel_Price": 22.52215003967285,
+    "Feng_Hsin_Price": 76.11111450195312
+  },
+  {
+    "Date": "2024-07-30",
+    "Copper_TWD_Kg": 841.6,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 37.00293731689453,
+    "China_Steel_Price": 22.71885108947754,
+    "Feng_Hsin_Price": 76.30138397216797
+  },
+  {
+    "Date": "2024-07-31",
+    "Copper_TWD_Kg": 859.01,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.72190475463867,
+    "China_Steel_Price": 22.817201614379883,
+    "Feng_Hsin_Price": 75.540283203125
+  },
+  {
+    "Date": "2024-08-01",
+    "Copper_TWD_Kg": 831.57,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.95610046386719,
+    "China_Steel_Price": 22.768024444580078,
+    "Feng_Hsin_Price": 76.39653015136719
+  },
+  {
+    "Date": "2024-08-02",
+    "Copper_TWD_Kg": 845.72,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.78512191772461,
+    "China_Steel_Price": 22.620500564575195,
+    "Feng_Hsin_Price": 75.540283203125
+  },
+  {
+    "Date": "2024-08-05",
+    "Copper_TWD_Kg": 816.68,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.07365417480469,
+    "China_Steel_Price": 21.587825775146484,
+    "Feng_Hsin_Price": 72.87638854980469
+  },
+  {
+    "Date": "2024-08-06",
+    "Copper_TWD_Kg": 822.2,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.46047592163086,
+    "China_Steel_Price": 21.735349655151367,
+    "Feng_Hsin_Price": 73.63750457763672
+  },
+  {
+    "Date": "2024-08-07",
+    "Copper_TWD_Kg": 809.94,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.13742446899414,
+    "China_Steel_Price": 21.932048797607422,
+    "Feng_Hsin_Price": 75.3499984741211
+  },
+  {
+    "Date": "2024-08-08",
+    "Copper_TWD_Kg": 815.27,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.60553741455078,
+    "China_Steel_Price": 21.735349655151367,
+    "Feng_Hsin_Price": 74.87430572509766
+  },
+  {
+    "Date": "2024-08-09",
+    "Copper_TWD_Kg": 811.55,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.7505989074707,
+    "China_Steel_Price": 21.932048797607422,
+    "Feng_Hsin_Price": 75.63541412353516
+  },
+  {
+    "Date": "2024-08-12",
+    "Copper_TWD_Kg": 828.71,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.84730529785156,
+    "China_Steel_Price": 21.882875442504883,
+    "Feng_Hsin_Price": 77.82361602783203
+  },
+  {
+    "Date": "2024-08-13",
+    "Copper_TWD_Kg": 819.84,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.3154182434082,
+    "China_Steel_Price": 21.735349655151367,
+    "Feng_Hsin_Price": 77.0625
+  },
+  {
+    "Date": "2024-08-14",
+    "Copper_TWD_Kg": 817.32,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.653892517089844,
+    "China_Steel_Price": 22.325450897216797,
+    "Feng_Hsin_Price": 78.67985534667969
+  },
+  {
+    "Date": "2024-08-15",
+    "Copper_TWD_Kg": 830.59,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.363773345947266,
+    "China_Steel_Price": 21.932048797607422,
+    "Feng_Hsin_Price": 78.20416259765625
+  },
+  {
+    "Date": "2024-08-16",
+    "Copper_TWD_Kg": 846.75,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.557186126708984,
+    "China_Steel_Price": 21.932048797607422,
+    "Feng_Hsin_Price": 77.91875457763672
+  },
+  {
+    "Date": "2024-08-19",
+    "Copper_TWD_Kg": 847.41,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.60553741455078,
+    "China_Steel_Price": 21.637001037597656,
+    "Feng_Hsin_Price": 77.0625
+  },
+  {
+    "Date": "2024-08-20",
+    "Copper_TWD_Kg": 833.18,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.89565658569336,
+    "China_Steel_Price": 21.587825775146484,
+    "Feng_Hsin_Price": 77.0625
+  },
+  {
+    "Date": "2024-08-21",
+    "Copper_TWD_Kg": 841.39,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.992366790771484,
+    "China_Steel_Price": 21.587825775146484,
+    "Feng_Hsin_Price": 77.0625
+  },
+  {
+    "Date": "2024-08-22",
+    "Copper_TWD_Kg": 822.8,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.62095642089844,
+    "China_Steel_Price": 21.932048797607422,
+    "Feng_Hsin_Price": 77.53819274902344
+  },
+  {
+    "Date": "2024-08-23",
+    "Copper_TWD_Kg": 848.29,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.234134674072266,
+    "China_Steel_Price": 21.78452491760254,
+    "Feng_Hsin_Price": 77.82361602783203
+  },
+  {
+    "Date": "2024-08-26",
+    "Copper_TWD_Kg": 844.99,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.524253845214844,
+    "China_Steel_Price": 21.981225967407227,
+    "Feng_Hsin_Price": 78.48958587646484
+  },
+  {
+    "Date": "2024-08-27",
+    "Copper_TWD_Kg": 853.12,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.6693115234375,
+    "China_Steel_Price": 22.030399322509766,
+    "Feng_Hsin_Price": 78.96527862548828
+  },
+  {
+    "Date": "2024-08-28",
+    "Copper_TWD_Kg": 832.94,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.57260513305664,
+    "China_Steel_Price": 21.981225967407227,
+    "Feng_Hsin_Price": 79.06041717529297
+  },
+  {
+    "Date": "2024-08-29",
+    "Copper_TWD_Kg": 838.59,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.28248596191406,
+    "China_Steel_Price": 21.932048797607422,
+    "Feng_Hsin_Price": 78.0138931274414
+  },
+  {
+    "Date": "2024-08-30",
+    "Copper_TWD_Kg": 838.18,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.29790496826172,
+    "China_Steel_Price": 21.882875442504883,
+    "Feng_Hsin_Price": 78.8701400756836
+  },
+  {
+    "Date": "2024-09-02",
+    "Copper_TWD_Kg": 0.0,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.47589874267578,
+    "China_Steel_Price": 21.735349655151367,
+    "Feng_Hsin_Price": 78.96527862548828
+  },
+  {
+    "Date": "2024-09-03",
+    "Copper_TWD_Kg": 813.28,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.992366790771484,
+    "China_Steel_Price": 21.538650512695312,
+    "Feng_Hsin_Price": 78.96527862548828
+  },
+  {
+    "Date": "2024-09-04",
+    "Copper_TWD_Kg": 813.92,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 32.88024139404297,
+    "China_Steel_Price": 20.850200653076172,
+    "Feng_Hsin_Price": 76.01597595214844
+  },
+  {
+    "Date": "2024-09-05",
+    "Copper_TWD_Kg": 824.76,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 32.686824798583984,
+    "China_Steel_Price": 20.751850128173828,
+    "Feng_Hsin_Price": 77.72846984863281
+  },
+  {
+    "Date": "2024-09-06",
+    "Copper_TWD_Kg": 813.3,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 32.59012222290039,
+    "China_Steel_Price": 20.702674865722656,
+    "Feng_Hsin_Price": 78.67985534667969
+  },
+  {
+    "Date": "2024-09-09",
+    "Copper_TWD_Kg": 827.55,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 32.05823516845703,
+    "China_Steel_Price": 20.21092414855957,
+    "Feng_Hsin_Price": 76.49166870117188
+  },
+  {
+    "Date": "2024-09-10",
+    "Copper_TWD_Kg": 823.25,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 31.04281234741211,
+    "China_Steel_Price": 20.063400268554688,
+    "Feng_Hsin_Price": 77.63333129882812
+  },
+  {
+    "Date": "2024-09-11",
+    "Copper_TWD_Kg": 836.75,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 30.849401473999023,
+    "China_Steel_Price": 19.866701126098633,
+    "Feng_Hsin_Price": 77.53819274902344
+  },
+  {
+    "Date": "2024-09-12",
+    "Copper_TWD_Kg": 845.06,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 31.52634620666504,
+    "China_Steel_Price": 20.309274673461914,
+    "Feng_Hsin_Price": 78.29930877685547
+  },
+  {
+    "Date": "2024-09-13",
+    "Copper_TWD_Kg": 842.77,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 31.96152687072754,
+    "China_Steel_Price": 20.702674865722656,
+    "Feng_Hsin_Price": 78.7750015258789
+  },
+  {
+    "Date": "2024-09-16",
+    "Copper_TWD_Kg": 851.15,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 32.10658645629883,
+    "China_Steel_Price": 21.046899795532227,
+    "Feng_Hsin_Price": 78.96527862548828
+  },
+  {
+    "Date": "2024-09-17",
+    "Copper_TWD_Kg": 853.93,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 0.0,
+    "China_Steel_Price": 0.0,
+    "Feng_Hsin_Price": 0.0
+  },
+  {
+    "Date": "2024-09-18",
+    "Copper_TWD_Kg": 851.19,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 32.15494155883789,
+    "China_Steel_Price": 21.243600845336914,
+    "Feng_Hsin_Price": 79.44097137451172
+  },
+  {
+    "Date": "2024-09-19",
+    "Copper_TWD_Kg": 863.75,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 32.396705627441406,
+    "China_Steel_Price": 20.948549270629883,
+    "Feng_Hsin_Price": 79.821533203125
+  },
+  {
+    "Date": "2024-09-20",
+    "Copper_TWD_Kg": 861.23,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.122005462646484,
+    "China_Steel_Price": 20.801025390625,
+    "Feng_Hsin_Price": 80.58263397216797
+  },
+  {
+    "Date": "2024-09-23",
+    "Copper_TWD_Kg": 870.42,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 32.686824798583984,
+    "China_Steel_Price": 20.899375915527344,
+    "Feng_Hsin_Price": 80.01180267333984
+  },
+  {
+    "Date": "2024-09-24",
+    "Copper_TWD_Kg": 903.7,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 32.34835433959961,
+    "China_Steel_Price": 20.948549270629883,
+    "Feng_Hsin_Price": 78.58472442626953
+  },
+  {
+    "Date": "2024-09-25",
+    "Copper_TWD_Kg": 889.5,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 32.59012222290039,
+    "China_Steel_Price": 21.48947525024414,
+    "Feng_Hsin_Price": 78.96527862548828
+  },
+  {
+    "Date": "2024-09-26",
+    "Copper_TWD_Kg": 923.39,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 32.493412017822266,
+    "China_Steel_Price": 21.391124725341797,
+    "Feng_Hsin_Price": 78.96527862548828
+  },
+  {
+    "Date": "2024-09-27",
+    "Copper_TWD_Kg": 901.01,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.33083724975586,
+    "China_Steel_Price": 22.71885108947754,
+    "Feng_Hsin_Price": 80.48749542236328
+  },
+  {
+    "Date": "2024-09-30",
+    "Copper_TWD_Kg": 895.15,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.50883483886719,
+    "China_Steel_Price": 22.768024444580078,
+    "Feng_Hsin_Price": 80.86805725097656
+  },
+  {
+    "Date": "2024-10-01",
+    "Copper_TWD_Kg": 903.19,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.13742446899414,
+    "China_Steel_Price": 22.964725494384766,
+    "Feng_Hsin_Price": 79.25069427490234
+  },
+  {
+    "Date": "2024-10-02",
+    "Copper_TWD_Kg": 925.54,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 0.0,
+    "China_Steel_Price": 0.0,
+    "Feng_Hsin_Price": 0.0
+  },
+  {
+    "Date": "2024-10-03",
+    "Copper_TWD_Kg": 904.73,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 0.0,
+    "China_Steel_Price": 0.0,
+    "Feng_Hsin_Price": 0.0
+  },
+  {
+    "Date": "2024-10-04",
+    "Copper_TWD_Kg": 915.39,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.42754364013672,
+    "China_Steel_Price": 23.308950424194336,
+    "Feng_Hsin_Price": 81.72430419921875
+  },
+  {
+    "Date": "2024-10-07",
+    "Copper_TWD_Kg": 922.34,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.524253845214844,
+    "China_Steel_Price": 23.407299041748047,
+    "Feng_Hsin_Price": 82.00971984863281
+  },
+  {
+    "Date": "2024-10-08",
+    "Copper_TWD_Kg": 899.41,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.50883483886719,
+    "China_Steel_Price": 23.308950424194336,
+    "Feng_Hsin_Price": 80.86805725097656
+  },
+  {
+    "Date": "2024-10-09",
+    "Copper_TWD_Kg": 889.18,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 32.97694396972656,
+    "China_Steel_Price": 22.325450897216797,
+    "Feng_Hsin_Price": 81.05833435058594
+  },
+  {
+    "Date": "2024-10-10",
+    "Copper_TWD_Kg": 897.54,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 0.0,
+    "China_Steel_Price": 0.0,
+    "Feng_Hsin_Price": 0.0
+  },
+  {
+    "Date": "2024-10-11",
+    "Copper_TWD_Kg": 906.95,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 32.10658645629883,
+    "China_Steel_Price": 22.325450897216797,
+    "Feng_Hsin_Price": 78.39444732666016
+  },
+  {
+    "Date": "2024-10-14",
+    "Copper_TWD_Kg": 888.72,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 32.59012222290039,
+    "China_Steel_Price": 21.981225967407227,
+    "Feng_Hsin_Price": 79.5361099243164
+  },
+  {
+    "Date": "2024-10-15",
+    "Copper_TWD_Kg": 876.79,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 32.05823516845703,
+    "China_Steel_Price": 21.981225967407227,
+    "Feng_Hsin_Price": 79.91666412353516
+  },
+  {
+    "Date": "2024-10-16",
+    "Copper_TWD_Kg": 881.81,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 31.04281234741211,
+    "China_Steel_Price": 21.78452491760254,
+    "Feng_Hsin_Price": 80.39236450195312
+  },
+  {
+    "Date": "2024-10-17",
+    "Copper_TWD_Kg": 874.07,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 32.78353500366211,
+    "China_Steel_Price": 22.07957649230957,
+    "Feng_Hsin_Price": 81.34375
+  },
+  {
+    "Date": "2024-10-18",
+    "Copper_TWD_Kg": 884.44,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 32.396705627441406,
+    "China_Steel_Price": 22.571325302124023,
+    "Feng_Hsin_Price": 82.10486602783203
+  },
+  {
+    "Date": "2024-10-21",
+    "Copper_TWD_Kg": 878.27,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 32.10658645629883,
+    "China_Steel_Price": 22.227100372314453,
+    "Feng_Hsin_Price": 82.20000457763672
+  },
+  {
+    "Date": "2024-10-22",
+    "Copper_TWD_Kg": 883.65,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 32.251644134521484,
+    "China_Steel_Price": 22.030399322509766,
+    "Feng_Hsin_Price": 80.10694122314453
+  },
+  {
+    "Date": "2024-10-23",
+    "Copper_TWD_Kg": 871.42,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 32.10658645629883,
+    "China_Steel_Price": 21.932048797607422,
+    "Feng_Hsin_Price": 79.91666412353516
+  },
+  {
+    "Date": "2024-10-24",
+    "Copper_TWD_Kg": 876.59,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 31.62305450439453,
+    "China_Steel_Price": 21.882875442504883,
+    "Feng_Hsin_Price": 79.25069427490234
+  },
+  {
+    "Date": "2024-10-25",
+    "Copper_TWD_Kg": 877.32,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 31.332935333251953,
+    "China_Steel_Price": 22.17792510986328,
+    "Feng_Hsin_Price": 79.44097137451172
+  },
+  {
+    "Date": "2024-10-28",
+    "Copper_TWD_Kg": 880.15,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 31.86482048034668,
+    "China_Steel_Price": 22.374624252319336,
+    "Feng_Hsin_Price": 79.91666412353516
+  },
+  {
+    "Date": "2024-10-29",
+    "Copper_TWD_Kg": 879.1,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 31.719758987426758,
+    "China_Steel_Price": 22.227100372314453,
+    "Feng_Hsin_Price": 79.44097137451172
+  },
+  {
+    "Date": "2024-10-30",
+    "Copper_TWD_Kg": 875.6,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 31.381288528442383,
+    "China_Steel_Price": 22.12874984741211,
+    "Feng_Hsin_Price": 79.91666412353516
+  },
+  {
+    "Date": "2024-10-31",
+    "Copper_TWD_Kg": 871.84,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 0.0,
+    "China_Steel_Price": 0.0,
+    "Feng_Hsin_Price": 0.0
+  },
+  {
+    "Date": "2024-11-01",
+    "Copper_TWD_Kg": 871.45,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 31.719758987426758,
+    "China_Steel_Price": 22.325450897216797,
+    "Feng_Hsin_Price": 80.96319580078125
+  },
+  {
+    "Date": "2024-11-04",
+    "Copper_TWD_Kg": 888.09,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 31.47799301147461,
+    "China_Steel_Price": 22.325450897216797,
+    "Feng_Hsin_Price": 76.77708435058594
+  },
+  {
+    "Date": "2024-11-05",
+    "Copper_TWD_Kg": 893.86,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 31.5747013092041,
+    "China_Steel_Price": 22.52215003967285,
+    "Feng_Hsin_Price": 78.0138931274414
+  },
+  {
+    "Date": "2024-11-06",
+    "Copper_TWD_Kg": 849.02,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.025299072265625,
+    "China_Steel_Price": 22.71885108947754,
+    "Feng_Hsin_Price": 78.20416259765625
+  },
+  {
+    "Date": "2024-11-07",
+    "Copper_TWD_Kg": 900.2,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.33083724975586,
+    "China_Steel_Price": 22.768024444580078,
+    "Feng_Hsin_Price": 76.58680725097656
+  },
+  {
+    "Date": "2024-11-08",
+    "Copper_TWD_Kg": 868.44,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.89565658569336,
+    "China_Steel_Price": 22.866374969482422,
+    "Feng_Hsin_Price": 77.25277709960938
+  },
+  {
+    "Date": "2024-11-11",
+    "Copper_TWD_Kg": 860.03,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.33083724975586,
+    "China_Steel_Price": 22.817201614379883,
+    "Feng_Hsin_Price": 77.25277709960938
+  },
+  {
+    "Date": "2024-11-12",
+    "Copper_TWD_Kg": 843.69,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.557186126708984,
+    "China_Steel_Price": 21.932048797607422,
+    "Feng_Hsin_Price": 75.06458282470703
+  },
+  {
+    "Date": "2024-11-13",
+    "Copper_TWD_Kg": 831.12,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 32.20329284667969,
+    "China_Steel_Price": 22.07957649230957,
+    "Feng_Hsin_Price": 72.87638854980469
+  },
+  {
+    "Date": "2024-11-14",
+    "Copper_TWD_Kg": 833.86,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 31.5747013092041,
+    "China_Steel_Price": 21.882875442504883,
+    "Feng_Hsin_Price": 72.87638854980469
+  },
+  {
+    "Date": "2024-11-15",
+    "Copper_TWD_Kg": 832.95,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 31.47799301147461,
+    "China_Steel_Price": 21.686174392700195,
+    "Feng_Hsin_Price": 72.87638854980469
+  },
+  {
+    "Date": "2024-11-18",
+    "Copper_TWD_Kg": 843.68,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.3154182434082,
+    "China_Steel_Price": 22.07957649230957,
+    "Feng_Hsin_Price": 74.39860534667969
+  },
+  {
+    "Date": "2024-11-19",
+    "Copper_TWD_Kg": 848.37,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 32.34835433959961,
+    "China_Steel_Price": 21.981225967407227,
+    "Feng_Hsin_Price": 74.11319732666016
+  },
+  {
+    "Date": "2024-11-20",
+    "Copper_TWD_Kg": 841.76,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 32.34835433959961,
+    "China_Steel_Price": 21.932048797607422,
+    "Feng_Hsin_Price": 73.92291259765625
+  },
+  {
+    "Date": "2024-11-21",
+    "Copper_TWD_Kg": 841.01,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 32.34835433959961,
+    "China_Steel_Price": 21.686174392700195,
+    "Feng_Hsin_Price": 73.25694274902344
+  },
+  {
+    "Date": "2024-11-22",
+    "Copper_TWD_Kg": 834.41,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.122005462646484,
+    "China_Steel_Price": 21.735349655151367,
+    "Feng_Hsin_Price": 73.35208129882812
+  },
+  {
+    "Date": "2024-11-25",
+    "Copper_TWD_Kg": 844.83,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.46047592163086,
+    "China_Steel_Price": 21.932048797607422,
+    "Feng_Hsin_Price": 74.11319732666016
+  },
+  {
+    "Date": "2024-11-26",
+    "Copper_TWD_Kg": 830.61,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.13742446899414,
+    "China_Steel_Price": 21.735349655151367,
+    "Feng_Hsin_Price": 73.25694274902344
+  },
+  {
+    "Date": "2024-11-27",
+    "Copper_TWD_Kg": 835.72,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.04071807861328,
+    "China_Steel_Price": 21.391124725341797,
+    "Feng_Hsin_Price": 71.63958740234375
+  },
+  {
+    "Date": "2024-11-28",
+    "Copper_TWD_Kg": 0.0,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.46047592163086,
+    "China_Steel_Price": 21.391124725341797,
+    "Feng_Hsin_Price": 71.54444122314453
+  },
+  {
+    "Date": "2024-11-29",
+    "Copper_TWD_Kg": 838.35,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.557186126708984,
+    "China_Steel_Price": 20.850200653076172,
+    "Feng_Hsin_Price": 71.259033203125
+  },
+  {
+    "Date": "2024-12-02",
+    "Copper_TWD_Kg": 839.2,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.218711853027344,
+    "China_Steel_Price": 20.850200653076172,
+    "Feng_Hsin_Price": 71.35416412353516
+  },
+  {
+    "Date": "2024-12-03",
+    "Copper_TWD_Kg": 853.9,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.122005462646484,
+    "China_Steel_Price": 21.19442367553711,
+    "Feng_Hsin_Price": 69.83194732666016
+  },
+  {
+    "Date": "2024-12-04",
+    "Copper_TWD_Kg": 849.91,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 32.73517990112305,
+    "China_Steel_Price": 21.292774200439453,
+    "Feng_Hsin_Price": 70.78333282470703
+  },
+  {
+    "Date": "2024-12-05",
+    "Copper_TWD_Kg": 846.28,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 32.396705627441406,
+    "China_Steel_Price": 20.850200653076172,
+    "Feng_Hsin_Price": 71.16389465332031
+  },
+  {
+    "Date": "2024-12-06",
+    "Copper_TWD_Kg": 845.24,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 32.44506072998047,
+    "China_Steel_Price": 20.801025390625,
+    "Feng_Hsin_Price": 70.49791717529297
+  },
+  {
+    "Date": "2024-12-09",
+    "Copper_TWD_Kg": 861.2,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 32.493412017822266,
+    "China_Steel_Price": 20.653499603271484,
+    "Feng_Hsin_Price": 69.92708587646484
+  },
+  {
+    "Date": "2024-12-10",
+    "Copper_TWD_Kg": 861.06,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 32.15494155883789,
+    "China_Steel_Price": 20.653499603271484,
+    "Feng_Hsin_Price": 70.3076400756836
+  },
+  {
+    "Date": "2024-12-11",
+    "Copper_TWD_Kg": 864.81,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 31.91317367553711,
+    "China_Steel_Price": 20.456798553466797,
+    "Feng_Hsin_Price": 70.2125015258789
+  },
+  {
+    "Date": "2024-12-12",
+    "Copper_TWD_Kg": 858.27,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 31.719758987426758,
+    "China_Steel_Price": 20.16175079345703,
+    "Feng_Hsin_Price": 71.0687484741211
+  },
+  {
+    "Date": "2024-12-13",
+    "Copper_TWD_Kg": 848.01,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 31.04281234741211,
+    "China_Steel_Price": 19.915874481201172,
+    "Feng_Hsin_Price": 69.83194732666016
+  },
+  {
+    "Date": "2024-12-16",
+    "Copper_TWD_Kg": 849.51,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 29.785627365112305,
+    "China_Steel_Price": 19.915874481201172,
+    "Feng_Hsin_Price": 69.4513931274414
+  },
+  {
+    "Date": "2024-12-17",
+    "Copper_TWD_Kg": 839.28,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 29.398801803588867,
+    "China_Steel_Price": 19.670000076293945,
+    "Feng_Hsin_Price": 68.97569274902344
+  },
+  {
+    "Date": "2024-12-18",
+    "Copper_TWD_Kg": 831.18,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 29.302095413208008,
+    "China_Steel_Price": 19.719173431396484,
+    "Feng_Hsin_Price": 69.07083129882812
+  },
+  {
+    "Date": "2024-12-19",
+    "Copper_TWD_Kg": 833.94,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 29.20539093017578,
+    "China_Steel_Price": 19.620826721191406,
+    "Feng_Hsin_Price": 68.59513854980469
+  },
+  {
+    "Date": "2024-12-20",
+    "Copper_TWD_Kg": 835.98,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 28.86691665649414,
+    "China_Steel_Price": 19.5716495513916,
+    "Feng_Hsin_Price": 67.73888397216797
+  },
+  {
+    "Date": "2024-12-23",
+    "Copper_TWD_Kg": 834.64,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 28.77021026611328,
+    "China_Steel_Price": 19.670000076293945,
+    "Feng_Hsin_Price": 70.11735534667969
+  },
+  {
+    "Date": "2024-12-24",
+    "Copper_TWD_Kg": 836.72,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 28.91526985168457,
+    "China_Steel_Price": 19.620826721191406,
+    "Feng_Hsin_Price": 67.83403015136719
+  },
+  {
+    "Date": "2024-12-25",
+    "Copper_TWD_Kg": 0.0,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 29.15703582763672,
+    "China_Steel_Price": 19.620826721191406,
+    "Feng_Hsin_Price": 67.07291412353516
+  },
+  {
+    "Date": "2024-12-26",
+    "Copper_TWD_Kg": 846.81,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 29.350448608398438,
+    "China_Steel_Price": 19.670000076293945,
+    "Feng_Hsin_Price": 66.7874984741211
+  },
+  {
+    "Date": "2024-12-27",
+    "Copper_TWD_Kg": 843.89,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 29.01197624206543,
+    "China_Steel_Price": 19.670000076293945,
+    "Feng_Hsin_Price": 66.50208282470703
+  },
+  {
+    "Date": "2024-12-30",
+    "Copper_TWD_Kg": 840.88,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 29.302095413208008,
+    "China_Steel_Price": 19.522476196289062,
+    "Feng_Hsin_Price": 67.16805267333984
+  },
+  {
+    "Date": "2024-12-31",
+    "Copper_TWD_Kg": 824.24,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 29.253742218017578,
+    "China_Steel_Price": 19.325775146484375,
+    "Feng_Hsin_Price": 66.21666717529297
+  },
+  {
+    "Date": "2025-01-02",
+    "Copper_TWD_Kg": 830.52,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 29.398801803588867,
+    "China_Steel_Price": 18.932374954223633,
+    "Feng_Hsin_Price": 64.88471984863281
+  },
+  {
+    "Date": "2025-01-03",
+    "Copper_TWD_Kg": 839.82,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 28.818561553955078,
+    "China_Steel_Price": 18.686500549316406,
+    "Feng_Hsin_Price": 63.647918701171875
+  },
+  {
+    "Date": "2025-01-06",
+    "Copper_TWD_Kg": 855.72,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 29.06032943725586,
+    "China_Steel_Price": 18.981550216674805,
+    "Feng_Hsin_Price": 63.74305725097656
+  },
+  {
+    "Date": "2025-01-07",
+    "Copper_TWD_Kg": 858.01,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 28.86691665649414,
+    "China_Steel_Price": 18.637325286865234,
+    "Feng_Hsin_Price": 64.88471984863281
+  },
+  {
+    "Date": "2025-01-08",
+    "Copper_TWD_Kg": 875.05,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 28.141616821289062,
+    "China_Steel_Price": 18.588150024414062,
+    "Feng_Hsin_Price": 64.02847290039062
+  },
+  {
+    "Date": "2025-01-09",
+    "Copper_TWD_Kg": 0.0,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 28.67350196838379,
+    "China_Steel_Price": 18.293100357055664,
+    "Feng_Hsin_Price": 62.886802673339844
+  },
+  {
+    "Date": "2025-01-10",
+    "Copper_TWD_Kg": 882.83,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 29.302095413208008,
+    "China_Steel_Price": 17.998048782348633,
+    "Feng_Hsin_Price": 62.411109924316406
+  },
+  {
+    "Date": "2025-01-13",
+    "Copper_TWD_Kg": 896.25,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 29.398801803588867,
+    "China_Steel_Price": 17.801349639892578,
+    "Feng_Hsin_Price": 61.17430877685547
+  },
+  {
+    "Date": "2025-01-14",
+    "Copper_TWD_Kg": 900.4,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 30.655988693237305,
+    "China_Steel_Price": 18.047225952148438,
+    "Feng_Hsin_Price": 61.07916259765625
+  },
+  {
+    "Date": "2025-01-15",
+    "Copper_TWD_Kg": 909.49,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 30.994461059570312,
+    "China_Steel_Price": 18.391450881958008,
+    "Feng_Hsin_Price": 62.411109924316406
+  },
+  {
+    "Date": "2025-01-16",
+    "Copper_TWD_Kg": 910.09,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 31.719758987426758,
+    "China_Steel_Price": 18.588150024414062,
+    "Feng_Hsin_Price": 62.696529388427734
+  },
+  {
+    "Date": "2025-01-17",
+    "Copper_TWD_Kg": 894.97,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 31.429641723632812,
+    "China_Steel_Price": 19.22742462158203,
+    "Feng_Hsin_Price": 63.26736068725586
+  },
+  {
+    "Date": "2025-01-20",
+    "Copper_TWD_Kg": 0.0,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 32.15494155883789,
+    "China_Steel_Price": 19.22742462158203,
+    "Feng_Hsin_Price": 63.36249923706055
+  },
+  {
+    "Date": "2025-01-21",
+    "Copper_TWD_Kg": 879.96,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 32.78353500366211,
+    "China_Steel_Price": 19.76835060119629,
+    "Feng_Hsin_Price": 64.02847290039062
+  },
+  {
+    "Date": "2025-01-22",
+    "Copper_TWD_Kg": 879.77,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 32.928592681884766,
+    "China_Steel_Price": 19.817523956298828,
+    "Feng_Hsin_Price": 63.55278015136719
+  },
+  {
+    "Date": "2025-01-23",
+    "Copper_TWD_Kg": 883.92,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 0.0,
+    "China_Steel_Price": 0.0,
+    "Feng_Hsin_Price": 0.0
+  },
+  {
+    "Date": "2025-01-24",
+    "Copper_TWD_Kg": 886.19,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 0.0,
+    "China_Steel_Price": 0.0,
+    "Feng_Hsin_Price": 0.0
+  },
+  {
+    "Date": "2025-01-27",
+    "Copper_TWD_Kg": 871.69,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 0.0,
+    "China_Steel_Price": 0.0,
+    "Feng_Hsin_Price": 0.0
+  },
+  {
+    "Date": "2025-01-28",
+    "Copper_TWD_Kg": 878.27,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 0.0,
+    "China_Steel_Price": 0.0,
+    "Feng_Hsin_Price": 0.0
+  },
+  {
+    "Date": "2025-01-29",
+    "Copper_TWD_Kg": 884.07,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 0.0,
+    "China_Steel_Price": 0.0,
+    "Feng_Hsin_Price": 0.0
+  },
+  {
+    "Date": "2025-01-30",
+    "Copper_TWD_Kg": 888.81,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 0.0,
+    "China_Steel_Price": 0.0,
+    "Feng_Hsin_Price": 0.0
+  },
+  {
+    "Date": "2025-01-31",
+    "Copper_TWD_Kg": 884.4,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 0.0,
+    "China_Steel_Price": 0.0,
+    "Feng_Hsin_Price": 0.0
+  },
+  {
+    "Date": "2025-02-03",
+    "Copper_TWD_Kg": 891.61,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.92649841308594,
+    "China_Steel_Price": 19.670000076293945,
+    "Feng_Hsin_Price": 64.02847290039062
+  },
+  {
+    "Date": "2025-02-04",
+    "Copper_TWD_Kg": 906.48,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 37.183685302734375,
+    "China_Steel_Price": 19.276599884033203,
+    "Feng_Hsin_Price": 64.88471984863281
+  },
+  {
+    "Date": "2025-02-05",
+    "Copper_TWD_Kg": 918.66,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.84520721435547,
+    "China_Steel_Price": 19.276599884033203,
+    "Feng_Hsin_Price": 64.5041732788086
+  },
+  {
+    "Date": "2025-02-06",
+    "Copper_TWD_Kg": 921.96,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.99026870727539,
+    "China_Steel_Price": 19.5716495513916,
+    "Feng_Hsin_Price": 65.1701431274414
+  },
+  {
+    "Date": "2025-02-07",
+    "Copper_TWD_Kg": 947.8,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.84520721435547,
+    "China_Steel_Price": 19.325775146484375,
+    "Feng_Hsin_Price": 64.97986602783203
+  },
+  {
+    "Date": "2025-02-10",
+    "Copper_TWD_Kg": 968.42,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 40.52006149291992,
+    "China_Steel_Price": 19.719173431396484,
+    "Feng_Hsin_Price": 65.9312515258789
+  },
+  {
+    "Date": "2025-02-11",
+    "Copper_TWD_Kg": 949.15,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 42.06736373901367,
+    "China_Steel_Price": 19.5716495513916,
+    "Feng_Hsin_Price": 65.45555877685547
+  },
+  {
+    "Date": "2025-02-12",
+    "Copper_TWD_Kg": 970.32,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 40.61676788330078,
+    "China_Steel_Price": 19.76835060119629,
+    "Feng_Hsin_Price": 65.55069732666016
+  },
+  {
+    "Date": "2025-02-13",
+    "Copper_TWD_Kg": 990.93,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 42.64760208129883,
+    "China_Steel_Price": 21.538650512695312,
+    "Feng_Hsin_Price": 67.54861450195312
+  },
+  {
+    "Date": "2025-02-14",
+    "Copper_TWD_Kg": 954.65,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 42.06736373901367,
+    "China_Steel_Price": 22.866374969482422,
+    "Feng_Hsin_Price": 67.92916870117188
+  },
+  {
+    "Date": "2025-02-17",
+    "Copper_TWD_Kg": 0.0,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 41.680538177490234,
+    "China_Steel_Price": 22.47297477722168,
+    "Feng_Hsin_Price": 66.6923599243164
+  },
+  {
+    "Date": "2025-02-18",
+    "Copper_TWD_Kg": 943.26,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 41.34206771850586,
+    "China_Steel_Price": 22.030399322509766,
+    "Feng_Hsin_Price": 66.6923599243164
+  },
+  {
+    "Date": "2025-02-19",
+    "Copper_TWD_Kg": 942.7,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 42.74431228637695,
+    "China_Steel_Price": 21.981225967407227,
+    "Feng_Hsin_Price": 66.59722137451172
+  },
+  {
+    "Date": "2025-02-20",
+    "Copper_TWD_Kg": 951.93,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 41.825599670410156,
+    "China_Steel_Price": 22.276275634765625,
+    "Feng_Hsin_Price": 66.977783203125
+  },
+  {
+    "Date": "2025-02-21",
+    "Copper_TWD_Kg": 935.03,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 42.74431228637695,
+    "China_Steel_Price": 22.620500564575195,
+    "Feng_Hsin_Price": 66.977783203125
+  },
+  {
+    "Date": "2025-02-24",
+    "Copper_TWD_Kg": 930.75,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 43.03443145751953,
+    "China_Steel_Price": 22.817201614379883,
+    "Feng_Hsin_Price": 67.45347595214844
+  },
+  {
+    "Date": "2025-02-25",
+    "Copper_TWD_Kg": 927.36,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 46.660926818847656,
+    "China_Steel_Price": 23.50564956665039,
+    "Feng_Hsin_Price": 68.5
+  },
+  {
+    "Date": "2025-02-26",
+    "Copper_TWD_Kg": 937.46,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 45.838924407958984,
+    "China_Steel_Price": 23.407299041748047,
+    "Feng_Hsin_Price": 67.73888397216797
+  },
+  {
+    "Date": "2025-02-27",
+    "Copper_TWD_Kg": 939.61,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 47.24116516113281,
+    "China_Steel_Price": 23.948225021362305,
+    "Feng_Hsin_Price": 68.7854232788086
+  },
+  {
+    "Date": "2025-02-28",
+    "Copper_TWD_Kg": 933.75,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 0.0,
+    "China_Steel_Price": 0.0,
+    "Feng_Hsin_Price": 0.0
+  },
+  {
+    "Date": "2025-03-03",
+    "Copper_TWD_Kg": 940.1,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 46.9994010925293,
+    "China_Steel_Price": 23.604000091552734,
+    "Feng_Hsin_Price": 68.30972290039062
+  },
+  {
+    "Date": "2025-03-04",
+    "Copper_TWD_Kg": 937.0,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 46.17739486694336,
+    "China_Steel_Price": 23.210599899291992,
+    "Feng_Hsin_Price": 68.59513854980469
+  },
+  {
+    "Date": "2025-03-05",
+    "Copper_TWD_Kg": 986.47,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 47.8697624206543,
+    "China_Steel_Price": 23.702350616455078,
+    "Feng_Hsin_Price": 70.02222442626953
+  },
+  {
+    "Date": "2025-03-06",
+    "Copper_TWD_Kg": 980.75,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 49.03023910522461,
+    "China_Steel_Price": 23.84987449645996,
+    "Feng_Hsin_Price": 70.49791717529297
+  },
+  {
+    "Date": "2025-03-07",
+    "Copper_TWD_Kg": 968.65,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 49.03023910522461,
+    "China_Steel_Price": 23.84987449645996,
+    "Feng_Hsin_Price": 70.59305572509766
+  },
+  {
+    "Date": "2025-03-10",
+    "Copper_TWD_Kg": 954.61,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 48.11152648925781,
+    "China_Steel_Price": 24.292449951171875,
+    "Feng_Hsin_Price": 71.259033203125
+  },
+  {
+    "Date": "2025-03-11",
+    "Copper_TWD_Kg": 982.71,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 47.386226654052734,
+    "China_Steel_Price": 23.899049758911133,
+    "Feng_Hsin_Price": 69.16596984863281
+  },
+  {
+    "Date": "2025-03-12",
+    "Copper_TWD_Kg": 993.3,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 46.660926818847656,
+    "China_Steel_Price": 23.751523971557617,
+    "Feng_Hsin_Price": 68.88055419921875
+  },
+  {
+    "Date": "2025-03-13",
+    "Copper_TWD_Kg": 1012.86,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 47.8697624206543,
+    "China_Steel_Price": 23.308950424194336,
+    "Feng_Hsin_Price": 68.40486145019531
+  },
+  {
+    "Date": "2025-03-14",
+    "Copper_TWD_Kg": 1004.22,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 49.41706466674805,
+    "China_Steel_Price": 23.899049758911133,
+    "Feng_Hsin_Price": 70.59305572509766
+  },
+  {
+    "Date": "2025-03-17",
+    "Copper_TWD_Kg": 1023.34,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 48.83682632446289,
+    "China_Steel_Price": 23.702350616455078,
+    "Feng_Hsin_Price": 70.2125015258789
+  },
+  {
+    "Date": "2025-03-18",
+    "Copper_TWD_Kg": 1032.19,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 49.80389404296875,
+    "China_Steel_Price": 23.751523971557617,
+    "Feng_Hsin_Price": 71.0687484741211
+  },
+  {
+    "Date": "2025-03-19",
+    "Copper_TWD_Kg": 1055.33,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 50.577545166015625,
+    "China_Steel_Price": 23.702350616455078,
+    "Feng_Hsin_Price": 72.68611145019531
+  },
+  {
+    "Date": "2025-03-20",
+    "Copper_TWD_Kg": 1055.78,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 51.25448989868164,
+    "China_Steel_Price": 23.948225021362305,
+    "Feng_Hsin_Price": 71.54444122314453
+  },
+  {
+    "Date": "2025-03-21",
+    "Copper_TWD_Kg": 1052.29,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 49.12694549560547,
+    "China_Steel_Price": 23.407299041748047,
+    "Feng_Hsin_Price": 70.78333282470703
+  },
+  {
+    "Date": "2025-03-24",
+    "Copper_TWD_Kg": 1049.92,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 49.610477447509766,
+    "China_Steel_Price": 23.308950424194336,
+    "Feng_Hsin_Price": 69.64166259765625
+  },
+  {
+    "Date": "2025-03-25",
+    "Copper_TWD_Kg": 1078.81,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 47.67634582519531,
+    "China_Steel_Price": 22.71885108947754,
+    "Feng_Hsin_Price": 68.40486145019531
+  },
+  {
+    "Date": "2025-03-26",
+    "Copper_TWD_Kg": 1082.23,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 48.353294372558594,
+    "China_Steel_Price": 22.817201614379883,
+    "Feng_Hsin_Price": 68.5
+  },
+  {
+    "Date": "2025-03-27",
+    "Copper_TWD_Kg": 1057.51,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 49.32035827636719,
+    "China_Steel_Price": 23.06307601928711,
+    "Feng_Hsin_Price": 68.5
+  },
+  {
+    "Date": "2025-03-28",
+    "Copper_TWD_Kg": 1057.91,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 49.223655700683594,
+    "China_Steel_Price": 22.620500564575195,
+    "Feng_Hsin_Price": 68.19999694824219
+  },
+  {
+    "Date": "2025-03-31",
+    "Copper_TWD_Kg": 1048.67,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 47.627994537353516,
+    "China_Steel_Price": 22.030399322509766,
+    "Feng_Hsin_Price": 67.69999694824219
+  },
+  {
+    "Date": "2025-04-01",
+    "Copper_TWD_Kg": 1047.7,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 48.353294372558594,
+    "China_Steel_Price": 22.571325302124023,
+    "Feng_Hsin_Price": 68.5999984741211
+  },
+  {
+    "Date": "2025-04-02",
+    "Copper_TWD_Kg": 1046.91,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 47.96646499633789,
+    "China_Steel_Price": 22.47297477722168,
+    "Feng_Hsin_Price": 66.69999694824219
+  },
+  {
+    "Date": "2025-04-03",
+    "Copper_TWD_Kg": 1000.2,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 0.0,
+    "China_Steel_Price": 0.0,
+    "Feng_Hsin_Price": 0.0
+  },
+  {
+    "Date": "2025-04-04",
+    "Copper_TWD_Kg": 909.02,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 0.0,
+    "China_Steel_Price": 0.0,
+    "Feng_Hsin_Price": 0.0
+  },
+  {
+    "Date": "2025-04-07",
+    "Copper_TWD_Kg": 884.78,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 43.17949295043945,
+    "China_Steel_Price": 20.260101318359375,
+    "Feng_Hsin_Price": 60.099998474121094
+  },
+  {
+    "Date": "2025-04-08",
+    "Copper_TWD_Kg": 848.25,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 44.19491195678711,
+    "China_Steel_Price": 20.11257553100586,
+    "Feng_Hsin_Price": 57.099998474121094
+  },
+  {
+    "Date": "2025-04-09",
+    "Copper_TWD_Kg": 917.66,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 41.583831787109375,
+    "China_Steel_Price": 18.686500549316406,
+    "Feng_Hsin_Price": 55.29999923706055
+  },
+  {
+    "Date": "2025-04-10",
+    "Copper_TWD_Kg": 895.85,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 45.74221420288086,
+    "China_Steel_Price": 20.55514907836914,
+    "Feng_Hsin_Price": 60.20000076293945
+  },
+  {
+    "Date": "2025-04-11",
+    "Copper_TWD_Kg": 934.74,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 43.13113784790039,
+    "China_Steel_Price": 20.11257553100586,
+    "Feng_Hsin_Price": 59.70000076293945
+  },
+  {
+    "Date": "2025-04-14",
+    "Copper_TWD_Kg": 951.44,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 45.1619758605957,
+    "China_Steel_Price": 20.801025390625,
+    "Feng_Hsin_Price": 60.70000076293945
+  },
+  {
+    "Date": "2025-04-15",
+    "Copper_TWD_Kg": 938.67,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 45.25868225097656,
+    "China_Steel_Price": 20.997724533081055,
+    "Feng_Hsin_Price": 62.0
+  },
+  {
+    "Date": "2025-04-16",
+    "Copper_TWD_Kg": 953.02,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 44.001495361328125,
+    "China_Steel_Price": 20.55514907836914,
+    "Feng_Hsin_Price": 60.79999923706055
+  },
+  {
+    "Date": "2025-04-17",
+    "Copper_TWD_Kg": 954.2,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 43.66302490234375,
+    "China_Steel_Price": 20.16175079345703,
+    "Feng_Hsin_Price": 60.5
+  },
+  {
+    "Date": "2025-04-18",
+    "Copper_TWD_Kg": 0.0,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 43.03443145751953,
+    "China_Steel_Price": 20.063400268554688,
+    "Feng_Hsin_Price": 60.20000076293945
+  },
+  {
+    "Date": "2025-04-21",
+    "Copper_TWD_Kg": 953.28,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 38.924400329589844,
+    "China_Steel_Price": 19.670000076293945,
+    "Feng_Hsin_Price": 59.79999923706055
+  },
+  {
+    "Date": "2025-04-22",
+    "Copper_TWD_Kg": 985.55,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 39.11781692504883,
+    "China_Steel_Price": 19.866701126098633,
+    "Feng_Hsin_Price": 59.79999923706055
+  },
+  {
+    "Date": "2025-04-23",
+    "Copper_TWD_Kg": 989.26,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 40.8585319519043,
+    "China_Steel_Price": 20.309274673461914,
+    "Feng_Hsin_Price": 60.5
+  },
+  {
+    "Date": "2025-04-24",
+    "Copper_TWD_Kg": 995.83,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 41.680538177490234,
+    "China_Steel_Price": 20.16175079345703,
+    "Feng_Hsin_Price": 61.099998474121094
+  },
+  {
+    "Date": "2025-04-25",
+    "Copper_TWD_Kg": 985.39,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 41.390419006347656,
+    "China_Steel_Price": 19.965049743652344,
+    "Feng_Hsin_Price": 61.400001525878906
+  },
+  {
+    "Date": "2025-04-28",
+    "Copper_TWD_Kg": 989.88,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 40.08488082885742,
+    "China_Steel_Price": 20.11257553100586,
+    "Feng_Hsin_Price": 61.099998474121094
+  },
+  {
+    "Date": "2025-04-29",
+    "Copper_TWD_Kg": 978.61,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 41.48712921142578,
+    "China_Steel_Price": 20.309274673461914,
+    "Feng_Hsin_Price": 61.400001525878906
+  },
+  {
+    "Date": "2025-04-30",
+    "Copper_TWD_Kg": 922.46,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 40.47170639038086,
+    "China_Steel_Price": 20.309274673461914,
+    "Feng_Hsin_Price": 60.099998474121094
+  },
+  {
+    "Date": "2025-05-01",
+    "Copper_TWD_Kg": 923.16,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 0.0,
+    "China_Steel_Price": 0.0,
+    "Feng_Hsin_Price": 0.0
+  },
+  {
+    "Date": "2025-05-02",
+    "Copper_TWD_Kg": 934.45,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 41.7288932800293,
+    "China_Steel_Price": 20.358449935913086,
+    "Feng_Hsin_Price": 60.79999923706055
+  },
+  {
+    "Date": "2025-05-05",
+    "Copper_TWD_Kg": 897.79,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 38.730987548828125,
+    "China_Steel_Price": 20.801025390625,
+    "Feng_Hsin_Price": 61.400001525878906
+  },
+  {
+    "Date": "2025-05-06",
+    "Copper_TWD_Kg": 864.89,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 38.634281158447266,
+    "China_Steel_Price": 21.538650512695312,
+    "Feng_Hsin_Price": 60.70000076293945
+  },
+  {
+    "Date": "2025-05-07",
+    "Copper_TWD_Kg": 861.56,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 38.15074920654297,
+    "China_Steel_Price": 21.19442367553711,
+    "Feng_Hsin_Price": 60.70000076293945
+  },
+  {
+    "Date": "2025-05-08",
+    "Copper_TWD_Kg": 868.57,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 38.77933883666992,
+    "China_Steel_Price": 20.899375915527344,
+    "Feng_Hsin_Price": 60.400001525878906
+  },
+  {
+    "Date": "2025-05-09",
+    "Copper_TWD_Kg": 875.98,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 37.66721725463867,
+    "China_Steel_Price": 20.948549270629883,
+    "Feng_Hsin_Price": 61.5
+  },
+  {
+    "Date": "2025-05-12",
+    "Copper_TWD_Kg": 874.73,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 38.054039001464844,
+    "China_Steel_Price": 20.997724533081055,
+    "Feng_Hsin_Price": 61.29999923706055
+  },
+  {
+    "Date": "2025-05-13",
+    "Copper_TWD_Kg": 893.86,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 37.13533020019531,
+    "China_Steel_Price": 21.046899795532227,
+    "Feng_Hsin_Price": 60.900001525878906
+  },
+  {
+    "Date": "2025-05-14",
+    "Copper_TWD_Kg": 882.32,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 37.13533020019531,
+    "China_Steel_Price": 21.14525032043457,
+    "Feng_Hsin_Price": 61.29999923706055
+  },
+  {
+    "Date": "2025-05-15",
+    "Copper_TWD_Kg": 888.04,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.313323974609375,
+    "China_Steel_Price": 20.948549270629883,
+    "Feng_Hsin_Price": 61.20000076293945
+  },
+  {
+    "Date": "2025-05-16",
+    "Copper_TWD_Kg": 863.08,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.313323974609375,
+    "China_Steel_Price": 20.653499603271484,
+    "Feng_Hsin_Price": 61.5
+  },
+  {
+    "Date": "2025-05-19",
+    "Copper_TWD_Kg": 878.59,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.5880241394043,
+    "China_Steel_Price": 20.751850128173828,
+    "Feng_Hsin_Price": 62.29999923706055
+  },
+  {
+    "Date": "2025-05-20",
+    "Copper_TWD_Kg": 881.46,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.26496887207031,
+    "China_Steel_Price": 21.292774200439453,
+    "Feng_Hsin_Price": 62.5
+  },
+  {
+    "Date": "2025-05-21",
+    "Copper_TWD_Kg": 880.57,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.313323974609375,
+    "China_Steel_Price": 20.702674865722656,
+    "Feng_Hsin_Price": 62.400001525878906
+  },
+  {
+    "Date": "2025-05-22",
+    "Copper_TWD_Kg": 877.55,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.29790496826172,
+    "China_Steel_Price": 20.11257553100586,
+    "Feng_Hsin_Price": 61.70000076293945
+  },
+  {
+    "Date": "2025-05-23",
+    "Copper_TWD_Kg": 913.13,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.49131774902344,
+    "China_Steel_Price": 19.965049743652344,
+    "Feng_Hsin_Price": 62.70000076293945
+  },
+  {
+    "Date": "2025-05-26",
+    "Copper_TWD_Kg": 0.0,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.636375427246094,
+    "China_Steel_Price": 19.866701126098633,
+    "Feng_Hsin_Price": 63.099998474121094
+  },
+  {
+    "Date": "2025-05-27",
+    "Copper_TWD_Kg": 886.98,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.05613708496094,
+    "China_Steel_Price": 19.670000076293945,
+    "Feng_Hsin_Price": 62.29999923706055
+  },
+  {
+    "Date": "2025-05-28",
+    "Copper_TWD_Kg": 875.27,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.81437301635742,
+    "China_Steel_Price": 19.719173431396484,
+    "Feng_Hsin_Price": 62.5
+  },
+  {
+    "Date": "2025-05-29",
+    "Copper_TWD_Kg": 873.34,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.37919235229492,
+    "China_Steel_Price": 19.42412567138672,
+    "Feng_Hsin_Price": 63.099998474121094
+  },
+  {
+    "Date": "2025-05-30",
+    "Copper_TWD_Kg": 876.4,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 0.0,
+    "China_Steel_Price": 0.0,
+    "Feng_Hsin_Price": 0.0
+  },
+  {
+    "Date": "2025-06-02",
+    "Copper_TWD_Kg": 907.18,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.4583854675293,
+    "China_Steel_Price": 18.883201599121094,
+    "Feng_Hsin_Price": 64.0999984741211
+  },
+  {
+    "Date": "2025-06-03",
+    "Copper_TWD_Kg": 911.31,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.33083724975586,
+    "China_Steel_Price": 18.932374954223633,
+    "Feng_Hsin_Price": 66.4000015258789
+  },
+  {
+    "Date": "2025-06-04",
+    "Copper_TWD_Kg": 914.26,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.33083724975586,
+    "China_Steel_Price": 18.883201599121094,
+    "Feng_Hsin_Price": 65.0
+  },
+  {
+    "Date": "2025-06-05",
+    "Copper_TWD_Kg": 921.02,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.524253845214844,
+    "China_Steel_Price": 19.079898834228516,
+    "Feng_Hsin_Price": 63.29999923706055
+  },
+  {
+    "Date": "2025-06-06",
+    "Copper_TWD_Kg": 905.25,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.57260513305664,
+    "China_Steel_Price": 19.22742462158203,
+    "Feng_Hsin_Price": 64.19999694824219
+  },
+  {
+    "Date": "2025-06-09",
+    "Copper_TWD_Kg": 917.88,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.33083724975586,
+    "China_Steel_Price": 19.030725479125977,
+    "Feng_Hsin_Price": 65.0
+  },
+  {
+    "Date": "2025-06-10",
+    "Copper_TWD_Kg": 918.35,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.234134674072266,
+    "China_Steel_Price": 19.079898834228516,
+    "Feng_Hsin_Price": 65.5999984741211
+  },
+  {
+    "Date": "2025-06-11",
+    "Copper_TWD_Kg": 897.26,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.798954010009766,
+    "China_Steel_Price": 19.17824935913086,
+    "Feng_Hsin_Price": 65.30000305175781
+  },
+  {
+    "Date": "2025-06-12",
+    "Copper_TWD_Kg": 901.97,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.18577575683594,
+    "China_Steel_Price": 19.12907600402832,
+    "Feng_Hsin_Price": 64.19999694824219
+  },
+  {
+    "Date": "2025-06-13",
+    "Copper_TWD_Kg": 878.97,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.46047592163086,
+    "China_Steel_Price": 18.883201599121094,
+    "Feng_Hsin_Price": 63.5
+  },
+  {
+    "Date": "2025-06-16",
+    "Copper_TWD_Kg": 891.05,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.70224380493164,
+    "China_Steel_Price": 18.883201599121094,
+    "Feng_Hsin_Price": 63.29999923706055
+  },
+  {
+    "Date": "2025-06-17",
+    "Copper_TWD_Kg": 868.99,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.17035675048828,
+    "China_Steel_Price": 18.78485107421875,
+    "Feng_Hsin_Price": 63.29999923706055
+  },
+  {
+    "Date": "2025-06-18",
+    "Copper_TWD_Kg": 899.79,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.267066955566406,
+    "China_Steel_Price": 18.78485107421875,
+    "Feng_Hsin_Price": 63.79999923706055
+  },
+  {
+    "Date": "2025-06-19",
+    "Copper_TWD_Kg": 0.0,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 32.928592681884766,
+    "China_Steel_Price": 18.637325286865234,
+    "Feng_Hsin_Price": 62.599998474121094
+  },
+  {
+    "Date": "2025-06-20",
+    "Copper_TWD_Kg": 895.71,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 32.20329284667969,
+    "China_Steel_Price": 18.342275619506836,
+    "Feng_Hsin_Price": 61.400001525878906
+  },
+  {
+    "Date": "2025-06-23",
+    "Copper_TWD_Kg": 905.19,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 32.493412017822266,
+    "China_Steel_Price": 18.14557647705078,
+    "Feng_Hsin_Price": 60.20000076293945
+  },
+  {
+    "Date": "2025-06-24",
+    "Copper_TWD_Kg": 910.69,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.363773345947266,
+    "China_Steel_Price": 18.588150024414062,
+    "Feng_Hsin_Price": 60.70000076293945
+  },
+  {
+    "Date": "2025-06-25",
+    "Copper_TWD_Kg": 909.08,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.122005462646484,
+    "China_Steel_Price": 18.440624237060547,
+    "Feng_Hsin_Price": 62.20000076293945
+  },
+  {
+    "Date": "2025-06-26",
+    "Copper_TWD_Kg": 930.14,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.46047592163086,
+    "China_Steel_Price": 18.686500549316406,
+    "Feng_Hsin_Price": 63.20000076293945
+  },
+  {
+    "Date": "2025-06-27",
+    "Copper_TWD_Kg": 912.7,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.992366790771484,
+    "China_Steel_Price": 18.78485107421875,
+    "Feng_Hsin_Price": 65.0
+  },
+  {
+    "Date": "2025-06-30",
+    "Copper_TWD_Kg": 920.57,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.50883483886719,
+    "China_Steel_Price": 18.48979949951172,
+    "Feng_Hsin_Price": 65.5999984741211
+  },
+  {
+    "Date": "2025-07-01",
+    "Copper_TWD_Kg": 922.05,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.267066955566406,
+    "China_Steel_Price": 18.686500549316406,
+    "Feng_Hsin_Price": 67.5
+  },
+  {
+    "Date": "2025-07-02",
+    "Copper_TWD_Kg": 942.24,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.60553741455078,
+    "China_Steel_Price": 18.48979949951172,
+    "Feng_Hsin_Price": 69.5
+  },
+  {
+    "Date": "2025-07-03",
+    "Copper_TWD_Kg": 924.37,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.37919235229492,
+    "China_Steel_Price": 19.079898834228516,
+    "Feng_Hsin_Price": 68.0
+  },
+  {
+    "Date": "2025-07-04",
+    "Copper_TWD_Kg": 0.0,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.653892517089844,
+    "China_Steel_Price": 18.932374954223633,
+    "Feng_Hsin_Price": 66.4000015258789
+  },
+  {
+    "Date": "2025-07-07",
+    "Copper_TWD_Kg": 900.27,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 32.831886291503906,
+    "China_Steel_Price": 18.686500549316406,
+    "Feng_Hsin_Price": 65.9000015258789
+  },
+  {
+    "Date": "2025-07-08",
+    "Copper_TWD_Kg": 981.64,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 32.88024139404297,
+    "China_Steel_Price": 18.48979949951172,
+    "Feng_Hsin_Price": 65.30000305175781
+  },
+  {
+    "Date": "2025-07-09",
+    "Copper_TWD_Kg": 998.37,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 32.251644134521484,
+    "China_Steel_Price": 18.588150024414062,
+    "Feng_Hsin_Price": 63.70000076293945
+  },
+  {
+    "Date": "2025-07-10",
+    "Copper_TWD_Kg": 1016.35,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 32.30000305175781,
+    "China_Steel_Price": 18.637325286865234,
+    "Feng_Hsin_Price": 64.80000305175781
+  },
+  {
+    "Date": "2025-07-11",
+    "Copper_TWD_Kg": 1009.18,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 32.849998474121094,
+    "China_Steel_Price": 18.48979949951172,
+    "Feng_Hsin_Price": 66.0
+  },
+  {
+    "Date": "2025-07-14",
+    "Copper_TWD_Kg": 1001.42,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 32.849998474121094,
+    "China_Steel_Price": 18.53897476196289,
+    "Feng_Hsin_Price": 66.5
+  },
+  {
+    "Date": "2025-07-15",
+    "Copper_TWD_Kg": 1006.86,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 33.849998474121094,
+    "China_Steel_Price": 18.588150024414062,
+    "Feng_Hsin_Price": 66.69999694824219
+  },
+  {
+    "Date": "2025-07-16",
+    "Copper_TWD_Kg": 1004.49,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.04999923706055,
+    "China_Steel_Price": 18.48979949951172,
+    "Feng_Hsin_Price": 66.0
+  },
+  {
+    "Date": "2025-07-17",
+    "Copper_TWD_Kg": 1004.04,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.79999923706055,
+    "China_Steel_Price": 18.932374954223633,
+    "Feng_Hsin_Price": 66.5999984741211
+  },
+  {
+    "Date": "2025-07-18",
+    "Copper_TWD_Kg": 1019.11,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.25,
+    "China_Steel_Price": 18.686500549316406,
+    "Feng_Hsin_Price": 65.4000015258789
+  },
+  {
+    "Date": "2025-07-21",
+    "Copper_TWD_Kg": 1026.47,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.54999923706055,
+    "China_Steel_Price": 18.883201599121094,
+    "Feng_Hsin_Price": 66.19999694824219
+  },
+  {
+    "Date": "2025-07-22",
+    "Copper_TWD_Kg": 1041.34,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.650001525878906,
+    "China_Steel_Price": 18.932374954223633,
+    "Feng_Hsin_Price": 67.0999984741211
+  },
+  {
+    "Date": "2025-07-23",
+    "Copper_TWD_Kg": 1061.3,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.150001525878906,
+    "China_Steel_Price": 19.670000076293945,
+    "Feng_Hsin_Price": 68.5
+  },
+  {
+    "Date": "2025-07-24",
+    "Copper_TWD_Kg": 1057.4,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.650001525878906,
+    "China_Steel_Price": 19.649999618530273,
+    "Feng_Hsin_Price": 68.4000015258789
+  },
+  {
+    "Date": "2025-07-25",
+    "Copper_TWD_Kg": 1053.37,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 37.25,
+    "China_Steel_Price": 19.649999618530273,
+    "Feng_Hsin_Price": 68.80000305175781
+  },
+  {
+    "Date": "2025-07-28",
+    "Copper_TWD_Kg": 1025.33,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 37.79999923706055,
+    "China_Steel_Price": 19.399999618530273,
+    "Feng_Hsin_Price": 67.0999984741211
+  },
+  {
+    "Date": "2025-07-29",
+    "Copper_TWD_Kg": 1037.99,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 39.599998474121094,
+    "China_Steel_Price": 19.200000762939453,
+    "Feng_Hsin_Price": 68.0
+  },
+  {
+    "Date": "2025-07-30",
+    "Copper_TWD_Kg": 838.43,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 40.45000076293945,
+    "China_Steel_Price": 19.799999237060547,
+    "Feng_Hsin_Price": 68.0999984741211
+  },
+  {
+    "Date": "2025-07-31",
+    "Copper_TWD_Kg": 818.78,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 39.29999923706055,
+    "China_Steel_Price": 19.450000762939453,
+    "Feng_Hsin_Price": 67.5999984741211
+  },
+  {
+    "Date": "2025-08-01",
+    "Copper_TWD_Kg": 824.51,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 0.0,
+    "China_Steel_Price": 0.0,
+    "Feng_Hsin_Price": 0.0
+  },
+  {
+    "Date": "2025-08-04",
+    "Copper_TWD_Kg": 826.47,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 39.29999923706055,
+    "China_Steel_Price": 19.149999618530273,
+    "Feng_Hsin_Price": 66.69999694824219
+  },
+  {
+    "Date": "2025-08-05",
+    "Copper_TWD_Kg": 813.15,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 39.099998474121094,
+    "China_Steel_Price": 19.25,
+    "Feng_Hsin_Price": 66.5
+  },
+  {
+    "Date": "2025-08-06",
+    "Copper_TWD_Kg": 822.08,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 39.95000076293945,
+    "China_Steel_Price": 19.200000762939453,
+    "Feng_Hsin_Price": 67.30000305175781
+  },
+  {
+    "Date": "2025-08-07",
+    "Copper_TWD_Kg": 822.06,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 39.25,
+    "China_Steel_Price": 19.200000762939453,
+    "Feng_Hsin_Price": 67.30000305175781
+  },
+  {
+    "Date": "2025-08-08",
+    "Copper_TWD_Kg": 827.77,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 42.29999923706055,
+    "China_Steel_Price": 19.149999618530273,
+    "Feng_Hsin_Price": 67.0
+  },
+  {
+    "Date": "2025-08-11",
+    "Copper_TWD_Kg": 826.57,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 41.900001525878906,
+    "China_Steel_Price": 19.350000381469727,
+    "Feng_Hsin_Price": 67.0
+  },
+  {
+    "Date": "2025-08-12",
+    "Copper_TWD_Kg": 840.34,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 41.54999923706055,
+    "China_Steel_Price": 19.5,
+    "Feng_Hsin_Price": 66.80000305175781
+  },
+  {
+    "Date": "2025-08-13",
+    "Copper_TWD_Kg": 835.09,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 39.45000076293945,
+    "China_Steel_Price": 19.649999618530273,
+    "Feng_Hsin_Price": 66.5
+  },
+  {
+    "Date": "2025-08-14",
+    "Copper_TWD_Kg": 838.01,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 39.54999923706055,
+    "China_Steel_Price": 19.850000381469727,
+    "Feng_Hsin_Price": 67.0
+  },
+  {
+    "Date": "2025-08-15",
+    "Copper_TWD_Kg": 839.81,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 40.29999923706055,
+    "China_Steel_Price": 20.5,
+    "Feng_Hsin_Price": 67.80000305175781
+  },
+  {
+    "Date": "2025-08-18",
+    "Copper_TWD_Kg": 834.89,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 41.29999923706055,
+    "China_Steel_Price": 20.399999618530273,
+    "Feng_Hsin_Price": 67.69999694824219
+  },
+  {
+    "Date": "2025-08-19",
+    "Copper_TWD_Kg": 827.79,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 41.0,
+    "China_Steel_Price": 20.200000762939453,
+    "Feng_Hsin_Price": 67.5
+  },
+  {
+    "Date": "2025-08-20",
+    "Copper_TWD_Kg": 832.77,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 40.45000076293945,
+    "China_Steel_Price": 20.149999618530273,
+    "Feng_Hsin_Price": 66.9000015258789
+  },
+  {
+    "Date": "2025-08-21",
+    "Copper_TWD_Kg": 840.88,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 40.599998474121094,
+    "China_Steel_Price": 20.350000381469727,
+    "Feng_Hsin_Price": 67.0999984741211
+  },
+  {
+    "Date": "2025-08-22",
+    "Copper_TWD_Kg": 847.43,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 40.25,
+    "China_Steel_Price": 20.149999618530273,
+    "Feng_Hsin_Price": 68.30000305175781
+  },
+  {
+    "Date": "2025-08-25",
+    "Copper_TWD_Kg": 846.03,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 40.95000076293945,
+    "China_Steel_Price": 20.399999618530273,
+    "Feng_Hsin_Price": 67.5999984741211
+  },
+  {
+    "Date": "2025-08-26",
+    "Copper_TWD_Kg": 850.3,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 40.45000076293945,
+    "China_Steel_Price": 20.100000381469727,
+    "Feng_Hsin_Price": 66.69999694824219
+  },
+  {
+    "Date": "2025-08-27",
+    "Copper_TWD_Kg": 844.92,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 39.400001525878906,
+    "China_Steel_Price": 20.299999237060547,
+    "Feng_Hsin_Price": 66.4000015258789
+  },
+  {
+    "Date": "2025-08-28",
+    "Copper_TWD_Kg": 853.96,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 38.599998474121094,
+    "China_Steel_Price": 20.149999618530273,
+    "Feng_Hsin_Price": 66.4000015258789
+  },
+  {
+    "Date": "2025-08-29",
+    "Copper_TWD_Kg": 857.76,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 38.900001525878906,
+    "China_Steel_Price": 20.100000381469727,
+    "Feng_Hsin_Price": 66.80000305175781
+  },
+  {
+    "Date": "2025-09-01",
+    "Copper_TWD_Kg": 0.0,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 37.95000076293945,
+    "China_Steel_Price": 19.950000762939453,
+    "Feng_Hsin_Price": 65.5999984741211
+  },
+  {
+    "Date": "2025-09-02",
+    "Copper_TWD_Kg": 872.51,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 38.150001525878906,
+    "China_Steel_Price": 19.75,
+    "Feng_Hsin_Price": 65.0
+  },
+  {
+    "Date": "2025-09-03",
+    "Copper_TWD_Kg": 871.9,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 37.599998474121094,
+    "China_Steel_Price": 19.700000762939453,
+    "Feng_Hsin_Price": 65.0999984741211
+  },
+  {
+    "Date": "2025-09-04",
+    "Copper_TWD_Kg": 862.67,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 38.25,
+    "China_Steel_Price": 19.850000381469727,
+    "Feng_Hsin_Price": 65.4000015258789
+  },
+  {
+    "Date": "2025-09-05",
+    "Copper_TWD_Kg": 857.59,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 37.5,
+    "China_Steel_Price": 19.549999237060547,
+    "Feng_Hsin_Price": 65.5
+  },
+  {
+    "Date": "2025-09-08",
+    "Copper_TWD_Kg": 854.33,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 38.79999923706055,
+    "China_Steel_Price": 19.549999237060547,
+    "Feng_Hsin_Price": 65.30000305175781
+  },
+  {
+    "Date": "2025-09-09",
+    "Copper_TWD_Kg": 853.21,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 39.150001525878906,
+    "China_Steel_Price": 19.5,
+    "Feng_Hsin_Price": 65.19999694824219
+  },
+  {
+    "Date": "2025-09-10",
+    "Copper_TWD_Kg": 859.86,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 39.25,
+    "China_Steel_Price": 19.450000762939453,
+    "Feng_Hsin_Price": 65.30000305175781
+  },
+  {
+    "Date": "2025-09-11",
+    "Copper_TWD_Kg": 870.82,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 38.099998474121094,
+    "China_Steel_Price": 19.149999618530273,
+    "Feng_Hsin_Price": 64.30000305175781
+  },
+  {
+    "Date": "2025-09-12",
+    "Copper_TWD_Kg": 866.29,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 38.79999923706055,
+    "China_Steel_Price": 19.350000381469727,
+    "Feng_Hsin_Price": 64.5999984741211
+  },
+  {
+    "Date": "2025-09-15",
+    "Copper_TWD_Kg": 879.17,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 38.04999923706055,
+    "China_Steel_Price": 19.25,
+    "Feng_Hsin_Price": 64.0999984741211
+  },
+  {
+    "Date": "2025-09-16",
+    "Copper_TWD_Kg": 874.12,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 38.150001525878906,
+    "China_Steel_Price": 19.200000762939453,
+    "Feng_Hsin_Price": 64.4000015258789
+  },
+  {
+    "Date": "2025-09-17",
+    "Copper_TWD_Kg": 853.94,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 37.599998474121094,
+    "China_Steel_Price": 19.200000762939453,
+    "Feng_Hsin_Price": 64.0
+  },
+  {
+    "Date": "2025-09-18",
+    "Copper_TWD_Kg": 852.65,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 38.20000076293945,
+    "China_Steel_Price": 19.350000381469727,
+    "Feng_Hsin_Price": 64.0
+  },
+  {
+    "Date": "2025-09-19",
+    "Copper_TWD_Kg": 860.56,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 38.29999923706055,
+    "China_Steel_Price": 19.399999618530273,
+    "Feng_Hsin_Price": 64.30000305175781
+  },
+  {
+    "Date": "2025-09-22",
+    "Copper_TWD_Kg": 864.78,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 38.20000076293945,
+    "China_Steel_Price": 19.450000762939453,
+    "Feng_Hsin_Price": 64.19999694824219
+  },
+  {
+    "Date": "2025-09-23",
+    "Copper_TWD_Kg": 864.83,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 37.900001525878906,
+    "China_Steel_Price": 19.450000762939453,
+    "Feng_Hsin_Price": 64.0
+  },
+  {
+    "Date": "2025-09-24",
+    "Copper_TWD_Kg": 899.14,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 37.849998474121094,
+    "China_Steel_Price": 19.350000381469727,
+    "Feng_Hsin_Price": 65.0
+  },
+  {
+    "Date": "2025-09-25",
+    "Copper_TWD_Kg": 896.04,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 39.0,
+    "China_Steel_Price": 19.649999618530273,
+    "Feng_Hsin_Price": 66.19999694824219
+  },
+  {
+    "Date": "2025-09-26",
+    "Copper_TWD_Kg": 897.59,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 38.29999923706055,
+    "China_Steel_Price": 19.549999237060547,
+    "Feng_Hsin_Price": 65.0999984741211
+  },
+  {
+    "Date": "2025-09-29",
+    "Copper_TWD_Kg": 922.15,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 0.0,
+    "China_Steel_Price": 0.0,
+    "Feng_Hsin_Price": 0.0
+  },
+  {
+    "Date": "2025-09-30",
+    "Copper_TWD_Kg": 913.75,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 38.5,
+    "China_Steel_Price": 19.399999618530273,
+    "Feng_Hsin_Price": 65.30000305175781
+  },
+  {
+    "Date": "2025-10-01",
+    "Copper_TWD_Kg": 917.83,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 38.20000076293945,
+    "China_Steel_Price": 19.299999237060547,
+    "Feng_Hsin_Price": 64.9000015258789
+  },
+  {
+    "Date": "2025-10-02",
+    "Copper_TWD_Kg": 930.46,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 37.70000076293945,
+    "China_Steel_Price": 19.200000762939453,
+    "Feng_Hsin_Price": 65.0999984741211
+  },
+  {
+    "Date": "2025-10-03",
+    "Copper_TWD_Kg": 954.13,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 37.20000076293945,
+    "China_Steel_Price": 19.0,
+    "Feng_Hsin_Price": 65.0
+  },
+  {
+    "Date": "2025-10-06",
+    "Copper_TWD_Kg": 946.97,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 0.0,
+    "China_Steel_Price": 0.0,
+    "Feng_Hsin_Price": 0.0
+  },
+  {
+    "Date": "2025-10-07",
+    "Copper_TWD_Kg": 954.98,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 38.099998474121094,
+    "China_Steel_Price": 18.950000762939453,
+    "Feng_Hsin_Price": 65.69999694824219
+  },
+  {
+    "Date": "2025-10-08",
+    "Copper_TWD_Kg": 958.24,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 38.95000076293945,
+    "China_Steel_Price": 19.0,
+    "Feng_Hsin_Price": 65.0
+  },
+  {
+    "Date": "2025-10-09",
+    "Copper_TWD_Kg": 966.73,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 38.599998474121094,
+    "China_Steel_Price": 19.0,
+    "Feng_Hsin_Price": 65.19999694824219
+  },
+  {
+    "Date": "2025-10-10",
+    "Copper_TWD_Kg": 925.76,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 0.0,
+    "China_Steel_Price": 0.0,
+    "Feng_Hsin_Price": 0.0
+  },
+  {
+    "Date": "2025-10-13",
+    "Copper_TWD_Kg": 968.71,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 38.79999923706055,
+    "China_Steel_Price": 19.0,
+    "Feng_Hsin_Price": 64.0
+  },
+  {
+    "Date": "2025-10-14",
+    "Copper_TWD_Kg": 946.82,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 39.599998474121094,
+    "China_Steel_Price": 18.850000381469727,
+    "Feng_Hsin_Price": 65.0999984741211
+  },
+  {
+    "Date": "2025-10-15",
+    "Copper_TWD_Kg": 943.22,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 38.400001525878906,
+    "China_Steel_Price": 18.700000762939453,
+    "Feng_Hsin_Price": 68.0
+  },
+  {
+    "Date": "2025-10-16",
+    "Copper_TWD_Kg": 944.01,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 38.70000076293945,
+    "China_Steel_Price": 18.799999237060547,
+    "Feng_Hsin_Price": 64.9000015258789
+  },
+  {
+    "Date": "2025-10-17",
+    "Copper_TWD_Kg": 943.46,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 38.70000076293945,
+    "China_Steel_Price": 19.049999237060547,
+    "Feng_Hsin_Price": 64.30000305175781
+  },
+  {
+    "Date": "2025-10-20",
+    "Copper_TWD_Kg": 956.32,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 38.400001525878906,
+    "China_Steel_Price": 18.899999618530273,
+    "Feng_Hsin_Price": 63.900001525878906
+  },
+  {
+    "Date": "2025-10-21",
+    "Copper_TWD_Kg": 934.44,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 38.150001525878906,
+    "China_Steel_Price": 18.75,
+    "Feng_Hsin_Price": 63.0
+  },
+  {
+    "Date": "2025-10-22",
+    "Copper_TWD_Kg": 950.08,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 37.900001525878906,
+    "China_Steel_Price": 18.799999237060547,
+    "Feng_Hsin_Price": 64.30000305175781
+  },
+  {
+    "Date": "2025-10-23",
+    "Copper_TWD_Kg": 965.7,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 37.849998474121094,
+    "China_Steel_Price": 18.899999618530273,
+    "Feng_Hsin_Price": 63.900001525878906
+  },
+  {
+    "Date": "2025-10-24",
+    "Copper_TWD_Kg": 972.18,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 0.0,
+    "China_Steel_Price": 0.0,
+    "Feng_Hsin_Price": 0.0
+  },
+  {
+    "Date": "2025-10-27",
+    "Copper_TWD_Kg": 983.58,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 37.70000076293945,
+    "China_Steel_Price": 18.950000762939453,
+    "Feng_Hsin_Price": 65.0999984741211
+  },
+  {
+    "Date": "2025-10-28",
+    "Copper_TWD_Kg": 978.93,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 37.400001525878906,
+    "China_Steel_Price": 18.950000762939453,
+    "Feng_Hsin_Price": 64.19999694824219
+  },
+  {
+    "Date": "2025-10-29",
+    "Copper_TWD_Kg": 983.49,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.849998474121094,
+    "China_Steel_Price": 18.75,
+    "Feng_Hsin_Price": 63.70000076293945
+  },
+  {
+    "Date": "2025-10-30",
+    "Copper_TWD_Kg": 968.1,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.95000076293945,
+    "China_Steel_Price": 18.75,
+    "Feng_Hsin_Price": 63.29999923706055
+  },
+  {
+    "Date": "2025-10-31",
+    "Copper_TWD_Kg": 968.94,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.70000076293945,
+    "China_Steel_Price": 18.600000381469727,
+    "Feng_Hsin_Price": 63.29999923706055
+  },
+  {
+    "Date": "2025-11-03",
+    "Copper_TWD_Kg": 962.85,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.79999923706055,
+    "China_Steel_Price": 18.350000381469727,
+    "Feng_Hsin_Price": 62.900001525878906
+  },
+  {
+    "Date": "2025-11-04",
+    "Copper_TWD_Kg": 943.47,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.0,
+    "China_Steel_Price": 18.149999618530273,
+    "Feng_Hsin_Price": 62.5
+  },
+  {
+    "Date": "2025-11-05",
+    "Copper_TWD_Kg": 954.78,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.099998474121094,
+    "China_Steel_Price": 18.100000381469727,
+    "Feng_Hsin_Price": 62.29999923706055
+  },
+  {
+    "Date": "2025-11-06",
+    "Copper_TWD_Kg": 952.43,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.54999923706055,
+    "China_Steel_Price": 18.25,
+    "Feng_Hsin_Price": 63.900001525878906
+  },
+  {
+    "Date": "2025-11-07",
+    "Copper_TWD_Kg": 950.12,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.54999923706055,
+    "China_Steel_Price": 18.200000762939453,
+    "Feng_Hsin_Price": 64.0
+  },
+  {
+    "Date": "2025-11-10",
+    "Copper_TWD_Kg": 978.86,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 37.20000076293945,
+    "China_Steel_Price": 18.149999618530273,
+    "Feng_Hsin_Price": 63.900001525878906
+  },
+  {
+    "Date": "2025-11-11",
+    "Copper_TWD_Kg": 970.5,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.849998474121094,
+    "China_Steel_Price": 18.149999618530273,
+    "Feng_Hsin_Price": 63.29999923706055
+  },
+  {
+    "Date": "2025-11-12",
+    "Copper_TWD_Kg": 975.38,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 37.599998474121094,
+    "China_Steel_Price": 18.149999618530273,
+    "Feng_Hsin_Price": 63.900001525878906
+  },
+  {
+    "Date": "2025-11-13",
+    "Copper_TWD_Kg": 971.06,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 37.70000076293945,
+    "China_Steel_Price": 18.049999237060547,
+    "Feng_Hsin_Price": 63.900001525878906
+  },
+  {
+    "Date": "2025-11-14",
+    "Copper_TWD_Kg": 974.83,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 38.599998474121094,
+    "China_Steel_Price": 18.0,
+    "Feng_Hsin_Price": 64.30000305175781
+  },
+  {
     "Date": "2025-11-17",
     "Copper_TWD_Kg": 944.44,
-    "Steel_Rebar_TWD_Ton": 16500,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 38.0,
+    "China_Steel_Price": 17.950000762939453,
+    "Feng_Hsin_Price": 63.0
   },
   {
     "Date": "2025-11-18",
     "Copper_TWD_Kg": 960.19,
-    "Steel_Rebar_TWD_Ton": 16500,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.900001525878906,
+    "China_Steel_Price": 17.75,
+    "Feng_Hsin_Price": 61.29999923706055
   },
   {
     "Date": "2025-11-19",
     "Copper_TWD_Kg": 968.24,
-    "Steel_Rebar_TWD_Ton": 16500,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.04999923706055,
+    "China_Steel_Price": 17.700000762939453,
+    "Feng_Hsin_Price": 60.70000076293945
   },
   {
     "Date": "2025-11-20",
     "Copper_TWD_Kg": 959.5,
-    "Steel_Rebar_TWD_Ton": 16500,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.70000076293945,
+    "China_Steel_Price": 17.75,
+    "Feng_Hsin_Price": 61.599998474121094
   },
   {
     "Date": "2025-11-21",
     "Copper_TWD_Kg": 974.11,
-    "Steel_Rebar_TWD_Ton": 16500,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.599998474121094,
+    "China_Steel_Price": 17.649999618530273,
+    "Feng_Hsin_Price": 62.29999923706055
   },
   {
     "Date": "2025-11-24",
     "Copper_TWD_Kg": 974.94,
-    "Steel_Rebar_TWD_Ton": 16500,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.20000076293945,
+    "China_Steel_Price": 18.049999237060547,
+    "Feng_Hsin_Price": 63.0
   },
   {
     "Date": "2025-11-25",
     "Copper_TWD_Kg": 979.87,
-    "Steel_Rebar_TWD_Ton": 16500,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 37.20000076293945,
+    "China_Steel_Price": 17.799999237060547,
+    "Feng_Hsin_Price": 62.400001525878906
   },
   {
     "Date": "2025-11-26",
     "Copper_TWD_Kg": 999.4,
-    "Steel_Rebar_TWD_Ton": 16500,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 38.45000076293945,
+    "China_Steel_Price": 18.149999618530273,
+    "Feng_Hsin_Price": 62.29999923706055
+  },
+  {
+    "Date": "2025-11-27",
+    "Copper_TWD_Kg": 0.0,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 38.20000076293945,
+    "China_Steel_Price": 18.200000762939453,
+    "Feng_Hsin_Price": 62.70000076293945
   },
   {
     "Date": "2025-11-28",
     "Copper_TWD_Kg": 1010.84,
-    "Steel_Rebar_TWD_Ton": 16500,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 37.099998474121094,
+    "China_Steel_Price": 18.25,
+    "Feng_Hsin_Price": 62.79999923706055
   },
   {
     "Date": "2025-12-01",
     "Copper_TWD_Kg": 1013.16,
-    "Steel_Rebar_TWD_Ton": 16500,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 38.400001525878906,
+    "China_Steel_Price": 18.600000381469727,
+    "Feng_Hsin_Price": 64.0
   },
   {
     "Date": "2025-12-02",
     "Copper_TWD_Kg": 1009.07,
-    "Steel_Rebar_TWD_Ton": 16500,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 38.45000076293945,
+    "China_Steel_Price": 18.850000381469727,
+    "Feng_Hsin_Price": 64.5999984741211
   },
   {
     "Date": "2025-12-03",
     "Copper_TWD_Kg": 1037.21,
-    "Steel_Rebar_TWD_Ton": 16500,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 38.54999923706055,
+    "China_Steel_Price": 19.049999237060547,
+    "Feng_Hsin_Price": 64.5
   },
   {
     "Date": "2025-12-04",
     "Copper_TWD_Kg": 1028.37,
-    "Steel_Rebar_TWD_Ton": 16500,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 38.849998474121094,
+    "China_Steel_Price": 18.899999618530273,
+    "Feng_Hsin_Price": 63.900001525878906
   },
   {
     "Date": "2025-12-05",
     "Copper_TWD_Kg": 1046.02,
-    "Steel_Rebar_TWD_Ton": 16500,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 38.70000076293945,
+    "China_Steel_Price": 18.700000762939453,
+    "Feng_Hsin_Price": 63.0
   },
   {
     "Date": "2025-12-08",
     "Copper_TWD_Kg": 1039.55,
-    "Steel_Rebar_TWD_Ton": 16500,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 38.04999923706055,
+    "China_Steel_Price": 18.600000381469727,
+    "Feng_Hsin_Price": 62.79999923706055
   },
   {
     "Date": "2025-12-09",
     "Copper_TWD_Kg": 1017.53,
-    "Steel_Rebar_TWD_Ton": 16500,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 37.04999923706055,
+    "China_Steel_Price": 18.450000762939453,
+    "Feng_Hsin_Price": 63.099998474121094
   },
   {
     "Date": "2025-12-10",
     "Copper_TWD_Kg": 1030.16,
-    "Steel_Rebar_TWD_Ton": 16500,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.54999923706055,
+    "China_Steel_Price": 18.299999237060547,
+    "Feng_Hsin_Price": 63.099998474121094
   },
   {
     "Date": "2025-12-11",
     "Copper_TWD_Kg": 1044.5,
-    "Steel_Rebar_TWD_Ton": 16500,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.849998474121094,
+    "China_Steel_Price": 18.350000381469727,
+    "Feng_Hsin_Price": 63.29999923706055
   },
   {
     "Date": "2025-12-12",
     "Copper_TWD_Kg": 1023.64,
-    "Steel_Rebar_TWD_Ton": 16500,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 37.150001525878906,
+    "China_Steel_Price": 18.75,
+    "Feng_Hsin_Price": 63.20000076293945
   },
   {
     "Date": "2025-12-15",
     "Copper_TWD_Kg": 1038.26,
-    "Steel_Rebar_TWD_Ton": 16500,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 37.5,
+    "China_Steel_Price": 18.950000762939453,
+    "Feng_Hsin_Price": 64.0999984741211
   },
   {
     "Date": "2025-12-16",
     "Copper_TWD_Kg": 1030.4,
-    "Steel_Rebar_TWD_Ton": 16500,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.900001525878906,
+    "China_Steel_Price": 18.549999237060547,
+    "Feng_Hsin_Price": 64.30000305175781
   },
   {
     "Date": "2025-12-17",
     "Copper_TWD_Kg": 1045.71,
-    "Steel_Rebar_TWD_Ton": 16500,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.150001525878906,
+    "China_Steel_Price": 18.399999618530273,
+    "Feng_Hsin_Price": 63.400001525878906
   },
   {
     "Date": "2025-12-18",
     "Copper_TWD_Kg": 1052.08,
-    "Steel_Rebar_TWD_Ton": 16500,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.79999923706055,
+    "China_Steel_Price": 18.25,
+    "Feng_Hsin_Price": 62.5
   },
   {
     "Date": "2025-12-19",
     "Copper_TWD_Kg": 1058.87,
-    "Steel_Rebar_TWD_Ton": 16500,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.54999923706055,
+    "China_Steel_Price": 18.850000381469727,
+    "Feng_Hsin_Price": 63.900001525878906
   },
   {
     "Date": "2025-12-22",
     "Copper_TWD_Kg": 1062.63,
-    "Steel_Rebar_TWD_Ton": 16500,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.45000076293945,
+    "China_Steel_Price": 18.799999237060547,
+    "Feng_Hsin_Price": 62.5
   },
   {
     "Date": "2025-12-23",
     "Copper_TWD_Kg": 1076.82,
-    "Steel_Rebar_TWD_Ton": 16500,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.099998474121094,
+    "China_Steel_Price": 18.600000381469727,
+    "Feng_Hsin_Price": 61.79999923706055
   },
   {
     "Date": "2025-12-24",
     "Copper_TWD_Kg": 1076.94,
-    "Steel_Rebar_TWD_Ton": 16500,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 34.79999923706055,
+    "China_Steel_Price": 18.549999237060547,
+    "Feng_Hsin_Price": 61.5
   },
   {
     "Date": "2025-12-26",
     "Copper_TWD_Kg": 1130.53,
-    "Steel_Rebar_TWD_Ton": 16500,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.349998474121094,
+    "China_Steel_Price": 18.850000381469727,
+    "Feng_Hsin_Price": 61.0
   },
   {
     "Date": "2025-12-29",
     "Copper_TWD_Kg": 1072.57,
-    "Steel_Rebar_TWD_Ton": 16500,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.54999923706055,
+    "China_Steel_Price": 19.100000381469727,
+    "Feng_Hsin_Price": 62.0
   },
   {
     "Date": "2025-12-30",
     "Copper_TWD_Kg": 1103.95,
-    "Steel_Rebar_TWD_Ton": 16500,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.75,
+    "China_Steel_Price": 19.25,
+    "Feng_Hsin_Price": 61.29999923706055
   },
   {
     "Date": "2025-12-31",
     "Copper_TWD_Kg": 1092.28,
-    "Steel_Rebar_TWD_Ton": 16500,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.599998474121094,
+    "China_Steel_Price": 19.0,
+    "Feng_Hsin_Price": 61.29999923706055
   },
   {
     "Date": "2026-01-02",
-    "Copper_TWD_Kg": 1095,
-    "Steel_Rebar_TWD_Ton": 16500,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Copper_TWD_Kg": 1095.0,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.849998474121094,
+    "China_Steel_Price": 18.75,
+    "Feng_Hsin_Price": 61.79999923706055
   },
   {
     "Date": "2026-01-05",
     "Copper_TWD_Kg": 1153.06,
-    "Steel_Rebar_TWD_Ton": 16500,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.0,
+    "China_Steel_Price": 18.600000381469727,
+    "Feng_Hsin_Price": 61.900001525878906
   },
   {
     "Date": "2026-01-06",
     "Copper_TWD_Kg": 1173.06,
-    "Steel_Rebar_TWD_Ton": 16500,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.04999923706055,
+    "China_Steel_Price": 18.5,
+    "Feng_Hsin_Price": 61.900001525878906
   },
   {
     "Date": "2026-01-07",
     "Copper_TWD_Kg": 1130.88,
-    "Steel_Rebar_TWD_Ton": 16500,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 37.5,
+    "China_Steel_Price": 19.450000762939453,
+    "Feng_Hsin_Price": 62.5
   },
   {
     "Date": "2026-01-08",
     "Copper_TWD_Kg": 1122.1,
-    "Steel_Rebar_TWD_Ton": 16500,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.79999923706055,
+    "China_Steel_Price": 19.149999618530273,
+    "Feng_Hsin_Price": 62.400001525878906
   },
   {
     "Date": "2026-01-09",
     "Copper_TWD_Kg": 1140.34,
-    "Steel_Rebar_TWD_Ton": 16500,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.650001525878906,
+    "China_Steel_Price": 19.0,
+    "Feng_Hsin_Price": 62.599998474121094
   },
   {
     "Date": "2026-01-12",
     "Copper_TWD_Kg": 1165.16,
-    "Steel_Rebar_TWD_Ton": 16500,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.45000076293945,
+    "China_Steel_Price": 19.549999237060547,
+    "Feng_Hsin_Price": 63.599998474121094
   },
   {
     "Date": "2026-01-13",
     "Copper_TWD_Kg": 1164.61,
-    "Steel_Rebar_TWD_Ton": 16500,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.70000076293945,
+    "China_Steel_Price": 19.450000762939453,
+    "Feng_Hsin_Price": 63.70000076293945
   },
   {
     "Date": "2026-01-14",
     "Copper_TWD_Kg": 1185.63,
-    "Steel_Rebar_TWD_Ton": 16500,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.650001525878906,
+    "China_Steel_Price": 19.399999618530273,
+    "Feng_Hsin_Price": 65.5999984741211
   },
   {
     "Date": "2026-01-15",
     "Copper_TWD_Kg": 1158.65,
-    "Steel_Rebar_TWD_Ton": 16500,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 37.04999923706055,
+    "China_Steel_Price": 19.450000762939453,
+    "Feng_Hsin_Price": 64.19999694824219
   },
   {
     "Date": "2026-01-16",
     "Copper_TWD_Kg": 1134.42,
-    "Steel_Rebar_TWD_Ton": 16500,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.5,
+    "China_Steel_Price": 19.25,
+    "Feng_Hsin_Price": 63.900001525878906
+  },
+  {
+    "Date": "2026-01-19",
+    "Copper_TWD_Kg": 0.0,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.75,
+    "China_Steel_Price": 19.649999618530273,
+    "Feng_Hsin_Price": 64.19999694824219
   },
   {
     "Date": "2026-01-20",
     "Copper_TWD_Kg": 1126.61,
-    "Steel_Rebar_TWD_Ton": 16700,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.150001525878906,
+    "China_Steel_Price": 19.149999618530273,
+    "Feng_Hsin_Price": 64.19999694824219
   },
   {
     "Date": "2026-01-21",
     "Copper_TWD_Kg": 1130.42,
-    "Steel_Rebar_TWD_Ton": 16700,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.75,
+    "China_Steel_Price": 18.950000762939453,
+    "Feng_Hsin_Price": 63.20000076293945
   },
   {
     "Date": "2026-01-22",
     "Copper_TWD_Kg": 1128.28,
-    "Steel_Rebar_TWD_Ton": 16700,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 35.849998474121094,
+    "China_Steel_Price": 19.0,
+    "Feng_Hsin_Price": 63.79999923706055
   },
   {
     "Date": "2026-01-23",
     "Copper_TWD_Kg": 1153.45,
-    "Steel_Rebar_TWD_Ton": 16700,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 36.29999923706055,
+    "China_Steel_Price": 19.149999618530273,
+    "Feng_Hsin_Price": 63.5
   },
   {
     "Date": "2026-01-26",
     "Copper_TWD_Kg": 1146.29,
-    "Steel_Rebar_TWD_Ton": 16900,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 37.5,
+    "China_Steel_Price": 19.649999618530273,
+    "Feng_Hsin_Price": 64.0999984741211
   },
   {
     "Date": "2026-01-27",
     "Copper_TWD_Kg": 1150.09,
-    "Steel_Rebar_TWD_Ton": 16900,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 37.849998474121094,
+    "China_Steel_Price": 19.350000381469727,
+    "Feng_Hsin_Price": 64.19999694824219
   },
   {
     "Date": "2026-01-28",
     "Copper_TWD_Kg": 1144.24,
-    "Steel_Rebar_TWD_Ton": 16900,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 38.70000076293945,
+    "China_Steel_Price": 19.600000381469727,
+    "Feng_Hsin_Price": 64.9000015258789
   },
   {
     "Date": "2026-01-29",
     "Copper_TWD_Kg": 1210.45,
-    "Steel_Rebar_TWD_Ton": 16900,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 40.20000076293945,
+    "China_Steel_Price": 20.700000762939453,
+    "Feng_Hsin_Price": 65.5
   },
   {
     "Date": "2026-01-30",
     "Copper_TWD_Kg": 1142.51,
-    "Steel_Rebar_TWD_Ton": 16900,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 39.29999923706055,
+    "China_Steel_Price": 20.75,
+    "Feng_Hsin_Price": 64.5999984741211
   },
   {
     "Date": "2026-02-02",
     "Copper_TWD_Kg": 1133.2,
-    "Steel_Rebar_TWD_Ton": 16900,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 38.5,
+    "China_Steel_Price": 21.100000381469727,
+    "Feng_Hsin_Price": 64.5999984741211
   },
   {
     "Date": "2026-02-03",
     "Copper_TWD_Kg": 1183.51,
-    "Steel_Rebar_TWD_Ton": 16900,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 38.150001525878906,
+    "China_Steel_Price": 20.649999618530273,
+    "Feng_Hsin_Price": 65.0999984741211
   },
   {
     "Date": "2026-02-04",
     "Copper_TWD_Kg": 1145.79,
-    "Steel_Rebar_TWD_Ton": 16900,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 38.900001525878906,
+    "China_Steel_Price": 20.950000762939453,
+    "Feng_Hsin_Price": 66.0999984741211
   },
   {
     "Date": "2026-02-05",
     "Copper_TWD_Kg": 1115.6,
-    "Steel_Rebar_TWD_Ton": 16900,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 37.599998474121094,
+    "China_Steel_Price": 20.950000762939453,
+    "Feng_Hsin_Price": 65.69999694824219
   },
   {
     "Date": "2026-02-06",
     "Copper_TWD_Kg": 1146.95,
-    "Steel_Rebar_TWD_Ton": 16900,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 37.0,
+    "China_Steel_Price": 20.399999618530273,
+    "Feng_Hsin_Price": 65.0
   },
   {
     "Date": "2026-02-09",
     "Copper_TWD_Kg": 1161.01,
-    "Steel_Rebar_TWD_Ton": 16900,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 37.70000076293945,
+    "China_Steel_Price": 20.350000381469727,
+    "Feng_Hsin_Price": 65.0
   },
   {
     "Date": "2026-02-10",
     "Copper_TWD_Kg": 1146.62,
-    "Steel_Rebar_TWD_Ton": 16900,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 37.0,
+    "China_Steel_Price": 20.5,
+    "Feng_Hsin_Price": 66.0
   },
   {
     "Date": "2026-02-11",
     "Copper_TWD_Kg": 1158.42,
-    "Steel_Rebar_TWD_Ton": 16900,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 37.349998474121094,
+    "China_Steel_Price": 20.899999618530273,
+    "Feng_Hsin_Price": 67.30000305175781
   },
   {
     "Date": "2026-02-12",
     "Copper_TWD_Kg": 1112.78,
-    "Steel_Rebar_TWD_Ton": 16900,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 0.0,
+    "China_Steel_Price": 0.0,
+    "Feng_Hsin_Price": 0.0
   },
   {
     "Date": "2026-02-13",
     "Copper_TWD_Kg": 1117.19,
-    "Steel_Rebar_TWD_Ton": 16900,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
-  },
-  {
-    "Date": "2026-02-15",
-    "Copper_TWD_Kg": 1117.01,
-    "Steel_Rebar_TWD_Ton": 16900,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 0.0,
+    "China_Steel_Price": 0.0,
+    "Feng_Hsin_Price": 0.0
   },
   {
     "Date": "2026-02-16",
-    "Copper_TWD_Kg": 1115.09,
-    "Steel_Rebar_TWD_Ton": 16900,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Copper_TWD_Kg": 0.0,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 0.0,
+    "China_Steel_Price": 0.0,
+    "Feng_Hsin_Price": 0.0
   },
   {
     "Date": "2026-02-17",
-    "Copper_TWD_Kg": 1115.48,
-    "Steel_Rebar_TWD_Ton": 16900,
-    "Stainless_Index": 0,
-    "China_Steel_Price": "",
-    "Feng_Hsin_Price": ""
+    "Copper_TWD_Kg": 1094.57,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 0.0,
+    "China_Steel_Price": 0.0,
+    "Feng_Hsin_Price": 0.0
   },
   {
     "Date": "2026-02-18",
-    "Copper_TWD_Kg": 1096.24,
-    "Steel_Rebar_TWD_Ton": 16900,
-    "Stainless_Index": 0,
-    "China_Steel_Price": 20.89999962,
-    "Feng_Hsin_Price": 67.30000305
+    "Copper_TWD_Kg": 0.0,
+    "Steel_Rebar_TWD_Ton": "",
+    "Stainless_Index": 0.0,
+    "China_Steel_Price": 0.0,
+    "Feng_Hsin_Price": 0.0
   }
 ]
