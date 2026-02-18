@@ -10,6 +10,7 @@
     "Stock_2002.TW": null,
     "Stock_2015.TW": null,
     "Stock_2027.TW": null,
+    "Stock_2330": null,
     "China_Steel_Price": null,
     "Feng_Hsin_Price": null
   },
@@ -17,13 +18,14 @@
     "Date": "2024-01-02",
     "Copper_TWD_Kg": 734.51,
     "Steel_Rebar_TWD_Ton": 18800,
-    "Stainless_Index": 37.14345932006836,
+    "Stainless_Index": 37.143455505371094,
     "Gold_USD": 2064.39990234375,
     "Silver_USD": 23.732999801635742,
     "Exchange_Rate_TWD": 30.66860008239746,
     "Stock_2002.TW": 26.15302848815918,
     "Stock_2015.TW": 63.12373733520508,
-    "Stock_2027.TW": 37.14345932006836,
+    "Stock_2027.TW": 37.143455505371094,
+    "Stock_2330": null,
     "China_Steel_Price": 26.15302848815918,
     "Feng_Hsin_Price": 63.12373733520508
   },
@@ -38,6 +40,7 @@
     "Stock_2002.TW": 25.86244010925293,
     "Stock_2015.TW": 62.12752151489258,
     "Stock_2027.TW": 36.76874542236328,
+    "Stock_2330": null,
     "China_Steel_Price": 25.86244010925293,
     "Feng_Hsin_Price": 62.12752151489258
   },
@@ -52,6 +55,7 @@
     "Stock_2002.TW": 25.86244010925293,
     "Stock_2015.TW": 62.489784240722656,
     "Stock_2027.TW": 36.62822341918945,
+    "Stock_2330": null,
     "China_Steel_Price": 25.86244010925293,
     "Feng_Hsin_Price": 62.489784240722656
   },
@@ -59,13 +63,14 @@
     "Date": "2024-01-05",
     "Copper_TWD_Kg": 734.43,
     "Steel_Rebar_TWD_Ton": 18800,
-    "Stainless_Index": 36.534549713134766,
+    "Stainless_Index": 36.5345458984375,
     "Gold_USD": 2042.4000244140625,
     "Silver_USD": 23.121999740600586,
     "Exchange_Rate_TWD": 31.054000854492188,
     "Stock_2002.TW": 25.86244010925293,
     "Stock_2015.TW": 62.03696060180664,
-    "Stock_2027.TW": 36.534549713134766,
+    "Stock_2027.TW": 36.5345458984375,
+    "Stock_2330": null,
     "China_Steel_Price": 25.86244010925293,
     "Feng_Hsin_Price": 62.03696060180664
   },
@@ -80,6 +85,7 @@
     "Stock_2002.TW": 25.668712615966797,
     "Stock_2015.TW": 61.765262603759766,
     "Stock_2027.TW": 36.487709045410156,
+    "Stock_2330": null,
     "China_Steel_Price": 25.668712615966797,
     "Feng_Hsin_Price": 61.765262603759766
   },
@@ -94,6 +100,7 @@
     "Stock_2002.TW": 25.184396743774414,
     "Stock_2015.TW": 61.131309509277344,
     "Stock_2027.TW": 35.87879943847656,
+    "Stock_2330": null,
     "China_Steel_Price": 25.184396743774414,
     "Feng_Hsin_Price": 61.131309509277344
   },
@@ -108,6 +115,7 @@
     "Stock_2002.TW": 25.03910255432129,
     "Stock_2015.TW": 60.587921142578125,
     "Stock_2027.TW": 35.129371643066406,
+    "Stock_2330": null,
     "China_Steel_Price": 25.03910255432129,
     "Feng_Hsin_Price": 60.587921142578125
   },
@@ -122,6 +130,7 @@
     "Stock_2002.TW": 24.990671157836914,
     "Stock_2015.TW": 60.67848587036133,
     "Stock_2027.TW": 35.03569793701172,
+    "Stock_2330": null,
     "China_Steel_Price": 24.990671157836914,
     "Feng_Hsin_Price": 60.67848587036133
   },
@@ -136,6 +145,7 @@
     "Stock_2002.TW": 24.990671157836914,
     "Stock_2015.TW": 60.95018005371094,
     "Stock_2027.TW": 35.129371643066406,
+    "Stock_2330": null,
     "China_Steel_Price": 24.990671157836914,
     "Feng_Hsin_Price": 60.95018005371094
   },
@@ -150,6 +160,7 @@
     "Stock_2002.TW": 24.990671157836914,
     "Stock_2015.TW": 60.67848587036133,
     "Stock_2027.TW": 35.03569793701172,
+    "Stock_2330": null,
     "China_Steel_Price": 24.990671157836914,
     "Feng_Hsin_Price": 60.67848587036133
   },
@@ -157,13 +168,14 @@
     "Date": "2024-01-16",
     "Copper_TWD_Kg": 729.96,
     "Steel_Rebar_TWD_Ton": 18800,
-    "Stainless_Index": 34.707820892333984,
+    "Stainless_Index": 34.70781707763672,
     "Gold_USD": 2026.0,
     "Silver_USD": 22.933000564575195,
     "Exchange_Rate_TWD": 31.19499969482422,
     "Stock_2002.TW": 24.409494400024414,
     "Stock_2015.TW": 60.044532775878906,
-    "Stock_2027.TW": 34.707820892333984,
+    "Stock_2027.TW": 34.70781707763672,
+    "Stock_2330": null,
     "China_Steel_Price": 24.409494400024414,
     "Feng_Hsin_Price": 60.044532775878906
   },
@@ -171,13 +183,14 @@
     "Date": "2024-01-17",
     "Copper_TWD_Kg": 731.71,
     "Steel_Rebar_TWD_Ton": 18800,
-    "Stainless_Index": 34.19259262084961,
+    "Stainless_Index": 34.192588806152344,
     "Gold_USD": 2002.5999755859375,
     "Silver_USD": 22.516000747680664,
     "Exchange_Rate_TWD": 31.45800018310547,
     "Stock_2002.TW": 24.02203941345215,
     "Stock_2015.TW": 60.49735641479492,
-    "Stock_2027.TW": 34.19259262084961,
+    "Stock_2027.TW": 34.192588806152344,
+    "Stock_2330": null,
     "China_Steel_Price": 24.02203941345215,
     "Feng_Hsin_Price": 60.49735641479492
   },
@@ -192,6 +205,7 @@
     "Stock_2002.TW": 24.02203941345215,
     "Stock_2015.TW": 60.13509750366211,
     "Stock_2027.TW": 34.2862663269043,
+    "Stock_2330": null,
     "China_Steel_Price": 24.02203941345215,
     "Feng_Hsin_Price": 60.13509750366211
   },
@@ -206,6 +220,7 @@
     "Stock_2002.TW": 23.876745223999023,
     "Stock_2015.TW": 60.13509750366211,
     "Stock_2027.TW": 34.2862663269043,
+    "Stock_2330": null,
     "China_Steel_Price": 23.876745223999023,
     "Feng_Hsin_Price": 60.13509750366211
   },
@@ -220,6 +235,7 @@
     "Stock_2002.TW": 23.973609924316406,
     "Stock_2015.TW": 61.04074478149414,
     "Stock_2027.TW": 34.379947662353516,
+    "Stock_2330": null,
     "China_Steel_Price": 23.973609924316406,
     "Feng_Hsin_Price": 61.04074478149414
   },
@@ -234,6 +250,7 @@
     "Stock_2002.TW": 24.02203941345215,
     "Stock_2015.TW": 61.493568420410156,
     "Stock_2027.TW": 34.660980224609375,
+    "Stock_2330": null,
     "China_Steel_Price": 24.02203941345215,
     "Feng_Hsin_Price": 61.493568420410156
   },
@@ -241,13 +258,14 @@
     "Date": "2024-01-24",
     "Copper_TWD_Kg": 756.62,
     "Steel_Rebar_TWD_Ton": 18800,
-    "Stainless_Index": 34.89517593383789,
+    "Stainless_Index": 34.895179748535156,
     "Gold_USD": 2013.9000244140625,
     "Silver_USD": 22.7549991607666,
     "Exchange_Rate_TWD": 31.395000457763672,
     "Stock_2002.TW": 24.36106300354004,
     "Stock_2015.TW": 60.67848587036133,
-    "Stock_2027.TW": 34.89517593383789,
+    "Stock_2027.TW": 34.895179748535156,
+    "Stock_2330": null,
     "China_Steel_Price": 24.36106300354004,
     "Feng_Hsin_Price": 60.67848587036133
   },
@@ -262,6 +280,7 @@
     "Stock_2002.TW": 24.31262969970703,
     "Stock_2015.TW": 61.765262603759766,
     "Stock_2027.TW": 34.84833526611328,
+    "Stock_2330": null,
     "China_Steel_Price": 24.31262969970703,
     "Feng_Hsin_Price": 61.765262603759766
   },
@@ -276,6 +295,7 @@
     "Stock_2002.TW": 24.45792579650879,
     "Stock_2015.TW": 62.03696060180664,
     "Stock_2027.TW": 34.9420166015625,
+    "Stock_2330": null,
     "China_Steel_Price": 24.45792579650879,
     "Feng_Hsin_Price": 62.03696060180664
   },
@@ -290,6 +310,7 @@
     "Stock_2002.TW": 24.65165138244629,
     "Stock_2015.TW": 61.9463996887207,
     "Stock_2027.TW": 35.03569793701172,
+    "Stock_2330": null,
     "China_Steel_Price": 24.65165138244629,
     "Feng_Hsin_Price": 61.9463996887207
   },
@@ -304,6 +325,7 @@
     "Stock_2002.TW": 24.264198303222656,
     "Stock_2015.TW": 61.58413314819336,
     "Stock_2027.TW": 34.61414337158203,
+    "Stock_2330": null,
     "China_Steel_Price": 24.264198303222656,
     "Feng_Hsin_Price": 61.58413314819336
   },
@@ -318,6 +340,7 @@
     "Stock_2002.TW": 24.36106300354004,
     "Stock_2015.TW": 61.493568420410156,
     "Stock_2027.TW": 34.75465774536133,
+    "Stock_2330": null,
     "China_Steel_Price": 24.36106300354004,
     "Feng_Hsin_Price": 61.493568420410156
   },
@@ -332,6 +355,7 @@
     "Stock_2002.TW": 24.45792579650879,
     "Stock_2015.TW": 62.03696060180664,
     "Stock_2027.TW": 34.660980224609375,
+    "Stock_2330": null,
     "China_Steel_Price": 24.45792579650879,
     "Feng_Hsin_Price": 62.03696060180664
   },
@@ -346,6 +370,7 @@
     "Stock_2002.TW": 24.36106300354004,
     "Stock_2015.TW": 61.8558349609375,
     "Stock_2027.TW": 34.47362518310547,
+    "Stock_2330": null,
     "China_Steel_Price": 24.36106300354004,
     "Feng_Hsin_Price": 61.8558349609375
   },
@@ -360,6 +385,7 @@
     "Stock_2002.TW": 24.070472717285156,
     "Stock_2015.TW": 61.31243896484375,
     "Stock_2027.TW": 34.05207061767578,
+    "Stock_2330": null,
     "China_Steel_Price": 24.070472717285156,
     "Feng_Hsin_Price": 61.31243896484375
   },
@@ -374,6 +400,7 @@
     "Stock_2002.TW": null,
     "Stock_2015.TW": null,
     "Stock_2027.TW": null,
+    "Stock_2330": null,
     "China_Steel_Price": null,
     "Feng_Hsin_Price": null
   },
@@ -388,6 +415,7 @@
     "Stock_2002.TW": null,
     "Stock_2015.TW": null,
     "Stock_2027.TW": null,
+    "Stock_2330": null,
     "China_Steel_Price": null,
     "Feng_Hsin_Price": null
   },
@@ -402,6 +430,7 @@
     "Stock_2002.TW": null,
     "Stock_2015.TW": null,
     "Stock_2027.TW": null,
+    "Stock_2330": null,
     "China_Steel_Price": null,
     "Feng_Hsin_Price": null
   },
@@ -416,6 +445,7 @@
     "Stock_2002.TW": null,
     "Stock_2015.TW": null,
     "Stock_2027.TW": null,
+    "Stock_2330": null,
     "China_Steel_Price": null,
     "Feng_Hsin_Price": null
   },
@@ -430,6 +460,7 @@
     "Stock_2002.TW": null,
     "Stock_2015.TW": null,
     "Stock_2027.TW": null,
+    "Stock_2330": null,
     "China_Steel_Price": null,
     "Feng_Hsin_Price": null
   },
@@ -444,6 +475,7 @@
     "Stock_2002.TW": null,
     "Stock_2015.TW": null,
     "Stock_2027.TW": null,
+    "Stock_2330": null,
     "China_Steel_Price": null,
     "Feng_Hsin_Price": null
   },
@@ -458,6 +490,7 @@
     "Stock_2002.TW": null,
     "Stock_2015.TW": null,
     "Stock_2027.TW": null,
+    "Stock_2330": null,
     "China_Steel_Price": null,
     "Feng_Hsin_Price": null
   },
@@ -465,13 +498,14 @@
     "Date": "2024-02-15",
     "Copper_TWD_Kg": 732.85,
     "Steel_Rebar_TWD_Ton": 18800,
-    "Stainless_Index": 33.91155242919922,
+    "Stainless_Index": 33.911556243896484,
     "Gold_USD": 2002.0999755859375,
     "Silver_USD": 22.91200065612793,
     "Exchange_Rate_TWD": 31.34510040283203,
     "Stock_2002.TW": 23.82831573486328,
     "Stock_2015.TW": 62.58034896850586,
-    "Stock_2027.TW": 33.91155242919922,
+    "Stock_2027.TW": 33.911556243896484,
+    "Stock_2330": null,
     "China_Steel_Price": 23.82831573486328,
     "Feng_Hsin_Price": 62.58034896850586
   },
@@ -479,13 +513,14 @@
     "Date": "2024-02-16",
     "Copper_TWD_Kg": 745.3,
     "Steel_Rebar_TWD_Ton": 18800,
-    "Stainless_Index": 34.00522994995117,
+    "Stainless_Index": 34.00523376464844,
     "Gold_USD": 2011.5,
     "Silver_USD": 23.43899917602539,
     "Exchange_Rate_TWD": 31.262699127197266,
     "Stock_2002.TW": 24.1189022064209,
     "Stock_2015.TW": 62.85204315185547,
-    "Stock_2027.TW": 34.00522994995117,
+    "Stock_2027.TW": 34.00523376464844,
+    "Stock_2330": null,
     "China_Steel_Price": 24.1189022064209,
     "Feng_Hsin_Price": 62.85204315185547
   },
@@ -500,6 +535,7 @@
     "Stock_2002.TW": 24.603219985961914,
     "Stock_2015.TW": 63.39543151855469,
     "Stock_2027.TW": 34.42678451538086,
+    "Stock_2330": null,
     "China_Steel_Price": 24.603219985961914,
     "Feng_Hsin_Price": 63.39543151855469
   },
@@ -514,6 +550,7 @@
     "Stock_2002.TW": 24.50635528564453,
     "Stock_2015.TW": 62.67091369628906,
     "Stock_2027.TW": 34.09891128540039,
+    "Stock_2330": null,
     "China_Steel_Price": 24.50635528564453,
     "Feng_Hsin_Price": 62.67091369628906
   },
@@ -521,13 +558,14 @@
     "Date": "2024-02-21",
     "Copper_TWD_Kg": 757.46,
     "Steel_Rebar_TWD_Ton": 18800,
-    "Stainless_Index": 34.00522994995117,
+    "Stainless_Index": 34.00523376464844,
     "Gold_USD": 2022.300048828125,
     "Silver_USD": 22.85099983215332,
     "Exchange_Rate_TWD": 31.37779998779297,
     "Stock_2002.TW": 24.45792579650879,
     "Stock_2015.TW": 62.67091369628906,
-    "Stock_2027.TW": 34.00522994995117,
+    "Stock_2027.TW": 34.00523376464844,
+    "Stock_2330": null,
     "China_Steel_Price": 24.45792579650879,
     "Feng_Hsin_Price": 62.67091369628906
   },
@@ -535,13 +573,14 @@
     "Date": "2024-02-22",
     "Copper_TWD_Kg": 763.97,
     "Steel_Rebar_TWD_Ton": 18800,
-    "Stainless_Index": 34.145751953125,
+    "Stainless_Index": 34.145748138427734,
     "Gold_USD": 2019.699951171875,
     "Silver_USD": 22.764999389648438,
     "Exchange_Rate_TWD": 31.426300048828125,
     "Stock_2002.TW": 24.36106300354004,
     "Stock_2015.TW": 62.489784240722656,
-    "Stock_2027.TW": 34.145751953125,
+    "Stock_2027.TW": 34.145748138427734,
+    "Stock_2330": null,
     "China_Steel_Price": 24.36106300354004,
     "Feng_Hsin_Price": 62.489784240722656
   },
@@ -549,13 +588,14 @@
     "Date": "2024-02-23",
     "Copper_TWD_Kg": 758.99,
     "Steel_Rebar_TWD_Ton": 18800,
-    "Stainless_Index": 33.91155242919922,
+    "Stainless_Index": 33.911556243896484,
     "Gold_USD": 2038.5999755859375,
     "Silver_USD": 22.9689998626709,
     "Exchange_Rate_TWD": 31.45400047302246,
     "Stock_2002.TW": 24.21576690673828,
     "Stock_2015.TW": 62.30865478515625,
-    "Stock_2027.TW": 33.91155242919922,
+    "Stock_2027.TW": 33.911556243896484,
+    "Stock_2330": null,
     "China_Steel_Price": 24.21576690673828,
     "Feng_Hsin_Price": 62.30865478515625
   },
@@ -570,6 +610,7 @@
     "Stock_2002.TW": 24.1189022064209,
     "Stock_2015.TW": 62.489784240722656,
     "Stock_2027.TW": 33.86471939086914,
+    "Stock_2330": null,
     "China_Steel_Price": 24.1189022064209,
     "Feng_Hsin_Price": 62.489784240722656
   },
@@ -577,13 +618,14 @@
     "Date": "2024-02-27",
     "Copper_TWD_Kg": 756.54,
     "Steel_Rebar_TWD_Ton": 18800,
-    "Stainless_Index": 33.536842346191406,
+    "Stainless_Index": 33.53683853149414,
     "Gold_USD": 2034.0,
     "Silver_USD": 22.523000717163086,
     "Exchange_Rate_TWD": 31.5487003326416,
     "Stock_2002.TW": 23.876745223999023,
     "Stock_2015.TW": 62.30865478515625,
-    "Stock_2027.TW": 33.536842346191406,
+    "Stock_2027.TW": 33.53683853149414,
+    "Stock_2330": null,
     "China_Steel_Price": 23.876745223999023,
     "Feng_Hsin_Price": 62.30865478515625
   },
@@ -598,6 +640,7 @@
     "Stock_2002.TW": null,
     "Stock_2015.TW": null,
     "Stock_2027.TW": null,
+    "Stock_2330": null,
     "China_Steel_Price": null,
     "Feng_Hsin_Price": null
   },
@@ -612,6 +655,7 @@
     "Stock_2002.TW": 23.82831573486328,
     "Stock_2015.TW": 61.765262603759766,
     "Stock_2027.TW": 33.63051986694336,
+    "Stock_2330": null,
     "China_Steel_Price": 23.82831573486328,
     "Feng_Hsin_Price": 61.765262603759766
   },
@@ -626,6 +670,7 @@
     "Stock_2002.TW": 23.683021545410156,
     "Stock_2015.TW": 62.489784240722656,
     "Stock_2027.TW": 33.77103805541992,
+    "Stock_2330": null,
     "China_Steel_Price": 23.683021545410156,
     "Feng_Hsin_Price": 62.489784240722656
   },
@@ -640,6 +685,7 @@
     "Stock_2002.TW": 23.44086456298828,
     "Stock_2015.TW": 62.85204315185547,
     "Stock_2027.TW": 33.58367919921875,
+    "Stock_2330": null,
     "China_Steel_Price": 23.44086456298828,
     "Feng_Hsin_Price": 62.85204315185547
   },
@@ -647,13 +693,14 @@
     "Date": "2024-03-05",
     "Copper_TWD_Kg": 754.02,
     "Steel_Rebar_TWD_Ton": 18800,
-    "Stainless_Index": 33.72419738769531,
+    "Stainless_Index": 33.72420120239258,
     "Gold_USD": 2133.5,
     "Silver_USD": 23.76300048828125,
     "Exchange_Rate_TWD": 31.509300231933594,
     "Stock_2002.TW": 23.29556655883789,
     "Stock_2015.TW": 63.12373733520508,
-    "Stock_2027.TW": 33.72419738769531,
+    "Stock_2027.TW": 33.72420120239258,
+    "Stock_2330": null,
     "China_Steel_Price": 23.29556655883789,
     "Feng_Hsin_Price": 63.12373733520508
   },
@@ -668,6 +715,7 @@
     "Stock_2002.TW": 23.29556655883789,
     "Stock_2015.TW": 63.39543151855469,
     "Stock_2027.TW": 33.77103805541992,
+    "Stock_2330": null,
     "China_Steel_Price": 23.29556655883789,
     "Feng_Hsin_Price": 63.39543151855469
   },
@@ -682,6 +730,7 @@
     "Stock_2002.TW": 23.198705673217773,
     "Stock_2015.TW": 63.8482551574707,
     "Stock_2027.TW": 33.58367919921875,
+    "Stock_2330": null,
     "China_Steel_Price": 23.198705673217773,
     "Feng_Hsin_Price": 63.8482551574707
   },
@@ -696,6 +745,7 @@
     "Stock_2002.TW": 23.3439998626709,
     "Stock_2015.TW": 64.84447479248047,
     "Stock_2027.TW": 33.20896911621094,
+    "Stock_2330": null,
     "China_Steel_Price": 23.3439998626709,
     "Feng_Hsin_Price": 64.84447479248047
   },
@@ -710,6 +760,7 @@
     "Stock_2002.TW": 23.29556655883789,
     "Stock_2015.TW": 64.84447479248047,
     "Stock_2027.TW": 33.349483489990234,
+    "Stock_2330": null,
     "China_Steel_Price": 23.29556655883789,
     "Feng_Hsin_Price": 64.84447479248047
   },
@@ -717,13 +768,14 @@
     "Date": "2024-03-12",
     "Copper_TWD_Kg": 768.69,
     "Steel_Rebar_TWD_Ton": 18800,
-    "Stainless_Index": 33.91155242919922,
+    "Stainless_Index": 33.911556243896484,
     "Gold_USD": 2160.39990234375,
     "Silver_USD": 24.194000244140625,
     "Exchange_Rate_TWD": 31.362199783325195,
     "Stock_2002.TW": 23.39242935180664,
     "Stock_2015.TW": 65.20672607421875,
-    "Stock_2027.TW": 33.91155242919922,
+    "Stock_2027.TW": 33.911556243896484,
+    "Stock_2330": null,
     "China_Steel_Price": 23.39242935180664,
     "Feng_Hsin_Price": 65.20672607421875
   },
@@ -738,6 +790,7 @@
     "Stock_2002.TW": 23.198705673217773,
     "Stock_2015.TW": 65.11616516113281,
     "Stock_2027.TW": 33.44316482543945,
+    "Stock_2330": null,
     "China_Steel_Price": 23.198705673217773,
     "Feng_Hsin_Price": 65.11616516113281
   },
@@ -745,13 +798,14 @@
     "Date": "2024-03-14",
     "Copper_TWD_Kg": 791.76,
     "Steel_Rebar_TWD_Ton": 18800,
-    "Stainless_Index": 34.00522994995117,
+    "Stainless_Index": 34.00523376464844,
     "Gold_USD": 2163.0,
     "Silver_USD": 24.874000549316406,
     "Exchange_Rate_TWD": 31.406600952148438,
     "Stock_2002.TW": 23.29556655883789,
     "Stock_2015.TW": 65.29729461669922,
-    "Stock_2027.TW": 34.00522994995117,
+    "Stock_2027.TW": 34.00523376464844,
+    "Stock_2330": null,
     "China_Steel_Price": 23.29556655883789,
     "Feng_Hsin_Price": 65.29729461669922
   },
@@ -759,13 +813,14 @@
     "Date": "2024-03-15",
     "Copper_TWD_Kg": 810.53,
     "Steel_Rebar_TWD_Ton": 18800,
-    "Stainless_Index": 34.00522994995117,
+    "Stainless_Index": 34.00523376464844,
     "Gold_USD": 2157.300048828125,
     "Silver_USD": 25.200000762939453,
     "Exchange_Rate_TWD": 31.525999069213867,
     "Stock_2002.TW": 23.101842880249023,
     "Stock_2015.TW": 65.20672607421875,
-    "Stock_2027.TW": 34.00522994995117,
+    "Stock_2027.TW": 34.00523376464844,
+    "Stock_2330": null,
     "China_Steel_Price": 23.101842880249023,
     "Feng_Hsin_Price": 65.20672607421875
   },
@@ -780,6 +835,7 @@
     "Stock_2002.TW": 22.956546783447266,
     "Stock_2015.TW": 64.5727767944336,
     "Stock_2027.TW": 33.63051986694336,
+    "Stock_2330": null,
     "China_Steel_Price": 22.956546783447266,
     "Feng_Hsin_Price": 64.5727767944336
   },
@@ -787,13 +843,14 @@
     "Date": "2024-03-19",
     "Copper_TWD_Kg": 801.15,
     "Steel_Rebar_TWD_Ton": 18800,
-    "Stainless_Index": 34.00522994995117,
+    "Stainless_Index": 34.00523376464844,
     "Gold_USD": 2156.300048828125,
     "Silver_USD": 24.964000701904297,
     "Exchange_Rate_TWD": 31.641000747680664,
     "Stock_2002.TW": 22.90811538696289,
     "Stock_2015.TW": 63.75769805908203,
-    "Stock_2027.TW": 34.00522994995117,
+    "Stock_2027.TW": 34.00523376464844,
+    "Stock_2330": null,
     "China_Steel_Price": 22.90811538696289,
     "Feng_Hsin_Price": 63.75769805908203
   },
@@ -808,6 +865,7 @@
     "Stock_2002.TW": 22.762821197509766,
     "Stock_2015.TW": 63.8482551574707,
     "Stock_2027.TW": 34.09891128540039,
+    "Stock_2330": null,
     "China_Steel_Price": 22.762821197509766,
     "Feng_Hsin_Price": 63.8482551574707
   },
@@ -822,6 +880,7 @@
     "Stock_2002.TW": 23.101842880249023,
     "Stock_2015.TW": 63.66713333129883,
     "Stock_2027.TW": 34.80149841308594,
+    "Stock_2330": null,
     "China_Steel_Price": 23.101842880249023,
     "Feng_Hsin_Price": 63.66713333129883
   },
@@ -836,6 +895,7 @@
     "Stock_2002.TW": 23.198705673217773,
     "Stock_2015.TW": 63.8482551574707,
     "Stock_2027.TW": 34.75465774536133,
+    "Stock_2330": null,
     "China_Steel_Price": 23.198705673217773,
     "Feng_Hsin_Price": 63.8482551574707
   },
@@ -850,6 +910,7 @@
     "Stock_2002.TW": 23.101842880249023,
     "Stock_2015.TW": 64.11995697021484,
     "Stock_2027.TW": 34.379947662353516,
+    "Stock_2330": null,
     "China_Steel_Price": 23.101842880249023,
     "Feng_Hsin_Price": 64.11995697021484
   },
@@ -857,13 +918,14 @@
     "Date": "2024-03-26",
     "Copper_TWD_Kg": 793.98,
     "Steel_Rebar_TWD_Ton": 18800,
-    "Stainless_Index": 34.145751953125,
+    "Stainless_Index": 34.145748138427734,
     "Gold_USD": 2175.60009765625,
     "Silver_USD": 24.482999801635742,
     "Exchange_Rate_TWD": 31.733999252319336,
     "Stock_2002.TW": 23.24713706970215,
     "Stock_2015.TW": 64.11995697021484,
-    "Stock_2027.TW": 34.145751953125,
+    "Stock_2027.TW": 34.145748138427734,
+    "Stock_2330": null,
     "China_Steel_Price": 23.24713706970215,
     "Feng_Hsin_Price": 64.11995697021484
   },
@@ -871,13 +933,14 @@
     "Date": "2024-03-27",
     "Copper_TWD_Kg": 798.73,
     "Steel_Rebar_TWD_Ton": 18800,
-    "Stainless_Index": 34.333106994628906,
+    "Stainless_Index": 34.33311080932617,
     "Gold_USD": 2190.60009765625,
     "Silver_USD": 24.625,
     "Exchange_Rate_TWD": 31.885299682617188,
     "Stock_2002.TW": 23.150272369384766,
     "Stock_2015.TW": 64.02938079833984,
-    "Stock_2027.TW": 34.333106994628906,
+    "Stock_2027.TW": 34.33311080932617,
+    "Stock_2330": null,
     "China_Steel_Price": 23.150272369384766,
     "Feng_Hsin_Price": 64.02938079833984
   },
@@ -892,6 +955,7 @@
     "Stock_2002.TW": 23.053409576416016,
     "Stock_2015.TW": 64.21051788330078,
     "Stock_2027.TW": 34.75465774536133,
+    "Stock_2330": null,
     "China_Steel_Price": 23.053409576416016,
     "Feng_Hsin_Price": 64.21051788330078
   },
@@ -906,6 +970,7 @@
     "Stock_2002.TW": 23.198705673217773,
     "Stock_2015.TW": 64.30108642578125,
     "Stock_2027.TW": 34.23942565917969,
+    "Stock_2330": null,
     "China_Steel_Price": 23.198705673217773,
     "Feng_Hsin_Price": 64.30108642578125
   },
@@ -920,6 +985,7 @@
     "Stock_2002.TW": 23.24713706970215,
     "Stock_2015.TW": 64.9350357055664,
     "Stock_2027.TW": 34.09891128540039,
+    "Stock_2330": null,
     "China_Steel_Price": 23.24713706970215,
     "Feng_Hsin_Price": 64.9350357055664
   },
@@ -934,6 +1000,7 @@
     "Stock_2002.TW": 23.5377254486084,
     "Stock_2015.TW": 64.84447479248047,
     "Stock_2027.TW": 33.817874908447266,
+    "Stock_2330": null,
     "China_Steel_Price": 23.5377254486084,
     "Feng_Hsin_Price": 64.84447479248047
   },
@@ -948,6 +1015,7 @@
     "Stock_2002.TW": 23.876745223999023,
     "Stock_2015.TW": 66.38407897949219,
     "Stock_2027.TW": 33.817874908447266,
+    "Stock_2330": null,
     "China_Steel_Price": 23.876745223999023,
     "Feng_Hsin_Price": 66.38407897949219
   },
@@ -962,6 +1030,7 @@
     "Stock_2002.TW": null,
     "Stock_2015.TW": null,
     "Stock_2027.TW": null,
+    "Stock_2330": null,
     "China_Steel_Price": null,
     "Feng_Hsin_Price": null
   },
@@ -976,6 +1045,7 @@
     "Stock_2002.TW": null,
     "Stock_2015.TW": null,
     "Stock_2027.TW": null,
+    "Stock_2330": null,
     "China_Steel_Price": null,
     "Feng_Hsin_Price": null
   },
@@ -990,6 +1060,7 @@
     "Stock_2002.TW": 24.21576690673828,
     "Stock_2015.TW": 66.38407897949219,
     "Stock_2027.TW": 34.2862663269043,
+    "Stock_2330": null,
     "China_Steel_Price": 24.21576690673828,
     "Feng_Hsin_Price": 66.38407897949219
   },
@@ -1004,6 +1075,7 @@
     "Stock_2002.TW": 25.23282814025879,
     "Stock_2015.TW": 66.11238098144531,
     "Stock_2027.TW": 35.129371643066406,
+    "Stock_2330": null,
     "China_Steel_Price": 25.23282814025879,
     "Feng_Hsin_Price": 66.11238098144531
   },
@@ -1018,6 +1090,7 @@
     "Stock_2002.TW": 24.796945571899414,
     "Stock_2015.TW": 65.9312515258789,
     "Stock_2027.TW": 34.660980224609375,
+    "Stock_2330": null,
     "China_Steel_Price": 24.796945571899414,
     "Feng_Hsin_Price": 65.9312515258789
   },
@@ -1025,13 +1098,14 @@
     "Date": "2024-04-11",
     "Copper_TWD_Kg": 858.32,
     "Steel_Rebar_TWD_Ton": 18800,
-    "Stainless_Index": 34.333106994628906,
+    "Stainless_Index": 34.33311080932617,
     "Gold_USD": 2354.800048828125,
     "Silver_USD": 28.176000595092773,
     "Exchange_Rate_TWD": 32.18299865722656,
     "Stock_2002.TW": 24.50635528564453,
     "Stock_2015.TW": 66.12152862548828,
-    "Stock_2027.TW": 34.333106994628906,
+    "Stock_2027.TW": 34.33311080932617,
+    "Stock_2330": null,
     "China_Steel_Price": 24.50635528564453,
     "Feng_Hsin_Price": 66.12152862548828
   },
@@ -1039,13 +1113,14 @@
     "Date": "2024-04-12",
     "Copper_TWD_Kg": 860.72,
     "Steel_Rebar_TWD_Ton": 18800,
-    "Stainless_Index": 34.19259262084961,
+    "Stainless_Index": 34.192588806152344,
     "Gold_USD": 2356.199951171875,
     "Silver_USD": 28.2549991607666,
     "Exchange_Rate_TWD": 32.2244987487793,
     "Stock_2002.TW": 24.070472717285156,
     "Stock_2015.TW": 65.1701431274414,
-    "Stock_2027.TW": 34.19259262084961,
+    "Stock_2027.TW": 34.192588806152344,
+    "Stock_2330": null,
     "China_Steel_Price": 24.070472717285156,
     "Feng_Hsin_Price": 65.1701431274414
   },
@@ -1060,6 +1135,7 @@
     "Stock_2002.TW": 23.779882431030273,
     "Stock_2015.TW": 65.45555877685547,
     "Stock_2027.TW": 34.379947662353516,
+    "Stock_2330": null,
     "China_Steel_Price": 23.779882431030273,
     "Feng_Hsin_Price": 65.45555877685547
   },
@@ -1074,6 +1150,7 @@
     "Stock_2002.TW": 23.489294052124023,
     "Stock_2015.TW": 64.5041732788086,
     "Stock_2027.TW": 34.379947662353516,
+    "Stock_2330": null,
     "China_Steel_Price": 23.489294052124023,
     "Feng_Hsin_Price": 64.5041732788086
   },
@@ -1088,6 +1165,7 @@
     "Stock_2002.TW": 23.683021545410156,
     "Stock_2015.TW": 64.5041732788086,
     "Stock_2027.TW": 34.61414337158203,
+    "Stock_2330": null,
     "China_Steel_Price": 23.683021545410156,
     "Feng_Hsin_Price": 64.5041732788086
   },
@@ -1102,6 +1180,7 @@
     "Stock_2002.TW": 24.02203941345215,
     "Stock_2015.TW": 65.45555877685547,
     "Stock_2027.TW": 35.410404205322266,
+    "Stock_2330": null,
     "China_Steel_Price": 24.02203941345215,
     "Feng_Hsin_Price": 65.45555877685547
   },
@@ -1116,6 +1195,7 @@
     "Stock_2002.TW": 23.683021545410156,
     "Stock_2015.TW": 64.59930419921875,
     "Stock_2027.TW": 35.31673049926758,
+    "Stock_2330": null,
     "China_Steel_Price": 23.683021545410156,
     "Feng_Hsin_Price": 64.59930419921875
   },
@@ -1130,6 +1210,7 @@
     "Stock_2002.TW": 23.92517852783203,
     "Stock_2015.TW": 65.26527404785156,
     "Stock_2027.TW": 35.22304916381836,
+    "Stock_2330": null,
     "China_Steel_Price": 23.92517852783203,
     "Feng_Hsin_Price": 65.26527404785156
   },
@@ -1144,6 +1225,7 @@
     "Stock_2002.TW": 24.070472717285156,
     "Stock_2015.TW": 65.26527404785156,
     "Stock_2027.TW": 35.410404205322266,
+    "Stock_2330": null,
     "China_Steel_Price": 24.070472717285156,
     "Feng_Hsin_Price": 65.26527404785156
   },
@@ -1158,6 +1240,7 @@
     "Stock_2002.TW": 23.973609924316406,
     "Stock_2015.TW": 65.26527404785156,
     "Stock_2027.TW": 34.75465774536133,
+    "Stock_2330": null,
     "China_Steel_Price": 23.973609924316406,
     "Feng_Hsin_Price": 65.26527404785156
   },
@@ -1165,13 +1248,14 @@
     "Date": "2024-04-25",
     "Copper_TWD_Kg": 925.64,
     "Steel_Rebar_TWD_Ton": 18800,
-    "Stainless_Index": 34.333106994628906,
+    "Stainless_Index": 34.33311080932617,
     "Gold_USD": 2329.800048828125,
     "Silver_USD": 27.341999053955078,
     "Exchange_Rate_TWD": 32.62730026245117,
     "Stock_2002.TW": 23.779882431030273,
     "Stock_2015.TW": 65.64583587646484,
-    "Stock_2027.TW": 34.333106994628906,
+    "Stock_2027.TW": 34.33311080932617,
+    "Stock_2330": null,
     "China_Steel_Price": 23.779882431030273,
     "Feng_Hsin_Price": 65.64583587646484
   },
@@ -1179,13 +1263,14 @@
     "Date": "2024-04-26",
     "Copper_TWD_Kg": 928.76,
     "Steel_Rebar_TWD_Ton": 18800,
-    "Stainless_Index": 34.333106994628906,
+    "Stainless_Index": 34.33311080932617,
     "Gold_USD": 2334.800048828125,
     "Silver_USD": 27.240999221801758,
     "Exchange_Rate_TWD": 32.53099822998047,
     "Stock_2002.TW": 23.779882431030273,
     "Stock_2015.TW": 66.0263900756836,
-    "Stock_2027.TW": 34.333106994628906,
+    "Stock_2027.TW": 34.33311080932617,
+    "Stock_2330": null,
     "China_Steel_Price": 23.779882431030273,
     "Feng_Hsin_Price": 66.0263900756836
   },
@@ -1193,13 +1278,14 @@
     "Date": "2024-04-29",
     "Copper_TWD_Kg": 947.14,
     "Steel_Rebar_TWD_Ton": 18800,
-    "Stainless_Index": 34.89517593383789,
+    "Stainless_Index": 34.895179748535156,
     "Gold_USD": 2345.39990234375,
     "Silver_USD": 27.37299919128418,
     "Exchange_Rate_TWD": 32.558998107910156,
     "Stock_2002.TW": 24.21576690673828,
     "Stock_2015.TW": 66.7874984741211,
-    "Stock_2027.TW": 34.89517593383789,
+    "Stock_2027.TW": 34.895179748535156,
+    "Stock_2330": null,
     "China_Steel_Price": 24.21576690673828,
     "Feng_Hsin_Price": 66.7874984741211
   },
@@ -1214,6 +1300,7 @@
     "Stock_2002.TW": 24.070472717285156,
     "Stock_2015.TW": 66.977783203125,
     "Stock_2027.TW": 34.47362518310547,
+    "Stock_2330": null,
     "China_Steel_Price": 24.070472717285156,
     "Feng_Hsin_Price": 66.977783203125
   },
@@ -1228,6 +1315,7 @@
     "Stock_2002.TW": null,
     "Stock_2015.TW": null,
     "Stock_2027.TW": null,
+    "Stock_2330": null,
     "China_Steel_Price": null,
     "Feng_Hsin_Price": null
   },
@@ -1242,6 +1330,7 @@
     "Stock_2002.TW": 24.16733741760254,
     "Stock_2015.TW": 67.26319122314453,
     "Stock_2027.TW": 35.22304916381836,
+    "Stock_2330": null,
     "China_Steel_Price": 24.16733741760254,
     "Feng_Hsin_Price": 67.26319122314453
   },
@@ -1256,6 +1345,7 @@
     "Stock_2002.TW": 24.16733741760254,
     "Stock_2015.TW": 67.35833740234375,
     "Stock_2027.TW": 34.9420166015625,
+    "Stock_2330": null,
     "China_Steel_Price": 24.16733741760254,
     "Feng_Hsin_Price": 67.35833740234375
   },
@@ -1270,6 +1360,7 @@
     "Stock_2002.TW": 24.31262969970703,
     "Stock_2015.TW": 67.35833740234375,
     "Stock_2027.TW": 34.80149841308594,
+    "Stock_2330": null,
     "China_Steel_Price": 24.31262969970703,
     "Feng_Hsin_Price": 67.35833740234375
   },
@@ -1284,6 +1375,7 @@
     "Stock_2002.TW": 24.1189022064209,
     "Stock_2015.TW": 67.26319122314453,
     "Stock_2027.TW": 34.84833526611328,
+    "Stock_2330": null,
     "China_Steel_Price": 24.1189022064209,
     "Feng_Hsin_Price": 67.26319122314453
   },
@@ -1298,6 +1390,7 @@
     "Stock_2002.TW": 23.973609924316406,
     "Stock_2015.TW": 67.26319122314453,
     "Stock_2027.TW": 34.80149841308594,
+    "Stock_2330": null,
     "China_Steel_Price": 23.973609924316406,
     "Feng_Hsin_Price": 67.26319122314453
   },
@@ -1305,13 +1398,14 @@
     "Date": "2024-05-09",
     "Copper_TWD_Kg": 923.75,
     "Steel_Rebar_TWD_Ton": 18800,
-    "Stainless_Index": 34.333106994628906,
+    "Stainless_Index": 34.33311080932617,
     "Gold_USD": 2332.10009765625,
     "Silver_USD": 28.131999969482422,
     "Exchange_Rate_TWD": 32.33300018310547,
     "Stock_2002.TW": 23.82831573486328,
     "Stock_2015.TW": 66.59722137451172,
-    "Stock_2027.TW": 34.333106994628906,
+    "Stock_2027.TW": 34.33311080932617,
+    "Stock_2330": null,
     "China_Steel_Price": 23.82831573486328,
     "Feng_Hsin_Price": 66.59722137451172
   },
@@ -1326,6 +1420,7 @@
     "Stock_2002.TW": 24.02203941345215,
     "Stock_2015.TW": 66.6923599243164,
     "Stock_2027.TW": 34.80149841308594,
+    "Stock_2330": null,
     "China_Steel_Price": 24.02203941345215,
     "Feng_Hsin_Price": 66.6923599243164
   },
@@ -1340,6 +1435,7 @@
     "Stock_2002.TW": 24.070472717285156,
     "Stock_2015.TW": 66.7874984741211,
     "Stock_2027.TW": 34.660980224609375,
+    "Stock_2330": null,
     "China_Steel_Price": 24.070472717285156,
     "Feng_Hsin_Price": 66.7874984741211
   },
@@ -1354,6 +1450,7 @@
     "Stock_2002.TW": 24.21576690673828,
     "Stock_2015.TW": 66.88264465332031,
     "Stock_2027.TW": 34.61414337158203,
+    "Stock_2330": null,
     "China_Steel_Price": 24.21576690673828,
     "Feng_Hsin_Price": 66.88264465332031
   },
@@ -1361,13 +1458,14 @@
     "Date": "2024-05-15",
     "Copper_TWD_Kg": 972.97,
     "Steel_Rebar_TWD_Ton": 18800,
-    "Stainless_Index": 34.707820892333984,
+    "Stainless_Index": 34.70781707763672,
     "Gold_USD": 2388.699951171875,
     "Silver_USD": 29.513999938964844,
     "Exchange_Rate_TWD": 32.31370162963867,
     "Stock_2002.TW": 23.973609924316406,
     "Stock_2015.TW": 67.16805267333984,
-    "Stock_2027.TW": 34.707820892333984,
+    "Stock_2027.TW": 34.70781707763672,
+    "Stock_2330": null,
     "China_Steel_Price": 23.973609924316406,
     "Feng_Hsin_Price": 67.16805267333984
   },
@@ -1382,6 +1480,7 @@
     "Stock_2002.TW": 24.36106300354004,
     "Stock_2015.TW": 67.73888397216797,
     "Stock_2027.TW": 35.08253479003906,
+    "Stock_2330": null,
     "China_Steel_Price": 24.36106300354004,
     "Feng_Hsin_Price": 67.73888397216797
   },
@@ -1396,6 +1495,7 @@
     "Stock_2002.TW": 24.264198303222656,
     "Stock_2015.TW": 67.73888397216797,
     "Stock_2027.TW": 35.550926208496094,
+    "Stock_2330": null,
     "China_Steel_Price": 24.264198303222656,
     "Feng_Hsin_Price": 67.73888397216797
   },
@@ -1410,6 +1510,7 @@
     "Stock_2002.TW": 24.45792579650879,
     "Stock_2015.TW": 68.21458435058594,
     "Stock_2027.TW": 37.51816940307617,
+    "Stock_2330": null,
     "China_Steel_Price": 24.45792579650879,
     "Feng_Hsin_Price": 68.21458435058594
   },
@@ -1424,6 +1525,7 @@
     "Stock_2002.TW": 24.1189022064209,
     "Stock_2015.TW": 67.73888397216797,
     "Stock_2027.TW": 37.51816940307617,
+    "Stock_2330": null,
     "China_Steel_Price": 24.1189022064209,
     "Feng_Hsin_Price": 67.73888397216797
   },
@@ -1438,6 +1540,7 @@
     "Stock_2002.TW": 23.82831573486328,
     "Stock_2015.TW": 68.11944580078125,
     "Stock_2027.TW": 36.815582275390625,
+    "Stock_2330": null,
     "China_Steel_Price": 23.82831573486328,
     "Feng_Hsin_Price": 68.11944580078125
   },
@@ -1445,13 +1548,14 @@
     "Date": "2024-05-23",
     "Copper_TWD_Kg": 942.87,
     "Steel_Rebar_TWD_Ton": 18800,
-    "Stainless_Index": 36.862422943115234,
+    "Stainless_Index": 36.86241912841797,
     "Gold_USD": 2335.0,
     "Silver_USD": 30.284000396728516,
     "Exchange_Rate_TWD": 32.223899841308594,
     "Stock_2002.TW": 23.39242935180664,
     "Stock_2015.TW": 67.54861450195312,
-    "Stock_2027.TW": 36.862422943115234,
+    "Stock_2027.TW": 36.86241912841797,
+    "Stock_2330": null,
     "China_Steel_Price": 23.39242935180664,
     "Feng_Hsin_Price": 67.54861450195312
   },
@@ -1466,6 +1570,7 @@
     "Stock_2002.TW": 23.24713706970215,
     "Stock_2015.TW": 67.07291412353516,
     "Stock_2027.TW": 35.83195877075195,
+    "Stock_2330": null,
     "China_Steel_Price": 23.24713706970215,
     "Feng_Hsin_Price": 67.07291412353516
   },
@@ -1480,6 +1585,7 @@
     "Stock_2002.TW": 23.150272369384766,
     "Stock_2015.TW": 67.16805267333984,
     "Stock_2027.TW": 36.019317626953125,
+    "Stock_2330": null,
     "China_Steel_Price": 23.150272369384766,
     "Feng_Hsin_Price": 67.16805267333984
   },
@@ -1487,13 +1593,14 @@
     "Date": "2024-05-28",
     "Copper_TWD_Kg": 958.89,
     "Steel_Rebar_TWD_Ton": 18800,
-    "Stainless_Index": 35.73828125,
+    "Stainless_Index": 35.738285064697266,
     "Gold_USD": 2355.199951171875,
     "Silver_USD": 31.97100067138672,
     "Exchange_Rate_TWD": 32.06999969482422,
     "Stock_2002.TW": 23.44086456298828,
     "Stock_2015.TW": 68.5,
-    "Stock_2027.TW": 35.73828125,
+    "Stock_2027.TW": 35.738285064697266,
+    "Stock_2330": null,
     "China_Steel_Price": 23.44086456298828,
     "Feng_Hsin_Price": 68.5
   },
@@ -1508,6 +1615,7 @@
     "Stock_2002.TW": 23.198705673217773,
     "Stock_2015.TW": 68.11944580078125,
     "Stock_2027.TW": 35.87879943847656,
+    "Stock_2330": null,
     "China_Steel_Price": 23.198705673217773,
     "Feng_Hsin_Price": 68.11944580078125
   },
@@ -1522,6 +1630,7 @@
     "Stock_2002.TW": 23.101842880249023,
     "Stock_2015.TW": 67.64374542236328,
     "Stock_2027.TW": 35.550926208496094,
+    "Stock_2330": null,
     "China_Steel_Price": 23.101842880249023,
     "Feng_Hsin_Price": 67.64374542236328
   },
@@ -1536,6 +1645,7 @@
     "Stock_2002.TW": 23.004980087280273,
     "Stock_2015.TW": 69.73680877685547,
     "Stock_2027.TW": 35.925636291503906,
+    "Stock_2330": null,
     "China_Steel_Price": 23.004980087280273,
     "Feng_Hsin_Price": 69.73680877685547
   },
@@ -1543,13 +1653,14 @@
     "Date": "2024-06-03",
     "Copper_TWD_Kg": 931.75,
     "Steel_Rebar_TWD_Ton": 18800,
-    "Stainless_Index": 35.73828125,
+    "Stainless_Index": 35.738285064697266,
     "Gold_USD": 2346.60009765625,
     "Silver_USD": 30.641000747680664,
     "Exchange_Rate_TWD": 32.46500015258789,
     "Stock_2002.TW": 23.053409576416016,
     "Stock_2015.TW": 68.02430725097656,
-    "Stock_2027.TW": 35.73828125,
+    "Stock_2027.TW": 35.738285064697266,
+    "Stock_2330": null,
     "China_Steel_Price": 23.053409576416016,
     "Feng_Hsin_Price": 68.02430725097656
   },
@@ -1564,6 +1675,7 @@
     "Stock_2002.TW": 22.859683990478516,
     "Stock_2015.TW": 68.11944580078125,
     "Stock_2027.TW": 35.410404205322266,
+    "Stock_2330": null,
     "China_Steel_Price": 22.859683990478516,
     "Feng_Hsin_Price": 68.11944580078125
   },
@@ -1578,6 +1690,7 @@
     "Stock_2002.TW": 22.81125259399414,
     "Stock_2015.TW": 68.5,
     "Stock_2027.TW": 35.129371643066406,
+    "Stock_2330": null,
     "China_Steel_Price": 22.81125259399414,
     "Feng_Hsin_Price": 68.5
   },
@@ -1592,6 +1705,7 @@
     "Stock_2002.TW": 22.762821197509766,
     "Stock_2015.TW": 68.11944580078125,
     "Stock_2027.TW": 35.5977668762207,
+    "Stock_2330": null,
     "China_Steel_Price": 22.762821197509766,
     "Feng_Hsin_Price": 68.11944580078125
   },
@@ -1606,6 +1720,7 @@
     "Stock_2002.TW": 22.956546783447266,
     "Stock_2015.TW": 68.97569274902344,
     "Stock_2027.TW": 36.2066764831543,
+    "Stock_2330": null,
     "China_Steel_Price": 22.956546783447266,
     "Feng_Hsin_Price": 68.97569274902344
   },
@@ -1620,6 +1735,7 @@
     "Stock_2002.TW": null,
     "Stock_2015.TW": null,
     "Stock_2027.TW": null,
+    "Stock_2330": null,
     "China_Steel_Price": null,
     "Feng_Hsin_Price": null
   },
@@ -1627,13 +1743,14 @@
     "Date": "2024-06-11",
     "Copper_TWD_Kg": 898.24,
     "Steel_Rebar_TWD_Ton": 18800,
-    "Stainless_Index": 35.36357116699219,
+    "Stainless_Index": 35.36356735229492,
     "Gold_USD": 2307.5,
     "Silver_USD": 29.132999420166016,
     "Exchange_Rate_TWD": 32.33399963378906,
     "Stock_2002.TW": 22.61752700805664,
     "Stock_2015.TW": 68.59513854980469,
-    "Stock_2027.TW": 35.36357116699219,
+    "Stock_2027.TW": 35.36356735229492,
+    "Stock_2330": null,
     "China_Steel_Price": 22.61752700805664,
     "Feng_Hsin_Price": 68.59513854980469
   },
@@ -1641,13 +1758,14 @@
     "Date": "2024-06-12",
     "Copper_TWD_Kg": 900.96,
     "Steel_Rebar_TWD_Ton": 18800,
-    "Stainless_Index": 35.269893646240234,
+    "Stainless_Index": 35.26988983154297,
     "Gold_USD": 2336.0,
     "Silver_USD": 30.176000595092773,
     "Exchange_Rate_TWD": 32.315799713134766,
     "Stock_2002.TW": 22.569095611572266,
     "Stock_2015.TW": 68.97569274902344,
-    "Stock_2027.TW": 35.269893646240234,
+    "Stock_2027.TW": 35.26988983154297,
+    "Stock_2330": null,
     "China_Steel_Price": 22.569095611572266,
     "Feng_Hsin_Price": 68.97569274902344
   },
@@ -1662,6 +1780,7 @@
     "Stock_2002.TW": 22.569095611572266,
     "Stock_2015.TW": 68.97569274902344,
     "Stock_2027.TW": 34.80149841308594,
+    "Stock_2330": null,
     "China_Steel_Price": 22.569095611572266,
     "Feng_Hsin_Price": 68.97569274902344
   },
@@ -1676,6 +1795,7 @@
     "Stock_2002.TW": 22.52066421508789,
     "Stock_2015.TW": 69.35625457763672,
     "Stock_2027.TW": 34.47362518310547,
+    "Stock_2330": null,
     "China_Steel_Price": 22.52066421508789,
     "Feng_Hsin_Price": 69.35625457763672
   },
@@ -1690,6 +1810,7 @@
     "Stock_2002.TW": 22.71438980102539,
     "Stock_2015.TW": 68.97569274902344,
     "Stock_2027.TW": 34.660980224609375,
+    "Stock_2330": null,
     "China_Steel_Price": 22.71438980102539,
     "Feng_Hsin_Price": 68.97569274902344
   },
@@ -1704,6 +1825,7 @@
     "Stock_2002.TW": 22.665956497192383,
     "Stock_2015.TW": 69.54652404785156,
     "Stock_2027.TW": 34.56730270385742,
+    "Stock_2330": null,
     "China_Steel_Price": 22.665956497192383,
     "Feng_Hsin_Price": 69.54652404785156
   },
@@ -1718,6 +1840,7 @@
     "Stock_2002.TW": 22.762821197509766,
     "Stock_2015.TW": 70.49791717529297,
     "Stock_2027.TW": 34.23942565917969,
+    "Stock_2330": null,
     "China_Steel_Price": 22.762821197509766,
     "Feng_Hsin_Price": 70.49791717529297
   },
@@ -1732,6 +1855,7 @@
     "Stock_2002.TW": 22.956546783447266,
     "Stock_2015.TW": 71.44930267333984,
     "Stock_2027.TW": 34.56730270385742,
+    "Stock_2330": null,
     "China_Steel_Price": 22.956546783447266,
     "Feng_Hsin_Price": 71.44930267333984
   },
@@ -1746,6 +1870,7 @@
     "Stock_2002.TW": 22.859683990478516,
     "Stock_2015.TW": 73.0666732788086,
     "Stock_2027.TW": 34.47362518310547,
+    "Stock_2330": null,
     "China_Steel_Price": 22.859683990478516,
     "Feng_Hsin_Price": 73.0666732788086
   },
@@ -1760,6 +1885,7 @@
     "Stock_2002.TW": 22.665956497192383,
     "Stock_2015.TW": 73.7326431274414,
     "Stock_2027.TW": 34.2862663269043,
+    "Stock_2330": null,
     "China_Steel_Price": 22.665956497192383,
     "Feng_Hsin_Price": 73.7326431274414
   },
@@ -1767,13 +1893,14 @@
     "Date": "2024-06-25",
     "Copper_TWD_Kg": 877.53,
     "Steel_Rebar_TWD_Ton": 18800,
-    "Stainless_Index": 34.00522994995117,
+    "Stainless_Index": 34.00523376464844,
     "Gold_USD": 2316.60009765625,
     "Silver_USD": 28.836999893188477,
     "Exchange_Rate_TWD": 32.32149887084961,
     "Stock_2002.TW": 22.569095611572266,
     "Stock_2015.TW": 75.3499984741211,
-    "Stock_2027.TW": 34.00522994995117,
+    "Stock_2027.TW": 34.00523376464844,
+    "Stock_2330": null,
     "China_Steel_Price": 22.569095611572266,
     "Feng_Hsin_Price": 75.3499984741211
   },
@@ -1788,6 +1915,7 @@
     "Stock_2002.TW": 22.326936721801758,
     "Stock_2015.TW": 72.59097290039062,
     "Stock_2027.TW": 33.77103805541992,
+    "Stock_2330": null,
     "China_Steel_Price": 22.326936721801758,
     "Feng_Hsin_Price": 72.59097290039062
   },
@@ -1802,6 +1930,7 @@
     "Stock_2002.TW": 22.326936721801758,
     "Stock_2015.TW": 73.0666732788086,
     "Stock_2027.TW": 33.6773567199707,
+    "Stock_2330": null,
     "China_Steel_Price": 22.326936721801758,
     "Feng_Hsin_Price": 73.0666732788086
   },
@@ -1816,6 +1945,7 @@
     "Stock_2002.TW": 22.375370025634766,
     "Stock_2015.TW": 73.35208129882812,
     "Stock_2027.TW": 33.63051986694336,
+    "Stock_2330": null,
     "China_Steel_Price": 22.375370025634766,
     "Feng_Hsin_Price": 73.35208129882812
   },
@@ -1823,13 +1953,14 @@
     "Date": "2024-07-01",
     "Copper_TWD_Kg": 892.56,
     "Steel_Rebar_TWD_Ton": 18800,
-    "Stainless_Index": 34.145751953125,
+    "Stainless_Index": 34.145748138427734,
     "Gold_USD": 2327.60009765625,
     "Silver_USD": 29.299999237060547,
     "Exchange_Rate_TWD": 32.50400161743164,
     "Stock_2002.TW": 22.326936721801758,
     "Stock_2015.TW": 73.35208129882812,
-    "Stock_2027.TW": 34.145751953125,
+    "Stock_2027.TW": 34.145748138427734,
+    "Stock_2330": null,
     "China_Steel_Price": 22.326936721801758,
     "Feng_Hsin_Price": 73.35208129882812
   },
@@ -1844,6 +1975,7 @@
     "Stock_2002.TW": 22.278505325317383,
     "Stock_2015.TW": 73.63750457763672,
     "Stock_2027.TW": 34.09891128540039,
+    "Stock_2330": null,
     "China_Steel_Price": 22.278505325317383,
     "Feng_Hsin_Price": 73.63750457763672
   },
@@ -1858,6 +1990,7 @@
     "Stock_2002.TW": 22.375370025634766,
     "Stock_2015.TW": 73.16180419921875,
     "Stock_2027.TW": 34.379947662353516,
+    "Stock_2330": null,
     "China_Steel_Price": 22.375370025634766,
     "Feng_Hsin_Price": 73.16180419921875
   },
@@ -1872,6 +2005,7 @@
     "Stock_2002.TW": 22.762821197509766,
     "Stock_2015.TW": 74.4937515258789,
     "Stock_2027.TW": 34.47362518310547,
+    "Stock_2330": null,
     "China_Steel_Price": 22.762821197509766,
     "Feng_Hsin_Price": 74.4937515258789
   },
@@ -1879,13 +2013,14 @@
     "Date": "2024-07-05",
     "Copper_TWD_Kg": 935.54,
     "Steel_Rebar_TWD_Ton": 18800,
-    "Stainless_Index": 34.707820892333984,
+    "Stainless_Index": 34.70781707763672,
     "Gold_USD": 2388.5,
     "Silver_USD": 31.38800048828125,
     "Exchange_Rate_TWD": 32.50659942626953,
     "Stock_2002.TW": 22.81125259399414,
     "Stock_2015.TW": 73.92291259765625,
-    "Stock_2027.TW": 34.707820892333984,
+    "Stock_2027.TW": 34.70781707763672,
+    "Stock_2330": null,
     "China_Steel_Price": 22.81125259399414,
     "Feng_Hsin_Price": 73.92291259765625
   },
@@ -1900,6 +2035,7 @@
     "Stock_2002.TW": 22.762821197509766,
     "Stock_2015.TW": 74.68402862548828,
     "Stock_2027.TW": 34.660980224609375,
+    "Stock_2330": null,
     "China_Steel_Price": 22.762821197509766,
     "Feng_Hsin_Price": 74.68402862548828
   },
@@ -1907,13 +2043,14 @@
     "Date": "2024-07-09",
     "Copper_TWD_Kg": 920.23,
     "Steel_Rebar_TWD_Ton": 18800,
-    "Stainless_Index": 34.333106994628906,
+    "Stainless_Index": 34.33311080932617,
     "Gold_USD": 2360.10009765625,
     "Silver_USD": 30.77199935913086,
     "Exchange_Rate_TWD": 32.47100067138672,
     "Stock_2002.TW": 22.472232818603516,
     "Stock_2015.TW": 74.96944427490234,
-    "Stock_2027.TW": 34.333106994628906,
+    "Stock_2027.TW": 34.33311080932617,
+    "Stock_2330": null,
     "China_Steel_Price": 22.472232818603516,
     "Feng_Hsin_Price": 74.96944427490234
   },
@@ -1928,6 +2065,7 @@
     "Stock_2002.TW": 22.326936721801758,
     "Stock_2015.TW": 74.30347442626953,
     "Stock_2027.TW": 34.23942565917969,
+    "Stock_2330": null,
     "China_Steel_Price": 22.326936721801758,
     "Feng_Hsin_Price": 74.30347442626953
   },
@@ -1935,13 +2073,14 @@
     "Date": "2024-07-11",
     "Copper_TWD_Kg": 911.46,
     "Steel_Rebar_TWD_Ton": 18800,
-    "Stainless_Index": 34.19259262084961,
+    "Stainless_Index": 34.192588806152344,
     "Gold_USD": 2415.0,
     "Silver_USD": 31.393999099731445,
     "Exchange_Rate_TWD": 32.58689880371094,
     "Stock_2002.TW": 22.326936721801758,
     "Stock_2015.TW": 75.15972137451172,
-    "Stock_2027.TW": 34.19259262084961,
+    "Stock_2027.TW": 34.192588806152344,
+    "Stock_2330": null,
     "China_Steel_Price": 22.326936721801758,
     "Feng_Hsin_Price": 75.15972137451172
   },
@@ -1956,6 +2095,7 @@
     "Stock_2002.TW": 22.375370025634766,
     "Stock_2015.TW": 75.63541412353516,
     "Stock_2027.TW": 34.61414337158203,
+    "Stock_2330": null,
     "China_Steel_Price": 22.375370025634766,
     "Feng_Hsin_Price": 75.63541412353516
   },
@@ -1963,13 +2103,14 @@
     "Date": "2024-07-15",
     "Copper_TWD_Kg": 911.99,
     "Steel_Rebar_TWD_Ton": 18800,
-    "Stainless_Index": 35.269893646240234,
+    "Stainless_Index": 35.26988983154297,
     "Gold_USD": 2422.89990234375,
     "Silver_USD": 30.672000885009766,
     "Exchange_Rate_TWD": 32.54800033569336,
     "Stock_2002.TW": 22.665956497192383,
     "Stock_2015.TW": 76.11111450195312,
-    "Stock_2027.TW": 35.269893646240234,
+    "Stock_2027.TW": 35.26988983154297,
+    "Stock_2330": null,
     "China_Steel_Price": 22.665956497192383,
     "Feng_Hsin_Price": 76.11111450195312
   },
@@ -1977,13 +2118,14 @@
     "Date": "2024-07-16",
     "Copper_TWD_Kg": 903.93,
     "Steel_Rebar_TWD_Ton": 18800,
-    "Stainless_Index": 35.36357116699219,
+    "Stainless_Index": 35.36356735229492,
     "Gold_USD": 2462.39990234375,
     "Silver_USD": 31.19499969482422,
     "Exchange_Rate_TWD": 32.57400131225586,
     "Stock_2002.TW": 22.375370025634766,
     "Stock_2015.TW": 73.92291259765625,
-    "Stock_2027.TW": 35.36357116699219,
+    "Stock_2027.TW": 35.36356735229492,
+    "Stock_2330": null,
     "China_Steel_Price": 22.375370025634766,
     "Feng_Hsin_Price": 73.92291259765625
   },
@@ -1998,6 +2140,7 @@
     "Stock_2002.TW": 22.61752700805664,
     "Stock_2015.TW": 75.63541412353516,
     "Stock_2027.TW": 35.87879943847656,
+    "Stock_2330": null,
     "China_Steel_Price": 22.61752700805664,
     "Feng_Hsin_Price": 75.63541412353516
   },
@@ -2012,6 +2155,7 @@
     "Stock_2002.TW": 22.762821197509766,
     "Stock_2015.TW": 76.30138397216797,
     "Stock_2027.TW": 36.72190475463867,
+    "Stock_2330": null,
     "China_Steel_Price": 22.762821197509766,
     "Feng_Hsin_Price": 76.30138397216797
   },
@@ -2019,13 +2163,14 @@
     "Date": "2024-07-19",
     "Copper_TWD_Kg": 861.67,
     "Steel_Rebar_TWD_Ton": 18800,
-    "Stainless_Index": 36.534549713134766,
+    "Stainless_Index": 36.5345458984375,
     "Gold_USD": 2395.5,
     "Silver_USD": 29.08799934387207,
     "Exchange_Rate_TWD": 32.638999938964844,
     "Stock_2002.TW": 22.61752700805664,
     "Stock_2015.TW": 74.96944427490234,
-    "Stock_2027.TW": 36.534549713134766,
+    "Stock_2027.TW": 36.5345458984375,
+    "Stock_2330": null,
     "China_Steel_Price": 22.61752700805664,
     "Feng_Hsin_Price": 74.96944427490234
   },
@@ -2040,6 +2185,7 @@
     "Stock_2002.TW": 22.375370025634766,
     "Stock_2015.TW": 75.540283203125,
     "Stock_2027.TW": 36.487709045410156,
+    "Stock_2330": null,
     "China_Steel_Price": 22.375370025634766,
     "Feng_Hsin_Price": 75.540283203125
   },
@@ -2054,6 +2200,7 @@
     "Stock_2002.TW": 22.423799514770508,
     "Stock_2015.TW": 75.63541412353516,
     "Stock_2027.TW": 37.00293731689453,
+    "Stock_2330": null,
     "China_Steel_Price": 22.423799514770508,
     "Feng_Hsin_Price": 75.63541412353516
   },
@@ -2068,6 +2215,7 @@
     "Stock_2002.TW": null,
     "Stock_2015.TW": null,
     "Stock_2027.TW": null,
+    "Stock_2330": null,
     "China_Steel_Price": null,
     "Feng_Hsin_Price": null
   },
@@ -2082,6 +2230,7 @@
     "Stock_2002.TW": null,
     "Stock_2015.TW": null,
     "Stock_2027.TW": null,
+    "Stock_2330": null,
     "China_Steel_Price": null,
     "Feng_Hsin_Price": null
   },
@@ -2089,13 +2238,14 @@
     "Date": "2024-07-26",
     "Copper_TWD_Kg": 839.9,
     "Steel_Rebar_TWD_Ton": 18800,
-    "Stainless_Index": 37.09661865234375,
+    "Stainless_Index": 37.096614837646484,
     "Gold_USD": 2380.0,
     "Silver_USD": 27.860000610351562,
     "Exchange_Rate_TWD": 32.643001556396484,
     "Stock_2002.TW": 22.52215003967285,
     "Stock_2015.TW": 74.87430572509766,
-    "Stock_2027.TW": 37.09661865234375,
+    "Stock_2027.TW": 37.096614837646484,
+    "Stock_2330": null,
     "China_Steel_Price": 22.52215003967285,
     "Feng_Hsin_Price": 74.87430572509766
   },
@@ -2103,13 +2253,14 @@
     "Date": "2024-07-29",
     "Copper_TWD_Kg": 840.28,
     "Steel_Rebar_TWD_Ton": 18800,
-    "Stainless_Index": 36.67506408691406,
+    "Stainless_Index": 36.67506790161133,
     "Gold_USD": 2377.300048828125,
     "Silver_USD": 27.702999114990234,
     "Exchange_Rate_TWD": 32.79800033569336,
     "Stock_2002.TW": 22.52215003967285,
     "Stock_2015.TW": 76.11111450195312,
-    "Stock_2027.TW": 36.67506408691406,
+    "Stock_2027.TW": 36.67506790161133,
+    "Stock_2330": null,
     "China_Steel_Price": 22.52215003967285,
     "Feng_Hsin_Price": 76.11111450195312
   },
@@ -2124,6 +2275,7 @@
     "Stock_2002.TW": 22.71885108947754,
     "Stock_2015.TW": 76.30138397216797,
     "Stock_2027.TW": 37.00293731689453,
+    "Stock_2330": null,
     "China_Steel_Price": 22.71885108947754,
     "Feng_Hsin_Price": 76.30138397216797
   },
@@ -2138,6 +2290,7 @@
     "Stock_2002.TW": 22.817201614379883,
     "Stock_2015.TW": 75.540283203125,
     "Stock_2027.TW": 36.72190475463867,
+    "Stock_2330": null,
     "China_Steel_Price": 22.817201614379883,
     "Feng_Hsin_Price": 75.540283203125
   },
@@ -2152,6 +2305,7 @@
     "Stock_2002.TW": 22.768024444580078,
     "Stock_2015.TW": 76.39653015136719,
     "Stock_2027.TW": 36.95610046386719,
+    "Stock_2330": null,
     "China_Steel_Price": 22.768024444580078,
     "Feng_Hsin_Price": 76.39653015136719
   },
@@ -2166,6 +2320,7 @@
     "Stock_2002.TW": 22.620500564575195,
     "Stock_2015.TW": 75.540283203125,
     "Stock_2027.TW": 35.78512191772461,
+    "Stock_2330": null,
     "China_Steel_Price": 22.620500564575195,
     "Feng_Hsin_Price": 75.540283203125
   },
@@ -2180,6 +2335,7 @@
     "Stock_2002.TW": 21.587825775146484,
     "Stock_2015.TW": 72.87638854980469,
     "Stock_2027.TW": 33.07365417480469,
+    "Stock_2330": null,
     "China_Steel_Price": 21.587825775146484,
     "Feng_Hsin_Price": 72.87638854980469
   },
@@ -2194,6 +2350,7 @@
     "Stock_2002.TW": 21.735349655151367,
     "Stock_2015.TW": 73.63750457763672,
     "Stock_2027.TW": 33.46047592163086,
+    "Stock_2330": null,
     "China_Steel_Price": 21.735349655151367,
     "Feng_Hsin_Price": 73.63750457763672
   },
@@ -2208,6 +2365,7 @@
     "Stock_2002.TW": 21.932048797607422,
     "Stock_2015.TW": 75.3499984741211,
     "Stock_2027.TW": 34.13742446899414,
+    "Stock_2330": null,
     "China_Steel_Price": 21.932048797607422,
     "Feng_Hsin_Price": 75.3499984741211
   },
@@ -2222,6 +2380,7 @@
     "Stock_2002.TW": 21.735349655151367,
     "Stock_2015.TW": 74.87430572509766,
     "Stock_2027.TW": 33.60553741455078,
+    "Stock_2330": null,
     "China_Steel_Price": 21.735349655151367,
     "Feng_Hsin_Price": 74.87430572509766
   },
@@ -2236,6 +2395,7 @@
     "Stock_2002.TW": 21.932048797607422,
     "Stock_2015.TW": 75.63541412353516,
     "Stock_2027.TW": 33.7505989074707,
+    "Stock_2330": null,
     "China_Steel_Price": 21.932048797607422,
     "Feng_Hsin_Price": 75.63541412353516
   },
@@ -2250,6 +2410,7 @@
     "Stock_2002.TW": 21.882875442504883,
     "Stock_2015.TW": 77.82361602783203,
     "Stock_2027.TW": 33.84730529785156,
+    "Stock_2330": null,
     "China_Steel_Price": 21.882875442504883,
     "Feng_Hsin_Price": 77.82361602783203
   },
@@ -2264,6 +2425,7 @@
     "Stock_2002.TW": 21.735349655151367,
     "Stock_2015.TW": 77.0625,
     "Stock_2027.TW": 33.3154182434082,
+    "Stock_2330": null,
     "China_Steel_Price": 21.735349655151367,
     "Feng_Hsin_Price": 77.0625
   },
@@ -2278,6 +2440,7 @@
     "Stock_2002.TW": 22.325450897216797,
     "Stock_2015.TW": 78.67985534667969,
     "Stock_2027.TW": 33.653892517089844,
+    "Stock_2330": null,
     "China_Steel_Price": 22.325450897216797,
     "Feng_Hsin_Price": 78.67985534667969
   },
@@ -2292,6 +2455,7 @@
     "Stock_2002.TW": 21.932048797607422,
     "Stock_2015.TW": 78.20416259765625,
     "Stock_2027.TW": 33.363773345947266,
+    "Stock_2330": null,
     "China_Steel_Price": 21.932048797607422,
     "Feng_Hsin_Price": 78.20416259765625
   },
@@ -2306,6 +2470,7 @@
     "Stock_2002.TW": 21.932048797607422,
     "Stock_2015.TW": 77.91875457763672,
     "Stock_2027.TW": 33.557186126708984,
+    "Stock_2330": null,
     "China_Steel_Price": 21.932048797607422,
     "Feng_Hsin_Price": 77.91875457763672
   },
@@ -2320,6 +2485,7 @@
     "Stock_2002.TW": 21.637001037597656,
     "Stock_2015.TW": 77.0625,
     "Stock_2027.TW": 33.60553741455078,
+    "Stock_2330": null,
     "China_Steel_Price": 21.637001037597656,
     "Feng_Hsin_Price": 77.0625
   },
@@ -2334,6 +2500,7 @@
     "Stock_2002.TW": 21.587825775146484,
     "Stock_2015.TW": 77.0625,
     "Stock_2027.TW": 33.89565658569336,
+    "Stock_2330": null,
     "China_Steel_Price": 21.587825775146484,
     "Feng_Hsin_Price": 77.0625
   },
@@ -2348,6 +2515,7 @@
     "Stock_2002.TW": 21.587825775146484,
     "Stock_2015.TW": 77.0625,
     "Stock_2027.TW": 33.992366790771484,
+    "Stock_2330": null,
     "China_Steel_Price": 21.587825775146484,
     "Feng_Hsin_Price": 77.0625
   },
@@ -2362,6 +2530,7 @@
     "Stock_2002.TW": 21.932048797607422,
     "Stock_2015.TW": 77.53819274902344,
     "Stock_2027.TW": 34.62095642089844,
+    "Stock_2330": null,
     "China_Steel_Price": 21.932048797607422,
     "Feng_Hsin_Price": 77.53819274902344
   },
@@ -2376,6 +2545,7 @@
     "Stock_2002.TW": 21.78452491760254,
     "Stock_2015.TW": 77.82361602783203,
     "Stock_2027.TW": 34.234134674072266,
+    "Stock_2330": null,
     "China_Steel_Price": 21.78452491760254,
     "Feng_Hsin_Price": 77.82361602783203
   },
@@ -2390,6 +2560,7 @@
     "Stock_2002.TW": 21.981225967407227,
     "Stock_2015.TW": 78.48958587646484,
     "Stock_2027.TW": 34.524253845214844,
+    "Stock_2330": null,
     "China_Steel_Price": 21.981225967407227,
     "Feng_Hsin_Price": 78.48958587646484
   },
@@ -2404,6 +2575,7 @@
     "Stock_2002.TW": 22.030399322509766,
     "Stock_2015.TW": 78.96527862548828,
     "Stock_2027.TW": 34.6693115234375,
+    "Stock_2330": null,
     "China_Steel_Price": 22.030399322509766,
     "Feng_Hsin_Price": 78.96527862548828
   },
@@ -2418,6 +2590,7 @@
     "Stock_2002.TW": 21.981225967407227,
     "Stock_2015.TW": 79.06041717529297,
     "Stock_2027.TW": 34.57260513305664,
+    "Stock_2330": null,
     "China_Steel_Price": 21.981225967407227,
     "Feng_Hsin_Price": 79.06041717529297
   },
@@ -2432,6 +2605,7 @@
     "Stock_2002.TW": 21.932048797607422,
     "Stock_2015.TW": 78.0138931274414,
     "Stock_2027.TW": 34.28248596191406,
+    "Stock_2330": null,
     "China_Steel_Price": 21.932048797607422,
     "Feng_Hsin_Price": 78.0138931274414
   },
@@ -2446,6 +2620,7 @@
     "Stock_2002.TW": 21.882875442504883,
     "Stock_2015.TW": 78.8701400756836,
     "Stock_2027.TW": 35.29790496826172,
+    "Stock_2330": null,
     "China_Steel_Price": 21.882875442504883,
     "Feng_Hsin_Price": 78.8701400756836
   },
@@ -2460,6 +2635,7 @@
     "Stock_2002.TW": 21.735349655151367,
     "Stock_2015.TW": 78.96527862548828,
     "Stock_2027.TW": 34.47589874267578,
+    "Stock_2330": null,
     "China_Steel_Price": 21.735349655151367,
     "Feng_Hsin_Price": 78.96527862548828
   },
@@ -2474,6 +2650,7 @@
     "Stock_2002.TW": 21.538650512695312,
     "Stock_2015.TW": 78.96527862548828,
     "Stock_2027.TW": 33.992366790771484,
+    "Stock_2330": null,
     "China_Steel_Price": 21.538650512695312,
     "Feng_Hsin_Price": 78.96527862548828
   },
@@ -2488,6 +2665,7 @@
     "Stock_2002.TW": 20.850200653076172,
     "Stock_2015.TW": 76.01597595214844,
     "Stock_2027.TW": 32.88024139404297,
+    "Stock_2330": null,
     "China_Steel_Price": 20.850200653076172,
     "Feng_Hsin_Price": 76.01597595214844
   },
@@ -2502,6 +2680,7 @@
     "Stock_2002.TW": 20.751850128173828,
     "Stock_2015.TW": 77.72846984863281,
     "Stock_2027.TW": 32.686824798583984,
+    "Stock_2330": null,
     "China_Steel_Price": 20.751850128173828,
     "Feng_Hsin_Price": 77.72846984863281
   },
@@ -2516,6 +2695,7 @@
     "Stock_2002.TW": 20.702674865722656,
     "Stock_2015.TW": 78.67985534667969,
     "Stock_2027.TW": 32.59012222290039,
+    "Stock_2330": null,
     "China_Steel_Price": 20.702674865722656,
     "Feng_Hsin_Price": 78.67985534667969
   },
@@ -2530,6 +2710,7 @@
     "Stock_2002.TW": 20.21092414855957,
     "Stock_2015.TW": 76.49166870117188,
     "Stock_2027.TW": 32.05823516845703,
+    "Stock_2330": null,
     "China_Steel_Price": 20.21092414855957,
     "Feng_Hsin_Price": 76.49166870117188
   },
@@ -2544,6 +2725,7 @@
     "Stock_2002.TW": 20.063400268554688,
     "Stock_2015.TW": 77.63333129882812,
     "Stock_2027.TW": 31.04281234741211,
+    "Stock_2330": null,
     "China_Steel_Price": 20.063400268554688,
     "Feng_Hsin_Price": 77.63333129882812
   },
@@ -2558,6 +2740,7 @@
     "Stock_2002.TW": 19.866701126098633,
     "Stock_2015.TW": 77.53819274902344,
     "Stock_2027.TW": 30.849401473999023,
+    "Stock_2330": null,
     "China_Steel_Price": 19.866701126098633,
     "Feng_Hsin_Price": 77.53819274902344
   },
@@ -2572,6 +2755,7 @@
     "Stock_2002.TW": 20.309274673461914,
     "Stock_2015.TW": 78.29930877685547,
     "Stock_2027.TW": 31.52634620666504,
+    "Stock_2330": null,
     "China_Steel_Price": 20.309274673461914,
     "Feng_Hsin_Price": 78.29930877685547
   },
@@ -2586,6 +2770,7 @@
     "Stock_2002.TW": 20.702674865722656,
     "Stock_2015.TW": 78.7750015258789,
     "Stock_2027.TW": 31.96152687072754,
+    "Stock_2330": null,
     "China_Steel_Price": 20.702674865722656,
     "Feng_Hsin_Price": 78.7750015258789
   },
@@ -2600,6 +2785,7 @@
     "Stock_2002.TW": 21.046899795532227,
     "Stock_2015.TW": 78.96527862548828,
     "Stock_2027.TW": 32.10658645629883,
+    "Stock_2330": null,
     "China_Steel_Price": 21.046899795532227,
     "Feng_Hsin_Price": 78.96527862548828
   },
@@ -2614,6 +2800,7 @@
     "Stock_2002.TW": null,
     "Stock_2015.TW": null,
     "Stock_2027.TW": null,
+    "Stock_2330": null,
     "China_Steel_Price": null,
     "Feng_Hsin_Price": null
   },
@@ -2628,6 +2815,7 @@
     "Stock_2002.TW": 21.243600845336914,
     "Stock_2015.TW": 79.44097137451172,
     "Stock_2027.TW": 32.15494155883789,
+    "Stock_2330": null,
     "China_Steel_Price": 21.243600845336914,
     "Feng_Hsin_Price": 79.44097137451172
   },
@@ -2642,6 +2830,7 @@
     "Stock_2002.TW": 20.948549270629883,
     "Stock_2015.TW": 79.821533203125,
     "Stock_2027.TW": 32.396705627441406,
+    "Stock_2330": null,
     "China_Steel_Price": 20.948549270629883,
     "Feng_Hsin_Price": 79.821533203125
   },
@@ -2656,6 +2845,7 @@
     "Stock_2002.TW": 20.801025390625,
     "Stock_2015.TW": 80.58263397216797,
     "Stock_2027.TW": 33.122005462646484,
+    "Stock_2330": null,
     "China_Steel_Price": 20.801025390625,
     "Feng_Hsin_Price": 80.58263397216797
   },
@@ -2670,6 +2860,7 @@
     "Stock_2002.TW": 20.899375915527344,
     "Stock_2015.TW": 80.01180267333984,
     "Stock_2027.TW": 32.686824798583984,
+    "Stock_2330": null,
     "China_Steel_Price": 20.899375915527344,
     "Feng_Hsin_Price": 80.01180267333984
   },
@@ -2684,6 +2875,7 @@
     "Stock_2002.TW": 20.948549270629883,
     "Stock_2015.TW": 78.58472442626953,
     "Stock_2027.TW": 32.34835433959961,
+    "Stock_2330": null,
     "China_Steel_Price": 20.948549270629883,
     "Feng_Hsin_Price": 78.58472442626953
   },
@@ -2698,6 +2890,7 @@
     "Stock_2002.TW": 21.48947525024414,
     "Stock_2015.TW": 78.96527862548828,
     "Stock_2027.TW": 32.59012222290039,
+    "Stock_2330": null,
     "China_Steel_Price": 21.48947525024414,
     "Feng_Hsin_Price": 78.96527862548828
   },
@@ -2712,6 +2905,7 @@
     "Stock_2002.TW": 21.391124725341797,
     "Stock_2015.TW": 78.96527862548828,
     "Stock_2027.TW": 32.493412017822266,
+    "Stock_2330": null,
     "China_Steel_Price": 21.391124725341797,
     "Feng_Hsin_Price": 78.96527862548828
   },
@@ -2726,6 +2920,7 @@
     "Stock_2002.TW": 22.71885108947754,
     "Stock_2015.TW": 80.48749542236328,
     "Stock_2027.TW": 34.33083724975586,
+    "Stock_2330": null,
     "China_Steel_Price": 22.71885108947754,
     "Feng_Hsin_Price": 80.48749542236328
   },
@@ -2740,6 +2935,7 @@
     "Stock_2002.TW": 22.768024444580078,
     "Stock_2015.TW": 80.86805725097656,
     "Stock_2027.TW": 33.50883483886719,
+    "Stock_2330": null,
     "China_Steel_Price": 22.768024444580078,
     "Feng_Hsin_Price": 80.86805725097656
   },
@@ -2754,6 +2950,7 @@
     "Stock_2002.TW": 22.964725494384766,
     "Stock_2015.TW": 79.25069427490234,
     "Stock_2027.TW": 34.13742446899414,
+    "Stock_2330": null,
     "China_Steel_Price": 22.964725494384766,
     "Feng_Hsin_Price": 79.25069427490234
   },
@@ -2768,6 +2965,7 @@
     "Stock_2002.TW": null,
     "Stock_2015.TW": null,
     "Stock_2027.TW": null,
+    "Stock_2330": null,
     "China_Steel_Price": null,
     "Feng_Hsin_Price": null
   },
@@ -2782,6 +2980,7 @@
     "Stock_2002.TW": null,
     "Stock_2015.TW": null,
     "Stock_2027.TW": null,
+    "Stock_2330": null,
     "China_Steel_Price": null,
     "Feng_Hsin_Price": null
   },
@@ -2796,6 +2995,7 @@
     "Stock_2002.TW": 23.308950424194336,
     "Stock_2015.TW": 81.72430419921875,
     "Stock_2027.TW": 34.42754364013672,
+    "Stock_2330": null,
     "China_Steel_Price": 23.308950424194336,
     "Feng_Hsin_Price": 81.72430419921875
   },
@@ -2810,6 +3010,7 @@
     "Stock_2002.TW": 23.407299041748047,
     "Stock_2015.TW": 82.00971984863281,
     "Stock_2027.TW": 34.524253845214844,
+    "Stock_2330": null,
     "China_Steel_Price": 23.407299041748047,
     "Feng_Hsin_Price": 82.00971984863281
   },
@@ -2824,6 +3025,7 @@
     "Stock_2002.TW": 23.308950424194336,
     "Stock_2015.TW": 80.86805725097656,
     "Stock_2027.TW": 33.50883483886719,
+    "Stock_2330": null,
     "China_Steel_Price": 23.308950424194336,
     "Feng_Hsin_Price": 80.86805725097656
   },
@@ -2838,6 +3040,7 @@
     "Stock_2002.TW": 22.325450897216797,
     "Stock_2015.TW": 81.05833435058594,
     "Stock_2027.TW": 32.97694396972656,
+    "Stock_2330": null,
     "China_Steel_Price": 22.325450897216797,
     "Feng_Hsin_Price": 81.05833435058594
   },
@@ -2852,6 +3055,7 @@
     "Stock_2002.TW": null,
     "Stock_2015.TW": null,
     "Stock_2027.TW": null,
+    "Stock_2330": null,
     "China_Steel_Price": null,
     "Feng_Hsin_Price": null
   },
@@ -2866,6 +3070,7 @@
     "Stock_2002.TW": 22.325450897216797,
     "Stock_2015.TW": 78.39444732666016,
     "Stock_2027.TW": 32.10658645629883,
+    "Stock_2330": null,
     "China_Steel_Price": 22.325450897216797,
     "Feng_Hsin_Price": 78.39444732666016
   },
@@ -2880,6 +3085,7 @@
     "Stock_2002.TW": 21.981225967407227,
     "Stock_2015.TW": 79.5361099243164,
     "Stock_2027.TW": 32.59012222290039,
+    "Stock_2330": null,
     "China_Steel_Price": 21.981225967407227,
     "Feng_Hsin_Price": 79.5361099243164
   },
@@ -2894,6 +3100,7 @@
     "Stock_2002.TW": 21.981225967407227,
     "Stock_2015.TW": 79.91666412353516,
     "Stock_2027.TW": 32.05823516845703,
+    "Stock_2330": null,
     "China_Steel_Price": 21.981225967407227,
     "Feng_Hsin_Price": 79.91666412353516
   },
@@ -2908,6 +3115,7 @@
     "Stock_2002.TW": 21.78452491760254,
     "Stock_2015.TW": 80.39236450195312,
     "Stock_2027.TW": 31.04281234741211,
+    "Stock_2330": null,
     "China_Steel_Price": 21.78452491760254,
     "Feng_Hsin_Price": 80.39236450195312
   },
@@ -2922,6 +3130,7 @@
     "Stock_2002.TW": 22.07957649230957,
     "Stock_2015.TW": 81.34375,
     "Stock_2027.TW": 32.78353500366211,
+    "Stock_2330": null,
     "China_Steel_Price": 22.07957649230957,
     "Feng_Hsin_Price": 81.34375
   },
@@ -2936,6 +3145,7 @@
     "Stock_2002.TW": 22.571325302124023,
     "Stock_2015.TW": 82.10486602783203,
     "Stock_2027.TW": 32.396705627441406,
+    "Stock_2330": null,
     "China_Steel_Price": 22.571325302124023,
     "Feng_Hsin_Price": 82.10486602783203
   },
@@ -2950,6 +3160,7 @@
     "Stock_2002.TW": 22.227100372314453,
     "Stock_2015.TW": 82.20000457763672,
     "Stock_2027.TW": 32.10658645629883,
+    "Stock_2330": null,
     "China_Steel_Price": 22.227100372314453,
     "Feng_Hsin_Price": 82.20000457763672
   },
@@ -2964,6 +3175,7 @@
     "Stock_2002.TW": 22.030399322509766,
     "Stock_2015.TW": 80.10694122314453,
     "Stock_2027.TW": 32.251644134521484,
+    "Stock_2330": null,
     "China_Steel_Price": 22.030399322509766,
     "Feng_Hsin_Price": 80.10694122314453
   },
@@ -2978,6 +3190,7 @@
     "Stock_2002.TW": 21.932048797607422,
     "Stock_2015.TW": 79.91666412353516,
     "Stock_2027.TW": 32.10658645629883,
+    "Stock_2330": null,
     "China_Steel_Price": 21.932048797607422,
     "Feng_Hsin_Price": 79.91666412353516
   },
@@ -2992,6 +3205,7 @@
     "Stock_2002.TW": 21.882875442504883,
     "Stock_2015.TW": 79.25069427490234,
     "Stock_2027.TW": 31.62305450439453,
+    "Stock_2330": null,
     "China_Steel_Price": 21.882875442504883,
     "Feng_Hsin_Price": 79.25069427490234
   },
@@ -3006,6 +3220,7 @@
     "Stock_2002.TW": 22.17792510986328,
     "Stock_2015.TW": 79.44097137451172,
     "Stock_2027.TW": 31.332935333251953,
+    "Stock_2330": null,
     "China_Steel_Price": 22.17792510986328,
     "Feng_Hsin_Price": 79.44097137451172
   },
@@ -3020,6 +3235,7 @@
     "Stock_2002.TW": 22.374624252319336,
     "Stock_2015.TW": 79.91666412353516,
     "Stock_2027.TW": 31.86482048034668,
+    "Stock_2330": null,
     "China_Steel_Price": 22.374624252319336,
     "Feng_Hsin_Price": 79.91666412353516
   },
@@ -3034,6 +3250,7 @@
     "Stock_2002.TW": 22.227100372314453,
     "Stock_2015.TW": 79.44097137451172,
     "Stock_2027.TW": 31.719758987426758,
+    "Stock_2330": null,
     "China_Steel_Price": 22.227100372314453,
     "Feng_Hsin_Price": 79.44097137451172
   },
@@ -3048,6 +3265,7 @@
     "Stock_2002.TW": 22.12874984741211,
     "Stock_2015.TW": 79.91666412353516,
     "Stock_2027.TW": 31.381288528442383,
+    "Stock_2330": null,
     "China_Steel_Price": 22.12874984741211,
     "Feng_Hsin_Price": 79.91666412353516
   },
@@ -3062,6 +3280,7 @@
     "Stock_2002.TW": null,
     "Stock_2015.TW": null,
     "Stock_2027.TW": null,
+    "Stock_2330": null,
     "China_Steel_Price": null,
     "Feng_Hsin_Price": null
   },
@@ -3076,6 +3295,7 @@
     "Stock_2002.TW": 22.325450897216797,
     "Stock_2015.TW": 80.96319580078125,
     "Stock_2027.TW": 31.719758987426758,
+    "Stock_2330": null,
     "China_Steel_Price": 22.325450897216797,
     "Feng_Hsin_Price": 80.96319580078125
   },
@@ -3090,6 +3310,7 @@
     "Stock_2002.TW": 22.325450897216797,
     "Stock_2015.TW": 76.77708435058594,
     "Stock_2027.TW": 31.47799301147461,
+    "Stock_2330": null,
     "China_Steel_Price": 22.325450897216797,
     "Feng_Hsin_Price": 76.77708435058594
   },
@@ -3104,6 +3325,7 @@
     "Stock_2002.TW": 22.52215003967285,
     "Stock_2015.TW": 78.0138931274414,
     "Stock_2027.TW": 31.5747013092041,
+    "Stock_2330": null,
     "China_Steel_Price": 22.52215003967285,
     "Feng_Hsin_Price": 78.0138931274414
   },
@@ -3118,6 +3340,7 @@
     "Stock_2002.TW": 22.71885108947754,
     "Stock_2015.TW": 78.20416259765625,
     "Stock_2027.TW": 33.025299072265625,
+    "Stock_2330": null,
     "China_Steel_Price": 22.71885108947754,
     "Feng_Hsin_Price": 78.20416259765625
   },
@@ -3132,6 +3355,7 @@
     "Stock_2002.TW": 22.768024444580078,
     "Stock_2015.TW": 76.58680725097656,
     "Stock_2027.TW": 34.33083724975586,
+    "Stock_2330": null,
     "China_Steel_Price": 22.768024444580078,
     "Feng_Hsin_Price": 76.58680725097656
   },
@@ -3146,6 +3370,7 @@
     "Stock_2002.TW": 22.866374969482422,
     "Stock_2015.TW": 77.25277709960938,
     "Stock_2027.TW": 33.89565658569336,
+    "Stock_2330": null,
     "China_Steel_Price": 22.866374969482422,
     "Feng_Hsin_Price": 77.25277709960938
   },
@@ -3160,6 +3385,7 @@
     "Stock_2002.TW": 22.817201614379883,
     "Stock_2015.TW": 77.25277709960938,
     "Stock_2027.TW": 34.33083724975586,
+    "Stock_2330": null,
     "China_Steel_Price": 22.817201614379883,
     "Feng_Hsin_Price": 77.25277709960938
   },
@@ -3174,6 +3400,7 @@
     "Stock_2002.TW": 21.932048797607422,
     "Stock_2015.TW": 75.06458282470703,
     "Stock_2027.TW": 33.557186126708984,
+    "Stock_2330": null,
     "China_Steel_Price": 21.932048797607422,
     "Feng_Hsin_Price": 75.06458282470703
   },
@@ -3188,6 +3415,7 @@
     "Stock_2002.TW": 22.07957649230957,
     "Stock_2015.TW": 72.87638854980469,
     "Stock_2027.TW": 32.20329284667969,
+    "Stock_2330": null,
     "China_Steel_Price": 22.07957649230957,
     "Feng_Hsin_Price": 72.87638854980469
   },
@@ -3202,6 +3430,7 @@
     "Stock_2002.TW": 21.882875442504883,
     "Stock_2015.TW": 72.87638854980469,
     "Stock_2027.TW": 31.5747013092041,
+    "Stock_2330": null,
     "China_Steel_Price": 21.882875442504883,
     "Feng_Hsin_Price": 72.87638854980469
   },
@@ -3216,6 +3445,7 @@
     "Stock_2002.TW": 21.686174392700195,
     "Stock_2015.TW": 72.87638854980469,
     "Stock_2027.TW": 31.47799301147461,
+    "Stock_2330": null,
     "China_Steel_Price": 21.686174392700195,
     "Feng_Hsin_Price": 72.87638854980469
   },
@@ -3230,6 +3460,7 @@
     "Stock_2002.TW": 22.07957649230957,
     "Stock_2015.TW": 74.39860534667969,
     "Stock_2027.TW": 33.3154182434082,
+    "Stock_2330": null,
     "China_Steel_Price": 22.07957649230957,
     "Feng_Hsin_Price": 74.39860534667969
   },
@@ -3244,6 +3475,7 @@
     "Stock_2002.TW": 21.981225967407227,
     "Stock_2015.TW": 74.11319732666016,
     "Stock_2027.TW": 32.34835433959961,
+    "Stock_2330": null,
     "China_Steel_Price": 21.981225967407227,
     "Feng_Hsin_Price": 74.11319732666016
   },
@@ -3258,6 +3490,7 @@
     "Stock_2002.TW": 21.932048797607422,
     "Stock_2015.TW": 73.92291259765625,
     "Stock_2027.TW": 32.34835433959961,
+    "Stock_2330": null,
     "China_Steel_Price": 21.932048797607422,
     "Feng_Hsin_Price": 73.92291259765625
   },
@@ -3272,6 +3505,7 @@
     "Stock_2002.TW": 21.686174392700195,
     "Stock_2015.TW": 73.25694274902344,
     "Stock_2027.TW": 32.34835433959961,
+    "Stock_2330": null,
     "China_Steel_Price": 21.686174392700195,
     "Feng_Hsin_Price": 73.25694274902344
   },
@@ -3286,6 +3520,7 @@
     "Stock_2002.TW": 21.735349655151367,
     "Stock_2015.TW": 73.35208129882812,
     "Stock_2027.TW": 33.122005462646484,
+    "Stock_2330": null,
     "China_Steel_Price": 21.735349655151367,
     "Feng_Hsin_Price": 73.35208129882812
   },
@@ -3300,6 +3535,7 @@
     "Stock_2002.TW": 21.932048797607422,
     "Stock_2015.TW": 74.11319732666016,
     "Stock_2027.TW": 33.46047592163086,
+    "Stock_2330": null,
     "China_Steel_Price": 21.932048797607422,
     "Feng_Hsin_Price": 74.11319732666016
   },
@@ -3314,6 +3550,7 @@
     "Stock_2002.TW": 21.735349655151367,
     "Stock_2015.TW": 73.25694274902344,
     "Stock_2027.TW": 34.13742446899414,
+    "Stock_2330": null,
     "China_Steel_Price": 21.735349655151367,
     "Feng_Hsin_Price": 73.25694274902344
   },
@@ -3328,6 +3565,7 @@
     "Stock_2002.TW": 21.391124725341797,
     "Stock_2015.TW": 71.63958740234375,
     "Stock_2027.TW": 34.04071807861328,
+    "Stock_2330": null,
     "China_Steel_Price": 21.391124725341797,
     "Feng_Hsin_Price": 71.63958740234375
   },
@@ -3342,6 +3580,7 @@
     "Stock_2002.TW": 21.391124725341797,
     "Stock_2015.TW": 71.54444122314453,
     "Stock_2027.TW": 33.46047592163086,
+    "Stock_2330": null,
     "China_Steel_Price": 21.391124725341797,
     "Feng_Hsin_Price": 71.54444122314453
   },
@@ -3356,6 +3595,7 @@
     "Stock_2002.TW": 20.850200653076172,
     "Stock_2015.TW": 71.259033203125,
     "Stock_2027.TW": 33.557186126708984,
+    "Stock_2330": null,
     "China_Steel_Price": 20.850200653076172,
     "Feng_Hsin_Price": 71.259033203125
   },
@@ -3370,6 +3610,7 @@
     "Stock_2002.TW": 20.850200653076172,
     "Stock_2015.TW": 71.35416412353516,
     "Stock_2027.TW": 33.218711853027344,
+    "Stock_2330": null,
     "China_Steel_Price": 20.850200653076172,
     "Feng_Hsin_Price": 71.35416412353516
   },
@@ -3384,6 +3625,7 @@
     "Stock_2002.TW": 21.19442367553711,
     "Stock_2015.TW": 69.83194732666016,
     "Stock_2027.TW": 33.122005462646484,
+    "Stock_2330": null,
     "China_Steel_Price": 21.19442367553711,
     "Feng_Hsin_Price": 69.83194732666016
   },
@@ -3398,6 +3640,7 @@
     "Stock_2002.TW": 21.292774200439453,
     "Stock_2015.TW": 70.78333282470703,
     "Stock_2027.TW": 32.73517990112305,
+    "Stock_2330": null,
     "China_Steel_Price": 21.292774200439453,
     "Feng_Hsin_Price": 70.78333282470703
   },
@@ -3412,6 +3655,7 @@
     "Stock_2002.TW": 20.850200653076172,
     "Stock_2015.TW": 71.16389465332031,
     "Stock_2027.TW": 32.396705627441406,
+    "Stock_2330": null,
     "China_Steel_Price": 20.850200653076172,
     "Feng_Hsin_Price": 71.16389465332031
   },
@@ -3426,6 +3670,7 @@
     "Stock_2002.TW": 20.801025390625,
     "Stock_2015.TW": 70.49791717529297,
     "Stock_2027.TW": 32.44506072998047,
+    "Stock_2330": null,
     "China_Steel_Price": 20.801025390625,
     "Feng_Hsin_Price": 70.49791717529297
   },
@@ -3440,6 +3685,7 @@
     "Stock_2002.TW": 20.653499603271484,
     "Stock_2015.TW": 69.92708587646484,
     "Stock_2027.TW": 32.493412017822266,
+    "Stock_2330": null,
     "China_Steel_Price": 20.653499603271484,
     "Feng_Hsin_Price": 69.92708587646484
   },
@@ -3454,6 +3700,7 @@
     "Stock_2002.TW": 20.653499603271484,
     "Stock_2015.TW": 70.3076400756836,
     "Stock_2027.TW": 32.15494155883789,
+    "Stock_2330": null,
     "China_Steel_Price": 20.653499603271484,
     "Feng_Hsin_Price": 70.3076400756836
   },
@@ -3468,6 +3715,7 @@
     "Stock_2002.TW": 20.456798553466797,
     "Stock_2015.TW": 70.2125015258789,
     "Stock_2027.TW": 31.91317367553711,
+    "Stock_2330": null,
     "China_Steel_Price": 20.456798553466797,
     "Feng_Hsin_Price": 70.2125015258789
   },
@@ -3482,6 +3730,7 @@
     "Stock_2002.TW": 20.16175079345703,
     "Stock_2015.TW": 71.0687484741211,
     "Stock_2027.TW": 31.719758987426758,
+    "Stock_2330": null,
     "China_Steel_Price": 20.16175079345703,
     "Feng_Hsin_Price": 71.0687484741211
   },
@@ -3496,6 +3745,7 @@
     "Stock_2002.TW": 19.915874481201172,
     "Stock_2015.TW": 69.83194732666016,
     "Stock_2027.TW": 31.04281234741211,
+    "Stock_2330": null,
     "China_Steel_Price": 19.915874481201172,
     "Feng_Hsin_Price": 69.83194732666016
   },
@@ -3510,6 +3760,7 @@
     "Stock_2002.TW": 19.915874481201172,
     "Stock_2015.TW": 69.4513931274414,
     "Stock_2027.TW": 29.785627365112305,
+    "Stock_2330": null,
     "China_Steel_Price": 19.915874481201172,
     "Feng_Hsin_Price": 69.4513931274414
   },
@@ -3524,6 +3775,7 @@
     "Stock_2002.TW": 19.670000076293945,
     "Stock_2015.TW": 68.97569274902344,
     "Stock_2027.TW": 29.398801803588867,
+    "Stock_2330": null,
     "China_Steel_Price": 19.670000076293945,
     "Feng_Hsin_Price": 68.97569274902344
   },
@@ -3538,6 +3790,7 @@
     "Stock_2002.TW": 19.719173431396484,
     "Stock_2015.TW": 69.07083129882812,
     "Stock_2027.TW": 29.302095413208008,
+    "Stock_2330": null,
     "China_Steel_Price": 19.719173431396484,
     "Feng_Hsin_Price": 69.07083129882812
   },
@@ -3552,6 +3805,7 @@
     "Stock_2002.TW": 19.620826721191406,
     "Stock_2015.TW": 68.59513854980469,
     "Stock_2027.TW": 29.20539093017578,
+    "Stock_2330": null,
     "China_Steel_Price": 19.620826721191406,
     "Feng_Hsin_Price": 68.59513854980469
   },
@@ -3566,6 +3820,7 @@
     "Stock_2002.TW": 19.5716495513916,
     "Stock_2015.TW": 67.73888397216797,
     "Stock_2027.TW": 28.86691665649414,
+    "Stock_2330": null,
     "China_Steel_Price": 19.5716495513916,
     "Feng_Hsin_Price": 67.73888397216797
   },
@@ -3580,6 +3835,7 @@
     "Stock_2002.TW": 19.670000076293945,
     "Stock_2015.TW": 70.11735534667969,
     "Stock_2027.TW": 28.77021026611328,
+    "Stock_2330": null,
     "China_Steel_Price": 19.670000076293945,
     "Feng_Hsin_Price": 70.11735534667969
   },
@@ -3594,6 +3850,7 @@
     "Stock_2002.TW": 19.620826721191406,
     "Stock_2015.TW": 67.83403015136719,
     "Stock_2027.TW": 28.91526985168457,
+    "Stock_2330": null,
     "China_Steel_Price": 19.620826721191406,
     "Feng_Hsin_Price": 67.83403015136719
   },
@@ -3608,6 +3865,7 @@
     "Stock_2002.TW": 19.620826721191406,
     "Stock_2015.TW": 67.07291412353516,
     "Stock_2027.TW": 29.15703582763672,
+    "Stock_2330": null,
     "China_Steel_Price": 19.620826721191406,
     "Feng_Hsin_Price": 67.07291412353516
   },
@@ -3622,6 +3880,7 @@
     "Stock_2002.TW": 19.670000076293945,
     "Stock_2015.TW": 66.7874984741211,
     "Stock_2027.TW": 29.350448608398438,
+    "Stock_2330": null,
     "China_Steel_Price": 19.670000076293945,
     "Feng_Hsin_Price": 66.7874984741211
   },
@@ -3636,6 +3895,7 @@
     "Stock_2002.TW": 19.670000076293945,
     "Stock_2015.TW": 66.50208282470703,
     "Stock_2027.TW": 29.01197624206543,
+    "Stock_2330": null,
     "China_Steel_Price": 19.670000076293945,
     "Feng_Hsin_Price": 66.50208282470703
   },
@@ -3650,6 +3910,7 @@
     "Stock_2002.TW": 19.522476196289062,
     "Stock_2015.TW": 67.16805267333984,
     "Stock_2027.TW": 29.302095413208008,
+    "Stock_2330": null,
     "China_Steel_Price": 19.522476196289062,
     "Feng_Hsin_Price": 67.16805267333984
   },
@@ -3664,6 +3925,7 @@
     "Stock_2002.TW": 19.325775146484375,
     "Stock_2015.TW": 66.21666717529297,
     "Stock_2027.TW": 29.253742218017578,
+    "Stock_2330": null,
     "China_Steel_Price": 19.325775146484375,
     "Feng_Hsin_Price": 66.21666717529297
   },
@@ -3678,6 +3940,7 @@
     "Stock_2002.TW": 18.932374954223633,
     "Stock_2015.TW": 64.88471984863281,
     "Stock_2027.TW": 29.398801803588867,
+    "Stock_2330": null,
     "China_Steel_Price": 18.932374954223633,
     "Feng_Hsin_Price": 64.88471984863281
   },
@@ -3692,6 +3955,7 @@
     "Stock_2002.TW": 18.686500549316406,
     "Stock_2015.TW": 63.647918701171875,
     "Stock_2027.TW": 28.818561553955078,
+    "Stock_2330": null,
     "China_Steel_Price": 18.686500549316406,
     "Feng_Hsin_Price": 63.647918701171875
   },
@@ -3706,6 +3970,7 @@
     "Stock_2002.TW": 18.981550216674805,
     "Stock_2015.TW": 63.74305725097656,
     "Stock_2027.TW": 29.06032943725586,
+    "Stock_2330": null,
     "China_Steel_Price": 18.981550216674805,
     "Feng_Hsin_Price": 63.74305725097656
   },
@@ -3720,6 +3985,7 @@
     "Stock_2002.TW": 18.637325286865234,
     "Stock_2015.TW": 64.88471984863281,
     "Stock_2027.TW": 28.86691665649414,
+    "Stock_2330": null,
     "China_Steel_Price": 18.637325286865234,
     "Feng_Hsin_Price": 64.88471984863281
   },
@@ -3734,6 +4000,7 @@
     "Stock_2002.TW": 18.588150024414062,
     "Stock_2015.TW": 64.02847290039062,
     "Stock_2027.TW": 28.141616821289062,
+    "Stock_2330": null,
     "China_Steel_Price": 18.588150024414062,
     "Feng_Hsin_Price": 64.02847290039062
   },
@@ -3748,6 +4015,7 @@
     "Stock_2002.TW": 18.293100357055664,
     "Stock_2015.TW": 62.886802673339844,
     "Stock_2027.TW": 28.67350196838379,
+    "Stock_2330": null,
     "China_Steel_Price": 18.293100357055664,
     "Feng_Hsin_Price": 62.886802673339844
   },
@@ -3762,6 +4030,7 @@
     "Stock_2002.TW": 17.998048782348633,
     "Stock_2015.TW": 62.411109924316406,
     "Stock_2027.TW": 29.302095413208008,
+    "Stock_2330": null,
     "China_Steel_Price": 17.998048782348633,
     "Feng_Hsin_Price": 62.411109924316406
   },
@@ -3776,6 +4045,7 @@
     "Stock_2002.TW": 17.801349639892578,
     "Stock_2015.TW": 61.17430877685547,
     "Stock_2027.TW": 29.398801803588867,
+    "Stock_2330": null,
     "China_Steel_Price": 17.801349639892578,
     "Feng_Hsin_Price": 61.17430877685547
   },
@@ -3790,6 +4060,7 @@
     "Stock_2002.TW": 18.047225952148438,
     "Stock_2015.TW": 61.07916259765625,
     "Stock_2027.TW": 30.655988693237305,
+    "Stock_2330": null,
     "China_Steel_Price": 18.047225952148438,
     "Feng_Hsin_Price": 61.07916259765625
   },
@@ -3804,6 +4075,7 @@
     "Stock_2002.TW": 18.391450881958008,
     "Stock_2015.TW": 62.411109924316406,
     "Stock_2027.TW": 30.994461059570312,
+    "Stock_2330": null,
     "China_Steel_Price": 18.391450881958008,
     "Feng_Hsin_Price": 62.411109924316406
   },
@@ -3818,6 +4090,7 @@
     "Stock_2002.TW": 18.588150024414062,
     "Stock_2015.TW": 62.696529388427734,
     "Stock_2027.TW": 31.719758987426758,
+    "Stock_2330": null,
     "China_Steel_Price": 18.588150024414062,
     "Feng_Hsin_Price": 62.696529388427734
   },
@@ -3832,6 +4105,7 @@
     "Stock_2002.TW": 19.22742462158203,
     "Stock_2015.TW": 63.26736068725586,
     "Stock_2027.TW": 31.429641723632812,
+    "Stock_2330": null,
     "China_Steel_Price": 19.22742462158203,
     "Feng_Hsin_Price": 63.26736068725586
   },
@@ -3846,6 +4120,7 @@
     "Stock_2002.TW": 19.22742462158203,
     "Stock_2015.TW": 63.36249923706055,
     "Stock_2027.TW": 32.15494155883789,
+    "Stock_2330": null,
     "China_Steel_Price": 19.22742462158203,
     "Feng_Hsin_Price": 63.36249923706055
   },
@@ -3860,6 +4135,7 @@
     "Stock_2002.TW": 19.76835060119629,
     "Stock_2015.TW": 64.02847290039062,
     "Stock_2027.TW": 32.78353500366211,
+    "Stock_2330": null,
     "China_Steel_Price": 19.76835060119629,
     "Feng_Hsin_Price": 64.02847290039062
   },
@@ -3874,6 +4150,7 @@
     "Stock_2002.TW": 19.817523956298828,
     "Stock_2015.TW": 63.55278015136719,
     "Stock_2027.TW": 32.928592681884766,
+    "Stock_2330": null,
     "China_Steel_Price": 19.817523956298828,
     "Feng_Hsin_Price": 63.55278015136719
   },
@@ -3888,6 +4165,7 @@
     "Stock_2002.TW": null,
     "Stock_2015.TW": null,
     "Stock_2027.TW": null,
+    "Stock_2330": null,
     "China_Steel_Price": null,
     "Feng_Hsin_Price": null
   },
@@ -3902,6 +4180,7 @@
     "Stock_2002.TW": null,
     "Stock_2015.TW": null,
     "Stock_2027.TW": null,
+    "Stock_2330": null,
     "China_Steel_Price": null,
     "Feng_Hsin_Price": null
   },
@@ -3916,6 +4195,7 @@
     "Stock_2002.TW": null,
     "Stock_2015.TW": null,
     "Stock_2027.TW": null,
+    "Stock_2330": null,
     "China_Steel_Price": null,
     "Feng_Hsin_Price": null
   },
@@ -3930,6 +4210,7 @@
     "Stock_2002.TW": null,
     "Stock_2015.TW": null,
     "Stock_2027.TW": null,
+    "Stock_2330": null,
     "China_Steel_Price": null,
     "Feng_Hsin_Price": null
   },
@@ -3944,6 +4225,7 @@
     "Stock_2002.TW": null,
     "Stock_2015.TW": null,
     "Stock_2027.TW": null,
+    "Stock_2330": null,
     "China_Steel_Price": null,
     "Feng_Hsin_Price": null
   },
@@ -3958,6 +4240,7 @@
     "Stock_2002.TW": null,
     "Stock_2015.TW": null,
     "Stock_2027.TW": null,
+    "Stock_2330": null,
     "China_Steel_Price": null,
     "Feng_Hsin_Price": null
   },
@@ -3972,6 +4255,7 @@
     "Stock_2002.TW": null,
     "Stock_2015.TW": null,
     "Stock_2027.TW": null,
+    "Stock_2330": null,
     "China_Steel_Price": null,
     "Feng_Hsin_Price": null
   },
@@ -3986,6 +4270,7 @@
     "Stock_2002.TW": 19.670000076293945,
     "Stock_2015.TW": 64.02847290039062,
     "Stock_2027.TW": 35.92649841308594,
+    "Stock_2330": null,
     "China_Steel_Price": 19.670000076293945,
     "Feng_Hsin_Price": 64.02847290039062
   },
@@ -4000,6 +4285,7 @@
     "Stock_2002.TW": 19.276599884033203,
     "Stock_2015.TW": 64.88471984863281,
     "Stock_2027.TW": 37.183685302734375,
+    "Stock_2330": null,
     "China_Steel_Price": 19.276599884033203,
     "Feng_Hsin_Price": 64.88471984863281
   },
@@ -4014,6 +4300,7 @@
     "Stock_2002.TW": 19.276599884033203,
     "Stock_2015.TW": 64.5041732788086,
     "Stock_2027.TW": 36.84520721435547,
+    "Stock_2330": null,
     "China_Steel_Price": 19.276599884033203,
     "Feng_Hsin_Price": 64.5041732788086
   },
@@ -4028,6 +4315,7 @@
     "Stock_2002.TW": 19.5716495513916,
     "Stock_2015.TW": 65.1701431274414,
     "Stock_2027.TW": 36.99026870727539,
+    "Stock_2330": null,
     "China_Steel_Price": 19.5716495513916,
     "Feng_Hsin_Price": 65.1701431274414
   },
@@ -4042,6 +4330,7 @@
     "Stock_2002.TW": 19.325775146484375,
     "Stock_2015.TW": 64.97986602783203,
     "Stock_2027.TW": 36.84520721435547,
+    "Stock_2330": null,
     "China_Steel_Price": 19.325775146484375,
     "Feng_Hsin_Price": 64.97986602783203
   },
@@ -4056,6 +4345,7 @@
     "Stock_2002.TW": 19.719173431396484,
     "Stock_2015.TW": 65.9312515258789,
     "Stock_2027.TW": 40.52006149291992,
+    "Stock_2330": null,
     "China_Steel_Price": 19.719173431396484,
     "Feng_Hsin_Price": 65.9312515258789
   },
@@ -4070,6 +4360,7 @@
     "Stock_2002.TW": 19.5716495513916,
     "Stock_2015.TW": 65.45555877685547,
     "Stock_2027.TW": 42.06736373901367,
+    "Stock_2330": null,
     "China_Steel_Price": 19.5716495513916,
     "Feng_Hsin_Price": 65.45555877685547
   },
@@ -4084,6 +4375,7 @@
     "Stock_2002.TW": 19.76835060119629,
     "Stock_2015.TW": 65.55069732666016,
     "Stock_2027.TW": 40.61676788330078,
+    "Stock_2330": null,
     "China_Steel_Price": 19.76835060119629,
     "Feng_Hsin_Price": 65.55069732666016
   },
@@ -4098,6 +4390,7 @@
     "Stock_2002.TW": 21.538650512695312,
     "Stock_2015.TW": 67.54861450195312,
     "Stock_2027.TW": 42.64760208129883,
+    "Stock_2330": null,
     "China_Steel_Price": 21.538650512695312,
     "Feng_Hsin_Price": 67.54861450195312
   },
@@ -4112,6 +4405,7 @@
     "Stock_2002.TW": 22.866374969482422,
     "Stock_2015.TW": 67.92916870117188,
     "Stock_2027.TW": 42.06736373901367,
+    "Stock_2330": null,
     "China_Steel_Price": 22.866374969482422,
     "Feng_Hsin_Price": 67.92916870117188
   },
@@ -4126,6 +4420,7 @@
     "Stock_2002.TW": 22.47297477722168,
     "Stock_2015.TW": 66.6923599243164,
     "Stock_2027.TW": 41.680538177490234,
+    "Stock_2330": null,
     "China_Steel_Price": 22.47297477722168,
     "Feng_Hsin_Price": 66.6923599243164
   },
@@ -4140,6 +4435,7 @@
     "Stock_2002.TW": 22.030399322509766,
     "Stock_2015.TW": 66.6923599243164,
     "Stock_2027.TW": 41.34206771850586,
+    "Stock_2330": null,
     "China_Steel_Price": 22.030399322509766,
     "Feng_Hsin_Price": 66.6923599243164
   },
@@ -4154,6 +4450,7 @@
     "Stock_2002.TW": 21.981225967407227,
     "Stock_2015.TW": 66.59722137451172,
     "Stock_2027.TW": 42.74431228637695,
+    "Stock_2330": null,
     "China_Steel_Price": 21.981225967407227,
     "Feng_Hsin_Price": 66.59722137451172
   },
@@ -4168,6 +4465,7 @@
     "Stock_2002.TW": 22.276275634765625,
     "Stock_2015.TW": 66.977783203125,
     "Stock_2027.TW": 41.825599670410156,
+    "Stock_2330": null,
     "China_Steel_Price": 22.276275634765625,
     "Feng_Hsin_Price": 66.977783203125
   },
@@ -4182,6 +4480,7 @@
     "Stock_2002.TW": 22.620500564575195,
     "Stock_2015.TW": 66.977783203125,
     "Stock_2027.TW": 42.74431228637695,
+    "Stock_2330": null,
     "China_Steel_Price": 22.620500564575195,
     "Feng_Hsin_Price": 66.977783203125
   },
@@ -4196,6 +4495,7 @@
     "Stock_2002.TW": 22.817201614379883,
     "Stock_2015.TW": 67.45347595214844,
     "Stock_2027.TW": 43.03443145751953,
+    "Stock_2330": null,
     "China_Steel_Price": 22.817201614379883,
     "Feng_Hsin_Price": 67.45347595214844
   },
@@ -4210,6 +4510,7 @@
     "Stock_2002.TW": 23.50564956665039,
     "Stock_2015.TW": 68.5,
     "Stock_2027.TW": 46.660926818847656,
+    "Stock_2330": null,
     "China_Steel_Price": 23.50564956665039,
     "Feng_Hsin_Price": 68.5
   },
@@ -4224,6 +4525,7 @@
     "Stock_2002.TW": 23.407299041748047,
     "Stock_2015.TW": 67.73888397216797,
     "Stock_2027.TW": 45.838924407958984,
+    "Stock_2330": null,
     "China_Steel_Price": 23.407299041748047,
     "Feng_Hsin_Price": 67.73888397216797
   },
@@ -4238,6 +4540,7 @@
     "Stock_2002.TW": 23.948225021362305,
     "Stock_2015.TW": 68.7854232788086,
     "Stock_2027.TW": 47.24116516113281,
+    "Stock_2330": null,
     "China_Steel_Price": 23.948225021362305,
     "Feng_Hsin_Price": 68.7854232788086
   },
@@ -4252,6 +4555,7 @@
     "Stock_2002.TW": null,
     "Stock_2015.TW": null,
     "Stock_2027.TW": null,
+    "Stock_2330": null,
     "China_Steel_Price": null,
     "Feng_Hsin_Price": null
   },
@@ -4266,6 +4570,7 @@
     "Stock_2002.TW": 23.604000091552734,
     "Stock_2015.TW": 68.30972290039062,
     "Stock_2027.TW": 46.9994010925293,
+    "Stock_2330": null,
     "China_Steel_Price": 23.604000091552734,
     "Feng_Hsin_Price": 68.30972290039062
   },
@@ -4280,6 +4585,7 @@
     "Stock_2002.TW": 23.210599899291992,
     "Stock_2015.TW": 68.59513854980469,
     "Stock_2027.TW": 46.17739486694336,
+    "Stock_2330": null,
     "China_Steel_Price": 23.210599899291992,
     "Feng_Hsin_Price": 68.59513854980469
   },
@@ -4294,6 +4600,7 @@
     "Stock_2002.TW": 23.702350616455078,
     "Stock_2015.TW": 70.02222442626953,
     "Stock_2027.TW": 47.8697624206543,
+    "Stock_2330": null,
     "China_Steel_Price": 23.702350616455078,
     "Feng_Hsin_Price": 70.02222442626953
   },
@@ -4308,6 +4615,7 @@
     "Stock_2002.TW": 23.84987449645996,
     "Stock_2015.TW": 70.49791717529297,
     "Stock_2027.TW": 49.03023910522461,
+    "Stock_2330": null,
     "China_Steel_Price": 23.84987449645996,
     "Feng_Hsin_Price": 70.49791717529297
   },
@@ -4322,6 +4630,7 @@
     "Stock_2002.TW": 23.84987449645996,
     "Stock_2015.TW": 70.59305572509766,
     "Stock_2027.TW": 49.03023910522461,
+    "Stock_2330": null,
     "China_Steel_Price": 23.84987449645996,
     "Feng_Hsin_Price": 70.59305572509766
   },
@@ -4336,6 +4645,7 @@
     "Stock_2002.TW": 24.292449951171875,
     "Stock_2015.TW": 71.259033203125,
     "Stock_2027.TW": 48.11152648925781,
+    "Stock_2330": null,
     "China_Steel_Price": 24.292449951171875,
     "Feng_Hsin_Price": 71.259033203125
   },
@@ -4350,6 +4660,7 @@
     "Stock_2002.TW": 23.899049758911133,
     "Stock_2015.TW": 69.16596984863281,
     "Stock_2027.TW": 47.386226654052734,
+    "Stock_2330": null,
     "China_Steel_Price": 23.899049758911133,
     "Feng_Hsin_Price": 69.16596984863281
   },
@@ -4364,6 +4675,7 @@
     "Stock_2002.TW": 23.751523971557617,
     "Stock_2015.TW": 68.88055419921875,
     "Stock_2027.TW": 46.660926818847656,
+    "Stock_2330": null,
     "China_Steel_Price": 23.751523971557617,
     "Feng_Hsin_Price": 68.88055419921875
   },
@@ -4378,6 +4690,7 @@
     "Stock_2002.TW": 23.308950424194336,
     "Stock_2015.TW": 68.40486145019531,
     "Stock_2027.TW": 47.8697624206543,
+    "Stock_2330": null,
     "China_Steel_Price": 23.308950424194336,
     "Feng_Hsin_Price": 68.40486145019531
   },
@@ -4392,6 +4705,7 @@
     "Stock_2002.TW": 23.899049758911133,
     "Stock_2015.TW": 70.59305572509766,
     "Stock_2027.TW": 49.41706466674805,
+    "Stock_2330": null,
     "China_Steel_Price": 23.899049758911133,
     "Feng_Hsin_Price": 70.59305572509766
   },
@@ -4406,6 +4720,7 @@
     "Stock_2002.TW": 23.702350616455078,
     "Stock_2015.TW": 70.2125015258789,
     "Stock_2027.TW": 48.83682632446289,
+    "Stock_2330": null,
     "China_Steel_Price": 23.702350616455078,
     "Feng_Hsin_Price": 70.2125015258789
   },
@@ -4420,6 +4735,7 @@
     "Stock_2002.TW": 23.751523971557617,
     "Stock_2015.TW": 71.0687484741211,
     "Stock_2027.TW": 49.80389404296875,
+    "Stock_2330": null,
     "China_Steel_Price": 23.751523971557617,
     "Feng_Hsin_Price": 71.0687484741211
   },
@@ -4434,6 +4750,7 @@
     "Stock_2002.TW": 23.702350616455078,
     "Stock_2015.TW": 72.68611145019531,
     "Stock_2027.TW": 50.577545166015625,
+    "Stock_2330": null,
     "China_Steel_Price": 23.702350616455078,
     "Feng_Hsin_Price": 72.68611145019531
   },
@@ -4448,6 +4765,7 @@
     "Stock_2002.TW": 23.948225021362305,
     "Stock_2015.TW": 71.54444122314453,
     "Stock_2027.TW": 51.25448989868164,
+    "Stock_2330": null,
     "China_Steel_Price": 23.948225021362305,
     "Feng_Hsin_Price": 71.54444122314453
   },
@@ -4462,6 +4780,7 @@
     "Stock_2002.TW": 23.407299041748047,
     "Stock_2015.TW": 70.78333282470703,
     "Stock_2027.TW": 49.12694549560547,
+    "Stock_2330": null,
     "China_Steel_Price": 23.407299041748047,
     "Feng_Hsin_Price": 70.78333282470703
   },
@@ -4476,6 +4795,7 @@
     "Stock_2002.TW": 23.308950424194336,
     "Stock_2015.TW": 69.64166259765625,
     "Stock_2027.TW": 49.610477447509766,
+    "Stock_2330": null,
     "China_Steel_Price": 23.308950424194336,
     "Feng_Hsin_Price": 69.64166259765625
   },
@@ -4490,6 +4810,7 @@
     "Stock_2002.TW": 22.71885108947754,
     "Stock_2015.TW": 68.40486145019531,
     "Stock_2027.TW": 47.67634582519531,
+    "Stock_2330": null,
     "China_Steel_Price": 22.71885108947754,
     "Feng_Hsin_Price": 68.40486145019531
   },
@@ -4504,6 +4825,7 @@
     "Stock_2002.TW": 22.817201614379883,
     "Stock_2015.TW": 68.5,
     "Stock_2027.TW": 48.353294372558594,
+    "Stock_2330": null,
     "China_Steel_Price": 22.817201614379883,
     "Feng_Hsin_Price": 68.5
   },
@@ -4518,6 +4840,7 @@
     "Stock_2002.TW": 23.06307601928711,
     "Stock_2015.TW": 68.5,
     "Stock_2027.TW": 49.32035827636719,
+    "Stock_2330": null,
     "China_Steel_Price": 23.06307601928711,
     "Feng_Hsin_Price": 68.5
   },
@@ -4532,6 +4855,7 @@
     "Stock_2002.TW": 22.620500564575195,
     "Stock_2015.TW": 68.19999694824219,
     "Stock_2027.TW": 49.223655700683594,
+    "Stock_2330": null,
     "China_Steel_Price": 22.620500564575195,
     "Feng_Hsin_Price": 68.19999694824219
   },
@@ -4546,6 +4870,7 @@
     "Stock_2002.TW": 22.030399322509766,
     "Stock_2015.TW": 67.69999694824219,
     "Stock_2027.TW": 47.627994537353516,
+    "Stock_2330": null,
     "China_Steel_Price": 22.030399322509766,
     "Feng_Hsin_Price": 67.69999694824219
   },
@@ -4560,6 +4885,7 @@
     "Stock_2002.TW": 22.571325302124023,
     "Stock_2015.TW": 68.5999984741211,
     "Stock_2027.TW": 48.353294372558594,
+    "Stock_2330": null,
     "China_Steel_Price": 22.571325302124023,
     "Feng_Hsin_Price": 68.5999984741211
   },
@@ -4574,6 +4900,7 @@
     "Stock_2002.TW": 22.47297477722168,
     "Stock_2015.TW": 66.69999694824219,
     "Stock_2027.TW": 47.96646499633789,
+    "Stock_2330": null,
     "China_Steel_Price": 22.47297477722168,
     "Feng_Hsin_Price": 66.69999694824219
   },
@@ -4588,6 +4915,7 @@
     "Stock_2002.TW": null,
     "Stock_2015.TW": null,
     "Stock_2027.TW": null,
+    "Stock_2330": null,
     "China_Steel_Price": null,
     "Feng_Hsin_Price": null
   },
@@ -4602,6 +4930,7 @@
     "Stock_2002.TW": null,
     "Stock_2015.TW": null,
     "Stock_2027.TW": null,
+    "Stock_2330": null,
     "China_Steel_Price": null,
     "Feng_Hsin_Price": null
   },
@@ -4616,6 +4945,7 @@
     "Stock_2002.TW": 20.260101318359375,
     "Stock_2015.TW": 60.099998474121094,
     "Stock_2027.TW": 43.17949295043945,
+    "Stock_2330": null,
     "China_Steel_Price": 20.260101318359375,
     "Feng_Hsin_Price": 60.099998474121094
   },
@@ -4630,6 +4960,7 @@
     "Stock_2002.TW": 20.11257553100586,
     "Stock_2015.TW": 57.099998474121094,
     "Stock_2027.TW": 44.19491195678711,
+    "Stock_2330": null,
     "China_Steel_Price": 20.11257553100586,
     "Feng_Hsin_Price": 57.099998474121094
   },
@@ -4644,6 +4975,7 @@
     "Stock_2002.TW": 18.686500549316406,
     "Stock_2015.TW": 55.29999923706055,
     "Stock_2027.TW": 41.583831787109375,
+    "Stock_2330": null,
     "China_Steel_Price": 18.686500549316406,
     "Feng_Hsin_Price": 55.29999923706055
   },
@@ -4658,6 +4990,7 @@
     "Stock_2002.TW": 20.55514907836914,
     "Stock_2015.TW": 60.20000076293945,
     "Stock_2027.TW": 45.74221420288086,
+    "Stock_2330": null,
     "China_Steel_Price": 20.55514907836914,
     "Feng_Hsin_Price": 60.20000076293945
   },
@@ -4672,6 +5005,7 @@
     "Stock_2002.TW": 20.11257553100586,
     "Stock_2015.TW": 59.70000076293945,
     "Stock_2027.TW": 43.13113784790039,
+    "Stock_2330": null,
     "China_Steel_Price": 20.11257553100586,
     "Feng_Hsin_Price": 59.70000076293945
   },
@@ -4686,6 +5020,7 @@
     "Stock_2002.TW": 20.801025390625,
     "Stock_2015.TW": 60.70000076293945,
     "Stock_2027.TW": 45.1619758605957,
+    "Stock_2330": null,
     "China_Steel_Price": 20.801025390625,
     "Feng_Hsin_Price": 60.70000076293945
   },
@@ -4700,6 +5035,7 @@
     "Stock_2002.TW": 20.997724533081055,
     "Stock_2015.TW": 62.0,
     "Stock_2027.TW": 45.25868225097656,
+    "Stock_2330": null,
     "China_Steel_Price": 20.997724533081055,
     "Feng_Hsin_Price": 62.0
   },
@@ -4714,6 +5050,7 @@
     "Stock_2002.TW": 20.55514907836914,
     "Stock_2015.TW": 60.79999923706055,
     "Stock_2027.TW": 44.001495361328125,
+    "Stock_2330": null,
     "China_Steel_Price": 20.55514907836914,
     "Feng_Hsin_Price": 60.79999923706055
   },
@@ -4728,6 +5065,7 @@
     "Stock_2002.TW": 20.16175079345703,
     "Stock_2015.TW": 60.5,
     "Stock_2027.TW": 43.66302490234375,
+    "Stock_2330": null,
     "China_Steel_Price": 20.16175079345703,
     "Feng_Hsin_Price": 60.5
   },
@@ -4742,6 +5080,7 @@
     "Stock_2002.TW": 20.063400268554688,
     "Stock_2015.TW": 60.20000076293945,
     "Stock_2027.TW": 43.03443145751953,
+    "Stock_2330": null,
     "China_Steel_Price": 20.063400268554688,
     "Feng_Hsin_Price": 60.20000076293945
   },
@@ -4756,6 +5095,7 @@
     "Stock_2002.TW": 19.670000076293945,
     "Stock_2015.TW": 59.79999923706055,
     "Stock_2027.TW": 38.924400329589844,
+    "Stock_2330": null,
     "China_Steel_Price": 19.670000076293945,
     "Feng_Hsin_Price": 59.79999923706055
   },
@@ -4770,6 +5110,7 @@
     "Stock_2002.TW": 19.866701126098633,
     "Stock_2015.TW": 59.79999923706055,
     "Stock_2027.TW": 39.11781692504883,
+    "Stock_2330": null,
     "China_Steel_Price": 19.866701126098633,
     "Feng_Hsin_Price": 59.79999923706055
   },
@@ -4784,6 +5125,7 @@
     "Stock_2002.TW": 20.309274673461914,
     "Stock_2015.TW": 60.5,
     "Stock_2027.TW": 40.8585319519043,
+    "Stock_2330": null,
     "China_Steel_Price": 20.309274673461914,
     "Feng_Hsin_Price": 60.5
   },
@@ -4798,6 +5140,7 @@
     "Stock_2002.TW": 20.16175079345703,
     "Stock_2015.TW": 61.099998474121094,
     "Stock_2027.TW": 41.680538177490234,
+    "Stock_2330": null,
     "China_Steel_Price": 20.16175079345703,
     "Feng_Hsin_Price": 61.099998474121094
   },
@@ -4812,6 +5155,7 @@
     "Stock_2002.TW": 19.965049743652344,
     "Stock_2015.TW": 61.400001525878906,
     "Stock_2027.TW": 41.390419006347656,
+    "Stock_2330": null,
     "China_Steel_Price": 19.965049743652344,
     "Feng_Hsin_Price": 61.400001525878906
   },
@@ -4826,6 +5170,7 @@
     "Stock_2002.TW": 20.11257553100586,
     "Stock_2015.TW": 61.099998474121094,
     "Stock_2027.TW": 40.08488082885742,
+    "Stock_2330": null,
     "China_Steel_Price": 20.11257553100586,
     "Feng_Hsin_Price": 61.099998474121094
   },
@@ -4840,6 +5185,7 @@
     "Stock_2002.TW": 20.309274673461914,
     "Stock_2015.TW": 61.400001525878906,
     "Stock_2027.TW": 41.48712921142578,
+    "Stock_2330": null,
     "China_Steel_Price": 20.309274673461914,
     "Feng_Hsin_Price": 61.400001525878906
   },
@@ -4854,6 +5200,7 @@
     "Stock_2002.TW": 20.309274673461914,
     "Stock_2015.TW": 60.099998474121094,
     "Stock_2027.TW": 40.47170639038086,
+    "Stock_2330": null,
     "China_Steel_Price": 20.309274673461914,
     "Feng_Hsin_Price": 60.099998474121094
   },
@@ -4868,6 +5215,7 @@
     "Stock_2002.TW": null,
     "Stock_2015.TW": null,
     "Stock_2027.TW": null,
+    "Stock_2330": null,
     "China_Steel_Price": null,
     "Feng_Hsin_Price": null
   },
@@ -4882,6 +5230,7 @@
     "Stock_2002.TW": 20.358449935913086,
     "Stock_2015.TW": 60.79999923706055,
     "Stock_2027.TW": 41.7288932800293,
+    "Stock_2330": null,
     "China_Steel_Price": 20.358449935913086,
     "Feng_Hsin_Price": 60.79999923706055
   },
@@ -4896,6 +5245,7 @@
     "Stock_2002.TW": 20.801025390625,
     "Stock_2015.TW": 61.400001525878906,
     "Stock_2027.TW": 38.730987548828125,
+    "Stock_2330": null,
     "China_Steel_Price": 20.801025390625,
     "Feng_Hsin_Price": 61.400001525878906
   },
@@ -4910,6 +5260,7 @@
     "Stock_2002.TW": 21.538650512695312,
     "Stock_2015.TW": 60.70000076293945,
     "Stock_2027.TW": 38.634281158447266,
+    "Stock_2330": null,
     "China_Steel_Price": 21.538650512695312,
     "Feng_Hsin_Price": 60.70000076293945
   },
@@ -4924,6 +5275,7 @@
     "Stock_2002.TW": 21.19442367553711,
     "Stock_2015.TW": 60.70000076293945,
     "Stock_2027.TW": 38.15074920654297,
+    "Stock_2330": null,
     "China_Steel_Price": 21.19442367553711,
     "Feng_Hsin_Price": 60.70000076293945
   },
@@ -4938,6 +5290,7 @@
     "Stock_2002.TW": 20.899375915527344,
     "Stock_2015.TW": 60.400001525878906,
     "Stock_2027.TW": 38.77933883666992,
+    "Stock_2330": null,
     "China_Steel_Price": 20.899375915527344,
     "Feng_Hsin_Price": 60.400001525878906
   },
@@ -4952,6 +5305,7 @@
     "Stock_2002.TW": 20.948549270629883,
     "Stock_2015.TW": 61.5,
     "Stock_2027.TW": 37.66721725463867,
+    "Stock_2330": null,
     "China_Steel_Price": 20.948549270629883,
     "Feng_Hsin_Price": 61.5
   },
@@ -4966,6 +5320,7 @@
     "Stock_2002.TW": 20.997724533081055,
     "Stock_2015.TW": 61.29999923706055,
     "Stock_2027.TW": 38.054039001464844,
+    "Stock_2330": null,
     "China_Steel_Price": 20.997724533081055,
     "Feng_Hsin_Price": 61.29999923706055
   },
@@ -4980,6 +5335,7 @@
     "Stock_2002.TW": 21.046899795532227,
     "Stock_2015.TW": 60.900001525878906,
     "Stock_2027.TW": 37.13533020019531,
+    "Stock_2330": null,
     "China_Steel_Price": 21.046899795532227,
     "Feng_Hsin_Price": 60.900001525878906
   },
@@ -4994,6 +5350,7 @@
     "Stock_2002.TW": 21.14525032043457,
     "Stock_2015.TW": 61.29999923706055,
     "Stock_2027.TW": 37.13533020019531,
+    "Stock_2330": null,
     "China_Steel_Price": 21.14525032043457,
     "Feng_Hsin_Price": 61.29999923706055
   },
@@ -5008,6 +5365,7 @@
     "Stock_2002.TW": 20.948549270629883,
     "Stock_2015.TW": 61.20000076293945,
     "Stock_2027.TW": 36.313323974609375,
+    "Stock_2330": null,
     "China_Steel_Price": 20.948549270629883,
     "Feng_Hsin_Price": 61.20000076293945
   },
@@ -5022,6 +5380,7 @@
     "Stock_2002.TW": 20.653499603271484,
     "Stock_2015.TW": 61.5,
     "Stock_2027.TW": 36.313323974609375,
+    "Stock_2330": null,
     "China_Steel_Price": 20.653499603271484,
     "Feng_Hsin_Price": 61.5
   },
@@ -5036,6 +5395,7 @@
     "Stock_2002.TW": 20.751850128173828,
     "Stock_2015.TW": 62.29999923706055,
     "Stock_2027.TW": 35.5880241394043,
+    "Stock_2330": null,
     "China_Steel_Price": 20.751850128173828,
     "Feng_Hsin_Price": 62.29999923706055
   },
@@ -5050,6 +5410,7 @@
     "Stock_2002.TW": 21.292774200439453,
     "Stock_2015.TW": 62.5,
     "Stock_2027.TW": 36.26496887207031,
+    "Stock_2330": null,
     "China_Steel_Price": 21.292774200439453,
     "Feng_Hsin_Price": 62.5
   },
@@ -5064,6 +5425,7 @@
     "Stock_2002.TW": 20.702674865722656,
     "Stock_2015.TW": 62.400001525878906,
     "Stock_2027.TW": 36.313323974609375,
+    "Stock_2330": null,
     "China_Steel_Price": 20.702674865722656,
     "Feng_Hsin_Price": 62.400001525878906
   },
@@ -5078,6 +5440,7 @@
     "Stock_2002.TW": 20.11257553100586,
     "Stock_2015.TW": 61.70000076293945,
     "Stock_2027.TW": 35.29790496826172,
+    "Stock_2330": null,
     "China_Steel_Price": 20.11257553100586,
     "Feng_Hsin_Price": 61.70000076293945
   },
@@ -5092,6 +5455,7 @@
     "Stock_2002.TW": 19.965049743652344,
     "Stock_2015.TW": 62.70000076293945,
     "Stock_2027.TW": 35.49131774902344,
+    "Stock_2330": null,
     "China_Steel_Price": 19.965049743652344,
     "Feng_Hsin_Price": 62.70000076293945
   },
@@ -5106,6 +5470,7 @@
     "Stock_2002.TW": 19.866701126098633,
     "Stock_2015.TW": 63.099998474121094,
     "Stock_2027.TW": 35.636375427246094,
+    "Stock_2330": null,
     "China_Steel_Price": 19.866701126098633,
     "Feng_Hsin_Price": 63.099998474121094
   },
@@ -5120,6 +5485,7 @@
     "Stock_2002.TW": 19.670000076293945,
     "Stock_2015.TW": 62.29999923706055,
     "Stock_2027.TW": 35.05613708496094,
+    "Stock_2330": null,
     "China_Steel_Price": 19.670000076293945,
     "Feng_Hsin_Price": 62.29999923706055
   },
@@ -5134,6 +5500,7 @@
     "Stock_2002.TW": 19.719173431396484,
     "Stock_2015.TW": 62.5,
     "Stock_2027.TW": 34.81437301635742,
+    "Stock_2330": null,
     "China_Steel_Price": 19.719173431396484,
     "Feng_Hsin_Price": 62.5
   },
@@ -5148,6 +5515,7 @@
     "Stock_2002.TW": 19.42412567138672,
     "Stock_2015.TW": 63.099998474121094,
     "Stock_2027.TW": 34.37919235229492,
+    "Stock_2330": null,
     "China_Steel_Price": 19.42412567138672,
     "Feng_Hsin_Price": 63.099998474121094
   },
@@ -5162,6 +5530,7 @@
     "Stock_2002.TW": null,
     "Stock_2015.TW": null,
     "Stock_2027.TW": null,
+    "Stock_2330": null,
     "China_Steel_Price": null,
     "Feng_Hsin_Price": null
   },
@@ -5176,6 +5545,7 @@
     "Stock_2002.TW": 18.883201599121094,
     "Stock_2015.TW": 64.0999984741211,
     "Stock_2027.TW": 36.4583854675293,
+    "Stock_2330": null,
     "China_Steel_Price": 18.883201599121094,
     "Feng_Hsin_Price": 64.0999984741211
   },
@@ -5190,6 +5560,7 @@
     "Stock_2002.TW": 18.932374954223633,
     "Stock_2015.TW": 66.4000015258789,
     "Stock_2027.TW": 34.33083724975586,
+    "Stock_2330": null,
     "China_Steel_Price": 18.932374954223633,
     "Feng_Hsin_Price": 66.4000015258789
   },
@@ -5204,6 +5575,7 @@
     "Stock_2002.TW": 18.883201599121094,
     "Stock_2015.TW": 65.0,
     "Stock_2027.TW": 34.33083724975586,
+    "Stock_2330": null,
     "China_Steel_Price": 18.883201599121094,
     "Feng_Hsin_Price": 65.0
   },
@@ -5218,6 +5590,7 @@
     "Stock_2002.TW": 19.079898834228516,
     "Stock_2015.TW": 63.29999923706055,
     "Stock_2027.TW": 34.524253845214844,
+    "Stock_2330": null,
     "China_Steel_Price": 19.079898834228516,
     "Feng_Hsin_Price": 63.29999923706055
   },
@@ -5232,6 +5605,7 @@
     "Stock_2002.TW": 19.22742462158203,
     "Stock_2015.TW": 64.19999694824219,
     "Stock_2027.TW": 34.57260513305664,
+    "Stock_2330": null,
     "China_Steel_Price": 19.22742462158203,
     "Feng_Hsin_Price": 64.19999694824219
   },
@@ -5246,6 +5620,7 @@
     "Stock_2002.TW": 19.030725479125977,
     "Stock_2015.TW": 65.0,
     "Stock_2027.TW": 34.33083724975586,
+    "Stock_2330": null,
     "China_Steel_Price": 19.030725479125977,
     "Feng_Hsin_Price": 65.0
   },
@@ -5260,6 +5635,7 @@
     "Stock_2002.TW": 19.079898834228516,
     "Stock_2015.TW": 65.5999984741211,
     "Stock_2027.TW": 34.234134674072266,
+    "Stock_2330": null,
     "China_Steel_Price": 19.079898834228516,
     "Feng_Hsin_Price": 65.5999984741211
   },
@@ -5274,6 +5650,7 @@
     "Stock_2002.TW": 19.17824935913086,
     "Stock_2015.TW": 65.30000305175781,
     "Stock_2027.TW": 33.798954010009766,
+    "Stock_2330": null,
     "China_Steel_Price": 19.17824935913086,
     "Feng_Hsin_Price": 65.30000305175781
   },
@@ -5288,6 +5665,7 @@
     "Stock_2002.TW": 19.12907600402832,
     "Stock_2015.TW": 64.19999694824219,
     "Stock_2027.TW": 34.18577575683594,
+    "Stock_2330": null,
     "China_Steel_Price": 19.12907600402832,
     "Feng_Hsin_Price": 64.19999694824219
   },
@@ -5302,6 +5680,7 @@
     "Stock_2002.TW": 18.883201599121094,
     "Stock_2015.TW": 63.5,
     "Stock_2027.TW": 33.46047592163086,
+    "Stock_2330": null,
     "China_Steel_Price": 18.883201599121094,
     "Feng_Hsin_Price": 63.5
   },
@@ -5316,6 +5695,7 @@
     "Stock_2002.TW": 18.883201599121094,
     "Stock_2015.TW": 63.29999923706055,
     "Stock_2027.TW": 33.70224380493164,
+    "Stock_2330": null,
     "China_Steel_Price": 18.883201599121094,
     "Feng_Hsin_Price": 63.29999923706055
   },
@@ -5330,6 +5710,7 @@
     "Stock_2002.TW": 18.78485107421875,
     "Stock_2015.TW": 63.29999923706055,
     "Stock_2027.TW": 33.17035675048828,
+    "Stock_2330": null,
     "China_Steel_Price": 18.78485107421875,
     "Feng_Hsin_Price": 63.29999923706055
   },
@@ -5344,6 +5725,7 @@
     "Stock_2002.TW": 18.78485107421875,
     "Stock_2015.TW": 63.79999923706055,
     "Stock_2027.TW": 33.267066955566406,
+    "Stock_2330": null,
     "China_Steel_Price": 18.78485107421875,
     "Feng_Hsin_Price": 63.79999923706055
   },
@@ -5358,6 +5740,7 @@
     "Stock_2002.TW": 18.637325286865234,
     "Stock_2015.TW": 62.599998474121094,
     "Stock_2027.TW": 32.928592681884766,
+    "Stock_2330": null,
     "China_Steel_Price": 18.637325286865234,
     "Feng_Hsin_Price": 62.599998474121094
   },
@@ -5372,6 +5755,7 @@
     "Stock_2002.TW": 18.342275619506836,
     "Stock_2015.TW": 61.400001525878906,
     "Stock_2027.TW": 32.20329284667969,
+    "Stock_2330": null,
     "China_Steel_Price": 18.342275619506836,
     "Feng_Hsin_Price": 61.400001525878906
   },
@@ -5386,6 +5770,7 @@
     "Stock_2002.TW": 18.14557647705078,
     "Stock_2015.TW": 60.20000076293945,
     "Stock_2027.TW": 32.493412017822266,
+    "Stock_2330": null,
     "China_Steel_Price": 18.14557647705078,
     "Feng_Hsin_Price": 60.20000076293945
   },
@@ -5400,6 +5785,7 @@
     "Stock_2002.TW": 18.588150024414062,
     "Stock_2015.TW": 60.70000076293945,
     "Stock_2027.TW": 33.363773345947266,
+    "Stock_2330": null,
     "China_Steel_Price": 18.588150024414062,
     "Feng_Hsin_Price": 60.70000076293945
   },
@@ -5414,6 +5800,7 @@
     "Stock_2002.TW": 18.440624237060547,
     "Stock_2015.TW": 62.20000076293945,
     "Stock_2027.TW": 33.122005462646484,
+    "Stock_2330": null,
     "China_Steel_Price": 18.440624237060547,
     "Feng_Hsin_Price": 62.20000076293945
   },
@@ -5428,6 +5815,7 @@
     "Stock_2002.TW": 18.686500549316406,
     "Stock_2015.TW": 63.20000076293945,
     "Stock_2027.TW": 33.46047592163086,
+    "Stock_2330": null,
     "China_Steel_Price": 18.686500549316406,
     "Feng_Hsin_Price": 63.20000076293945
   },
@@ -5442,6 +5830,7 @@
     "Stock_2002.TW": 18.78485107421875,
     "Stock_2015.TW": 65.0,
     "Stock_2027.TW": 33.992366790771484,
+    "Stock_2330": null,
     "China_Steel_Price": 18.78485107421875,
     "Feng_Hsin_Price": 65.0
   },
@@ -5456,6 +5845,7 @@
     "Stock_2002.TW": 18.48979949951172,
     "Stock_2015.TW": 65.5999984741211,
     "Stock_2027.TW": 33.50883483886719,
+    "Stock_2330": null,
     "China_Steel_Price": 18.48979949951172,
     "Feng_Hsin_Price": 65.5999984741211
   },
@@ -5470,6 +5860,7 @@
     "Stock_2002.TW": 18.686500549316406,
     "Stock_2015.TW": 67.5,
     "Stock_2027.TW": 33.267066955566406,
+    "Stock_2330": null,
     "China_Steel_Price": 18.686500549316406,
     "Feng_Hsin_Price": 67.5
   },
@@ -5484,6 +5875,7 @@
     "Stock_2002.TW": 18.48979949951172,
     "Stock_2015.TW": 69.5,
     "Stock_2027.TW": 33.60553741455078,
+    "Stock_2330": null,
     "China_Steel_Price": 18.48979949951172,
     "Feng_Hsin_Price": 69.5
   },
@@ -5498,6 +5890,7 @@
     "Stock_2002.TW": 19.079898834228516,
     "Stock_2015.TW": 68.0,
     "Stock_2027.TW": 34.37919235229492,
+    "Stock_2330": null,
     "China_Steel_Price": 19.079898834228516,
     "Feng_Hsin_Price": 68.0
   },
@@ -5512,6 +5905,7 @@
     "Stock_2002.TW": 18.932374954223633,
     "Stock_2015.TW": 66.4000015258789,
     "Stock_2027.TW": 33.653892517089844,
+    "Stock_2330": null,
     "China_Steel_Price": 18.932374954223633,
     "Feng_Hsin_Price": 66.4000015258789
   },
@@ -5526,6 +5920,7 @@
     "Stock_2002.TW": 18.686500549316406,
     "Stock_2015.TW": 65.9000015258789,
     "Stock_2027.TW": 32.831886291503906,
+    "Stock_2330": null,
     "China_Steel_Price": 18.686500549316406,
     "Feng_Hsin_Price": 65.9000015258789
   },
@@ -5540,6 +5935,7 @@
     "Stock_2002.TW": 18.48979949951172,
     "Stock_2015.TW": 65.30000305175781,
     "Stock_2027.TW": 32.88024139404297,
+    "Stock_2330": null,
     "China_Steel_Price": 18.48979949951172,
     "Feng_Hsin_Price": 65.30000305175781
   },
@@ -5554,6 +5950,7 @@
     "Stock_2002.TW": 18.588150024414062,
     "Stock_2015.TW": 63.70000076293945,
     "Stock_2027.TW": 32.251644134521484,
+    "Stock_2330": null,
     "China_Steel_Price": 18.588150024414062,
     "Feng_Hsin_Price": 63.70000076293945
   },
@@ -5568,6 +5965,7 @@
     "Stock_2002.TW": 18.637325286865234,
     "Stock_2015.TW": 64.80000305175781,
     "Stock_2027.TW": 32.30000305175781,
+    "Stock_2330": null,
     "China_Steel_Price": 18.637325286865234,
     "Feng_Hsin_Price": 64.80000305175781
   },
@@ -5582,6 +5980,7 @@
     "Stock_2002.TW": 18.48979949951172,
     "Stock_2015.TW": 66.0,
     "Stock_2027.TW": 32.849998474121094,
+    "Stock_2330": null,
     "China_Steel_Price": 18.48979949951172,
     "Feng_Hsin_Price": 66.0
   },
@@ -5596,6 +5995,7 @@
     "Stock_2002.TW": 18.53897476196289,
     "Stock_2015.TW": 66.5,
     "Stock_2027.TW": 32.849998474121094,
+    "Stock_2330": null,
     "China_Steel_Price": 18.53897476196289,
     "Feng_Hsin_Price": 66.5
   },
@@ -5610,6 +6010,7 @@
     "Stock_2002.TW": 18.588150024414062,
     "Stock_2015.TW": 66.69999694824219,
     "Stock_2027.TW": 33.849998474121094,
+    "Stock_2330": null,
     "China_Steel_Price": 18.588150024414062,
     "Feng_Hsin_Price": 66.69999694824219
   },
@@ -5624,6 +6025,7 @@
     "Stock_2002.TW": 18.48979949951172,
     "Stock_2015.TW": 66.0,
     "Stock_2027.TW": 34.04999923706055,
+    "Stock_2330": null,
     "China_Steel_Price": 18.48979949951172,
     "Feng_Hsin_Price": 66.0
   },
@@ -5638,6 +6040,7 @@
     "Stock_2002.TW": 18.932374954223633,
     "Stock_2015.TW": 66.5999984741211,
     "Stock_2027.TW": 34.79999923706055,
+    "Stock_2330": null,
     "China_Steel_Price": 18.932374954223633,
     "Feng_Hsin_Price": 66.5999984741211
   },
@@ -5652,6 +6055,7 @@
     "Stock_2002.TW": 18.686500549316406,
     "Stock_2015.TW": 65.4000015258789,
     "Stock_2027.TW": 34.25,
+    "Stock_2330": null,
     "China_Steel_Price": 18.686500549316406,
     "Feng_Hsin_Price": 65.4000015258789
   },
@@ -5666,6 +6070,7 @@
     "Stock_2002.TW": 18.883201599121094,
     "Stock_2015.TW": 66.19999694824219,
     "Stock_2027.TW": 34.54999923706055,
+    "Stock_2330": null,
     "China_Steel_Price": 18.883201599121094,
     "Feng_Hsin_Price": 66.19999694824219
   },
@@ -5680,6 +6085,7 @@
     "Stock_2002.TW": 18.932374954223633,
     "Stock_2015.TW": 67.0999984741211,
     "Stock_2027.TW": 35.650001525878906,
+    "Stock_2330": null,
     "China_Steel_Price": 18.932374954223633,
     "Feng_Hsin_Price": 67.0999984741211
   },
@@ -5694,6 +6100,7 @@
     "Stock_2002.TW": 19.670000076293945,
     "Stock_2015.TW": 68.5,
     "Stock_2027.TW": 36.150001525878906,
+    "Stock_2330": null,
     "China_Steel_Price": 19.670000076293945,
     "Feng_Hsin_Price": 68.5
   },
@@ -5708,6 +6115,7 @@
     "Stock_2002.TW": 19.649999618530273,
     "Stock_2015.TW": 68.4000015258789,
     "Stock_2027.TW": 35.650001525878906,
+    "Stock_2330": null,
     "China_Steel_Price": 19.649999618530273,
     "Feng_Hsin_Price": 68.4000015258789
   },
@@ -5722,6 +6130,7 @@
     "Stock_2002.TW": 19.649999618530273,
     "Stock_2015.TW": 68.80000305175781,
     "Stock_2027.TW": 37.25,
+    "Stock_2330": null,
     "China_Steel_Price": 19.649999618530273,
     "Feng_Hsin_Price": 68.80000305175781
   },
@@ -5736,6 +6145,7 @@
     "Stock_2002.TW": 19.399999618530273,
     "Stock_2015.TW": 67.0999984741211,
     "Stock_2027.TW": 37.79999923706055,
+    "Stock_2330": null,
     "China_Steel_Price": 19.399999618530273,
     "Feng_Hsin_Price": 67.0999984741211
   },
@@ -5750,6 +6160,7 @@
     "Stock_2002.TW": 19.200000762939453,
     "Stock_2015.TW": 68.0,
     "Stock_2027.TW": 39.599998474121094,
+    "Stock_2330": null,
     "China_Steel_Price": 19.200000762939453,
     "Feng_Hsin_Price": 68.0
   },
@@ -5764,6 +6175,7 @@
     "Stock_2002.TW": 19.799999237060547,
     "Stock_2015.TW": 68.0999984741211,
     "Stock_2027.TW": 40.45000076293945,
+    "Stock_2330": null,
     "China_Steel_Price": 19.799999237060547,
     "Feng_Hsin_Price": 68.0999984741211
   },
@@ -5778,6 +6190,7 @@
     "Stock_2002.TW": 19.450000762939453,
     "Stock_2015.TW": 67.5999984741211,
     "Stock_2027.TW": 39.29999923706055,
+    "Stock_2330": null,
     "China_Steel_Price": 19.450000762939453,
     "Feng_Hsin_Price": 67.5999984741211
   },
@@ -5792,6 +6205,7 @@
     "Stock_2002.TW": null,
     "Stock_2015.TW": null,
     "Stock_2027.TW": null,
+    "Stock_2330": null,
     "China_Steel_Price": null,
     "Feng_Hsin_Price": null
   },
@@ -5806,6 +6220,7 @@
     "Stock_2002.TW": 19.149999618530273,
     "Stock_2015.TW": 66.69999694824219,
     "Stock_2027.TW": 39.29999923706055,
+    "Stock_2330": null,
     "China_Steel_Price": 19.149999618530273,
     "Feng_Hsin_Price": 66.69999694824219
   },
@@ -5820,6 +6235,7 @@
     "Stock_2002.TW": 19.25,
     "Stock_2015.TW": 66.5,
     "Stock_2027.TW": 39.099998474121094,
+    "Stock_2330": null,
     "China_Steel_Price": 19.25,
     "Feng_Hsin_Price": 66.5
   },
@@ -5834,6 +6250,7 @@
     "Stock_2002.TW": 19.200000762939453,
     "Stock_2015.TW": 67.30000305175781,
     "Stock_2027.TW": 39.95000076293945,
+    "Stock_2330": null,
     "China_Steel_Price": 19.200000762939453,
     "Feng_Hsin_Price": 67.30000305175781
   },
@@ -5848,6 +6265,7 @@
     "Stock_2002.TW": 19.200000762939453,
     "Stock_2015.TW": 67.30000305175781,
     "Stock_2027.TW": 39.25,
+    "Stock_2330": null,
     "China_Steel_Price": 19.200000762939453,
     "Feng_Hsin_Price": 67.30000305175781
   },
@@ -5862,6 +6280,7 @@
     "Stock_2002.TW": 19.149999618530273,
     "Stock_2015.TW": 67.0,
     "Stock_2027.TW": 42.29999923706055,
+    "Stock_2330": null,
     "China_Steel_Price": 19.149999618530273,
     "Feng_Hsin_Price": 67.0
   },
@@ -5876,6 +6295,7 @@
     "Stock_2002.TW": 19.350000381469727,
     "Stock_2015.TW": 67.0,
     "Stock_2027.TW": 41.900001525878906,
+    "Stock_2330": null,
     "China_Steel_Price": 19.350000381469727,
     "Feng_Hsin_Price": 67.0
   },
@@ -5890,6 +6310,7 @@
     "Stock_2002.TW": 19.5,
     "Stock_2015.TW": 66.80000305175781,
     "Stock_2027.TW": 41.54999923706055,
+    "Stock_2330": null,
     "China_Steel_Price": 19.5,
     "Feng_Hsin_Price": 66.80000305175781
   },
@@ -5904,6 +6325,7 @@
     "Stock_2002.TW": 19.649999618530273,
     "Stock_2015.TW": 66.5,
     "Stock_2027.TW": 39.45000076293945,
+    "Stock_2330": null,
     "China_Steel_Price": 19.649999618530273,
     "Feng_Hsin_Price": 66.5
   },
@@ -5918,6 +6340,7 @@
     "Stock_2002.TW": 19.850000381469727,
     "Stock_2015.TW": 67.0,
     "Stock_2027.TW": 39.54999923706055,
+    "Stock_2330": null,
     "China_Steel_Price": 19.850000381469727,
     "Feng_Hsin_Price": 67.0
   },
@@ -5932,6 +6355,7 @@
     "Stock_2002.TW": 20.5,
     "Stock_2015.TW": 67.80000305175781,
     "Stock_2027.TW": 40.29999923706055,
+    "Stock_2330": null,
     "China_Steel_Price": 20.5,
     "Feng_Hsin_Price": 67.80000305175781
   },
@@ -5946,6 +6370,7 @@
     "Stock_2002.TW": 20.399999618530273,
     "Stock_2015.TW": 67.69999694824219,
     "Stock_2027.TW": 41.29999923706055,
+    "Stock_2330": null,
     "China_Steel_Price": 20.399999618530273,
     "Feng_Hsin_Price": 67.69999694824219
   },
@@ -5960,6 +6385,7 @@
     "Stock_2002.TW": 20.200000762939453,
     "Stock_2015.TW": 67.5,
     "Stock_2027.TW": 41.0,
+    "Stock_2330": null,
     "China_Steel_Price": 20.200000762939453,
     "Feng_Hsin_Price": 67.5
   },
@@ -5974,6 +6400,7 @@
     "Stock_2002.TW": 20.149999618530273,
     "Stock_2015.TW": 66.9000015258789,
     "Stock_2027.TW": 40.45000076293945,
+    "Stock_2330": null,
     "China_Steel_Price": 20.149999618530273,
     "Feng_Hsin_Price": 66.9000015258789
   },
@@ -5988,6 +6415,7 @@
     "Stock_2002.TW": 20.350000381469727,
     "Stock_2015.TW": 67.0999984741211,
     "Stock_2027.TW": 40.599998474121094,
+    "Stock_2330": null,
     "China_Steel_Price": 20.350000381469727,
     "Feng_Hsin_Price": 67.0999984741211
   },
@@ -6002,6 +6430,7 @@
     "Stock_2002.TW": 20.149999618530273,
     "Stock_2015.TW": 68.30000305175781,
     "Stock_2027.TW": 40.25,
+    "Stock_2330": null,
     "China_Steel_Price": 20.149999618530273,
     "Feng_Hsin_Price": 68.30000305175781
   },
@@ -6016,6 +6445,7 @@
     "Stock_2002.TW": 20.399999618530273,
     "Stock_2015.TW": 67.5999984741211,
     "Stock_2027.TW": 40.95000076293945,
+    "Stock_2330": null,
     "China_Steel_Price": 20.399999618530273,
     "Feng_Hsin_Price": 67.5999984741211
   },
@@ -6030,6 +6460,7 @@
     "Stock_2002.TW": 20.100000381469727,
     "Stock_2015.TW": 66.69999694824219,
     "Stock_2027.TW": 40.45000076293945,
+    "Stock_2330": null,
     "China_Steel_Price": 20.100000381469727,
     "Feng_Hsin_Price": 66.69999694824219
   },
@@ -6044,6 +6475,7 @@
     "Stock_2002.TW": 20.299999237060547,
     "Stock_2015.TW": 66.4000015258789,
     "Stock_2027.TW": 39.400001525878906,
+    "Stock_2330": null,
     "China_Steel_Price": 20.299999237060547,
     "Feng_Hsin_Price": 66.4000015258789
   },
@@ -6058,6 +6490,7 @@
     "Stock_2002.TW": 20.149999618530273,
     "Stock_2015.TW": 66.4000015258789,
     "Stock_2027.TW": 38.599998474121094,
+    "Stock_2330": null,
     "China_Steel_Price": 20.149999618530273,
     "Feng_Hsin_Price": 66.4000015258789
   },
@@ -6072,6 +6505,7 @@
     "Stock_2002.TW": 20.100000381469727,
     "Stock_2015.TW": 66.80000305175781,
     "Stock_2027.TW": 38.900001525878906,
+    "Stock_2330": null,
     "China_Steel_Price": 20.100000381469727,
     "Feng_Hsin_Price": 66.80000305175781
   },
@@ -6086,6 +6520,7 @@
     "Stock_2002.TW": 19.950000762939453,
     "Stock_2015.TW": 65.5999984741211,
     "Stock_2027.TW": 37.95000076293945,
+    "Stock_2330": null,
     "China_Steel_Price": 19.950000762939453,
     "Feng_Hsin_Price": 65.5999984741211
   },
@@ -6100,6 +6535,7 @@
     "Stock_2002.TW": 19.75,
     "Stock_2015.TW": 65.0,
     "Stock_2027.TW": 38.150001525878906,
+    "Stock_2330": null,
     "China_Steel_Price": 19.75,
     "Feng_Hsin_Price": 65.0
   },
@@ -6114,6 +6550,7 @@
     "Stock_2002.TW": 19.700000762939453,
     "Stock_2015.TW": 65.0999984741211,
     "Stock_2027.TW": 37.599998474121094,
+    "Stock_2330": null,
     "China_Steel_Price": 19.700000762939453,
     "Feng_Hsin_Price": 65.0999984741211
   },
@@ -6128,6 +6565,7 @@
     "Stock_2002.TW": 19.850000381469727,
     "Stock_2015.TW": 65.4000015258789,
     "Stock_2027.TW": 38.25,
+    "Stock_2330": null,
     "China_Steel_Price": 19.850000381469727,
     "Feng_Hsin_Price": 65.4000015258789
   },
@@ -6142,6 +6580,7 @@
     "Stock_2002.TW": 19.549999237060547,
     "Stock_2015.TW": 65.5,
     "Stock_2027.TW": 37.5,
+    "Stock_2330": null,
     "China_Steel_Price": 19.549999237060547,
     "Feng_Hsin_Price": 65.5
   },
@@ -6156,6 +6595,7 @@
     "Stock_2002.TW": 19.549999237060547,
     "Stock_2015.TW": 65.30000305175781,
     "Stock_2027.TW": 38.79999923706055,
+    "Stock_2330": null,
     "China_Steel_Price": 19.549999237060547,
     "Feng_Hsin_Price": 65.30000305175781
   },
@@ -6170,6 +6610,7 @@
     "Stock_2002.TW": 19.5,
     "Stock_2015.TW": 65.19999694824219,
     "Stock_2027.TW": 39.150001525878906,
+    "Stock_2330": null,
     "China_Steel_Price": 19.5,
     "Feng_Hsin_Price": 65.19999694824219
   },
@@ -6184,6 +6625,7 @@
     "Stock_2002.TW": 19.450000762939453,
     "Stock_2015.TW": 65.30000305175781,
     "Stock_2027.TW": 39.25,
+    "Stock_2330": null,
     "China_Steel_Price": 19.450000762939453,
     "Feng_Hsin_Price": 65.30000305175781
   },
@@ -6198,6 +6640,7 @@
     "Stock_2002.TW": 19.149999618530273,
     "Stock_2015.TW": 64.30000305175781,
     "Stock_2027.TW": 38.099998474121094,
+    "Stock_2330": null,
     "China_Steel_Price": 19.149999618530273,
     "Feng_Hsin_Price": 64.30000305175781
   },
@@ -6212,6 +6655,7 @@
     "Stock_2002.TW": 19.350000381469727,
     "Stock_2015.TW": 64.5999984741211,
     "Stock_2027.TW": 38.79999923706055,
+    "Stock_2330": null,
     "China_Steel_Price": 19.350000381469727,
     "Feng_Hsin_Price": 64.5999984741211
   },
@@ -6226,6 +6670,7 @@
     "Stock_2002.TW": 19.25,
     "Stock_2015.TW": 64.0999984741211,
     "Stock_2027.TW": 38.04999923706055,
+    "Stock_2330": null,
     "China_Steel_Price": 19.25,
     "Feng_Hsin_Price": 64.0999984741211
   },
@@ -6240,6 +6685,7 @@
     "Stock_2002.TW": 19.200000762939453,
     "Stock_2015.TW": 64.4000015258789,
     "Stock_2027.TW": 38.150001525878906,
+    "Stock_2330": null,
     "China_Steel_Price": 19.200000762939453,
     "Feng_Hsin_Price": 64.4000015258789
   },
@@ -6254,6 +6700,7 @@
     "Stock_2002.TW": 19.200000762939453,
     "Stock_2015.TW": 64.0,
     "Stock_2027.TW": 37.599998474121094,
+    "Stock_2330": null,
     "China_Steel_Price": 19.200000762939453,
     "Feng_Hsin_Price": 64.0
   },
@@ -6268,6 +6715,7 @@
     "Stock_2002.TW": 19.350000381469727,
     "Stock_2015.TW": 64.0,
     "Stock_2027.TW": 38.20000076293945,
+    "Stock_2330": null,
     "China_Steel_Price": 19.350000381469727,
     "Feng_Hsin_Price": 64.0
   },
@@ -6282,6 +6730,7 @@
     "Stock_2002.TW": 19.399999618530273,
     "Stock_2015.TW": 64.30000305175781,
     "Stock_2027.TW": 38.29999923706055,
+    "Stock_2330": null,
     "China_Steel_Price": 19.399999618530273,
     "Feng_Hsin_Price": 64.30000305175781
   },
@@ -6296,6 +6745,7 @@
     "Stock_2002.TW": 19.450000762939453,
     "Stock_2015.TW": 64.19999694824219,
     "Stock_2027.TW": 38.20000076293945,
+    "Stock_2330": null,
     "China_Steel_Price": 19.450000762939453,
     "Feng_Hsin_Price": 64.19999694824219
   },
@@ -6310,6 +6760,7 @@
     "Stock_2002.TW": 19.450000762939453,
     "Stock_2015.TW": 64.0,
     "Stock_2027.TW": 37.900001525878906,
+    "Stock_2330": null,
     "China_Steel_Price": 19.450000762939453,
     "Feng_Hsin_Price": 64.0
   },
@@ -6324,6 +6775,7 @@
     "Stock_2002.TW": 19.350000381469727,
     "Stock_2015.TW": 65.0,
     "Stock_2027.TW": 37.849998474121094,
+    "Stock_2330": null,
     "China_Steel_Price": 19.350000381469727,
     "Feng_Hsin_Price": 65.0
   },
@@ -6338,6 +6790,7 @@
     "Stock_2002.TW": 19.649999618530273,
     "Stock_2015.TW": 66.19999694824219,
     "Stock_2027.TW": 39.0,
+    "Stock_2330": null,
     "China_Steel_Price": 19.649999618530273,
     "Feng_Hsin_Price": 66.19999694824219
   },
@@ -6352,6 +6805,7 @@
     "Stock_2002.TW": 19.549999237060547,
     "Stock_2015.TW": 65.0999984741211,
     "Stock_2027.TW": 38.29999923706055,
+    "Stock_2330": null,
     "China_Steel_Price": 19.549999237060547,
     "Feng_Hsin_Price": 65.0999984741211
   },
@@ -6366,6 +6820,7 @@
     "Stock_2002.TW": null,
     "Stock_2015.TW": null,
     "Stock_2027.TW": null,
+    "Stock_2330": null,
     "China_Steel_Price": null,
     "Feng_Hsin_Price": null
   },
@@ -6380,6 +6835,7 @@
     "Stock_2002.TW": 19.399999618530273,
     "Stock_2015.TW": 65.30000305175781,
     "Stock_2027.TW": 38.5,
+    "Stock_2330": null,
     "China_Steel_Price": 19.399999618530273,
     "Feng_Hsin_Price": 65.30000305175781
   },
@@ -6394,6 +6850,7 @@
     "Stock_2002.TW": 19.299999237060547,
     "Stock_2015.TW": 64.9000015258789,
     "Stock_2027.TW": 38.20000076293945,
+    "Stock_2330": null,
     "China_Steel_Price": 19.299999237060547,
     "Feng_Hsin_Price": 64.9000015258789
   },
@@ -6408,6 +6865,7 @@
     "Stock_2002.TW": 19.200000762939453,
     "Stock_2015.TW": 65.0999984741211,
     "Stock_2027.TW": 37.70000076293945,
+    "Stock_2330": null,
     "China_Steel_Price": 19.200000762939453,
     "Feng_Hsin_Price": 65.0999984741211
   },
@@ -6422,6 +6880,7 @@
     "Stock_2002.TW": 19.0,
     "Stock_2015.TW": 65.0,
     "Stock_2027.TW": 37.20000076293945,
+    "Stock_2330": null,
     "China_Steel_Price": 19.0,
     "Feng_Hsin_Price": 65.0
   },
@@ -6436,6 +6895,7 @@
     "Stock_2002.TW": null,
     "Stock_2015.TW": null,
     "Stock_2027.TW": null,
+    "Stock_2330": null,
     "China_Steel_Price": null,
     "Feng_Hsin_Price": null
   },
@@ -6450,6 +6910,7 @@
     "Stock_2002.TW": 18.950000762939453,
     "Stock_2015.TW": 65.69999694824219,
     "Stock_2027.TW": 38.099998474121094,
+    "Stock_2330": null,
     "China_Steel_Price": 18.950000762939453,
     "Feng_Hsin_Price": 65.69999694824219
   },
@@ -6464,6 +6925,7 @@
     "Stock_2002.TW": 19.0,
     "Stock_2015.TW": 65.0,
     "Stock_2027.TW": 38.95000076293945,
+    "Stock_2330": null,
     "China_Steel_Price": 19.0,
     "Feng_Hsin_Price": 65.0
   },
@@ -6478,6 +6940,7 @@
     "Stock_2002.TW": 19.0,
     "Stock_2015.TW": 65.19999694824219,
     "Stock_2027.TW": 38.599998474121094,
+    "Stock_2330": null,
     "China_Steel_Price": 19.0,
     "Feng_Hsin_Price": 65.19999694824219
   },
@@ -6492,6 +6955,7 @@
     "Stock_2002.TW": null,
     "Stock_2015.TW": null,
     "Stock_2027.TW": null,
+    "Stock_2330": null,
     "China_Steel_Price": null,
     "Feng_Hsin_Price": null
   },
@@ -6506,6 +6970,7 @@
     "Stock_2002.TW": 19.0,
     "Stock_2015.TW": 64.0,
     "Stock_2027.TW": 38.79999923706055,
+    "Stock_2330": null,
     "China_Steel_Price": 19.0,
     "Feng_Hsin_Price": 64.0
   },
@@ -6520,6 +6985,7 @@
     "Stock_2002.TW": 18.850000381469727,
     "Stock_2015.TW": 65.0999984741211,
     "Stock_2027.TW": 39.599998474121094,
+    "Stock_2330": null,
     "China_Steel_Price": 18.850000381469727,
     "Feng_Hsin_Price": 65.0999984741211
   },
@@ -6534,6 +7000,7 @@
     "Stock_2002.TW": 18.700000762939453,
     "Stock_2015.TW": 68.0,
     "Stock_2027.TW": 38.400001525878906,
+    "Stock_2330": null,
     "China_Steel_Price": 18.700000762939453,
     "Feng_Hsin_Price": 68.0
   },
@@ -6548,6 +7015,7 @@
     "Stock_2002.TW": 18.799999237060547,
     "Stock_2015.TW": 64.9000015258789,
     "Stock_2027.TW": 38.70000076293945,
+    "Stock_2330": null,
     "China_Steel_Price": 18.799999237060547,
     "Feng_Hsin_Price": 64.9000015258789
   },
@@ -6562,6 +7030,7 @@
     "Stock_2002.TW": 19.049999237060547,
     "Stock_2015.TW": 64.30000305175781,
     "Stock_2027.TW": 38.70000076293945,
+    "Stock_2330": null,
     "China_Steel_Price": 19.049999237060547,
     "Feng_Hsin_Price": 64.30000305175781
   },
@@ -6576,6 +7045,7 @@
     "Stock_2002.TW": 18.899999618530273,
     "Stock_2015.TW": 63.900001525878906,
     "Stock_2027.TW": 38.400001525878906,
+    "Stock_2330": null,
     "China_Steel_Price": 18.899999618530273,
     "Feng_Hsin_Price": 63.900001525878906
   },
@@ -6590,6 +7060,7 @@
     "Stock_2002.TW": 18.75,
     "Stock_2015.TW": 63.0,
     "Stock_2027.TW": 38.150001525878906,
+    "Stock_2330": null,
     "China_Steel_Price": 18.75,
     "Feng_Hsin_Price": 63.0
   },
@@ -6604,6 +7075,7 @@
     "Stock_2002.TW": 18.799999237060547,
     "Stock_2015.TW": 64.30000305175781,
     "Stock_2027.TW": 37.900001525878906,
+    "Stock_2330": null,
     "China_Steel_Price": 18.799999237060547,
     "Feng_Hsin_Price": 64.30000305175781
   },
@@ -6618,6 +7090,7 @@
     "Stock_2002.TW": 18.899999618530273,
     "Stock_2015.TW": 63.900001525878906,
     "Stock_2027.TW": 37.849998474121094,
+    "Stock_2330": null,
     "China_Steel_Price": 18.899999618530273,
     "Feng_Hsin_Price": 63.900001525878906
   },
@@ -6632,6 +7105,7 @@
     "Stock_2002.TW": null,
     "Stock_2015.TW": null,
     "Stock_2027.TW": null,
+    "Stock_2330": null,
     "China_Steel_Price": null,
     "Feng_Hsin_Price": null
   },
@@ -6646,6 +7120,7 @@
     "Stock_2002.TW": 18.950000762939453,
     "Stock_2015.TW": 65.0999984741211,
     "Stock_2027.TW": 37.70000076293945,
+    "Stock_2330": null,
     "China_Steel_Price": 18.950000762939453,
     "Feng_Hsin_Price": 65.0999984741211
   },
@@ -6660,6 +7135,7 @@
     "Stock_2002.TW": 18.950000762939453,
     "Stock_2015.TW": 64.19999694824219,
     "Stock_2027.TW": 37.400001525878906,
+    "Stock_2330": null,
     "China_Steel_Price": 18.950000762939453,
     "Feng_Hsin_Price": 64.19999694824219
   },
@@ -6674,6 +7150,7 @@
     "Stock_2002.TW": 18.75,
     "Stock_2015.TW": 63.70000076293945,
     "Stock_2027.TW": 36.849998474121094,
+    "Stock_2330": null,
     "China_Steel_Price": 18.75,
     "Feng_Hsin_Price": 63.70000076293945
   },
@@ -6688,6 +7165,7 @@
     "Stock_2002.TW": 18.75,
     "Stock_2015.TW": 63.29999923706055,
     "Stock_2027.TW": 36.95000076293945,
+    "Stock_2330": null,
     "China_Steel_Price": 18.75,
     "Feng_Hsin_Price": 63.29999923706055
   },
@@ -6702,6 +7180,7 @@
     "Stock_2002.TW": 18.600000381469727,
     "Stock_2015.TW": 63.29999923706055,
     "Stock_2027.TW": 36.70000076293945,
+    "Stock_2330": null,
     "China_Steel_Price": 18.600000381469727,
     "Feng_Hsin_Price": 63.29999923706055
   },
@@ -6716,6 +7195,7 @@
     "Stock_2002.TW": 18.350000381469727,
     "Stock_2015.TW": 62.900001525878906,
     "Stock_2027.TW": 36.79999923706055,
+    "Stock_2330": null,
     "China_Steel_Price": 18.350000381469727,
     "Feng_Hsin_Price": 62.900001525878906
   },
@@ -6730,6 +7210,7 @@
     "Stock_2002.TW": 18.149999618530273,
     "Stock_2015.TW": 62.5,
     "Stock_2027.TW": 36.0,
+    "Stock_2330": null,
     "China_Steel_Price": 18.149999618530273,
     "Feng_Hsin_Price": 62.5
   },
@@ -6744,6 +7225,7 @@
     "Stock_2002.TW": 18.100000381469727,
     "Stock_2015.TW": 62.29999923706055,
     "Stock_2027.TW": 36.099998474121094,
+    "Stock_2330": null,
     "China_Steel_Price": 18.100000381469727,
     "Feng_Hsin_Price": 62.29999923706055
   },
@@ -6758,6 +7240,7 @@
     "Stock_2002.TW": 18.25,
     "Stock_2015.TW": 63.900001525878906,
     "Stock_2027.TW": 36.54999923706055,
+    "Stock_2330": null,
     "China_Steel_Price": 18.25,
     "Feng_Hsin_Price": 63.900001525878906
   },
@@ -6772,6 +7255,7 @@
     "Stock_2002.TW": 18.200000762939453,
     "Stock_2015.TW": 64.0,
     "Stock_2027.TW": 36.54999923706055,
+    "Stock_2330": null,
     "China_Steel_Price": 18.200000762939453,
     "Feng_Hsin_Price": 64.0
   },
@@ -6786,6 +7270,7 @@
     "Stock_2002.TW": 18.149999618530273,
     "Stock_2015.TW": 63.900001525878906,
     "Stock_2027.TW": 37.20000076293945,
+    "Stock_2330": null,
     "China_Steel_Price": 18.149999618530273,
     "Feng_Hsin_Price": 63.900001525878906
   },
@@ -6800,6 +7285,7 @@
     "Stock_2002.TW": 18.149999618530273,
     "Stock_2015.TW": 63.29999923706055,
     "Stock_2027.TW": 36.849998474121094,
+    "Stock_2330": null,
     "China_Steel_Price": 18.149999618530273,
     "Feng_Hsin_Price": 63.29999923706055
   },
@@ -6814,6 +7300,7 @@
     "Stock_2002.TW": 18.149999618530273,
     "Stock_2015.TW": 63.900001525878906,
     "Stock_2027.TW": 37.599998474121094,
+    "Stock_2330": null,
     "China_Steel_Price": 18.149999618530273,
     "Feng_Hsin_Price": 63.900001525878906
   },
@@ -6828,6 +7315,7 @@
     "Stock_2002.TW": 18.049999237060547,
     "Stock_2015.TW": 63.900001525878906,
     "Stock_2027.TW": 37.70000076293945,
+    "Stock_2330": null,
     "China_Steel_Price": 18.049999237060547,
     "Feng_Hsin_Price": 63.900001525878906
   },
@@ -6842,6 +7330,7 @@
     "Stock_2002.TW": 18.0,
     "Stock_2015.TW": 64.30000305175781,
     "Stock_2027.TW": 38.599998474121094,
+    "Stock_2330": null,
     "China_Steel_Price": 18.0,
     "Feng_Hsin_Price": 64.30000305175781
   },
@@ -6856,6 +7345,7 @@
     "Stock_2002.TW": 17.950000762939453,
     "Stock_2015.TW": 63.0,
     "Stock_2027.TW": 38.0,
+    "Stock_2330": null,
     "China_Steel_Price": 17.950000762939453,
     "Feng_Hsin_Price": 63.0
   },
@@ -6870,6 +7360,7 @@
     "Stock_2002.TW": 17.75,
     "Stock_2015.TW": 61.29999923706055,
     "Stock_2027.TW": 36.900001525878906,
+    "Stock_2330": null,
     "China_Steel_Price": 17.75,
     "Feng_Hsin_Price": 61.29999923706055
   },
@@ -6884,6 +7375,7 @@
     "Stock_2002.TW": 17.700000762939453,
     "Stock_2015.TW": 60.70000076293945,
     "Stock_2027.TW": 35.04999923706055,
+    "Stock_2330": null,
     "China_Steel_Price": 17.700000762939453,
     "Feng_Hsin_Price": 60.70000076293945
   },
@@ -6898,6 +7390,7 @@
     "Stock_2002.TW": 17.75,
     "Stock_2015.TW": 61.599998474121094,
     "Stock_2027.TW": 35.70000076293945,
+    "Stock_2330": null,
     "China_Steel_Price": 17.75,
     "Feng_Hsin_Price": 61.599998474121094
   },
@@ -6912,6 +7405,7 @@
     "Stock_2002.TW": 17.649999618530273,
     "Stock_2015.TW": 62.29999923706055,
     "Stock_2027.TW": 35.599998474121094,
+    "Stock_2330": null,
     "China_Steel_Price": 17.649999618530273,
     "Feng_Hsin_Price": 62.29999923706055
   },
@@ -6926,6 +7420,7 @@
     "Stock_2002.TW": 18.049999237060547,
     "Stock_2015.TW": 63.0,
     "Stock_2027.TW": 36.20000076293945,
+    "Stock_2330": null,
     "China_Steel_Price": 18.049999237060547,
     "Feng_Hsin_Price": 63.0
   },
@@ -6940,6 +7435,7 @@
     "Stock_2002.TW": 17.799999237060547,
     "Stock_2015.TW": 62.400001525878906,
     "Stock_2027.TW": 37.20000076293945,
+    "Stock_2330": null,
     "China_Steel_Price": 17.799999237060547,
     "Feng_Hsin_Price": 62.400001525878906
   },
@@ -6954,6 +7450,7 @@
     "Stock_2002.TW": 18.149999618530273,
     "Stock_2015.TW": 62.29999923706055,
     "Stock_2027.TW": 38.45000076293945,
+    "Stock_2330": null,
     "China_Steel_Price": 18.149999618530273,
     "Feng_Hsin_Price": 62.29999923706055
   },
@@ -6968,6 +7465,7 @@
     "Stock_2002.TW": 18.200000762939453,
     "Stock_2015.TW": 62.70000076293945,
     "Stock_2027.TW": 38.20000076293945,
+    "Stock_2330": null,
     "China_Steel_Price": 18.200000762939453,
     "Feng_Hsin_Price": 62.70000076293945
   },
@@ -6982,6 +7480,7 @@
     "Stock_2002.TW": 18.25,
     "Stock_2015.TW": 62.79999923706055,
     "Stock_2027.TW": 37.099998474121094,
+    "Stock_2330": null,
     "China_Steel_Price": 18.25,
     "Feng_Hsin_Price": 62.79999923706055
   },
@@ -6996,6 +7495,7 @@
     "Stock_2002.TW": 18.600000381469727,
     "Stock_2015.TW": 64.0,
     "Stock_2027.TW": 38.400001525878906,
+    "Stock_2330": null,
     "China_Steel_Price": 18.600000381469727,
     "Feng_Hsin_Price": 64.0
   },
@@ -7010,6 +7510,7 @@
     "Stock_2002.TW": 18.850000381469727,
     "Stock_2015.TW": 64.5999984741211,
     "Stock_2027.TW": 38.45000076293945,
+    "Stock_2330": null,
     "China_Steel_Price": 18.850000381469727,
     "Feng_Hsin_Price": 64.5999984741211
   },
@@ -7024,6 +7525,7 @@
     "Stock_2002.TW": 19.049999237060547,
     "Stock_2015.TW": 64.5,
     "Stock_2027.TW": 38.54999923706055,
+    "Stock_2330": null,
     "China_Steel_Price": 19.049999237060547,
     "Feng_Hsin_Price": 64.5
   },
@@ -7038,6 +7540,7 @@
     "Stock_2002.TW": 18.899999618530273,
     "Stock_2015.TW": 63.900001525878906,
     "Stock_2027.TW": 38.849998474121094,
+    "Stock_2330": null,
     "China_Steel_Price": 18.899999618530273,
     "Feng_Hsin_Price": 63.900001525878906
   },
@@ -7052,6 +7555,7 @@
     "Stock_2002.TW": 18.700000762939453,
     "Stock_2015.TW": 63.0,
     "Stock_2027.TW": 38.70000076293945,
+    "Stock_2330": null,
     "China_Steel_Price": 18.700000762939453,
     "Feng_Hsin_Price": 63.0
   },
@@ -7066,6 +7570,7 @@
     "Stock_2002.TW": 18.600000381469727,
     "Stock_2015.TW": 62.79999923706055,
     "Stock_2027.TW": 38.04999923706055,
+    "Stock_2330": null,
     "China_Steel_Price": 18.600000381469727,
     "Feng_Hsin_Price": 62.79999923706055
   },
@@ -7080,6 +7585,7 @@
     "Stock_2002.TW": 18.450000762939453,
     "Stock_2015.TW": 63.099998474121094,
     "Stock_2027.TW": 37.04999923706055,
+    "Stock_2330": null,
     "China_Steel_Price": 18.450000762939453,
     "Feng_Hsin_Price": 63.099998474121094
   },
@@ -7094,6 +7600,7 @@
     "Stock_2002.TW": 18.299999237060547,
     "Stock_2015.TW": 63.099998474121094,
     "Stock_2027.TW": 36.54999923706055,
+    "Stock_2330": null,
     "China_Steel_Price": 18.299999237060547,
     "Feng_Hsin_Price": 63.099998474121094
   },
@@ -7108,6 +7615,7 @@
     "Stock_2002.TW": 18.350000381469727,
     "Stock_2015.TW": 63.29999923706055,
     "Stock_2027.TW": 36.849998474121094,
+    "Stock_2330": null,
     "China_Steel_Price": 18.350000381469727,
     "Feng_Hsin_Price": 63.29999923706055
   },
@@ -7122,6 +7630,7 @@
     "Stock_2002.TW": 18.75,
     "Stock_2015.TW": 63.20000076293945,
     "Stock_2027.TW": 37.150001525878906,
+    "Stock_2330": null,
     "China_Steel_Price": 18.75,
     "Feng_Hsin_Price": 63.20000076293945
   },
@@ -7136,6 +7645,7 @@
     "Stock_2002.TW": 18.950000762939453,
     "Stock_2015.TW": 64.0999984741211,
     "Stock_2027.TW": 37.5,
+    "Stock_2330": null,
     "China_Steel_Price": 18.950000762939453,
     "Feng_Hsin_Price": 64.0999984741211
   },
@@ -7150,6 +7660,7 @@
     "Stock_2002.TW": 18.549999237060547,
     "Stock_2015.TW": 64.30000305175781,
     "Stock_2027.TW": 36.900001525878906,
+    "Stock_2330": null,
     "China_Steel_Price": 18.549999237060547,
     "Feng_Hsin_Price": 64.30000305175781
   },
@@ -7164,6 +7675,7 @@
     "Stock_2002.TW": 18.399999618530273,
     "Stock_2015.TW": 63.400001525878906,
     "Stock_2027.TW": 36.150001525878906,
+    "Stock_2330": null,
     "China_Steel_Price": 18.399999618530273,
     "Feng_Hsin_Price": 63.400001525878906
   },
@@ -7178,6 +7690,7 @@
     "Stock_2002.TW": 18.25,
     "Stock_2015.TW": 62.5,
     "Stock_2027.TW": 35.79999923706055,
+    "Stock_2330": null,
     "China_Steel_Price": 18.25,
     "Feng_Hsin_Price": 62.5
   },
@@ -7192,6 +7705,7 @@
     "Stock_2002.TW": 18.850000381469727,
     "Stock_2015.TW": 63.900001525878906,
     "Stock_2027.TW": 35.54999923706055,
+    "Stock_2330": null,
     "China_Steel_Price": 18.850000381469727,
     "Feng_Hsin_Price": 63.900001525878906
   },
@@ -7206,6 +7720,7 @@
     "Stock_2002.TW": 18.799999237060547,
     "Stock_2015.TW": 62.5,
     "Stock_2027.TW": 35.45000076293945,
+    "Stock_2330": null,
     "China_Steel_Price": 18.799999237060547,
     "Feng_Hsin_Price": 62.5
   },
@@ -7220,6 +7735,7 @@
     "Stock_2002.TW": 18.600000381469727,
     "Stock_2015.TW": 61.79999923706055,
     "Stock_2027.TW": 35.099998474121094,
+    "Stock_2330": null,
     "China_Steel_Price": 18.600000381469727,
     "Feng_Hsin_Price": 61.79999923706055
   },
@@ -7234,6 +7750,7 @@
     "Stock_2002.TW": 18.549999237060547,
     "Stock_2015.TW": 61.5,
     "Stock_2027.TW": 34.79999923706055,
+    "Stock_2330": null,
     "China_Steel_Price": 18.549999237060547,
     "Feng_Hsin_Price": 61.5
   },
@@ -7248,6 +7765,7 @@
     "Stock_2002.TW": 18.850000381469727,
     "Stock_2015.TW": 61.0,
     "Stock_2027.TW": 35.349998474121094,
+    "Stock_2330": null,
     "China_Steel_Price": 18.850000381469727,
     "Feng_Hsin_Price": 61.0
   },
@@ -7262,6 +7780,7 @@
     "Stock_2002.TW": 19.100000381469727,
     "Stock_2015.TW": 62.0,
     "Stock_2027.TW": 35.54999923706055,
+    "Stock_2330": null,
     "China_Steel_Price": 19.100000381469727,
     "Feng_Hsin_Price": 62.0
   },
@@ -7276,6 +7795,7 @@
     "Stock_2002.TW": 19.25,
     "Stock_2015.TW": 61.29999923706055,
     "Stock_2027.TW": 35.75,
+    "Stock_2330": null,
     "China_Steel_Price": 19.25,
     "Feng_Hsin_Price": 61.29999923706055
   },
@@ -7290,6 +7810,7 @@
     "Stock_2002.TW": 19.0,
     "Stock_2015.TW": 61.29999923706055,
     "Stock_2027.TW": 35.599998474121094,
+    "Stock_2330": null,
     "China_Steel_Price": 19.0,
     "Feng_Hsin_Price": 61.29999923706055
   },
@@ -7304,6 +7825,7 @@
     "Stock_2002.TW": 18.75,
     "Stock_2015.TW": 61.79999923706055,
     "Stock_2027.TW": 35.849998474121094,
+    "Stock_2330": null,
     "China_Steel_Price": 18.75,
     "Feng_Hsin_Price": 61.79999923706055
   },
@@ -7318,6 +7840,7 @@
     "Stock_2002.TW": 18.600000381469727,
     "Stock_2015.TW": 61.900001525878906,
     "Stock_2027.TW": 35.0,
+    "Stock_2330": null,
     "China_Steel_Price": 18.600000381469727,
     "Feng_Hsin_Price": 61.900001525878906
   },
@@ -7332,6 +7855,7 @@
     "Stock_2002.TW": 18.5,
     "Stock_2015.TW": 61.900001525878906,
     "Stock_2027.TW": 35.04999923706055,
+    "Stock_2330": null,
     "China_Steel_Price": 18.5,
     "Feng_Hsin_Price": 61.900001525878906
   },
@@ -7346,6 +7870,7 @@
     "Stock_2002.TW": 19.450000762939453,
     "Stock_2015.TW": 62.5,
     "Stock_2027.TW": 37.5,
+    "Stock_2330": null,
     "China_Steel_Price": 19.450000762939453,
     "Feng_Hsin_Price": 62.5
   },
@@ -7360,6 +7885,7 @@
     "Stock_2002.TW": 19.149999618530273,
     "Stock_2015.TW": 62.400001525878906,
     "Stock_2027.TW": 35.79999923706055,
+    "Stock_2330": null,
     "China_Steel_Price": 19.149999618530273,
     "Feng_Hsin_Price": 62.400001525878906
   },
@@ -7374,6 +7900,7 @@
     "Stock_2002.TW": 19.0,
     "Stock_2015.TW": 62.599998474121094,
     "Stock_2027.TW": 35.650001525878906,
+    "Stock_2330": null,
     "China_Steel_Price": 19.0,
     "Feng_Hsin_Price": 62.599998474121094
   },
@@ -7388,6 +7915,7 @@
     "Stock_2002.TW": 19.549999237060547,
     "Stock_2015.TW": 63.599998474121094,
     "Stock_2027.TW": 36.45000076293945,
+    "Stock_2330": null,
     "China_Steel_Price": 19.549999237060547,
     "Feng_Hsin_Price": 63.599998474121094
   },
@@ -7402,6 +7930,7 @@
     "Stock_2002.TW": 19.450000762939453,
     "Stock_2015.TW": 63.70000076293945,
     "Stock_2027.TW": 36.70000076293945,
+    "Stock_2330": null,
     "China_Steel_Price": 19.450000762939453,
     "Feng_Hsin_Price": 63.70000076293945
   },
@@ -7416,6 +7945,7 @@
     "Stock_2002.TW": 19.399999618530273,
     "Stock_2015.TW": 65.5999984741211,
     "Stock_2027.TW": 36.650001525878906,
+    "Stock_2330": null,
     "China_Steel_Price": 19.399999618530273,
     "Feng_Hsin_Price": 65.5999984741211
   },
@@ -7430,6 +7960,7 @@
     "Stock_2002.TW": 19.450000762939453,
     "Stock_2015.TW": 64.19999694824219,
     "Stock_2027.TW": 37.04999923706055,
+    "Stock_2330": null,
     "China_Steel_Price": 19.450000762939453,
     "Feng_Hsin_Price": 64.19999694824219
   },
@@ -7444,6 +7975,7 @@
     "Stock_2002.TW": 19.25,
     "Stock_2015.TW": 63.900001525878906,
     "Stock_2027.TW": 36.5,
+    "Stock_2330": null,
     "China_Steel_Price": 19.25,
     "Feng_Hsin_Price": 63.900001525878906
   },
@@ -7458,6 +7990,7 @@
     "Stock_2002.TW": 19.649999618530273,
     "Stock_2015.TW": 64.19999694824219,
     "Stock_2027.TW": 36.75,
+    "Stock_2330": null,
     "China_Steel_Price": 19.649999618530273,
     "Feng_Hsin_Price": 64.19999694824219
   },
@@ -7472,6 +8005,7 @@
     "Stock_2002.TW": 19.149999618530273,
     "Stock_2015.TW": 64.19999694824219,
     "Stock_2027.TW": 36.150001525878906,
+    "Stock_2330": null,
     "China_Steel_Price": 19.149999618530273,
     "Feng_Hsin_Price": 64.19999694824219
   },
@@ -7486,6 +8020,7 @@
     "Stock_2002.TW": 18.950000762939453,
     "Stock_2015.TW": 63.20000076293945,
     "Stock_2027.TW": 35.75,
+    "Stock_2330": null,
     "China_Steel_Price": 18.950000762939453,
     "Feng_Hsin_Price": 63.20000076293945
   },
@@ -7500,6 +8035,7 @@
     "Stock_2002.TW": 19.0,
     "Stock_2015.TW": 63.79999923706055,
     "Stock_2027.TW": 35.849998474121094,
+    "Stock_2330": null,
     "China_Steel_Price": 19.0,
     "Feng_Hsin_Price": 63.79999923706055
   },
@@ -7514,6 +8050,7 @@
     "Stock_2002.TW": 19.149999618530273,
     "Stock_2015.TW": 63.5,
     "Stock_2027.TW": 36.29999923706055,
+    "Stock_2330": null,
     "China_Steel_Price": 19.149999618530273,
     "Feng_Hsin_Price": 63.5
   },
@@ -7528,6 +8065,7 @@
     "Stock_2002.TW": 19.649999618530273,
     "Stock_2015.TW": 64.0999984741211,
     "Stock_2027.TW": 37.5,
+    "Stock_2330": null,
     "China_Steel_Price": 19.649999618530273,
     "Feng_Hsin_Price": 64.0999984741211
   },
@@ -7542,6 +8080,7 @@
     "Stock_2002.TW": 19.350000381469727,
     "Stock_2015.TW": 64.19999694824219,
     "Stock_2027.TW": 37.849998474121094,
+    "Stock_2330": null,
     "China_Steel_Price": 19.350000381469727,
     "Feng_Hsin_Price": 64.19999694824219
   },
@@ -7556,6 +8095,7 @@
     "Stock_2002.TW": 19.600000381469727,
     "Stock_2015.TW": 64.9000015258789,
     "Stock_2027.TW": 38.70000076293945,
+    "Stock_2330": null,
     "China_Steel_Price": 19.600000381469727,
     "Feng_Hsin_Price": 64.9000015258789
   },
@@ -7570,6 +8110,7 @@
     "Stock_2002.TW": 20.700000762939453,
     "Stock_2015.TW": 65.5,
     "Stock_2027.TW": 40.20000076293945,
+    "Stock_2330": null,
     "China_Steel_Price": 20.700000762939453,
     "Feng_Hsin_Price": 65.5
   },
@@ -7584,6 +8125,7 @@
     "Stock_2002.TW": 20.75,
     "Stock_2015.TW": 64.5999984741211,
     "Stock_2027.TW": 39.29999923706055,
+    "Stock_2330": null,
     "China_Steel_Price": 20.75,
     "Feng_Hsin_Price": 64.5999984741211
   },
@@ -7598,6 +8140,7 @@
     "Stock_2002.TW": 21.100000381469727,
     "Stock_2015.TW": 64.5999984741211,
     "Stock_2027.TW": 38.5,
+    "Stock_2330": null,
     "China_Steel_Price": 21.100000381469727,
     "Feng_Hsin_Price": 64.5999984741211
   },
@@ -7612,6 +8155,7 @@
     "Stock_2002.TW": 20.649999618530273,
     "Stock_2015.TW": 65.0999984741211,
     "Stock_2027.TW": 38.150001525878906,
+    "Stock_2330": null,
     "China_Steel_Price": 20.649999618530273,
     "Feng_Hsin_Price": 65.0999984741211
   },
@@ -7626,6 +8170,7 @@
     "Stock_2002.TW": 20.950000762939453,
     "Stock_2015.TW": 66.0999984741211,
     "Stock_2027.TW": 38.900001525878906,
+    "Stock_2330": null,
     "China_Steel_Price": 20.950000762939453,
     "Feng_Hsin_Price": 66.0999984741211
   },
@@ -7640,6 +8185,7 @@
     "Stock_2002.TW": 20.950000762939453,
     "Stock_2015.TW": 65.69999694824219,
     "Stock_2027.TW": 37.599998474121094,
+    "Stock_2330": null,
     "China_Steel_Price": 20.950000762939453,
     "Feng_Hsin_Price": 65.69999694824219
   },
@@ -7654,6 +8200,7 @@
     "Stock_2002.TW": 20.399999618530273,
     "Stock_2015.TW": 65.0,
     "Stock_2027.TW": 37.0,
+    "Stock_2330": null,
     "China_Steel_Price": 20.399999618530273,
     "Feng_Hsin_Price": 65.0
   },
@@ -7668,6 +8215,7 @@
     "Stock_2002.TW": 20.350000381469727,
     "Stock_2015.TW": 65.0,
     "Stock_2027.TW": 37.70000076293945,
+    "Stock_2330": null,
     "China_Steel_Price": 20.350000381469727,
     "Feng_Hsin_Price": 65.0
   },
@@ -7682,6 +8230,7 @@
     "Stock_2002.TW": 20.5,
     "Stock_2015.TW": 66.0,
     "Stock_2027.TW": 37.0,
+    "Stock_2330": null,
     "China_Steel_Price": 20.5,
     "Feng_Hsin_Price": 66.0
   },
@@ -7696,6 +8245,7 @@
     "Stock_2002.TW": 20.899999618530273,
     "Stock_2015.TW": 67.30000305175781,
     "Stock_2027.TW": 37.349998474121094,
+    "Stock_2330": null,
     "China_Steel_Price": 20.899999618530273,
     "Feng_Hsin_Price": 67.30000305175781
   },
@@ -7710,6 +8260,7 @@
     "Stock_2002.TW": null,
     "Stock_2015.TW": null,
     "Stock_2027.TW": null,
+    "Stock_2330": null,
     "China_Steel_Price": null,
     "Feng_Hsin_Price": null
   },
@@ -7724,6 +8275,7 @@
     "Stock_2002.TW": null,
     "Stock_2015.TW": null,
     "Stock_2027.TW": null,
+    "Stock_2330": null,
     "China_Steel_Price": null,
     "Feng_Hsin_Price": null
   },
@@ -7738,6 +8290,7 @@
     "Stock_2002.TW": null,
     "Stock_2015.TW": null,
     "Stock_2027.TW": null,
+    "Stock_2330": null,
     "China_Steel_Price": null,
     "Feng_Hsin_Price": null
   },
@@ -7746,27 +8299,29 @@
     "Copper_TWD_Kg": 1094.57,
     "Steel_Rebar_TWD_Ton": 18800,
     "Stainless_Index": null,
-    "Gold_USD": 4915.60009765625,
-    "Silver_USD": 73.41500091552734,
+    "Gold_USD": 4882.89990234375,
+    "Silver_USD": 73.4469985961914,
     "Exchange_Rate_TWD": 31.32699966430664,
     "Stock_2002.TW": null,
     "Stock_2015.TW": null,
     "Stock_2027.TW": null,
+    "Stock_2330": null,
     "China_Steel_Price": null,
     "Feng_Hsin_Price": null
   },
   {
     "Date": "2026-02-18",
-    "Copper_TWD_Kg": 1098.23,
-    "Steel_Rebar_TWD_Ton": 16900,
-    "Stainless_Index": 0,
-    "China_Steel_Price": 20.899999618530273,
-    "Feng_Hsin_Price": 67.30000305175781,
-    "Gold_USD": 4946.2001953125,
-    "Silver_USD": 75.625,
-    "Exchange_Rate_TWD": 31.43199920654297,
-    "Stock_2002.TW": 20.899999618530273,
-    "Stock_2015.TW": 67.30000305175781,
-    "Stock_2027.TW": 37.349998474121094
+    "Copper_TWD_Kg": null,
+    "Steel_Rebar_TWD_Ton": 18800,
+    "Stainless_Index": null,
+    "Gold_USD": 4978.10009765625,
+    "Silver_USD": 76.37999725341797,
+    "Exchange_Rate_TWD": 31.430999755859375,
+    "Stock_2002.TW": null,
+    "Stock_2015.TW": null,
+    "Stock_2027.TW": null,
+    "Stock_2330": null,
+    "China_Steel_Price": null,
+    "Feng_Hsin_Price": null
   }
 ]
