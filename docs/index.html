@@ -101,10 +101,11 @@
 
         document.addEventListener("DOMContentLoaded", async function () {
             try {
-                // Load Config & Data
+                // Load Config & Data with Cache Busting
+                const ts = new Date().getTime();
                 const [cfgRes, dataRes] = await Promise.all([
-                    fetch('metal_config.json').then(r => r.ok ? r.json() : {}),
-                    fetch('metal_data.json').then(r => r.json())
+                    fetch(`metal_config.json?t=${ts}`).then(r => r.ok ? r.json() : {}),
+                    fetch(`metal_data.json?t=${ts}`).then(r => r.json())
                 ]);
                 config = cfgRes;
                 rawData = dataRes;
