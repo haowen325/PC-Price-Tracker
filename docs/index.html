@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>金屬行情互動儀表板</title>
+    <!-- Plotly.js -->
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+    <!-- Tailwind CSS (for quick styling) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: 'Microsoft JhengHei', sans-serif; background-color: #f3f4f6; }
+        .chart-container { background: white; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); padding: 1rem; margin-bottom: 2rem; }
+    </style>
+</head>
+<body class="p-4 md:p-8">
+
+    <div class="max-w-6xl mx-auto">
+        <header class="mb-8 text-center md:text-left">
+            <h1 class="text-3xl font-bold text-gray-800">📊 金屬原物料行情儀表板</h1>
+            <p class="text-gray-600 mt-2">即時追蹤銅價、鋼筋、鎳及相關股價趨勢。</p>
+        </header>
+
+        <!-- Main Chart -->
+        <div class="chart-container">
+            <div id="metalChart" style="width:100%; height:600px;"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+             <div class="bg-white p-4 rounded shadow">
+                 <h3 class="font-bold text-gray-700">外部連結</h3>
+                 <div class="flex flex-col space-y-2 mt-2">
+                     <a href="https://tw.stock.yahoo.com/quote/2002.TW" target="_blank" class="text-blue-600 hover:underline">↗ 中鋼 (2002) 股價</a>
+                     <a href="https://tw.stock.yahoo.com/quote/2015.TW" target="_blank" class="text-blue-600 hover:underline">↗ 豐興 (2015) 股價</a>
+                     <a href="https://finance.yahoo.com/quote/HG=F" target="_blank" class="text-blue-600 hover:underline">↗ LME 銅期貨</a>
+                 </div>
+             </div>
+        </div>
+        
+        <footer class="mt-8 text-center text-gray-500 text-sm">
+            <p>Data updated daily via GitHub Actions.</p>
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            fetch('metal_data.json')
+                .then(response => response.json())
+                .then(data => {
+                    renderChart(data);
+                })
+                .catch(error => console.error('Error fetching data:', error));
+        });
+
+        function renderChart(data) {
+            // Process Data
+            const dates = data.map(d => d.Date);
+            const copper = data.map(d => parseFloat(d.Copper_TWD_Kg));
+            const rebar = data.map(d => parseFloat(d.Steel_Rebar_TWD_Ton));
+            
+            // Handle optional columns if they didn't exist in older data
+            const nickel = data.map(d => d.Stainless_Index ? parseFloat(d.Stainless_Index) : null);
+            const chinaSteel = data.map(d => d.China_Steel_Price ? parseFloat(d.China_Steel_Price) : null);
+            const fengHsin = data.map(d => d.Feng_Hsin_Price ? parseFloat(d.Feng_Hsin_Price) : null);
+
+            // Traces
+            const traceCopper = {
+                x: dates, y: copper, name: '銅價 (TWD/Kg)',
+                mode: 'lines', line: { color: '#b87333', width: 2 },
+                yaxis: 'y1'
+            };
+
+            const traceRebar = {
+                x: dates, y: rebar, name: '鋼筋 (TWD/噸)',
+                mode: 'lines', line: { color: '#708090', width: 2, dash: 'dot' },
+                yaxis: 'y2', // Right Axis
+                visible: 'legendonly' // Hide by default if too noisy
+            };
+
+            const traceNickel = {
+                x: dates, y: nickel, name: '鎳指標',
+                mode: 'lines', line: { color: '#C0C0C0', width: 2 },
+                yaxis: 'y1',
+                visible: 'legendonly'
+            };
+
+            const traceChinaSteel = {
+                x: dates, y: chinaSteel, name: '中鋼股價',
+                mode: 'lines', line: { color: '#4682B4', width: 2 },
+                yaxis: 'y3' // New Axis or map to share? Let's use left axis for stocks, right for rebar
+            };
+            
+            const traceFengHsin = {
+                x: dates, y: fengHsin, name: '豐興股價',
+                mode: 'lines', line: { color: '#2E8B57', width: 2 },
+                yaxis: 'y3'
+            };
+
+            const layout = {
+                title: '金屬與股價走勢圖',
+                hovermode: 'x unified',
+                grid: {rows: 2, columns: 1, pattern: 'independent'},
+                yaxis: { title: '價格 (TWD)', domain: [0.55, 1] }, // Top Plot
+                yaxis2: { 
+                    title: '鋼筋報價', 
+                    overlaying: 'y3', 
+                    side: 'right',
+                    anchor: 'x',
+                    domain: [0, 0.45]
+                },
+                yaxis3: { 
+                    title: '股價 (TWD)', 
+                    domain: [0, 0.45] 
+                }, // Bottom Plot
+                xaxis: { anchor: 'y3' }, // Shared X? No, plotly needs explicit matches or separate axes
+                
+                // Let's simplify: 2 Subplots.
+                // Row 1: Copper, Nickel, Rebar? (Rebar scale is huge). 
+                // Row 2: Stocks.
+                // Rebar is usually 17000, Copper is 300. They cannot share axis.
+                // We will use multiple axes on Top Plot.
+                
+                // Correct Layout for Subplots
+                xaxis: { domain: [0, 1], anchor: 'y3' }, // Bottom axis
+                
+                // Top Plot (Copper/Nickel/Rebar)
+                yaxis: { title: '銅/鎳指數', domain: [0.6, 1] },
+                yaxis4: {
+                    title: '鋼筋價格',
+                    overlaying: 'y', // Overlays first axis
+                    side: 'right'
+                },
+                
+                // Bottom Plot (Stocks)
+                yaxis3: { title: '股價 (TWD)', domain: [0, 0.4] },
+                
+                updatemenus: [
+                    {
+                        buttons: [
+                            {
+                                args: [{'visible': [true, true, true, true, true]}],
+                                label: '顯示全部',
+                                method: 'update'
+                            },
+                        ],
+                        direction: 'down',
+                        pad: {'r': 10, 't': 10},
+                        showactive: true,
+                        type: 'buttons',
+                        x: 0.1,
+                        xanchor: 'left',
+                        y: 1.15,
+                        yanchor: 'top'
+                    }
+                ],
+                
+                // Range Selector
+                xaxis: {
+                    rangeselector: {buttons: [
+                        {count: 1, label: '1月', step: 'month', stepmode: 'backward'},
+                        {count: 3, label: '3月', step: 'month', stepmode: 'backward'},
+                        {count: 6, label: '6月', step: 'month', stepmode: 'backward'},
+                        {count: 1, label: '1年', step: 'year', stepmode: 'backward'},
+                        {step: 'all', label: '全部'}
+                    ]},
+                    rangeslider: {visible: false},
+                    type: 'date'
+                }
+
+            };
+
+            // Re-organize traces for the subplots
+            // Top Plot: Copper(y), Nickel(y), Rebar(y4)
+            traceCopper.yaxis = 'y';
+            traceNickel.yaxis = 'y';
+            traceRebar.yaxis = 'y4';
+            
+            // Bottom Plot: Stocks(y3)
+            traceChinaSteel.yaxis = 'y3';
+            traceFengHsin.yaxis = 'y3';
+            
+            // Share X is automatic if we use the same x-axis definition or grid
+            traceCopper.xaxis = 'x';
+            traceChinaSteel.xaxis = 'x';
+
+            const traces = [traceCopper, traceNickel, traceRebar, traceChinaSteel, traceFengHsin];
+
+            Plotly.newPlot('metalChart', traces, layout);
+        }
+    </script>
+</body>
+</html>

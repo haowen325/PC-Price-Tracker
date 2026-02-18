@@ -113,9 +113,16 @@ def update_sheet_and_get_history(market_data):
     
     try:
         ws = sheet.worksheet("Metal_Prices")
+        # Check/Update Headers
+        headers = ws.row_values(1)
+        expected_headers = ["Date", "Copper_TWD_Kg", "Steel_Rebar_TWD_Ton", "Stainless_Index", "China_Steel_Price", "Feng_Hsin_Price"]
+        if  len(headers) < 6:
+             ws.update('A1:F1', [expected_headers])
+             print("Updated Sheet Headers to include stock prices.")
     except:
-        print("Worksheet not found, run backfill first.")
-        return None
+        print("Worksheet not found, creating new one...")
+        ws = sheet.add_worksheet("Metal_Prices", 1000, 10)
+        ws.append_row(["Date", "Copper_TWD_Kg", "Steel_Rebar_TWD_Ton", "Stainless_Index", "China_Steel_Price", "Feng_Hsin_Price"])
         
     # Get last row for Rebar
     all_values = ws.get_all_values()
@@ -138,9 +145,11 @@ def update_sheet_and_get_history(market_data):
     else:
         new_row = [
             today,
-            market_data["copper"],
-            current_rebar, # Carry forward
-            market_data["nickel"]
+            market_data["copper"], # Copper_TWD_Kg
+            current_rebar,         # Steel_Rebar_TWD_Ton
+            market_data["nickel"], # Stainless_Index
+            market_data["china_steel"], # China_Steel_Price
+            market_data["feng_hsin"]    # Feng_Hsin_Price
         ]
         ws.append_row(new_row)
         print(f"Appended: {new_row}")
@@ -153,29 +162,50 @@ def plot_trends(data, filename="metal_trend.png"):
     df = pd.DataFrame(data)
     df["Date"] = pd.to_datetime(df["Date"])
     
-    plt.figure(figsize=(10, 6))
+    # Enable Chinese Font (Windows)
+    import platform
+    if platform.system() == "Windows":
+        plt.rcParams['font.sans-serif'] = ['Microsoft JhengHei']
+        plt.rcParams['axes.unicode_minus'] = False
     
-    # Plot Copper (Left Axis)
-    ax1 = plt.gca()
-    ax1.plot(df["Date"], df["Copper_TWD_Kg"], color="#b87333", label="Copper ETF (TWD)", linewidth=2)
-    ax1.set_ylabel("Copper ETF Value (TWD)", color="#b87333", fontweight="bold")
-    ax1.tick_params(axis='y', labelcolor="#b87333")
+    # Create 2 Subplots
+    fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(10, 10), sharex=True)
     
-    # Plot Steel/Rebar (Right Axis)
-    ax2 = ax1.twinx()
-    ax2.plot(df["Date"], df["Steel_Rebar_TWD_Ton"], color="#708090", label="Steel Rebar (TWD/Ton)", linewidth=2, linestyle="--")
-    
-    ax1.plot(df["Date"], df["Stainless_Index"], color="#C0C0C0", label="Nickel ETF (Stainless Proxy)", linewidth=2, linestyle="-.")
-    
-    ax1.set_xlabel("Date")
+    # Plot 1: International/ETF (Copper, Stainless Proxy)
+    ax1.set_title("國際原物料趨勢 (銅 / 鎳指標)", fontsize=14, fontweight="bold")
+    ax1.plot(df["Date"], df["Copper_TWD_Kg"], color="#b87333", label="銅價 (TWD/Kg)", linewidth=2)
+    ax1.plot(df["Date"], df["Stainless_Index"], color="#C0C0C0", label="鎳ETF (不鏽鋼指標)", linewidth=2, linestyle="-.")
+    ax1.set_ylabel("價格指數", fontsize=12)
+    ax1.legend(loc="upper left")
     ax1.grid(True, linestyle=":", alpha=0.6)
     
-    # Combine legends
-    lines, labels = ax1.get_legend_handles_labels()
-    lines2, labels2 = ax2.get_legend_handles_labels()
-    ax1.legend(lines + lines2, labels + labels2, loc="upper left")
+    # Plot 2: Domestic Steel (China Steel, Feng Hsin, Rebar)
+    ax2.set_title("國內鋼鐵行情 (中鋼 / 豐興 / 鋼筋)", fontsize=14, fontweight="bold")
     
-    plt.title("Metal Price Trends (Copper ETF / Nickel ETF / Steel)")
+    # Rebar (High value ~17000) - use secondary axis on subplot 2? 
+    # Actually China Steel is ~20, Rebar is ~17000. Still huge difference.
+    # Let's put Stock Prices (20-100) on Left, Rebar (17000) on Right.
+    
+    ax2_left = ax2
+    ax2_right = ax2.twinx()
+    
+    # Left Axis: Stocks
+    l1 = ax2_left.plot(df["Date"], df["China_Steel_Price"], color="#4682B4", label="中鋼 (2002)", linewidth=2)
+    l2 = ax2_left.plot(df["Date"], df["Feng_Hsin_Price"], color="#2E8B57", label="豐興 (2015)", linewidth=2)
+    ax2_left.set_ylabel("股價 (TWD)", fontsize=12)
+    
+    # Right Axis: Rebar
+    l3 = ax2_right.plot(df["Date"], df["Steel_Rebar_TWD_Ton"], color="#708090", label="鋼筋盤價 (TWD/噸)", linewidth=2, linestyle="--")
+    ax2_right.set_ylabel("鋼筋盤價 (TWD/噸)", fontsize=12, color="#708090")
+    
+    # Combine Legends
+    lines = l1 + l2 + l3
+    labels = [l.get_label() for l in lines]
+    ax2_left.legend(lines, labels, loc="upper left")
+    
+    ax2.grid(True, linestyle=":", alpha=0.6)
+    ax2.set_xlabel("日期", fontsize=12)
+    
     plt.tight_layout()
     plt.savefig(filename)
     plt.close()
@@ -219,11 +249,11 @@ def send_line_notify(market_data, image_url):
         },
         "hero": {
             "type": "image",
-            "url": image_url if image_url else "https://img.icons8.com/color/48/average-2.png", # Fallback icon
+            "url": image_url if image_url else "https://img.icons8.com/color/48/average-2.png",
             "size": "full",
             "aspectRatio": "20:13",
             "aspectMode": "cover",
-            "action": {"type": "uri", "uri": image_url if image_url else "https://finance.yahoo.com/quote/CPER"}
+            "action": {"type": "uri", "uri": "https://haowen325.github.io/PC-Price-Tracker/"}
         },
         "body": {
             "type": "box",
@@ -276,6 +306,50 @@ def send_line_notify(market_data, image_url):
                         {"type": "text", "text": "參考: 鋼筋/廢鐵 (盤價)", "size": "xxs", "color": "#aaaaaa", "flex": 1},
                          {"type": "text", "text": f"${market_data['rebar_ref']} / ${market_data['scrap_ref']}", "size": "xs", "color": "#aaaaaa", "align": "end"}
                     ]
+                },
+
+                {
+                    "type": "separator",
+                    "margin": "md"
+                },
+                {
+                    "type": "box",
+                    "layout": "horizontal",
+                    "margin": "md",
+                    "spacing": "sm",
+                    "contents": [
+                        {
+                            "type": "button",
+                            "style": "secondary",
+                            "height": "sm",
+                            "action": {
+                                "type": "uri",
+                                "label": "中鋼股價",
+                                "uri": "https://tw.stock.yahoo.com/quote/2002.TW"
+                            }
+                        },
+                        {
+                            "type": "button",
+                            "style": "secondary",
+                            "height": "sm",
+                            "action": {
+                                "type": "uri",
+                                "label": "豐興股價",
+                                "uri": "https://tw.stock.yahoo.com/quote/2015.TW"
+                            }
+                        }
+                    ]
+                },
+                 {
+                    "type": "button",
+                    "style": "primary",
+                    "height": "sm",
+                    "margin": "sm",
+                    "action": {
+                        "type": "uri",
+                        "label": "📊 查看互動儀表板",
+                        "uri": "https://haowen325.github.io/PC-Price-Tracker/"
+                    }
                 }
             ]
         }
@@ -314,6 +388,15 @@ def main():
     imgbb = ImgBBUploader(os.environ.get("IMGBB_API_KEY"))
     url = imgbb.upload(plot_file)
     print(f"Chart uploaded: {url}")
+    
+    # Export for Dashboard
+    # Ensure docs dir exists
+    if not os.path.exists("docs"):
+        os.makedirs("docs")
+        
+    with open("docs/metal_data.json", "w", encoding="utf-8") as f:
+        json.dump(records, f, ensure_ascii=False, indent=2)
+    print("Dashboard data exported to docs/metal_data.json")
     
     send_line_notify(data, url)
 

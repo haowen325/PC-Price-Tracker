@@ -190,7 +190,7 @@ class LineBotNotifier:
 
         message_payload = {
             "type": "flex",
-            "altText": f"今日顯卡價格: ${total_price:,} {diff_text}",
+            "altText": f"今日電腦價格: ${total_price:,} {diff_text}",
             "contents": contents
         }
 
