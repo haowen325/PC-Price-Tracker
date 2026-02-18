@@ -29,6 +29,11 @@ def main():
     match_add = re.match(r"Add Stock:\s*(\S+)\s*(.*)", title, re.IGNORECASE)
     if match_add:
         code = match_add.group(1).upper()
+        # Auto-fix: Append .TW if it's a 4-digit code (Taiwan Stock)
+        if re.match(r"^\d{4}$", code):
+            code += ".TW"
+            print(f"Auto-appended suffix: {code}")
+            
         name = match_add.group(2).strip()
         if not name: name = code
         
