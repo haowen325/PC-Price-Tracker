@@ -1,0 +1,47 @@
+name: Stock Ops (Issue Link)
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  process_stock_request:
+    if: contains(github.event.issue.title, 'Add Stock:') || contains(github.event.issue.title, 'Remove Stock:')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        cache: 'pip'
+
+    - name: Install dependencies
+      run: pip install yfinance pandas gspread python-dotenv
+
+    - name: Process Issue
+      env:
+        ISSUE_TITLE: ${{ github.event.issue.title }}
+      run: python tools/process_issue.py
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add config/stocks.json docs/metal_data.json
+        git commit -m "Ops: Update stocks from Issue #${{ github.event.issue.number }}" || echo "No changes"
+        git push
+
+    - name: Close Issue
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        ISSUE_NUMBER: ${{ github.event.issue.number }}
+      run: |
+        gh issue comment $ISSUE_NUMBER --body "✅ Request processed! Dashboard will update shortly."
+        gh issue close $ISSUE_NUMBER

@@ -7757,16 +7757,16 @@
   },
   {
     "Date": "2026-02-18",
-    "Copper_TWD_Kg": null,
-    "Steel_Rebar_TWD_Ton": 18800,
-    "Stainless_Index": null,
-    "Gold_USD": null,
-    "Silver_USD": null,
-    "Exchange_Rate_TWD": 31.374000549316406,
-    "Stock_2002.TW": null,
-    "Stock_2015.TW": null,
-    "Stock_2027.TW": null,
-    "China_Steel_Price": null,
-    "Feng_Hsin_Price": null
+    "Copper_TWD_Kg": 1098.23,
+    "Steel_Rebar_TWD_Ton": 16900,
+    "Stainless_Index": 0,
+    "China_Steel_Price": 20.899999618530273,
+    "Feng_Hsin_Price": 67.30000305175781,
+    "Gold_USD": 4946.2001953125,
+    "Silver_USD": 75.625,
+    "Exchange_Rate_TWD": 31.43199920654297,
+    "Stock_2002.TW": 20.899999618530273,
+    "Stock_2015.TW": 67.30000305175781,
+    "Stock_2027.TW": 37.349998474121094
   }
 ]

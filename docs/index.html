@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>金屬行情互動儀表板 (Dynamic)</title>
+    <title>金屬行情互動儀表板</title>
     <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
@@ -13,12 +13,12 @@
             background-color: #f3f4f6;
         }
 
-        .chart-container {
+        .chart-box {
             background: white;
             border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             padding: 1rem;
-            margin-bottom: 2rem;
+            margin-bottom: 1.5rem;
         }
     </style>
 </head>
@@ -29,213 +29,172 @@
         <header class="mb-6 flex flex-col md:flex-row justify-between items-center bg-white p-6 rounded shadow">
             <div>
                 <h1 class="text-3xl font-bold text-gray-800">📊 綜合原物料行情儀表板</h1>
-                <p class="text-gray-600 mt-2">自定義圖表配置與動態追蹤</p>
+                <p class="text-gray-600 mt-2">國際金屬 vs 國內股價</p>
             </div>
             <div class="mt-4 md:mt-0 text-right">
                 <span class="text-sm text-gray-500">最後更新: <span id="lastUpdated">-</span></span>
             </div>
         </header>
 
-        <!-- Controls -->
-        <div class="bg-white p-4 rounded shadow mb-6">
-            <h3 class="font-bold text-gray-700 mb-4 border-b pb-2">圖表配置 (勾選顯示 / 選擇軸向)</h3>
-            <div id="controlsArea" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <!-- Javascript will populate this -->
+        <!-- Macro Chart Section -->
+        <div class="chart-box">
+            <div class="flex justify-between items-center mb-4 border-b pb-2">
+                <h3 class="text-xl font-bold text-gray-700">🌎 國際金屬與匯率</h3>
+                <div id="controlsMacro" class="flex flex-wrap gap-4 text-sm"></div>
             </div>
-            <div class="mt-4 text-xs text-gray-500 text-right">
-                * 軸向說明: 上圖(Metal/Macro), 下圖(Stock). 建議將數值相近的項目放在同一軸。
-            </div>
+            <div id="macroChart" style="width:100%; height:450px;"></div>
         </div>
 
-        <!-- Main Chart -->
-        <div class="chart-container relative">
-            <div id="metalChart" style="width:100%; height:900px;"></div>
-            <div id="loading" class="absolute inset-0 flex items-center justify-center bg-white bg-opacity-75 z-10">
-                <span class="text-xl font-bold text-gray-500">載入數據中...</span>
+        <!-- Stock Chart Section -->
+        <div class="chart-box">
+            <div class="flex justify-between items-center mb-4 border-b pb-2">
+                <h3 class="text-xl font-bold text-gray-700">🇹🇼 國內鋼鐵股價 & 鋼筋</h3>
+                <div id="controlsStock" class="flex flex-wrap gap-4 text-sm"></div>
             </div>
+            <div id="stockChart" style="width:100%; height:450px;"></div>
         </div>
 
-        <div class="bg-gray-100 p-4 rounded text-center text-gray-600 text-sm mt-8 border border-gray-200">
-            <p>💡 <b>如何新增股票？</b></p>
-            <p class="mt-1">由於此為靜態網頁，請在電腦上執行以下指令來開啟管理工具：</p>
-            <code
-                class="bg-gray-800 text-white px-2 py-1 rounded mt-2 inline-block">python tools/stock_manager.py</code>
-            <p class="mt-2 text-xs text-gray-400">新增後，系統將於下次自動更新時抓取價格。</p>
+        <!-- Web Ops Section -->
+        <div class="bg-blue-50 p-6 rounded shadow border border-blue-100 text-center">
+            <h3 class="font-bold text-gray-800 mb-2">📢 股票管理 (Web Ops)</h3>
+            <p class="text-gray-600 text-sm mb-4">您可以直接點擊下方按鈕，透過 GitHub Issue 來新增或刪除股票，機器人會自動處理！</p>
+
+            <div class="flex justify-center gap-4">
+                <a href="https://github.com/haowen325/PC-Price-Tracker/issues/new?title=Add%20Stock:%202002.TW%20%E4%B8%AD%E9%92%BC&body=%E8%AB%8B%E6%9B%BF%E6%8F%9B%E6%A8%99%E9%A1%8C%E4%B8%AD%E7%9A%84%E4%BB%A3%E8%99%9F%E8%88%87%E5%90%8D%E7%A8%B1%E3%80%82%0AExample:%20Add%20Stock:%202330.TW%20%E5%8F%B0%E7%A9%8D%E9%9B%BB"
+                    target="_blank"
+                    class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded shadow flex items-center">
+                    ➕ 新增股票 (Add Stock)
+                </a>
+
+                <a href="https://github.com/haowen325/PC-Price-Tracker/issues/new?title=Remove%20Stock:%202002.TW&body=%E8%AB%8B%E6%9B%BF%E6%8F%9B%E6%A8%99%E9%A1%8C%E4%B8%AD%E7%9A%84%E4%BB%A3%E8%99%9F%E3%80%82"
+                    target="_blank"
+                    class="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded shadow flex items-center">
+                    ➖ 刪除股票 (Remove Stock)
+                </a>
+            </div>
+            <p class="text-xs text-gray-400 mt-2">提示: 送出 Issue 後請等待約 1-2 分鐘，網頁更新需要一點時間。</p>
         </div>
     </div>
 
     <script>
-        // Global State
         let rawData = [];
         let config = {};
-        let tracesConfig = []; // { id, name, color, defaultAxis }
 
-        // Axes Configuration
-        const AXIS_OPTS = [
-            { val: 'y1', label: '上圖-左軸 (價格)' },
-            { val: 'y2', label: '上圖-右軸 (高價)' },
-            { val: 'y3', label: '下圖-左軸 (股價)' },
-            { val: 'y4', label: '下圖-右軸 (匯率)' }
+        // Configuration for static traces
+        const macroTraces = [
+            { key: 'Copper_TWD_Kg', name: '🔶 銅價 (TWD)', color: '#b87333', axis: 'y1', checked: true },
+            { key: 'Stainless_Index', name: '⚪ 鎳指標', color: '#C0C0C0', axis: 'y1', checked: true },
+            { key: 'Gold_USD', name: '💰 黃金 (USD)', color: '#FFD700', axis: 'y2', checked: true },
+            { key: 'Silver_USD', name: '🥈 白銀 (USD)', color: '#A9A9A9', axis: 'y2', checked: false },
+            { key: 'Exchange_Rate_TWD', name: '💵 匯率', color: '#20B2AA', axis: 'y2', checked: true }
         ];
+
+        const stockStaticTraces = [
+            // Rebar goes to Y2 (Right Axis) because it's ~17000 vs Stocks ~50
+            { key: 'Steel_Rebar_TWD_Ton', name: '🔩 鋼筋 (TWD/噸)', color: '#708090', axis: 'y2', checked: true }
+        ];
+
+        let stockDynamicTraces = [];
 
         document.addEventListener("DOMContentLoaded", async function () {
             try {
-                // 1. Load Config
-                const cfgRes = await fetch('metal_config.json');
-                if (cfgRes.ok) config = await cfgRes.json();
-                else console.warn("Config not found, using defaults");
-
-                // 2. Load Data
-                const dataRes = await fetch('metal_data.json');
-                rawData = await dataRes.json();
+                // Load Config & Data
+                const [cfgRes, dataRes] = await Promise.all([
+                    fetch('metal_config.json').then(r => r.ok ? r.json() : {}),
+                    fetch('metal_data.json').then(r => r.json())
+                ]);
+                config = cfgRes;
+                rawData = dataRes;
 
                 if (rawData.length > 0) {
                     document.getElementById('lastUpdated').innerText = rawData[rawData.length - 1].Date;
                 }
 
-                // 3. Keep legacy logic + Dynamic logic
-                initTraces();
-                renderControls();
-                renderChart();
-                document.getElementById('loading').style.display = 'none';
+                // Prepare Traces
+                prepareStockTraces();
 
-            } catch (error) {
-                console.error('Init failed:', error);
-                document.getElementById('loading').innerText = "載入失敗";
+                // Render
+                renderChart('macroChart', macroTraces, 'controlsMacro', '價格', '貴金屬/匯率');
+                renderChart('stockChart', [...stockDynamicTraces, ...stockStaticTraces], 'controlsStock', '股價 (TWD)', '鋼筋 (TWD/噸)');
+
+            } catch (e) {
+                console.error("Init failed", e);
             }
         });
 
-        function initTraces() {
-            // Define all available metrics
-            // Format: ID (json key), Name, Color, DefaultAxis
+        function prepareStockTraces() {
+            if (rawData.length === 0) return;
+            const sample = rawData[rawData.length - 1];
+            const stockKeys = Object.keys(sample).filter(k => k.startsWith('Stock_'));
 
-            tracesConfig = [
-                { key: 'Copper_TWD_Kg', name: '🔶 銅價 (TWD)', color: '#b87333', axis: 'y1', checked: true },
-                { key: 'Stainless_Index', name: '⚪ 鎳指標', color: '#C0C0C0', axis: 'y1', checked: true },
-                { key: 'Steel_Rebar_TWD_Ton', name: '🔩 鋼筋', color: '#708090', axis: 'y2', checked: false }, // Use Right Axis for high value
-                { key: 'Gold_USD', name: '💰 黃金 (USD)', color: '#FFD700', axis: 'y2', checked: true },
-                { key: 'Silver_USD', name: '🥈 白銀 (USD)', color: '#A9A9A9', axis: 'y2', checked: false },
-                { key: 'Exchange_Rate_TWD', name: '💵 匯率 (USD/TWD)', color: '#20B2AA', axis: 'y4', checked: true }
-            ];
-
-            // Dynamic Stocks from Config or Data
-            // If data has "Stock_XXXX", add it.
-            if (rawData.length > 0) {
-                const sample = rawData[rawData.length - 1];
-                const stockKeys = Object.keys(sample).filter(k => k.startsWith('Stock_'));
-
-                stockKeys.forEach((k, idx) => {
-                    const code = k.replace('Stock_', '');
-                    // Try to get name from config
-                    let name = code;
-                    if (config.stocks && config.stocks[code]) {
-                        name = config.stocks[code] + ` (${code})`;
-                    }
-
-                    // Assign colors dynamically or cycle
-                    const colors = ['#4682B4', '#2E8B57', '#DC143C', '#8A2BE2', '#FF4500'];
-                    const color = colors[idx % colors.length];
-
-                    tracesConfig.push({
-                        key: k,
-                        name: `📈 ${name}`,
-                        color: color,
-                        axis: 'y3', // Default to Bottom Left
-                        checked: true
-                    });
-                });
-            }
-        }
-
-        function renderControls() {
-            const container = document.getElementById('controlsArea');
-            container.innerHTML = '';
-
-            tracesConfig.forEach((trace, index) => {
-                const div = document.createElement('div');
-                div.className = "flex flex-col bg-gray-50 p-3 rounded border border-gray-200";
-
-                // Header (Checkbox + Name)
-                const header = document.createElement('label');
-                header.className = "flex items-center space-x-2 cursor-pointer mb-2 font-bold";
-                header.innerHTML = `
-                    <input type="checkbox" class="form-checkbox h-5 w-5" 
-                        style="color:${trace.color}" 
-                        ${trace.checked ? 'checked' : ''}
-                        onchange="updateTraceVisibility(${index}, this.checked)">
-                    <span style="color:${trace.color}">${trace.name}</span>
-                `;
-                div.appendChild(header);
-
-                // Axis Selector
-                const select = document.createElement('select');
-                select.className = "text-sm border-gray-300 rounded shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50";
-                select.onchange = (e) => updateTraceAxis(index, e.target.value);
-
-                AXIS_OPTS.forEach(opt => {
-                    const option = document.createElement('option');
-                    option.value = opt.val;
-                    option.text = opt.label;
-                    if (opt.val === trace.axis) option.selected = true;
-                    select.appendChild(option);
-                });
-
-                div.appendChild(select);
-                container.appendChild(div);
-            });
-        }
-
-        function renderChart() {
-            const dates = rawData.map(d => d.Date);
-
-            const traces = tracesConfig.map(tc => {
+            stockDynamicTraces = stockKeys.map((k, idx) => {
+                const code = k.replace('Stock_', '');
+                let name = code;
+                if (config.stocks && config.stocks[code]) {
+                    name = config.stocks[code] + ` (${code})`;
+                }
+                const colors = ['#4682B4', '#2E8B57', '#DC143C', '#8A2BE2', '#FF4500'];
                 return {
-                    x: dates,
-                    y: rawData.map(d => (d[tc.key] === "" || d[tc.key] === null || d[tc.key] === 0) ? null : parseFloat(d[tc.key])),
-                    name: tc.name,
-                    mode: 'lines',
-                    line: { color: tc.color, width: 2 },
-                    connectgaps: true,
-                    yaxis: tc.axis,
-                    visible: tc.checked ? true : 'legendonly'
+                    key: k,
+                    name: `📈 ${name}`,
+                    color: colors[idx % colors.length],
+                    axis: 'y1', // Stocks on Left Axis
+                    checked: true
                 };
             });
+        }
+
+        function renderChart(divId, tracesDef, controlsId, leftTitle, rightTitle) {
+            const dates = rawData.map(d => d.Date);
+            const container = document.getElementById(controlsId);
+            container.innerHTML = '';
+
+            // Generate Controls
+            tracesDef.forEach((t, i) => {
+                const span = document.createElement('label');
+                span.className = "flex items-center cursor-pointer space-x-1";
+                span.innerHTML = `
+                    <input type="checkbox" class="form-checkbox text-blue-600 h-4 w-4" 
+                        ${t.checked ? 'checked' : ''}>
+                    <span style="color:${t.color}; font-weight:bold;">${t.name}</span>
+                `;
+                span.querySelector('input').onchange = (e) => {
+                    Plotly.restyle(divId, { visible: e.target.checked ? true : 'legendonly' }, [i]);
+                };
+                container.appendChild(span);
+            });
+
+            // Make Plotly Traces
+            const plotData = tracesDef.map(t => ({
+                x: dates,
+                y: rawData.map(d => (d[t.key] === null || d[t.key] === "") ? null : d[t.key]),
+                name: t.name,
+                type: 'scatter',
+                mode: 'lines',
+                line: { color: t.color, width: 2 },
+                connectgaps: true,
+                yaxis: t.axis,
+                visible: t.checked ? true : 'legendonly'
+            }));
 
             const layout = {
+                margin: { t: 20, b: 40, l: 50, r: 50 },
                 hovermode: 'x unified',
-                showlegend: false, // Custom controls replace legend
-                margin: { t: 50, b: 40, l: 60, r: 60 },
-                height: 900,
-
-                // TOP CHART (Domain 0.55 - 1.0)
-                yaxis: {
-                    title: '上圖-左軸',
-                    domain: [0.55, 1], zeroline: false
-                },
+                showlegend: false,
+                yaxis: { title: leftTitle, zeroline: false },
                 yaxis2: {
-                    title: '上圖-右軸',
-                    overlaying: 'y', side: 'right',
-                    titlefont: { color: '#555' }, tickfont: { color: '#555' }
+                    title: rightTitle,
+                    overlaying: 'y',
+                    side: 'right',
+                    titlefont: { color: '#555' },
+                    tickfont: { color: '#555' },
+                    zeroline: false
                 },
-
-                // BOTTOM CHART (Domain 0 - 0.45)
-                yaxis3: {
-                    title: '下圖-左軸',
-                    domain: [0, 0.45], zeroline: false
-                },
-                yaxis4: {
-                    title: '下圖-右軸',
-                    overlaying: 'y3', side: 'right',
-                    titlefont: { color: '#555' }, tickfont: { color: '#555' }
-                },
-
                 xaxis: {
-                    anchor: 'y3', // Anchor to bottom chart
                     rangeselector: {
                         buttons: [
                             { count: 1, label: '1M', step: 'month', stepmode: 'backward' },
                             { count: 3, label: '3M', step: 'month', stepmode: 'backward' },
-                            { count: 6, label: '6M', step: 'month', stepmode: 'backward' },
                             { count: 1, label: '1Y', step: 'year', stepmode: 'backward' },
                             { step: 'all', label: 'All' }
                         ]
@@ -244,18 +203,7 @@
                 }
             };
 
-            Plotly.newPlot('metalChart', traces, layout);
-        }
-
-        function updateTraceVisibility(index, isChecked) {
-            tracesConfig[index].checked = isChecked;
-            Plotly.restyle('metalChart', { visible: isChecked ? true : 'legendonly' }, [index]);
-        }
-
-        function updateTraceAxis(index, newAxis) {
-            tracesConfig[index].axis = newAxis;
-            // Full redraw is safer for Axis changes in subplots
-            renderChart();
+            Plotly.newPlot(divId, plotData, layout, { responsive: true });
         }
     </script>
 </body>
