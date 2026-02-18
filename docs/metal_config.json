@@ -1,0 +1,13 @@
+{
+  "stocks": {
+    "2002.TW": "中鋼",
+    "2015.TW": "豐興",
+    "2027.TW": "大成鋼"
+  },
+  "commodities": {
+    "CPER": "銅價 (Copper)",
+    "GC=F": "黃金 (Gold)",
+    "SI=F": "白銀 (Silver)",
+    "TWD=X": "匯率 (USD/TWD)"
+  }
+}
