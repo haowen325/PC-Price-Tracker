@@ -7,7 +7,6 @@
     <title>金屬行情互動儀表板</title>
     <!-- Plotly.js -->
     <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
-    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         body {
@@ -30,8 +29,8 @@
     <div class="max-w-6xl mx-auto">
         <header class="mb-6 flex flex-col md:flex-row justify-between items-center bg-white p-6 rounded shadow">
             <div>
-                <h1 class="text-3xl font-bold text-gray-800">📊 金屬原物料行情儀表板</h1>
-                <p class="text-gray-600 mt-2">即時追蹤銅價、鋼筋、鎳及相關股價趨勢。</p>
+                <h1 class="text-3xl font-bold text-gray-800">📊 綜合原物料行情儀表板</h1>
+                <p class="text-gray-600 mt-2">追蹤銅價、貴金屬、鋼鐵股價及匯率走勢。</p>
             </div>
             <div class="mt-4 md:mt-0 text-right">
                 <span class="text-sm text-gray-500">最後更新: <span id="lastUpdated">-</span></span>
@@ -40,42 +39,83 @@
 
         <!-- Controls -->
         <div class="bg-white p-4 rounded shadow mb-6">
-            <h3 class="font-bold text-gray-700 mb-2">顯示設定 (勾選以顯示/隱藏)</h3>
-            <div class="flex flex-wrap gap-4">
-                <label class="inline-flex items-center space-x-2 cursor-pointer">
-                    <input type="checkbox" class="form-checkbox h-5 w-5 text-orange-600"
-                        onchange="toggleTrace(0, this.checked)" checked>
-                    <span class="text-gray-700 font-medium">🔶 銅價 (Copper)</span>
-                </label>
-                <label class="inline-flex items-center space-x-2 cursor-pointer">
-                    <input type="checkbox" class="form-checkbox h-5 w-5 text-gray-400"
-                        onchange="toggleTrace(1, this.checked)" checked>
-                    <span class="text-gray-700 font-medium">⚪ 鎳指標 (Nickel)</span>
-                </label>
-                <label class="inline-flex items-center space-x-2 cursor-pointer">
-                    <input type="checkbox" class="form-checkbox h-5 w-5 text-gray-600"
-                        onchange="toggleTrace(2, this.checked)">
-                    <span class="text-gray-700 font-medium">🔩 鋼筋 (Rebar) (預設隱藏)</span>
-                </label>
+            <h3 class="font-bold text-gray-700 mb-2">圖表顯示設定</h3>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Group 1: Base Metals -->
+                <div>
+                    <h4 class="text-sm font-bold text-gray-500 mb-2">基礎金屬</h4>
+                    <div class="flex flex-wrap gap-3">
+                        <label
+                            class="inline-flex items-center space-x-2 cursor-pointer bg-orange-50 px-2 py-1 rounded border border-orange-100">
+                            <input type="checkbox" class="form-checkbox text-orange-600"
+                                onchange="toggleTrace(0, this.checked)" checked>
+                            <span class="text-gray-700">🔶 銅價 (Copper)</span>
+                        </label>
+                        <label
+                            class="inline-flex items-center space-x-2 cursor-pointer bg-gray-50 px-2 py-1 rounded border border-gray-200">
+                            <input type="checkbox" class="form-checkbox text-gray-400"
+                                onchange="toggleTrace(1, this.checked)" checked>
+                            <span class="text-gray-700">⚪ 鎳 (Stainless)</span>
+                        </label>
+                        <label
+                            class="inline-flex items-center space-x-2 cursor-pointer bg-gray-50 px-2 py-1 rounded border border-gray-200">
+                            <input type="checkbox" class="form-checkbox text-gray-600"
+                                onchange="toggleTrace(2, this.checked)">
+                            <span class="text-gray-500">🔩 鋼筋 (隱藏)</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Group 2: Precious Metals & Forex -->
+                <div>
+                    <h4 class="text-sm font-bold text-gray-500 mb-2">貴金屬與匯率 (新增)</h4>
+                    <div class="flex flex-wrap gap-3">
+                        <label
+                            class="inline-flex items-center space-x-2 cursor-pointer bg-yellow-50 px-2 py-1 rounded border border-yellow-100">
+                            <input type="checkbox" class="form-checkbox text-yellow-500"
+                                onchange="toggleTrace(5, this.checked)" checked>
+                            <span class="text-gray-700">💰 黃金 (Gold)</span>
+                        </label>
+                        <label
+                            class="inline-flex items-center space-x-2 cursor-pointer bg-gray-50 px-2 py-1 rounded border border-gray-200">
+                            <input type="checkbox" class="form-checkbox text-gray-500"
+                                onchange="toggleTrace(6, this.checked)">
+                            <span class="text-gray-700">🥈 白銀 (Silver)</span>
+                        </label>
+                        <label
+                            class="inline-flex items-center space-x-2 cursor-pointer bg-green-50 px-2 py-1 rounded border border-green-100">
+                            <input type="checkbox" class="form-checkbox text-green-600"
+                                onchange="toggleTrace(7, this.checked)">
+                            <span class="text-gray-700">💵 匯率 (USD/TWD)</span>
+                        </label>
+                    </div>
+                </div>
             </div>
+
             <hr class="my-3 border-gray-200">
-            <div class="flex flex-wrap gap-4">
-                <label class="inline-flex items-center space-x-2 cursor-pointer">
-                    <input type="checkbox" class="form-checkbox h-5 w-5 text-blue-600"
-                        onchange="toggleTrace(3, this.checked)" checked>
-                    <span class="text-gray-700 font-medium">🔵 中鋼股價 (2002)</span>
-                </label>
-                <label class="inline-flex items-center space-x-2 cursor-pointer">
-                    <input type="checkbox" class="form-checkbox h-5 w-5 text-green-600"
-                        onchange="toggleTrace(4, this.checked)" checked>
-                    <span class="text-gray-700 font-medium">🟢 豐興股價 (2015)</span>
-                </label>
+
+            <!-- Group 3: Stocks -->
+            <div>
+                <h4 class="text-sm font-bold text-gray-500 mb-2">國內股價</h4>
+                <div class="flex flex-wrap gap-4">
+                    <label class="inline-flex items-center space-x-2 cursor-pointer">
+                        <input type="checkbox" class="form-checkbox text-blue-600"
+                            onchange="toggleTrace(3, this.checked)" checked>
+                        <span class="text-gray-700">🔵 中鋼 (2002)</span>
+                    </label>
+                    <label class="inline-flex items-center space-x-2 cursor-pointer">
+                        <input type="checkbox" class="form-checkbox text-green-600"
+                            onchange="toggleTrace(4, this.checked)" checked>
+                        <span class="text-gray-700">🟢 豐興 (2015)</span>
+                    </label>
+                </div>
             </div>
         </div>
 
         <!-- Main Chart -->
         <div class="chart-container relative">
-            <div id="metalChart" style="width:100%; height:800px;"></div>
+            <div id="metalChart" style="width:100%; height:900px;"></div>
             <div id="loading" class="absolute inset-0 flex items-center justify-center bg-white bg-opacity-75 z-10">
                 <span class="text-xl font-bold text-gray-500">載入數據中...</span>
             </div>
@@ -90,8 +130,8 @@
                         class="text-blue-600 hover:underline">↗ 中鋼 (2002) Yahoo股市</a>
                     <a href="https://tw.stock.yahoo.com/quote/2015.TW" target="_blank"
                         class="text-blue-600 hover:underline">↗ 豐興 (2015) Yahoo股市</a>
-                    <a href="https://finance.yahoo.com/quote/HG=F" target="_blank"
-                        class="text-blue-600 hover:underline">↗ LME 銅期貨行情</a>
+                    <a href="https://finance.yahoo.com/quote/GC=F" target="_blank"
+                        class="text-blue-600 hover:underline">↗ 黃金期貨</a>
                 </div>
             </div>
         </div>
@@ -116,100 +156,136 @@
         });
 
         function renderChart(data) {
-            // Process Data
             const dates = data.map(d => d.Date);
-            const copper = data.map(d => parseFloat(d.Copper_TWD_Kg));
-            const rebar = data.map(d => parseFloat(d.Steel_Rebar_TWD_Ton));
 
-            // Handle optional columns
-            const nickel = data.map(d => d.Stainless_Index ? parseFloat(d.Stainless_Index) : null);
-            const chinaSteel = data.map(d => d.China_Steel_Price ? parseFloat(d.China_Steel_Price) : null);
-            const fengHsin = data.map(d => d.Feng_Hsin_Price ? parseFloat(d.Feng_Hsin_Price) : null);
+            // Helper to handle 0 or null
+            const parseVal = (v) => (v === "" || v === null || v === 0) ? null : parseFloat(v);
+
+            const copper = data.map(d => parseVal(d.Copper_TWD_Kg));
+            const rebar = data.map(d => parseVal(d.Steel_Rebar_TWD_Ton));
+            const nickel = data.map(d => parseVal(d.Stainless_Index));
+            const chinaSteel = data.map(d => parseVal(d.China_Steel_Price));
+            const fengHsin = data.map(d => parseVal(d.Feng_Hsin_Price));
+            // New
+            const gold = data.map(d => parseVal(d.Gold_USD));
+            const silver = data.map(d => parseVal(d.Silver_USD));
+            const twd = data.map(d => parseVal(d.Exchange_Rate_TWD));
 
             // Traces
-            // Index 0
+            // 0: Copper
             const traceCopper = {
                 x: dates, y: copper, name: '銅價 (TWD/Kg)',
                 mode: 'lines', line: { color: '#b87333', width: 2 },
-                yaxis: 'y1', xaxis: 'x'
+                connectgaps: true, yaxis: 'y1'
             };
 
-            // Index 1
+            // 1: Nickel
             const traceNickel = {
                 x: dates, y: nickel, name: '鎳指標',
                 mode: 'lines', line: { color: '#C0C0C0', width: 2 },
-                yaxis: 'y1', xaxis: 'x'
+                connectgaps: true, yaxis: 'y1'
             };
 
-            // Index 2
+            // 2: Rebar
             const traceRebar = {
                 x: dates, y: rebar, name: '鋼筋 (TWD/噸)',
                 mode: 'lines', line: { color: '#708090', width: 2, dash: 'dot' },
-                yaxis: 'y2', xaxis: 'x',
-                visible: 'legendonly' // matches default checkbox state (unchecked in HTML logic handling needed)
+                connectgaps: true, yaxis: 'y2', visible: 'legendonly'
             };
 
-            // Index 3
+            // 3: China Steel
             const traceChinaSteel = {
                 x: dates, y: chinaSteel, name: '中鋼股價',
                 mode: 'lines', line: { color: '#4682B4', width: 2 },
-                yaxis: 'y3', xaxis: 'x'
+                connectgaps: true, yaxis: 'y3'
             };
 
-            // Index 4
+            // 4: Feng Hsin
             const traceFengHsin = {
                 x: dates, y: fengHsin, name: '豐興股價',
                 mode: 'lines', line: { color: '#2E8B57', width: 2 },
-                yaxis: 'y3', xaxis: 'x'
+                connectgaps: true, yaxis: 'y3'
             };
 
-            // Define Layout with Gap
+            // 5: Gold (New) - Use y4 (Right side of top chart)
+            const traceGold = {
+                x: dates, y: gold, name: '黃金 (USD/oz)',
+                mode: 'lines', line: { color: '#FFD700', width: 2 },
+                connectgaps: true, yaxis: 'y4'
+            };
+
+            // 6: Silver (New) - y4
+            const traceSilver = {
+                x: dates, y: silver, name: '白銀 (USD/oz)',
+                mode: 'lines', line: { color: '#A9A9A9', width: 2 },
+                connectgaps: true, yaxis: 'y4', visible: 'legendonly'
+            };
+
+            // 7: TWD (New) - y3 (Overlay on stocks?) or y5?
+            // Let's put TWD on the Bottom Chart with a secondary axis (right)
+            const traceTWD = {
+                x: dates, y: twd, name: '匯率 (USD/TWD)',
+                mode: 'lines', line: { color: '#20B2AA', width: 1, dash: 'dash' },
+                connectgaps: true, yaxis: 'y5', visible: 'legendonly'
+            };
+
+            // Layout
             const layout = {
                 hovermode: 'x unified',
-                showlegend: false, // Hiding default legend to use our custom controls
+                showlegend: false,
+                margin: { t: 50, b: 40, l: 60, r: 60 },
 
-                // Top Chart: Metal Prices
-                // Domain: 0.6 to 1.0 (40% height)
+                // TOP CHART (Metals) - Domain 0.55 - 1.0
                 yaxis: {
-                    title: '銅價 / 鎳指數',
-                    domain: [0.6, 1],
-                    zeroline: false
+                    title: '銅價 / 鎳',
+                    domain: [0.55, 1], zeroline: false
                 },
+                // Rebar (Shared with y1 or separate? Rebar is ~17000, Copper 300. Separate)
                 yaxis2: {
-                    title: '鋼筋價格',
-                    overlaying: 'y',
-                    side: 'right',
-                    titlefont: { color: '#708090' },
-                    tickfont: { color: '#708090' }
+                    title: '鋼筋', cancel: true, visible: false, overlaying: 'y', side: 'left'
+                    // Rebar scaling issue. Let's just put it on Right.
+                },
+                // Actually, let's designate Right Axis for Precious Metals (Gold ~2000) & Rebar (~17000). 
+                // They handle their own ranges if separate axes.
+                yaxis4: {
+                    title: '黃金/白銀 (USD)',
+                    overlaying: 'y', side: 'right',
+                    titlefont: { color: '#DAA520' }, tickfont: { color: '#DAA520' }
                 },
 
-                // Bottom Chart: Stock Prices
-                // Domain: 0 to 0.4 (40% height) -> 0.2 gap
+                // BOTTOM CHART (Stocks & Forex) - Domain 0 - 0.45
                 yaxis3: {
                     title: '股價 (TWD)',
-                    domain: [0, 0.45],
-                    zeroline: false
+                    domain: [0, 0.45], zeroline: false
+                },
+                yaxis5: {
+                    title: '匯率',
+                    overlaying: 'y3', side: 'right',
+                    titlefont: { color: '#20B2AA' }, tickfont: { color: '#20B2AA' }
                 },
 
                 xaxis: {
-                    anchor: 'y3', // Axis at bottom
+                    anchor: 'y3',
                     rangeselector: {
                         buttons: [
-                            { count: 1, label: '1月', step: 'month', stepmode: 'backward' },
-                            { count: 3, label: '3月', step: 'month', stepmode: 'backward' },
-                            { count: 6, label: '6月', step: 'month', stepmode: 'backward' },
-                            { step: 'all', label: '全部' }
+                            { count: 1, label: '1M', step: 'month', stepmode: 'backward' },
+                            { count: 3, label: '3M', step: 'month', stepmode: 'backward' },
+                            { count: 6, label: '6M', step: 'month', stepmode: 'backward' },
+                            { count: 1, label: '1Y', step: 'year', stepmode: 'backward' },
+                            { step: 'all', label: 'All' }
                         ]
                     },
                     type: 'date'
-                },
-
-                margin: { t: 40, b: 40, l: 60, r: 60 }
+                }
             };
 
-            const traces = [traceCopper, traceNickel, traceRebar, traceChinaSteel, traceFengHsin];
+            // Adjust Rebar to use y4? No, 17000 vs 2000. 
+            // Rebar needs its own or hidden. If visible, it might squash others if sharing axis.
+            // Let's force Rebar to y2 which overlays y1 (Left) but invisible axis line to avoid clutter?
+            layout.yaxis2 = { overlaying: 'y', side: 'right', position: 0.95, showgrid: false, title: '鋼筋' };
 
-            loadingDiv = document.getElementById('loading');
+            const traces = [traceCopper, traceNickel, traceRebar, traceChinaSteel, traceFengHsin, traceGold, traceSilver, traceTWD];
+
             Plotly.newPlot('metalChart', traces, layout);
         }
 

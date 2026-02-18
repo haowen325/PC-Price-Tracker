@@ -65,11 +65,13 @@ def fetch_market_data():
     # Tickers:
     # CPER: Copper ETF
     # TWD=X: USD/TWD
+    # GC=F: Gold (Gold Futures)
+    # SI=F: Silver (Silver Futures)
     # 2002.TW: China Steel (中鋼)
     # 2015.TW: Feng Hsin (豐興) - Rebar/Scrap proxy
     # 2027.TW: Da Cheng Steel (大成鋼) - Stainless proxy
     
-    tickers = ["CPER", "TWD=X", "2002.TW", "2015.TW", "2027.TW"] 
+    tickers = ["CPER", "TWD=X", "2002.TW", "2015.TW", "2027.TW", "GC=F", "SI=F"] 
     # Fetch 5 days to ensure we get a valid close price even on weekends
     data = yf.download(tickers, period="5d")
     
@@ -81,11 +83,12 @@ def fetch_market_data():
         # Helper to get last valid float
         def get_last_valid(series):
             # dropna and get last
+            # dropna and get last
             valid = series.dropna()
-            if valid.empty: return 0.0
+            if valid.empty: return None
             val = float(valid.iloc[-1])
             import math
-            if math.isnan(val) or math.isinf(val): return 0.0
+            if math.isnan(val) or math.isinf(val): return None
             return val
             
         hg = get_last_valid(data["Close"]["CPER"])
@@ -93,6 +96,8 @@ def fetch_market_data():
         china_steel = get_last_valid(data["Close"]["2002.TW"])
         feng_hsin = get_last_valid(data["Close"]["2015.TW"])
         da_cheng = get_last_valid(data["Close"]["2027.TW"])
+        gold = get_last_valid(data["Close"]["GC=F"])
+        silver = get_last_valid(data["Close"]["SI=F"])
         
         if twd == 0: twd = 32.5 # Fallback
         
@@ -102,14 +107,16 @@ def fetch_market_data():
         # Feng Hsin: Rebar 16,900, Scrap 8,600
         
         return {
-            "copper": round(copper_twd, 2),
+            "copper": round(copper_twd, 2) if copper_twd else None,
             "nickel": 0, # Still no reliable source, using Da Cheng as proxy in UI
             "china_steel": china_steel,
             "feng_hsin": feng_hsin,
             "da_cheng": da_cheng, # Stainless Proxy
+            "gold": gold,
+            "silver": silver,
             "rebar_ref": 16900,
             "scrap_ref": 8600,
-            "twd": twd
+            "twd": twd # Keep raw TWD for chart
         }
     except Exception as e:
         print(f"Error parsing yfinance: {e}")
@@ -122,15 +129,17 @@ def update_sheet_and_get_history(market_data):
     try:
         ws = sheet.worksheet("Metal_Prices")
         # Check/Update Headers
+        # Check/Update Headers
         headers = ws.row_values(1)
-        expected_headers = ["Date", "Copper_TWD_Kg", "Steel_Rebar_TWD_Ton", "Stainless_Index", "China_Steel_Price", "Feng_Hsin_Price"]
-        if  len(headers) < 6:
-             ws.update('A1:F1', [expected_headers])
-             print("Updated Sheet Headers to include stock prices.")
+        expected_headers = ["Date", "Copper_TWD_Kg", "Steel_Rebar_TWD_Ton", "Stainless_Index", "China_Steel_Price", "Feng_Hsin_Price", "Gold_USD", "Silver_USD", "Exchange_Rate_TWD"]
+        if  len(headers) < 9:
+             ws.update('A1:I1', [expected_headers])
+             print("Updated Sheet Headers to include Precious Metals.")
     except:
         print("Worksheet not found, creating new one...")
         ws = sheet.add_worksheet("Metal_Prices", 1000, 10)
-        ws.append_row(["Date", "Copper_TWD_Kg", "Steel_Rebar_TWD_Ton", "Stainless_Index", "China_Steel_Price", "Feng_Hsin_Price"])
+        ws = sheet.add_worksheet("Metal_Prices", 1000, 10)
+        ws.append_row(["Date", "Copper_TWD_Kg", "Steel_Rebar_TWD_Ton", "Stainless_Index", "China_Steel_Price", "Feng_Hsin_Price", "Gold_USD", "Silver_USD", "Exchange_Rate_TWD"])
         
     # Get last row for Rebar
     all_values = ws.get_all_values()
@@ -156,8 +165,11 @@ def update_sheet_and_get_history(market_data):
             market_data["copper"], # Copper_TWD_Kg
             current_rebar,         # Steel_Rebar_TWD_Ton
             market_data["nickel"], # Stainless_Index
-            market_data["china_steel"], # China_Steel_Price
-            market_data["feng_hsin"]    # Feng_Hsin_Price
+            market_data["china_steel"], 
+            market_data["feng_hsin"],   
+            market_data["gold"],
+            market_data["silver"],
+            market_data["twd"]
         ]
         ws.append_row(new_row)
         print(f"Appended: {new_row}")

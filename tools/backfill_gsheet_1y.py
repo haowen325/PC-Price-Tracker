@@ -32,48 +32,62 @@ def get_google_sheet():
 
 def fetch_history_data(start_date="2024-01-01"):
     print(f"Fetching yfinance data from {start_date}...")
-    tickers = ["CPER", "TWD=X", "2002.TW", "2015.TW", "2027.TW"]
+    tickers = ["CPER", "TWD=X", "2002.TW", "2015.TW", "2027.TW", "GC=F", "SI=F"]
     df = yf.download(tickers, start=start_date)
     
     # Process
     rows = []
-    # yfinance multi-index columns: ('Close', '2002.TW')
-    # We need to iterate by date
     
     for date, row in df.iterrows():
         try:
             date_str = date.strftime("%Y-%m-%d")
             
-            # Extract values (handle NaNs)
+            # Extract values (handle NaNs and 0s)
             def get_val(ticker):
                 try:
                     val = row["Close"][ticker]
-                    return float(val) if pd.notnull(val) else 0.0
+                    # Check for NaN or 0
+                    if pd.isna(val) or val == 0:
+                        return None
+                    return float(val)
                 except:
-                    return 0.0
+                    return None
 
             cper = get_val("CPER")
             twd = get_val("TWD=X")
             china_steel = get_val("2002.TW")
             feng_hsin = get_val("2015.TW")
-            stainless = get_val("2027.TW") # Using Da Cheng as proxy for Stainless Index
+            stainless = get_val("2027.TW")
+            gold = get_val("GC=F")
+            silver = get_val("SI=F")
             
-            if twd == 0: twd = 32.0 # Fallback
+            # Copper in TWD
+            copper_twd = None
+            if cper and twd:
+                copper_twd = round(cper * twd, 2)
+            elif cper:
+                # Fallback TWD if missing
+                copper_twd = round(cper * 32.5, 2)
             
-            copper_twd = round(cper * twd, 2)
-            
-            # Rebar: No historical data, leave empty or use 0
-            # We will generate a list compatible with GSheet
-            # Header: Date, Copper, Rebar, Stainless, ChinaSteel, FengHsin
+            # Rebar: Leave empty/null
             
             json_row = {
                 "Date": date_str,
                 "Copper_TWD_Kg": copper_twd,
-                "Steel_Rebar_TWD_Ton": "", # Missing
+                "Steel_Rebar_TWD_Ton": None, 
                 "Stainless_Index": stainless,
                 "China_Steel_Price": china_steel,
-                "Feng_Hsin_Price": feng_hsin
+                "Feng_Hsin_Price": feng_hsin,
+                "Gold_USD": gold,
+                "Silver_USD": silver,
+                "Exchange_Rate_TWD": twd
             }
+            
+            # Additional logic: If all main values are None, skip the Saturday/Sunday entirely
+            # yfinance usually excludes them, but just in case.
+            if copper_twd is None and china_steel is None and gold is None:
+                continue
+                
             rows.append(json_row)
         except Exception as e:
             print(f"Error processing {date}: {e}")
@@ -93,28 +107,32 @@ def backfill_main():
     # 1. Fetch Data
     history_data = fetch_history_data(start_date="2024-01-01")
     
-    # 2. Update JSON immediately (for user gratification)
+    # 2. Update JSON
     if not os.path.exists("docs"): os.makedirs("docs")
     with open("docs/metal_data.json", "w", encoding="utf-8") as f:
         json.dump(history_data, f, ensure_ascii=False, indent=2)
     print("Updated docs/metal_data.json")
 
     # 3. Update Google Sheet (Overwrite)
-    print("Updating Google Sheet (this may take a moment)...")
+    print("Updating Google Sheet...")
     
-    # Prepare list of lists
-    headers = ["Date", "Copper_TWD_Kg", "Steel_Rebar_TWD_Ton", "Stainless_Index", "China_Steel_Price", "Feng_Hsin_Price"]
+    headers = ["Date", "Copper_TWD_Kg", "Steel_Rebar_TWD_Ton", "Stainless_Index", "China_Steel_Price", "Feng_Hsin_Price", "Gold_USD", "Silver_USD", "Exchange_Rate_TWD"]
     values = [headers]
     
     for r in history_data:
-        values.append([
+        # Convert None to "" for GSheet
+        row = [
             r["Date"], 
-            r["Copper_TWD_Kg"], 
-            r["Steel_Rebar_TWD_Ton"], 
-            r["Stainless_Index"], 
-            r["China_Steel_Price"], 
-            r["Feng_Hsin_Price"]
-        ])
+            r["Copper_TWD_Kg"] if r["Copper_TWD_Kg"] is not None else "",
+            r["Steel_Rebar_TWD_Ton"] if r["Steel_Rebar_TWD_Ton"] is not None else "",
+            r["Stainless_Index"] if r["Stainless_Index"] is not None else "",
+            r["China_Steel_Price"] if r["China_Steel_Price"] is not None else "",
+            r["Feng_Hsin_Price"] if r["Feng_Hsin_Price"] is not None else "",
+            r["Gold_USD"] if r["Gold_USD"] is not None else "",
+            r["Silver_USD"] if r["Silver_USD"] is not None else "",
+            r["Exchange_Rate_TWD"] if r["Exchange_Rate_TWD"] is not None else ""
+        ]
+        values.append(row)
     
     ws.clear()
     ws.update(values)

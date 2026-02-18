@@ -26,11 +26,18 @@ jobs:
         python -m pip install --upgrade pip
         pip install yfinance gspread matplotlib requests python-dotenv
 
-    - name: Run Metal Scraper
+      run: python tools/metal_scraper.py
       env:
         GSPREAD_JSON: ${{ secrets.GSPREAD_JSON }}
         LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
         LINE_USER_ID: ${{ secrets.LINE_USER_ID }}
         IMGBB_API_KEY: ${{ secrets.IMGBB_API_KEY }}
         GOOGLE_SHEET_URL: ${{ secrets.GOOGLE_SHEET_URL }}
-      run: python tools/metal_scraper.py
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add docs/metal_data.json
+        git commit -m "Auto-update metal prices" || echo "No changes to commit"
+        git push
