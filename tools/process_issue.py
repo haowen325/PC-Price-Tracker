@@ -47,11 +47,36 @@ def main():
     if match_remove:
         code = match_remove.group(1).upper()
         print(f"Removing stock: {code}")
+        
+        # Remove from Config
         if code in stocks:
             del stocks[code]
             changed = True
         else:
-            print("Stock not found.")
+            print("Stock not found in config, but will check data.")
+            changed = True # Force save to ensure clean slate if needed
+            
+        # Remove from Data (metal_data.json)
+        data_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "docs", "metal_data.json")
+        if os.path.exists(data_path):
+            try:
+                with open(data_path, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                
+                data_changed = False
+                target_key = f"Stock_{code}"
+                for row in data:
+                    if target_key in row:
+                        del row[target_key]
+                        data_changed = True
+                
+                if data_changed:
+                    with open(data_path, "w", encoding="utf-8") as f:
+                        json.dump(data, f, ensure_ascii=False, indent=2)
+                    print(f"Removed {target_key} from valid data records.")
+            except Exception as e:
+                print(f"Failed to clean data file: {e}")
+
 
     if changed:
         config["stocks"] = stocks
