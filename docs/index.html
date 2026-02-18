@@ -66,11 +66,19 @@
                     ➕ 新增股票 (Add Stock)
                 </a>
 
-                <a href="https://github.com/haowen325/PC-Price-Tracker/issues/new?title=Remove%20Stock:%202002.TW&body=%E8%AB%8B%E6%9B%BF%E6%8F%9B%E6%A8%99%E9%A1%8C%E4%B8%AD%E7%9A%84%E4%BB%A3%E8%99%9F%E3%80%82"
+                <a href="https://github.com/haowen325/PC-Price-Tracker/issues/new?title=Add%20Stock:%202330.TW%20%E5%8F%B0%E7%A9%8D%E9%9B%BB&body=%E8%AB%8B%E6%9B%BF%E6%8F%9B%E6%A8%99%E9%A1%8C%E4%B8%AD%E7%9A%84%E4%BB%A3%E8%99%9F%E8%88%87%E5%90%8D%E7%A8%B1%E3%80%82%0AExample:%20Add%20Stock:%202330.TW%20%E5%8F%B0%E7%A9%8D%E9%9B%BB"
                     target="_blank"
-                    class="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded shadow flex items-center">
-                    ➖ 刪除股票 (Remove Stock)
+                    class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded shadow flex items-center">
+                    ➕ 新增股票 (Add Stock)
                 </a>
+            </div>
+
+            <div class="mt-6 border-t pt-4">
+                <p class="text-sm text-gray-700 font-bold mb-2">已追蹤股票 (點擊刪除):</p>
+                <div id="removeStockList" class="flex flex-wrap justify-center gap-2">
+                    <!-- Dynamic buttons will appear here -->
+                    <span class="text-gray-400 text-sm">載入中...</span>
+                </div>
             </div>
             <p class="text-xs text-gray-400 mt-2">提示: 送出 Issue 後請等待約 1-2 分鐘，網頁更新需要一點時間。</p>
         </div>
@@ -117,10 +125,42 @@
                 renderChart('macroChart', macroTraces, 'controlsMacro', '價格', '貴金屬/匯率');
                 renderChart('stockChart', [...stockDynamicTraces, ...stockStaticTraces], 'controlsStock', '股價 (TWD)', '鋼筋 (TWD/噸)');
 
+                renderWebOps(); // New function call
+
             } catch (e) {
                 console.error("Init failed", e);
             }
         });
+
+        function renderWebOps() {
+            const container = document.getElementById('removeStockList');
+            if (!container) return;
+            container.innerHTML = '';
+
+            // Get current dynamic stocks
+            const currentStocks = Object.keys(config.stocks || {});
+
+            if (currentStocks.length === 0) {
+                container.innerHTML = '<span class="text-gray-400 text-sm">目前沒有追蹤的個股，請新增。</span>';
+                return;
+            }
+
+            currentStocks.forEach(code => {
+                const name = config.stocks[code];
+                const btn = document.createElement('a');
+                // Pre-fill Title: Remove Stock: CODE
+                const issueTitle = encodeURIComponent(`Remove Stock: ${code}`);
+                const issueBody = encodeURIComponent(`點擊 "Submit new issue" (綠色按鈕) 以確認刪除 ${name} (${code})。`);
+
+                btn.href = `https://github.com/haowen325/PC-Price-Tracker/issues/new?title=${issueTitle}&body=${issueBody}`;
+                btn.target = "_blank";
+                btn.className = "inline-flex items-center px-3 py-1 border border-red-200 shadow-sm text-sm leading-4 font-medium rounded-md text-red-700 bg-red-50 hover:bg-red-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 m-1 no-underline";
+                btn.style.textDecoration = 'none';
+                btn.innerHTML = `🗑️ 刪除 ${name}`;
+
+                container.appendChild(btn);
+            });
+        }
 
         function prepareStockTraces() {
             if (rawData.length === 0) return;
